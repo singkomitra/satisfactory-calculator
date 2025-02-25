@@ -12,7 +12,7 @@ export type RecipeJsonObject = {
   mVariablePowerConsumptionFactor: number;
 };
 
-export function assetRecipeJsonObject(obj: any) {
+export function assertRecipeJsonObject(obj: any) {
   if (typeof obj !== "object") {
     throwError("RecipeJsonObject", "obj", "object", obj);
   }
