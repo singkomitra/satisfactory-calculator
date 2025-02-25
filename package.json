@@ -36,5 +36,6 @@
     "prettier": "^3.3.2",
     "prisma": "^5.16.1",
     "typescript": "^5"
-  }
+  },
+  "packageManager": "yarn@4.6.0"
 }
