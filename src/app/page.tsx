@@ -1,19 +1,14 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import styles from "./page.module.css";
+import { context } from "@/state";
 
 export default function Home() {
-  const [data, setData] = useState(null);
-  useEffect(() => {
-    fetch("/api/data", { method: "GET" })
-      .then(async (res) => await res.json())
-      .then(setData)
-      .catch((err) => console.error(err));
-  }, []);
+  const { state } = useContext(context);
   return (
     <main className={styles.main}>
-      <span>{data ? JSON.stringify(data, null, 2) : null}</span>
+      <span>{state.data ? JSON.stringify(state.data, null, 2) : null}</span>
     </main>
   );
 }
