@@ -7,7 +7,6 @@
 .yarn/install-state.gz
 .yarn/cache
 .yarn/unplugged
-.vscode
 
 # testing
 /coverage
