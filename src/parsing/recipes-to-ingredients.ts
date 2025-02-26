@@ -3,6 +3,8 @@ import { ProductToRecipe, assertRecipeJsonObject, convertStringFieldsOJsonToNumb
 import { readFile, writeFile } from "fs/promises";
 import { splitRecipes } from "./split-recipes";
 import { RecipeToIngredients } from "@/types";
+import { productToRecipesAndRecipeToProductsCreation } from "./product-to-recipe-conversion";
+import { extractItemClassObjects, itemToRecipe } from "./util";
 
 function parseProducedIn(mProducedIn: string): string[] {
   let trimmed = mProducedIn.trim();
@@ -38,40 +40,21 @@ export async function GET(req: Request) {
 
 export async function recipesToIngredients() {
   const { allRecipes, altRecipes } = await splitRecipes();
+  const { recipeToProducts } = await productToRecipesAndRecipeToProductsCreation();
   const finalRecipes: RecipeToIngredients = {};
   for (const recipe of Object.values(allRecipes)) {
     if (!recipe.ClassName.endsWith("_C")) console.log("Not a recipe: ", recipe.ClassName);
     const className = recipe.ClassName;
-    const ingredientsString = recipe.mIngredients;
-    const ingredients = [];
-    const regex = /ItemClass="[^"]*\/([^\."]+)[^"]*",Amount=([0-9]+)/g;
-    const producedIn = recipe.mProducedIn ? parseProducedIn(recipe.mProducedIn)[0] : "";
-    let match;
-    while ((match = regex.exec(ingredientsString)) !== null) {
-      const cleanedName = match[1].replace(/^(Desc_|BP_ItemDescriptor)/, '');
-      const itemName = `Recipe_${replaceExceptions(cleanedName)}_C`;
-      ingredients.push({ item: itemName, amount: parseInt(match[2]) });
+    const extractedIngredients = extractItemClassObjects(recipe.mIngredients)
+    if (!extractedIngredients) {
+      console.error("Ingredients not found for recipe: ", recipe.ClassName);
+      continue;
     }
-    finalRecipes[className] = {
-      displayName: recipe.mDisplayName,
-      ingredients,
-      producedIn
-    };
-  }
-  for (const key in altRecipes) {
-    const recipe = altRecipes[key];
-    if (!recipe.ClassName.endsWith("_C")) console.log("Not a recipe: ", recipe.ClassName);
-    const className = recipe.ClassName;
-    const ingredientsString = recipe.mIngredients;
-    const ingredients = [];
-    const regex = /ItemClass="[^"]*\/([^\."]+)[^"]*",Amount=([0-9]+)/g;
+    const ingredients = Object.entries(extractedIngredients.all).map(([ingredient, amount]) => {
+      const recipified = itemToRecipe(ingredient);
+      return { item: recipeToProducts[recipified] ? recipeToProducts[recipified].mainProduct : ingredient, amount };
+    })
     const producedIn = recipe.mProducedIn ? parseProducedIn(recipe.mProducedIn)[0] : "";
-    let match;
-    while ((match = regex.exec(ingredientsString)) !== null) {
-      const cleanedName = match[1].replace(/^(Desc_|BP_ItemDescriptor)/, '');
-      const itemName = `Recipe_${replaceExceptions(cleanedName)}_C`;
-      ingredients.push({ item: itemName, amount: parseInt(match[2]) });
-    }
     finalRecipes[className] = {
       displayName: recipe.mDisplayName,
       ingredients,

@@ -1,5 +1,5 @@
 // ex: ((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C'\",Amount=4),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C'\",Amount=2),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C'\",Amount=3),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C'\",Amount=28))
-export const extractItemClassForProduct = (item: string) => {
+export const extractItemClassObjects = (item: string) => {
     const result: {
         [productName: string]: number;
     } = {}
@@ -18,7 +18,15 @@ export const extractItemClassForProduct = (item: string) => {
         result[name] = amount
     }
     return {
-        products: result,
-        mainProduct: matches[0][1].split("/").pop()?.split(".").pop()
+        all: result,
+        first: matches[0][1].split("/").pop()?.split(".").pop()
     }
+}
+export const itemToRecipe = (item: string) => {
+    if (item.startsWith("Desc_")) {
+        item = item.slice(5, -2)
+    } else if (item.startsWith("BP_")) {
+        item = item.slice(3, -2)
+    }
+    return `Recipe_${item}_C`
 }

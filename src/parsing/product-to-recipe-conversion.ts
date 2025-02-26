@@ -1,15 +1,15 @@
 import { ProductToRecipeRaw, RecipeJsonObject, RecipeToProducts, convertProductToRecipeRawToProductToRecipe } from "@/types";
 import { splitRecipes } from "./split-recipes";
-import { extractItemClassForProduct } from "./util";
+import { extractItemClassObjects } from "./util";
 
 export async function productToRecipesAndRecipeToProductsCreation() {
     const { allRecipes } = await splitRecipes();
     const productToRecipeRaw: ProductToRecipeRaw = {};
     const recipeToProducts: RecipeToProducts = {};
     for (const recipe of Object.values(allRecipes)) {
-        const extraction = extractItemClassForProduct(recipe.mProduct);
+        const extraction = extractItemClassObjects(recipe.mProduct);
         if (extraction) {
-            const { products, mainProduct } = extraction;
+            const { all: products, first: mainProduct } = extraction;
             const byproducts = []
             for (const product of Object.keys(products)) {
                 if (!productToRecipeRaw[product]) {
