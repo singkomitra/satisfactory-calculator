@@ -1,6 +1,8 @@
 import { extractItemClassForProduct } from "@/parsing/util";
 import { ProductToRecipe, assertRecipeJsonObject, convertStringFieldsOJsonToNumber } from "@/types";
 import { readFile, writeFile } from "fs/promises";
+import { splitRecipes } from "./split-recipes";
+import { RecipeToIngredients } from "@/types";
 
 function parseProducedIn(mProducedIn: string): string[] {
   let trimmed = mProducedIn.trim();
@@ -29,12 +31,15 @@ function replaceExceptions(name: string): string {
 }
 
 export async function GET(req: Request) {
-  const allRecipes = JSON.parse(await readFile("all-recipes.json", "utf-8"));
-  const altRecipes = JSON.parse(await readFile("alt-recipes.json", "utf-8"));
+  const finalRecipes = await recipesToIngredients();
+  await writeFile("recipes-to-ingredients.json", JSON.stringify(finalRecipes, null, 2));
+  return Response.json(finalRecipes);
+}
 
-  const finalRecipes: Record<string, any> = {};
-
-  for (const recipe of allRecipes) {
+export async function recipesToIngredients() {
+  const { allRecipes, altRecipes } = await splitRecipes();
+  const finalRecipes: RecipeToIngredients = {};
+  for (const recipe of Object.values(allRecipes)) {
     if (!recipe.ClassName.endsWith("_C")) console.log("Not a recipe: ", recipe.ClassName);
     const className = recipe.ClassName;
     const ingredientsString = recipe.mIngredients;
@@ -101,4 +106,5 @@ export async function GET(req: Request) {
 
   await writeFile("recipes-to-ingredients.json", JSON.stringify(finalRecipes, null, 2));
   return Response.json(finalRecipes);
+  return finalRecipes;
 }
