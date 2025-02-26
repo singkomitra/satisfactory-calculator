@@ -4,8 +4,9 @@ import { getJSONDirectory } from "./util";
 import { join } from "path";
 
 export async function splitRecipes() {
+  const mainJsonFilepath = join(getJSONDirectory(), "Docs-utf8.json");
   try {
-    await access("Docs-utf8.json");
+    await access(mainJsonFilepath);
   } catch (e) {
     if ((e as NodeJS.ErrnoException).code === "ENOENT") {
       console.error("Docs-utf8.json not found");
@@ -13,7 +14,7 @@ export async function splitRecipes() {
     }
     throw e;
   }
-  const json = await readFile("Docs-utf8.json", "utf-8");
+  const json = await readFile(mainJsonFilepath, "utf-8");
   const recipes: { [key: string]: RecipeJsonObject } = {};
   const altRecipes: typeof recipes = {};
   const allRecipes: typeof recipes = {};

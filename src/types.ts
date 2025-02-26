@@ -39,6 +39,131 @@ export type Recipe = {
     producedIn: string;
   };
 };
+export type ItemDescriptorsRaw = {
+  ClassName: string;
+  mDisplayName: string;
+  mDescription: string;
+  mAbbreviatedDisplayName: string;
+  mStackSize: string;
+  mCanBeDiscarded: string;
+  mRememberPickUp: string;
+  mEnergyValue: number;
+  mRadioactiveDecay: number;
+  mForm: string;
+  mGasType: string;
+  mSmallIcon: string;
+  mPersistentBigIcon: string;
+  mCrosshairMaterial: string;
+  mDescriptorStatBars: string;
+  mIsAlienItem: string;
+  mSubCategories: string;
+  mMenuPriority: number;
+  mFluidColor: string;
+  mGasColor: string;
+  mCompatibleItemDescriptors: string;
+  mClassToScanFor: string;
+  mScannableType: string;
+  mShouldOverrideScannerDisplayText: string;
+  mScannerDisplayText: string;
+  mScannerLightColor: string;
+  mNeedsPickUpMarker: string;
+  mResourceSinkPoints: number;
+};
+
+export function assertItemDescriptorsRaw(obj: any): asserts obj is ItemDescriptorsRaw {
+  if (typeof obj !== "object") {
+    throwError("ItemDescriptorsRaw", "obj", "object", obj);
+  }
+  if (typeof obj.ClassName !== "string") {
+    throwError("ItemDescriptorsRaw", "ClassName", "string", obj.ClassName);
+  }
+  if (typeof obj.mDisplayName !== "string") {
+    throwError("ItemDescriptorsRaw", "mDisplayName", "string", obj.mDisplayName);
+  }
+  if (typeof obj.mDescription !== "string") {
+    throwError("ItemDescriptorsRaw", "mDescription", "string", obj.mDescription);
+  }
+  if (typeof obj.mAbbreviatedDisplayName !== "string") {
+    throwError("ItemDescriptorsRaw", "mAbbreviatedDisplayName", "string", obj.mAbbreviatedDisplayName);
+  }
+  if (typeof obj.mStackSize !== "string") {
+    throwError("ItemDescriptorsRaw", "mStackSize", "string", obj.mStackSize);
+  }
+  if (typeof obj.mCanBeDiscarded !== "string") {
+    throwError("ItemDescriptorsRaw", "mCanBeDiscarded", "string", obj.mCanBeDiscarded);
+  }
+  if (typeof obj.mRememberPickUp !== "string") {
+    throwError("ItemDescriptorsRaw", "mRememberPickUp", "string", obj.mRememberPickUp);
+  }
+  if (typeof obj.mEnergyValue !== "number") {
+    throwError("ItemDescriptorsRaw", "mEnergyValue", "number", obj.mEnergyValue);
+  }
+  if (typeof obj.mRadioactiveDecay !== "number") {
+    throwError("ItemDescriptorsRaw", "mRadioactiveDecay", "number", obj.mRadioactiveDecay);
+  }
+  if (typeof obj.mForm !== "string") {
+    throwError("ItemDescriptorsRaw", "mForm", "string", obj.mForm);
+  }
+  if (typeof obj.mGasType !== "string") {
+    throwError("ItemDescriptorsRaw", "mGasType", "string", obj.mGasType);
+  }
+  if (typeof obj.mSmallIcon !== "string") {
+    throwError("ItemDescriptorsRaw", "mSmallIcon", "string", obj.mSmallIcon);
+  }
+  if (typeof obj.mPersistentBigIcon !== "string") {
+    throwError("ItemDescriptorsRaw", "mPersistentBigIcon", "string", obj.mPersistentBigIcon);
+  }
+  if (typeof obj.mCrosshairMaterial !== "string") {
+    throwError("ItemDescriptorsRaw", "mCrosshairMaterial", "string", obj.mCrosshairMaterial);
+  }
+  if (typeof obj.mDescriptorStatBars !== "string") {
+    throwError("ItemDescriptorsRaw", "mDescriptorStatBars", "string", obj.mDescriptorStatBars);
+  }
+  if (typeof obj.mIsAlienItem !== "string") {
+    throwError("ItemDescriptorsRaw", "mIsAlienItem", "string", obj.mIsAlienItem);
+  }
+  if (typeof obj.mSubCategories !== "string") {
+    throwError("ItemDescriptorsRaw", "mSubCategories", "string", obj.mSubCategories);
+  }
+  if (typeof obj.mMenuPriority !== "number") {
+    throwError("ItemDescriptorsRaw", "mMenuPriority", "number", obj.mMenuPriority);
+  }
+  if (typeof obj.mFluidColor !== "string") {
+    throwError("ItemDescriptorsRaw", "mFluidColor", "string", obj.mFluidColor);
+  }
+  if (typeof obj.mGasColor !== "string") {
+    throwError("ItemDescriptorsRaw", "mGasColor", "string", obj.mGasColor);
+  }
+  if (typeof obj.mCompatibleItemDescriptors !== "string") {
+    throwError("ItemDescriptorsRaw", "mCompatibleItemDescriptors", "string", obj.mCompatibleItemDescriptors);
+  }
+  if (typeof obj.mClassToScanFor !== "string") {
+    throwError("ItemDescriptorsRaw", "mClassToScanFor", "string", obj.mClassToScanFor);
+  }
+  if (typeof obj.mScannableType !== "string") {
+    throwError("ItemDescriptorsRaw", "mScannableType", "string", obj.mScannableType);
+  }
+  if (typeof obj.mShouldOverrideScannerDisplayText !== "string") {
+    throwError(
+      "ItemDescriptorsRaw",
+      "mShouldOverrideScannerDisplayText",
+      "string",
+      obj.mShouldOverrideScannerDisplayText
+    );
+  }
+  if (typeof obj.mScannerDisplayText !== "string") {
+    throwError("ItemDescriptorsRaw", "mScannerDisplayText", "string", obj.mScannerDisplayText);
+  }
+  if (typeof obj.mScannerLightColor !== "string") {
+    throwError("ItemDescriptorsRaw", "mScannerLightColor", "string", obj.mScannerLightColor);
+  }
+  if (typeof obj.mNeedsPickUpMarker !== "string") {
+    throwError("ItemDescriptorsRaw", "mNeedsPickUpMarker", "string", obj.mNeedsPickUpMarker);
+  }
+  if (typeof obj.mResourceSinkPoints !== "number") {
+    throwError("ItemDescriptorsRaw", "mResourceSinkPoints", "number", obj.mResourceSinkPoints);
+  }
+}
 
 export function assertRecipe(obj: any): asserts obj is Recipe {
   if (typeof obj !== "object") {
