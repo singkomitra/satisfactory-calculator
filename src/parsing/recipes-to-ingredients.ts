@@ -86,6 +86,7 @@ export async function recipesToIngredients() {
       { item: "Recipe_FuelLiquid_C", amount: 6000 },
       { item: "Recipe_Alternate_EnrichedCoal_C", amount: 4 } // exception: CompactedCoal -> Alternate_EnrichedCoal
     ],
+    producedIn: "Build_OilRefinery_C"
   }
 
   const missingRecipes = new Set<string>();
@@ -99,10 +100,10 @@ export async function recipesToIngredients() {
     }
   }
 
-  console.log("Missing recipes:");
-  for (const missing of missingRecipes) {
-    console.log(missing);
-  }
+  // console.log("Missing recipes:");
+  // for (const missing of missingRecipes) {
+  //   console.log(missing);
+  // }
 
   await writeFile("recipes-to-ingredients.json", JSON.stringify(finalRecipes, null, 2));
   return Response.json(finalRecipes);

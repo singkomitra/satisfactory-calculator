@@ -10901,6 +10901,7 @@
         "item": "Recipe_Alternate_EnrichedCoal_C",
         "amount": 4
       }
-    ]
+    ],
+    "producedIn": "Build_OilRefinery_C"
   }
 }
