@@ -34,7 +34,7 @@ export async function GET(req: Request) {
 
   const finalRecipes: Record<string, any> = {};
 
-  for (const recipe of allRecipes.Classes) {
+  for (const recipe of allRecipes) {
     if (!recipe.ClassName.endsWith("_C")) console.log("Not a recipe: ", recipe.ClassName);
     const className = recipe.ClassName;
     const ingredientsString = recipe.mIngredients;
