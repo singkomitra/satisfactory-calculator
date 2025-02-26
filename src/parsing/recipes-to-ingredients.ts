@@ -1,3 +1,5 @@
+import { extractItemClassForProduct } from "@/parsing/util";
+import { ProductToRecipe, assertRecipeJsonObject, convertStringFieldsOJsonToNumber } from "@/types";
 import { readFile, writeFile } from "fs/promises";
 
 function parseProducedIn(mProducedIn: string): string[] {
@@ -8,9 +10,22 @@ function parseProducedIn(mProducedIn: string): string[] {
   const parts = trimmed.split(',');
   return parts.map(part => {
     const cleaned = part.trim().replace(/^"|"$/g, '');
+
     const segments = cleaned.split('.');
     return segments[segments.length - 1];
   });
+}
+
+function replaceExceptions(name: string): string {
+  const exceptions: { [key: string]: string } = {
+    "Cement": "Concrete",
+    "IronIngot": "IngotIron",
+    "IronScrew": "Screw",
+    "CompactedCoal": "Alternate_EnrichedCoal",
+    "TurboFuel": "PackagedTurboFuel",
+    "MotorLightweight": "MotorTurbo"
+  }
+  return exceptions[name] || name;
 }
 
 export async function GET(req: Request) {
@@ -24,11 +39,12 @@ export async function GET(req: Request) {
     const className = recipe.ClassName;
     const ingredientsString = recipe.mIngredients;
     const ingredients = [];
-    const regex = /ItemClass="[^"]*\/Desc_([^\."]+)[^"]*",Amount=([0-9]+)/g;
+    const regex = /ItemClass="[^"]*\/([^\."]+)[^"]*",Amount=([0-9]+)/g;
     const producedIn = recipe.mProducedIn ? parseProducedIn(recipe.mProducedIn)[0] : "";
     let match;
     while ((match = regex.exec(ingredientsString)) !== null) {
-      const itemName = `Recipe_${match[1]}_C`;
+      const cleanedName = match[1].replace(/^(Desc_|BP_ItemDescriptor)/, '');
+      const itemName = `Recipe_${replaceExceptions(cleanedName)}_C`;
       ingredients.push({ item: itemName, amount: parseInt(match[2]) });
     }
     finalRecipes[className] = {
@@ -43,11 +59,12 @@ export async function GET(req: Request) {
     const className = recipe.ClassName;
     const ingredientsString = recipe.mIngredients;
     const ingredients = [];
-    const regex = /ItemClass="[^"]*\/Desc_([^\."]+)[^"]*",Amount=([0-9]+)/g;
+    const regex = /ItemClass="[^"]*\/([^\."]+)[^"]*",Amount=([0-9]+)/g;
     const producedIn = recipe.mProducedIn ? parseProducedIn(recipe.mProducedIn)[0] : "";
     let match;
     while ((match = regex.exec(ingredientsString)) !== null) {
-      const itemName = `Recipe_${match[1]}_C`;
+      const cleanedName = match[1].replace(/^(Desc_|BP_ItemDescriptor)/, '');
+      const itemName = `Recipe_${replaceExceptions(cleanedName)}_C`;
       ingredients.push({ item: itemName, amount: parseInt(match[2]) });
     }
     finalRecipes[className] = {
@@ -56,6 +73,32 @@ export async function GET(req: Request) {
       producedIn
     };
   }
+
+  // add missing recipes
+  finalRecipes["Recipe_LiquidTurboFuel_C"] = {
+    displayName: "Turbofuel",
+    ingredients: [
+      { item: "Recipe_FuelLiquid_C", amount: 6000 },
+      { item: "Recipe_Alternate_EnrichedCoal_C", amount: 4 } // exception: CompactedCoal -> Alternate_EnrichedCoal
+    ],
+  }
+
+  const missingRecipes = new Set<string>();
+
+  for (const recipeKey in finalRecipes) {
+    const recipe = finalRecipes[recipeKey];
+    for (const ingredient of recipe.ingredients) {
+      if (!finalRecipes[ingredient.item]) {
+        missingRecipes.add(ingredient.item);
+      }
+    }
+  }
+
+  console.log("Missing recipes:");
+  for (const missing of missingRecipes) {
+    console.log(missing);
+  }
+
   await writeFile("recipes-to-ingredients.json", JSON.stringify(finalRecipes, null, 2));
   return Response.json(finalRecipes);
 }

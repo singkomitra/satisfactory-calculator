@@ -3,7 +3,7 @@
     "displayName": "Basic Wall (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -13,7 +13,7 @@
     "displayName": "Basic Wall (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -23,7 +23,7 @@
     "displayName": "Conveyor Wall x 1",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -33,7 +33,7 @@
     "displayName": "Conveyor Wall x 2",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -43,7 +43,7 @@
     "displayName": "Conveyor Wall x 3",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -53,7 +53,7 @@
     "displayName": "Tilted Corner Wall (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -63,7 +63,7 @@
     "displayName": "Tilted Concave Wall (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -113,7 +113,7 @@
     "displayName": "Tilted Corner Wall (8 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -123,7 +123,7 @@
     "displayName": "Tilted Concave Wall (8 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -133,7 +133,7 @@
     "displayName": "Tilted Wall (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -143,7 +143,7 @@
     "displayName": "Tilted Wall (8 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -153,7 +153,7 @@
     "displayName": "Center Door Wall",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -163,7 +163,7 @@
     "displayName": "Wall 1a",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -173,7 +173,7 @@
     "displayName": "Inverted Ramp Wall (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -183,7 +183,7 @@
     "displayName": "Inverted Ramp Wall (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -193,7 +193,7 @@
     "displayName": "Inverted Ramp Wall (8 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -203,7 +203,7 @@
     "displayName": "Gate Hole Wall",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -213,7 +213,7 @@
     "displayName": "Side Door Wall",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -223,7 +223,7 @@
     "displayName": "Ramp Wall (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -233,7 +233,7 @@
     "displayName": "Ramp Wall (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -243,7 +243,7 @@
     "displayName": "Ramp Wall (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -253,7 +253,7 @@
     "displayName": "Ramp Wall (8 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -263,7 +263,7 @@
     "displayName": "Basic Wall (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -273,7 +273,7 @@
     "displayName": "Conveyor Wall x 3",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -283,7 +283,7 @@
     "displayName": "Conveyor Wall x 2",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -293,7 +293,7 @@
     "displayName": "Conveyor Wall x 1",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -303,7 +303,7 @@
     "displayName": "Center Door Wall",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -313,7 +313,7 @@
     "displayName": "Side Door Wall",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -323,7 +323,7 @@
     "displayName": "Gate Hole Wall",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -333,7 +333,7 @@
     "displayName": "Basic Wall (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -343,7 +343,7 @@
     "displayName": "Tilted Corner Wall (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -353,7 +353,7 @@
     "displayName": "Tilted Concave Wall (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -363,7 +363,7 @@
     "displayName": "Tilted Corner Wall (8 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -373,7 +373,7 @@
     "displayName": "Tilted Concave Wall (8 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -383,7 +383,7 @@
     "displayName": "Tilted Wall (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -393,7 +393,7 @@
     "displayName": "Tilted Wall (8 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -403,7 +403,7 @@
     "displayName": "Inverted Ramp Wall (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -413,7 +413,7 @@
     "displayName": "Inverted Ramp Wall (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -423,7 +423,7 @@
     "displayName": "Inverted Ramp Wall (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -433,7 +433,7 @@
     "displayName": "Inverted Ramp Wall (8 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -443,7 +443,7 @@
     "displayName": "Ramp Wall (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -453,7 +453,7 @@
     "displayName": "Ramp Wall (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -463,7 +463,7 @@
     "displayName": "Ramp Wall (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -473,7 +473,7 @@
     "displayName": "Ramp Wall (8 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -523,7 +523,7 @@
     "displayName": "Gate Hole Wall",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -573,7 +573,7 @@
     "displayName": "Tilted Corner Wall (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -583,7 +583,7 @@
     "displayName": "Tilted Concave Wall (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -593,7 +593,7 @@
     "displayName": "Tilted Corner Wall (8 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -603,7 +603,7 @@
     "displayName": "Tilted Concave Wall (8 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -613,7 +613,7 @@
     "displayName": "Basic Wall (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -623,7 +623,7 @@
     "displayName": "Inverted Ramp Wall (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -633,7 +633,7 @@
     "displayName": "Inverted Ramp Wall (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -643,7 +643,7 @@
     "displayName": "Inverted Ramp Wall (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -653,7 +653,7 @@
     "displayName": "Inverted Ramp Wall (8 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -663,7 +663,7 @@
     "displayName": "Ramp Wall (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -673,7 +673,7 @@
     "displayName": "Ramp Wall (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -683,7 +683,7 @@
     "displayName": "Ramp Wall (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -693,7 +693,7 @@
     "displayName": "Ramp Wall (8 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -703,7 +703,7 @@
     "displayName": "Basic Wall (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -713,7 +713,7 @@
     "displayName": "Conveyor Wall x 3",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -723,7 +723,7 @@
     "displayName": "Conveyor Wall x 2",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -733,7 +733,7 @@
     "displayName": "Conveyor Wall x 1",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -743,7 +743,7 @@
     "displayName": "Center Door Wall",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -753,7 +753,7 @@
     "displayName": "Side Door Wall",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -763,7 +763,7 @@
     "displayName": "Tilted Wall (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -773,7 +773,7 @@
     "displayName": "Tilted Wall (8 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -791,7 +791,7 @@
         "amount": 2
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -809,7 +809,7 @@
         "amount": 1
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 1
       }
     ],
@@ -827,7 +827,7 @@
         "amount": 2
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -865,7 +865,7 @@
         "amount": 1
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 1
       }
     ],
@@ -913,7 +913,7 @@
     "displayName": "Iron Plate",
     "ingredients": [
       {
-        "item": "Recipe_IronIngot_C",
+        "item": "Recipe_IngotIron_C",
         "amount": 3
       }
     ],
@@ -923,7 +923,7 @@
     "displayName": "Iron Rod",
     "ingredients": [
       {
-        "item": "Recipe_IronIngot_C",
+        "item": "Recipe_IngotIron_C",
         "amount": 1
       }
     ],
@@ -975,7 +975,7 @@
     "displayName": "Pillar Top",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 6
       }
     ],
@@ -1095,7 +1095,7 @@
         "amount": 3
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -1109,7 +1109,7 @@
         "amount": 3
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -1123,7 +1123,7 @@
         "amount": 3
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -1137,7 +1137,7 @@
         "amount": 3
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -1191,7 +1191,7 @@
         "amount": 2
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -1209,7 +1209,7 @@
         "amount": 1
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -1293,7 +1293,7 @@
         "amount": 30
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 45
       }
     ],
@@ -1303,7 +1303,7 @@
     "displayName": "AWESOME Shop",
     "ingredients": [
       {
-        "item": "Recipe_IronScrew_C",
+        "item": "Recipe_Screw_C",
         "amount": 200
       },
       {
@@ -1373,7 +1373,7 @@
     "displayName": "Quantum Encoder",
     "ingredients": [
       {
-        "item": "Recipe_MotorLightweight_C",
+        "item": "Recipe_MotorTurbo_C",
         "amount": 20
       },
       {
@@ -1536,7 +1536,7 @@
         "amount": 30
       },
       {
-        "item": "Recipe_TurboFuel_C",
+        "item": "Recipe_PackagedTurboFuel_C",
         "amount": 2
       }
     ],
@@ -1600,7 +1600,7 @@
         "amount": 4
       },
       {
-        "item": "Recipe_IronIngot_C",
+        "item": "Recipe_IngotIron_C",
         "amount": 24
       }
     ],
@@ -1928,7 +1928,7 @@
         "amount": 6000
       },
       {
-        "item": "Recipe_CompactedCoal_C",
+        "item": "Recipe_Alternate_EnrichedCoal_C",
         "amount": 4
       }
     ],
@@ -1952,7 +1952,7 @@
     "displayName": "Unpackage Turbofuel",
     "ingredients": [
       {
-        "item": "Recipe_TurboFuel_C",
+        "item": "Recipe_PackagedTurboFuel_C",
         "amount": 2
       }
     ],
@@ -2232,7 +2232,7 @@
         "amount": 5000
       },
       {
-        "item": "Recipe_CompactedCoal_C",
+        "item": "Recipe_Alternate_EnrichedCoal_C",
         "amount": 4
       }
     ],
@@ -2260,7 +2260,7 @@
         "amount": 10
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 20
       }
     ],
@@ -2776,7 +2776,7 @@
         "amount": 3
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 6
       }
     ],
@@ -2813,6 +2813,10 @@
   "Recipe_MinerMk2_C": {
     "displayName": "Miner Mk.2",
     "ingredients": [
+      {
+        "item": "Recipe_PortableMiner_C",
+        "amount": 2
+      },
       {
         "item": "Recipe_SteelPlateReinforced_C",
         "amount": 10
@@ -2882,7 +2886,7 @@
         "amount": 20
       },
       {
-        "item": "Recipe_IronScrew_C",
+        "item": "Recipe_Screw_C",
         "amount": 104
       }
     ],
@@ -2944,7 +2948,7 @@
         "amount": 5
       },
       {
-        "item": "Recipe_IronScrew_C",
+        "item": "Recipe_Screw_C",
         "amount": 120
       }
     ],
@@ -3072,7 +3076,7 @@
         "amount": 6
       },
       {
-        "item": "Recipe_IronScrew_C",
+        "item": "Recipe_Screw_C",
         "amount": 52
       }
     ],
@@ -3100,7 +3104,7 @@
         "amount": 5
       },
       {
-        "item": "Recipe_IronScrew_C",
+        "item": "Recipe_Screw_C",
         "amount": 25
       }
     ],
@@ -3180,7 +3184,7 @@
     "displayName": "Alternate: Coated Iron Plate",
     "ingredients": [
       {
-        "item": "Recipe_IronIngot_C",
+        "item": "Recipe_IngotIron_C",
         "amount": 5
       },
       {
@@ -3226,7 +3230,7 @@
         "amount": 3
       },
       {
-        "item": "Recipe_IronScrew_C",
+        "item": "Recipe_Screw_C",
         "amount": 56
       }
     ],
@@ -3276,7 +3280,7 @@
         "amount": 2
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 4
       }
     ],
@@ -3340,7 +3344,7 @@
     "displayName": "Particle Accelerator",
     "ingredients": [
       {
-        "item": "Recipe_MotorLightweight_C",
+        "item": "Recipe_MotorTurbo_C",
         "amount": 10
       },
       {
@@ -3476,7 +3480,7 @@
         "amount": 10
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       },
       {
@@ -3714,7 +3718,7 @@
         "amount": 200
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 250
       }
     ],
@@ -4106,7 +4110,7 @@
         "amount": 5
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -4116,7 +4120,7 @@
     "displayName": "Alternate: Iron Pipe",
     "ingredients": [
       {
-        "item": "Recipe_IronIngot_C",
+        "item": "Recipe_IngotIron_C",
         "amount": 20
       }
     ],
@@ -4126,7 +4130,7 @@
     "displayName": "Alternate: Steel Cast Plate",
     "ingredients": [
       {
-        "item": "Recipe_IronIngot_C",
+        "item": "Recipe_IngotIron_C",
         "amount": 1
       },
       {
@@ -4144,7 +4148,7 @@
         "amount": 24
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 16
       }
     ],
@@ -4328,7 +4332,7 @@
     "displayName": "Alternate: Iron Wire",
     "ingredients": [
       {
-        "item": "Recipe_IronIngot_C",
+        "item": "Recipe_IngotIron_C",
         "amount": 5
       }
     ],
@@ -4400,6 +4404,10 @@
       {
         "item": "Recipe_CircuitBoardHighSpeed_C",
         "amount": 2
+      },
+      {
+        "item": "Recipe_PortableMiner_C",
+        "amount": 1
       }
     ],
     "producedIn": "BP_BuildGun_C"
@@ -4460,6 +4468,10 @@
     "displayName": "Miner Mk.3",
     "ingredients": [
       {
+        "item": "Recipe_PortableMiner_C",
+        "amount": 3
+      },
+      {
         "item": "Recipe_SteelPipe_C",
         "amount": 50
       },
@@ -4472,7 +4484,7 @@
         "amount": 10
       },
       {
-        "item": "Recipe_MotorLightweight_C",
+        "item": "Recipe_MotorTurbo_C",
         "amount": 3
       }
     ],
@@ -4508,7 +4520,7 @@
         "amount": 5
       },
       {
-        "item": "Recipe_MotorLightweight_C",
+        "item": "Recipe_MotorTurbo_C",
         "amount": 2
       },
       {
@@ -4564,7 +4576,7 @@
     "displayName": "Alternate: Cast Screw",
     "ingredients": [
       {
-        "item": "Recipe_IronIngot_C",
+        "item": "Recipe_IngotIron_C",
         "amount": 5
       }
     ],
@@ -4592,7 +4604,7 @@
         "amount": 6
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -4620,7 +4632,7 @@
         "amount": 18
       },
       {
-        "item": "Recipe_IronScrew_C",
+        "item": "Recipe_Screw_C",
         "amount": 50
       }
     ],
@@ -4734,7 +4746,7 @@
         "amount": 2
       },
       {
-        "item": "Recipe_CompactedCoal_C",
+        "item": "Recipe_Alternate_EnrichedCoal_C",
         "amount": 1
       }
     ],
@@ -4744,7 +4756,7 @@
     "displayName": "Alternate: Solid Steel Ingot",
     "ingredients": [
       {
-        "item": "Recipe_IronIngot_C",
+        "item": "Recipe_IngotIron_C",
         "amount": 2
       },
       {
@@ -4802,7 +4814,7 @@
         "amount": 36
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 22
       }
     ],
@@ -4830,7 +4842,7 @@
         "amount": 1
       },
       {
-        "item": "Recipe_CompactedCoal_C",
+        "item": "Recipe_Alternate_EnrichedCoal_C",
         "amount": 2
       }
     ],
@@ -5042,7 +5054,7 @@
     "displayName": "Main Portal",
     "ingredients": [
       {
-        "item": "Recipe_MotorLightweight_C",
+        "item": "Recipe_MotorTurbo_C",
         "amount": 5
       },
       {
@@ -5102,7 +5114,7 @@
         "amount": 100
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 200
       }
     ],
@@ -5258,7 +5270,7 @@
         "amount": 100
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 100
       }
     ],
@@ -5312,7 +5324,7 @@
         "amount": 25
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 50
       },
       {
@@ -5338,7 +5350,7 @@
         "amount": 25
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 50
       },
       {
@@ -5356,7 +5368,7 @@
         "amount": 10
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 50
       }
     ],
@@ -5370,7 +5382,7 @@
         "amount": 10
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 50
       }
     ],
@@ -5388,7 +5400,7 @@
         "amount": 50
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 50
       },
       {
@@ -5606,7 +5618,7 @@
         "amount": 2
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -5638,7 +5650,7 @@
         "amount": 25
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 100
       },
       {
@@ -5678,7 +5690,7 @@
         "amount": 2
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -5692,7 +5704,7 @@
         "amount": 2
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -5706,7 +5718,7 @@
         "amount": 2
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -5748,7 +5760,7 @@
     "displayName": "Power Tower",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 10
       },
       {
@@ -5766,7 +5778,7 @@
     "displayName": "Power Tower Platform",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 10
       },
       {
@@ -5783,6 +5795,10 @@
   "Recipe_XenoBasher_C": {
     "displayName": "Xeno-Basher",
     "ingredients": [
+      {
+        "item": "Recipe_BP_EquipmentDescriptorShockShank_C",
+        "amount": 2
+      },
       {
         "item": "Recipe_ModularFrame_C",
         "amount": 5
@@ -5866,7 +5882,7 @@
         "amount": 2
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -5930,7 +5946,7 @@
         "amount": 25
       },
       {
-        "item": "Recipe_IronScrew_C",
+        "item": "Recipe_Screw_C",
         "amount": 160
       },
       {
@@ -6060,7 +6076,7 @@
         "amount": 20
       },
       {
-        "item": "Recipe_IronScrew_C",
+        "item": "Recipe_Screw_C",
         "amount": 50
       }
     ],
@@ -6108,7 +6124,7 @@
     "displayName": "Half Foundation (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6118,7 +6134,7 @@
     "displayName": "Half Foundation (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6128,7 +6144,7 @@
     "displayName": "Half Foundation (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6138,7 +6154,7 @@
     "displayName": "Inner Corner Extension (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6148,7 +6164,7 @@
     "displayName": "Inner Corner Extension (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6158,7 +6174,7 @@
     "displayName": "Inner Corner Extension (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6168,7 +6184,7 @@
     "displayName": "Outer Corner Extension (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6178,7 +6194,7 @@
     "displayName": "Outer Corner Extension (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6188,7 +6204,7 @@
     "displayName": "Outer Corner Extension (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6198,7 +6214,7 @@
     "displayName": "Foundation Stairs (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6208,7 +6224,7 @@
     "displayName": "Foundation Stairs (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6218,7 +6234,7 @@
     "displayName": "Foundation Stairs (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6228,7 +6244,7 @@
     "displayName": "Foundation (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6238,7 +6254,7 @@
     "displayName": "Foundation (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6248,7 +6264,7 @@
     "displayName": "Foundation (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6258,7 +6274,7 @@
     "displayName": "Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6268,7 +6284,7 @@
     "displayName": "Inverted Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6278,7 +6294,7 @@
     "displayName": "Inner Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6288,7 +6304,7 @@
     "displayName": "Inverted Inner Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6298,7 +6314,7 @@
     "displayName": "Outer Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6308,7 +6324,7 @@
     "displayName": "Inverted Outer Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6318,7 +6334,7 @@
     "displayName": "Ramp (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6328,7 +6344,7 @@
     "displayName": "Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6338,7 +6354,7 @@
     "displayName": "Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6348,7 +6364,7 @@
     "displayName": "Inverted Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6358,7 +6374,7 @@
     "displayName": "Double Ramp (8 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6368,7 +6384,7 @@
     "displayName": "Down Corner Ramp (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6378,7 +6394,7 @@
     "displayName": "Up Corner Ramp (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6388,7 +6404,7 @@
     "displayName": "Down Corner Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6398,7 +6414,7 @@
     "displayName": "Up Corner Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6408,7 +6424,7 @@
     "displayName": "Down Corner Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6418,7 +6434,7 @@
     "displayName": "Up Corner Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6428,7 +6444,7 @@
     "displayName": "Double Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6438,7 +6454,7 @@
     "displayName": "Double Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6448,7 +6464,7 @@
     "displayName": "Inverted Ramp (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6458,7 +6474,7 @@
     "displayName": "Inverted Up Corner (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6468,7 +6484,7 @@
     "displayName": "Inverted Down Corner (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6478,7 +6494,7 @@
     "displayName": "Inverted Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6488,7 +6504,7 @@
     "displayName": "Inverted Up Corner (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6498,7 +6514,7 @@
     "displayName": "Inverted Down Corner (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6508,7 +6524,7 @@
     "displayName": "Inverted Up Corner (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6518,7 +6534,7 @@
     "displayName": "Inverted Down Corner (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6542,7 +6558,7 @@
     "displayName": "Inverted Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6552,7 +6568,7 @@
     "displayName": "Inverted Inner Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6562,7 +6578,7 @@
     "displayName": "Inverted Outer Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6572,7 +6588,7 @@
     "displayName": "Foundation (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6582,7 +6598,7 @@
     "displayName": "Foundation (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6592,7 +6608,7 @@
     "displayName": "Foundation (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6602,7 +6618,7 @@
     "displayName": "Inverted Ramp (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6612,7 +6628,7 @@
     "displayName": "Inverted Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6622,7 +6638,7 @@
     "displayName": "Inverted Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6632,7 +6648,7 @@
     "displayName": "Inverted Down Corner (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6642,7 +6658,7 @@
     "displayName": "Inverted Down Corner (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6652,7 +6668,7 @@
     "displayName": "Inverted Down Corner (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6662,7 +6678,7 @@
     "displayName": "Inverted Up Corner (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6672,7 +6688,7 @@
     "displayName": "Inverted Up Corner (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6682,7 +6698,7 @@
     "displayName": "Inverted Up Corner (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6692,7 +6708,7 @@
     "displayName": "Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6702,7 +6718,7 @@
     "displayName": "Inner Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6712,7 +6728,7 @@
     "displayName": "Half Foundation (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6722,7 +6738,7 @@
     "displayName": "Half Foundation (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6732,7 +6748,7 @@
     "displayName": "Half Foundation (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6742,7 +6758,7 @@
     "displayName": "Inner Corner Extension (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6752,7 +6768,7 @@
     "displayName": "Inner Corner Extension (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6762,7 +6778,7 @@
     "displayName": "Inner Corner Extension (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6772,7 +6788,7 @@
     "displayName": "Outer Corner Extension (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6782,7 +6798,7 @@
     "displayName": "Outer Corner Extension (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6792,7 +6808,7 @@
     "displayName": "Outer Corner Extension (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6802,7 +6818,7 @@
     "displayName": "Outer Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6812,7 +6828,7 @@
     "displayName": "Ramp (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6822,7 +6838,7 @@
     "displayName": "Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6832,7 +6848,7 @@
     "displayName": "Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6842,7 +6858,7 @@
     "displayName": "Down Corner Ramp (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6852,7 +6868,7 @@
     "displayName": "Down Corner Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6862,7 +6878,7 @@
     "displayName": "Down Corner Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6872,7 +6888,7 @@
     "displayName": "Up Corner Ramp (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6882,7 +6898,7 @@
     "displayName": "Up Corner Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6892,7 +6908,7 @@
     "displayName": "Up Corner Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6902,7 +6918,7 @@
     "displayName": "Double Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6912,7 +6928,7 @@
     "displayName": "Double Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6922,7 +6938,7 @@
     "displayName": "Double Ramp (8 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6932,7 +6948,7 @@
     "displayName": "Foundation Stairs (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6942,7 +6958,7 @@
     "displayName": "Foundation Stairs (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6952,7 +6968,7 @@
     "displayName": "Foundation Stairs (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6962,7 +6978,7 @@
     "displayName": "Inverted Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6972,7 +6988,7 @@
     "displayName": "Inverted Inner Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6982,7 +6998,7 @@
     "displayName": "Inverted Outer Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -6992,7 +7008,7 @@
     "displayName": "Foundation (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7002,7 +7018,7 @@
     "displayName": "Foundation (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7012,7 +7028,7 @@
     "displayName": "Foundation (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7022,7 +7038,7 @@
     "displayName": "Inverted Down Corner (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7032,7 +7048,7 @@
     "displayName": "Inverted Down Corner (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7042,7 +7058,7 @@
     "displayName": "Inverted Down Corner (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7052,7 +7068,7 @@
     "displayName": "Inverted Ramp (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7062,7 +7078,7 @@
     "displayName": "Inverted Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7072,7 +7088,7 @@
     "displayName": "Inverted Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7082,7 +7098,7 @@
     "displayName": "Inverted Up Corner (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7092,7 +7108,7 @@
     "displayName": "Inverted Up Corner (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7102,7 +7118,7 @@
     "displayName": "Inverted Up Corner (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7112,7 +7128,7 @@
     "displayName": "Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7122,7 +7138,7 @@
     "displayName": "Inner Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7132,7 +7148,7 @@
     "displayName": "Half Foundation (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7142,7 +7158,7 @@
     "displayName": "Half Foundation (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7152,7 +7168,7 @@
     "displayName": "Half Foundation (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7162,7 +7178,7 @@
     "displayName": "Inner Corner Extension (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7172,7 +7188,7 @@
     "displayName": "Inner Corner Extension (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7182,7 +7198,7 @@
     "displayName": "Inner Corner Extension (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7192,7 +7208,7 @@
     "displayName": "Outer Corner Extension (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7202,7 +7218,7 @@
     "displayName": "Outer Corner Extension (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7212,7 +7228,7 @@
     "displayName": "Outer Corner Extension (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7222,7 +7238,7 @@
     "displayName": "Outer Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7232,7 +7248,7 @@
     "displayName": "Down Corner Ramp (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7242,7 +7258,7 @@
     "displayName": "Down Corner Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7252,7 +7268,7 @@
     "displayName": "Down Corner Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7262,7 +7278,7 @@
     "displayName": "Ramp (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7272,7 +7288,7 @@
     "displayName": "Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7282,7 +7298,7 @@
     "displayName": "Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7292,7 +7308,7 @@
     "displayName": "Up Corner Ramp (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7302,7 +7318,7 @@
     "displayName": "Up Corner Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7312,7 +7328,7 @@
     "displayName": "Up Corner Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7322,7 +7338,7 @@
     "displayName": "Double Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7332,7 +7348,7 @@
     "displayName": "Double Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7342,7 +7358,7 @@
     "displayName": "Double Ramp (8 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7352,7 +7368,7 @@
     "displayName": "Foundation Stairs (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7362,7 +7378,7 @@
     "displayName": "Foundation Stairs (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7372,7 +7388,7 @@
     "displayName": "Foundation Stairs (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7382,7 +7398,7 @@
     "displayName": "Inverted Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7392,7 +7408,7 @@
     "displayName": "Inverted Inner Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7402,7 +7418,7 @@
     "displayName": "Inverted Outer Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7412,7 +7428,7 @@
     "displayName": "Foundation (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7422,7 +7438,7 @@
     "displayName": "Foundation (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7432,7 +7448,7 @@
     "displayName": "Foundation (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7442,7 +7458,7 @@
     "displayName": "Inverted Down Corner (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7452,7 +7468,7 @@
     "displayName": "Inverted Down Corner (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7462,7 +7478,7 @@
     "displayName": "Inverted Down Corner (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7472,7 +7488,7 @@
     "displayName": "Inverted Ramp (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7482,7 +7498,7 @@
     "displayName": "Inverted Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7492,7 +7508,7 @@
     "displayName": "Inverted Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7502,7 +7518,7 @@
     "displayName": "Inverted Up Corner (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7512,7 +7528,7 @@
     "displayName": "Inverted Up Corner (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7522,7 +7538,7 @@
     "displayName": "Inverted Up Corner (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7532,7 +7548,7 @@
     "displayName": "Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7542,7 +7558,7 @@
     "displayName": "Inner Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7552,7 +7568,7 @@
     "displayName": "Half Foundation (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7562,7 +7578,7 @@
     "displayName": "Half Foundation (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7572,7 +7588,7 @@
     "displayName": "Half Foundation (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7582,7 +7598,7 @@
     "displayName": "Inner Corner Extension (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7592,7 +7608,7 @@
     "displayName": "Inner Corner Extension (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7602,7 +7618,7 @@
     "displayName": "Inner Corner Extension (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7612,7 +7628,7 @@
     "displayName": "Outer Corner Extension (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7622,7 +7638,7 @@
     "displayName": "Outer Corner Extension (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7632,7 +7648,7 @@
     "displayName": "Outer Corner Extension (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7642,7 +7658,7 @@
     "displayName": "Outer Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7652,7 +7668,7 @@
     "displayName": "Down Corner Ramp (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7662,7 +7678,7 @@
     "displayName": "Down Corner Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7672,7 +7688,7 @@
     "displayName": "Down Corner Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7682,7 +7698,7 @@
     "displayName": "Ramp (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7692,7 +7708,7 @@
     "displayName": "Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7702,7 +7718,7 @@
     "displayName": "Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7712,7 +7728,7 @@
     "displayName": "Up Corner Ramp (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7722,7 +7738,7 @@
     "displayName": "Up Corner Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7732,7 +7748,7 @@
     "displayName": "Up Corner Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7742,7 +7758,7 @@
     "displayName": "Double Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7752,7 +7768,7 @@
     "displayName": "Double Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7762,7 +7778,7 @@
     "displayName": "Double Ramp (8 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7772,7 +7788,7 @@
     "displayName": "Foundation Stairs (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7782,7 +7798,7 @@
     "displayName": "Foundation Stairs (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7792,7 +7808,7 @@
     "displayName": "Foundation Stairs (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7802,7 +7818,7 @@
     "displayName": "Inverted Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7812,7 +7828,7 @@
     "displayName": "Inverted Inner Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7822,7 +7838,7 @@
     "displayName": "Inverted Outer Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7832,7 +7848,7 @@
     "displayName": "Foundation (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7842,7 +7858,7 @@
     "displayName": "Foundation (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7852,7 +7868,7 @@
     "displayName": "Foundation (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7862,7 +7878,7 @@
     "displayName": "Inverted Ramp (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7872,7 +7888,7 @@
     "displayName": "Inverted Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7882,7 +7898,7 @@
     "displayName": "Inverted Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7892,7 +7908,7 @@
     "displayName": "Inverted Down Corner (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7902,7 +7918,7 @@
     "displayName": "Inverted Down Corner (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7912,7 +7928,7 @@
     "displayName": "Inverted Down Corner (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7922,7 +7938,7 @@
     "displayName": "Inverted Up Corner (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7932,7 +7948,7 @@
     "displayName": "Inverted Up Corner (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7942,7 +7958,7 @@
     "displayName": "Inverted Up Corner (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7952,7 +7968,7 @@
     "displayName": "Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7962,7 +7978,7 @@
     "displayName": "Inner Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7972,7 +7988,7 @@
     "displayName": "Half Foundation (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7982,7 +7998,7 @@
     "displayName": "Half Foundation (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -7992,7 +8008,7 @@
     "displayName": "Half Foundation (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8002,7 +8018,7 @@
     "displayName": "Inner Corner Extension (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8012,7 +8028,7 @@
     "displayName": "Inner Corner Extension (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8022,7 +8038,7 @@
     "displayName": "Inner Corner Extension (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8032,7 +8048,7 @@
     "displayName": "Outer Corner Extension (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8042,7 +8058,7 @@
     "displayName": "Outer Corner Extension (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8052,7 +8068,7 @@
     "displayName": "Outer Corner Extension (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8062,7 +8078,7 @@
     "displayName": "Outer Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8072,7 +8088,7 @@
     "displayName": "Ramp (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8082,7 +8098,7 @@
     "displayName": "Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8092,7 +8108,7 @@
     "displayName": "Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8102,7 +8118,7 @@
     "displayName": "Down Corner Ramp (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8112,7 +8128,7 @@
     "displayName": "Down Corner Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8122,7 +8138,7 @@
     "displayName": "Down Corner Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8132,7 +8148,7 @@
     "displayName": "Up Corner Ramp (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8142,7 +8158,7 @@
     "displayName": "Up Corner Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8152,7 +8168,7 @@
     "displayName": "Up Corner Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8162,7 +8178,7 @@
     "displayName": "Double Ramp (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8172,7 +8188,7 @@
     "displayName": "Double Ramp (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8182,7 +8198,7 @@
     "displayName": "Double Ramp (8 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8192,7 +8208,7 @@
     "displayName": "Foundation Stairs (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8202,7 +8218,7 @@
     "displayName": "Foundation Stairs (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8212,7 +8228,7 @@
     "displayName": "Foundation Stairs (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -8294,7 +8310,7 @@
         "amount": 16
       },
       {
-        "item": "Recipe_IronScrew_C",
+        "item": "Recipe_Screw_C",
         "amount": 100
       }
     ],
@@ -8476,7 +8492,7 @@
         "amount": 2
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -8535,6 +8551,10 @@
   "Recipe_ZipLine_C": {
     "displayName": "Zipline",
     "ingredients": [
+      {
+        "item": "Recipe_BP_EquipmentDescriptorShockShank_C",
+        "amount": 1
+      },
       {
         "item": "Recipe_HighSpeedWire_C",
         "amount": 30
@@ -8818,7 +8838,7 @@
         "amount": 3
       },
       {
-        "item": "Recipe_TurboFuel_C",
+        "item": "Recipe_PackagedTurboFuel_C",
         "amount": 3
       }
     ],
@@ -8912,7 +8932,7 @@
         "amount": 25
       },
       {
-        "item": "Recipe_IronScrew_C",
+        "item": "Recipe_Screw_C",
         "amount": 250
       }
     ],
@@ -8949,6 +8969,10 @@
   "Recipe_NobeliskDetonator_C": {
     "displayName": "Nobelisk Detonator",
     "ingredients": [
+      {
+        "item": "Recipe_BP_EquipmentDescriptorObjectScanner_C",
+        "amount": 1
+      },
       {
         "item": "Recipe_SteelPlate_C",
         "amount": 10
@@ -9048,7 +9072,7 @@
         "amount": 3
       },
       {
-        "item": "Recipe_IronIngot_C",
+        "item": "Recipe_IngotIron_C",
         "amount": 3
       }
     ],
@@ -9208,7 +9232,7 @@
         "amount": 50
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 500
       }
     ],
@@ -9262,6 +9286,10 @@
     "displayName": "Candy Cane Basher",
     "ingredients": [
       {
+        "item": "Recipe_BP_EquipmentDescriptorShockShank_C",
+        "amount": 2
+      },
+      {
         "item": "Recipe_CandyCane_C",
         "amount": 25
       },
@@ -9300,7 +9328,7 @@
         "amount": 2
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -9354,7 +9382,7 @@
         "amount": 1
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -9364,7 +9392,7 @@
     "displayName": "Small Pillar Support",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9374,7 +9402,7 @@
     "displayName": "Big Pillar Support",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -9388,7 +9416,7 @@
         "amount": 2
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9450,7 +9478,7 @@
         "amount": 2
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -9468,7 +9496,7 @@
         "amount": 1
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -9486,7 +9514,7 @@
         "amount": 2
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -9638,7 +9666,7 @@
     "displayName": "Flat Roof",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9648,7 +9676,7 @@
     "displayName": "Roof (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9658,7 +9686,7 @@
     "displayName": "Roof (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9668,7 +9696,7 @@
     "displayName": "Roof (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9678,7 +9706,7 @@
     "displayName": "Inner Corner Roof (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9688,7 +9716,7 @@
     "displayName": "Inner Corner Roof (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9698,7 +9726,7 @@
     "displayName": "Inner Corner Roof (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9708,7 +9736,7 @@
     "displayName": "Outer Corner Roof (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9718,7 +9746,7 @@
     "displayName": "Outer Corner Roof (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9728,7 +9756,7 @@
     "displayName": "Outer Corner Roof (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9738,7 +9766,7 @@
     "displayName": "Flat Roof",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9748,7 +9776,7 @@
     "displayName": "Roof (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9758,7 +9786,7 @@
     "displayName": "Roof (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9768,7 +9796,7 @@
     "displayName": "Roof (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9778,7 +9806,7 @@
     "displayName": "Inner Corner Roof (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9788,7 +9816,7 @@
     "displayName": "Inner Corner Roof (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9798,7 +9826,7 @@
     "displayName": "Inner Corner Roof (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9808,7 +9836,7 @@
     "displayName": "Outer Corner Roof (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9818,7 +9846,7 @@
     "displayName": "Outer Corner Roof (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9828,7 +9856,7 @@
     "displayName": "Outer Corner Roof (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9838,7 +9866,7 @@
     "displayName": "Flat Roof",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9848,7 +9876,7 @@
     "displayName": "Roof (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9858,7 +9886,7 @@
     "displayName": "Roof (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9868,7 +9896,7 @@
     "displayName": "Roof (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9878,7 +9906,7 @@
     "displayName": "Inner Corner Roof (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9888,7 +9916,7 @@
     "displayName": "Inner Corner Roof (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9898,7 +9926,7 @@
     "displayName": "Inner Corner Roof (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9908,7 +9936,7 @@
     "displayName": "Outer Corner Roof (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9918,7 +9946,7 @@
     "displayName": "Outer Corner Roof (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9928,7 +9956,7 @@
     "displayName": "Outer Corner Roof (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9938,7 +9966,7 @@
     "displayName": "Flat Roof",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9948,7 +9976,7 @@
     "displayName": "Roof (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9958,7 +9986,7 @@
     "displayName": "Roof (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9968,7 +9996,7 @@
     "displayName": "Roof (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9978,7 +10006,7 @@
     "displayName": "Inner Corner Roof (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9988,7 +10016,7 @@
     "displayName": "Inner Corner Roof (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -9998,7 +10026,7 @@
     "displayName": "Inner Corner Roof (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -10008,7 +10036,7 @@
     "displayName": "Outer Corner Roof (1 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -10018,7 +10046,7 @@
     "displayName": "Outer Corner Roof (2 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -10028,7 +10056,7 @@
     "displayName": "Outer Corner Roof (4 m)",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -10158,7 +10186,7 @@
         "amount": 2
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -10310,7 +10338,7 @@
     "displayName": "Low Barrier",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 1
       },
       {
@@ -10324,7 +10352,7 @@
     "displayName": "High Barrier",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 1
       },
       {
@@ -10338,7 +10366,7 @@
     "displayName": "Road Barrier",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -10412,7 +10440,7 @@
         "amount": 2
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -10422,7 +10450,7 @@
     "displayName": "Small Concrete Pillar",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 3
       }
     ],
@@ -10432,7 +10460,7 @@
     "displayName": "Big Concrete Pillar",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 5
       }
     ],
@@ -10572,7 +10600,7 @@
     "displayName": "Beam Connector",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -10582,7 +10610,7 @@
     "displayName": "Double Beam Connector",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -10602,7 +10630,7 @@
     "displayName": "Beam Support",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 2
       }
     ],
@@ -10630,7 +10658,7 @@
     "displayName": "Space Elevator",
     "ingredients": [
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 500
       },
       {
@@ -10672,11 +10700,15 @@
     "displayName": "Miner Mk.1",
     "ingredients": [
       {
+        "item": "Recipe_PortableMiner_C",
+        "amount": 1
+      },
+      {
         "item": "Recipe_IronPlate_C",
         "amount": 10
       },
       {
-        "item": "Recipe_Cement_C",
+        "item": "Recipe_Concrete_C",
         "amount": 10
       }
     ],
@@ -10704,7 +10736,7 @@
         "amount": 6
       },
       {
-        "item": "Recipe_IronScrew_C",
+        "item": "Recipe_Screw_C",
         "amount": 12
       }
     ],
@@ -10857,5 +10889,18 @@
       }
     ],
     "producedIn": "BP_WorkshopComponent_C"
+  },
+  "Recipe_LiquidTurboFuel_C": {
+    "displayName": "Turbofuel",
+    "ingredients": [
+      {
+        "item": "Recipe_FuelLiquid_C",
+        "amount": 6000
+      },
+      {
+        "item": "Recipe_Alternate_EnrichedCoal_C",
+        "amount": 4
+      }
+    ]
   }
 }
