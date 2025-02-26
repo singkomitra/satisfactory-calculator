@@ -1,4 +1,9 @@
-import { ProductToRecipeRaw, RecipeJsonObject, RecipeToProducts, convertProductToRecipeRawToProductToRecipe } from "@/types";
+import {
+  ProductToRecipeRaw,
+  RecipeJsonObject,
+  RecipeToProducts,
+  convertProductToRecipeRawToProductToRecipe
+} from "@/types";
 import { splitRecipes } from "./split-recipes";
 import { extractItemClassObjects } from "./util";
 

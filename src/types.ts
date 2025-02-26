@@ -12,21 +12,25 @@ export type RecipeJsonObject = {
   mVariablePowerConsumptionFactor: number;
 };
 
+// mainRecipe is the first recipe in the list, altRecipes are the rest
+// key: product name -> value: main recipe and alternative recipes
 export type ProductToRecipe = {
   [str: string]: {
     mainRecipe: string;
     altRecipes: string[];
-  }
-}
+  };
+};
+// key: product name -> value: recipe names
 export type ProductToRecipeRaw = {
   [str: string]: string[];
-}
+};
+// key: recipe name -> value: main product and byproducts
 export type RecipeToProducts = {
   [str: string]: {
     mainProduct: string;
     byproducts: string[];
   };
-}
+};
 export type Recipe = {
   [str: string]: {
     displayName: string;
@@ -34,7 +38,7 @@ export type Recipe = {
     amount: number;
     producedIn: string;
   };
-}
+};
 
 export function assertRecipe(obj: any): asserts obj is Recipe {
   if (typeof obj !== "object") {
