@@ -4,7 +4,7 @@ import { getJSONDirectory } from "./util";
 import { join } from "path";
 
 export async function getItemAndResourceDescriptors() {
-  const mainJsonFilepath = await join(getJSONDirectory(), "Docs-utf8.json");
+  const mainJsonFilepath = join(getJSONDirectory(), "Docs-utf8.json");
   try {
     await access(mainJsonFilepath);
   } catch (e) {
