@@ -3,8 +3,9 @@ import { extract256Pngs } from "@/parsing/extract-pngs";
 import { readFile } from "fs/promises";
 import { join } from "path";
 import { productToRecipesAndRecipeToProductsCreation } from "@/parsing/product-to-recipe-conversion";
+import { getJSONDirectory } from "@/parsing/util";
 
 export async function GET(req: Request) {
-  await productToRecipesAndRecipeToProductsCreation();
-  return Response.json("");
+  const json = await readFile(join(getJSONDirectory(), "parsed-typesafe-recipes.json"));
+  return Response.json(json);
 }
