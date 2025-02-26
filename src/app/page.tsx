@@ -11,7 +11,6 @@ export default function Home() {
       .then(setData)
       .catch((err) => console.error(err));
   }, []);
-  console.log(data);
   return (
     <main className={styles.main}>
       <span>{data ? JSON.stringify(data, null, 2) : null}</span>

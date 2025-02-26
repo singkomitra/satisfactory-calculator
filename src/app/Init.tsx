@@ -13,6 +13,6 @@ export default function Init() {
         actions.setData(data);
       })
       .catch((err) => console.error(err));
-  }, []);
+  }, [actions]);
   return null;
 }
