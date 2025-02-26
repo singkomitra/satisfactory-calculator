@@ -5,7 +5,9 @@ import {
   convertProductToRecipeRawToProductToRecipe
 } from "@/types";
 import { splitRecipes } from "./split-recipes";
-import { extractItemClassObjects } from "./util";
+import { extractItemClassObjects, getJSONDirectory } from "./util";
+import { writeFile } from "fs/promises";
+import { join } from "path";
 
 export async function productToRecipesAndRecipeToProductsCreation() {
   const { allRecipes } = await splitRecipes();
@@ -39,5 +41,7 @@ export async function productToRecipesAndRecipeToProductsCreation() {
       };
     }
   }
+  await writeFile(join(getJSONDirectory(), "product-to-recipe.json"), JSON.stringify(productToRecipeRaw, null, 2));
+  await writeFile(join(getJSONDirectory(), "recipe-to-products.json"), JSON.stringify(recipeToProducts, null, 2));
   return { productToRecipes: convertProductToRecipeRawToProductToRecipe(productToRecipeRaw), recipeToProducts };
 }

@@ -1,5 +1,7 @@
 import { convertStringFieldsOJsonToNumber, assertRecipeJsonObject, RecipeJsonObject } from "@/types";
-import { access, readFile } from "fs/promises";
+import { access, readFile, writeFile } from "fs/promises";
+import { getJSONDirectory } from "./util";
+import { join } from "path";
 
 export async function splitRecipes() {
   try {
@@ -29,6 +31,9 @@ export async function splitRecipes() {
       }
     }
   }
+  await writeFile(join(getJSONDirectory(), "recipes.json"), JSON.stringify(recipes, null, 2));
+  await writeFile(join(getJSONDirectory(), "alt-recipes.json"), JSON.stringify(altRecipes, null, 2));
+  await writeFile(join(getJSONDirectory(), "all-recipes.json"), JSON.stringify(allRecipes, null, 2));
   return {
     recipes,
     altRecipes,

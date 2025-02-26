@@ -1,8 +1,10 @@
+import { join } from "path";
+
 // ex: ((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C'\",Amount=4),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C'\",Amount=2),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C'\",Amount=3),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C'\",Amount=28))
 export const extractItemClassObjects = (item: string) => {
   const result: {
-        [productName: string]: number;
-    } = {};
+    [productName: string]: number;
+  } = {};
   const regex = /ItemClass="[^"]*\/([^/]+(?:\.[^"]*)?)",Amount=([0-9]+)/g;
   const matches = Array.from(item.matchAll(regex));
   if (matches.length === 0) {
@@ -31,12 +33,12 @@ export const extractItemClassObjects = (item: string) => {
 };
 function replaceExceptions(name: string): string {
   const exceptions: { [key: string]: string } = {
-    "Cement": "Concrete",
-    "IronIngot": "IngotIron",
-    "IronScrew": "Screw",
-    "CompactedCoal": "Alternate_EnrichedCoal",
-    "TurboFuel": "PackagedTurboFuel",
-    "MotorLightweight": "MotorTurbo"
+    Cement: "Concrete",
+    IronIngot: "IngotIron",
+    IronScrew: "Screw",
+    CompactedCoal: "Alternate_EnrichedCoal",
+    TurboFuel: "PackagedTurboFuel",
+    MotorLightweight: "MotorTurbo"
   };
   return exceptions[name] || name;
 }
@@ -47,4 +49,8 @@ export const itemToRecipe = (item: string) => {
     item = item.slice(3, -2);
   }
   return `Recipe_${replaceExceptions(item)}_C`;
+};
+
+export const getJSONDirectory = () => {
+  return join("src", "parsing", "jsons");
 };

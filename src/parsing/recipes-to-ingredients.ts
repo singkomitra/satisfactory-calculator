@@ -2,7 +2,8 @@ import { writeFile } from "fs/promises";
 import { splitRecipes } from "./split-recipes";
 import { Recipe } from "@/types";
 import { productToRecipesAndRecipeToProductsCreation } from "./product-to-recipe-conversion";
-import { extractItemClassObjects } from "./util";
+import { extractItemClassObjects, getJSONDirectory } from "./util";
+import { join } from "path";
 
 function parseProducedIn(mProducedIn: string): string[] {
   let trimmed = mProducedIn.trim();
@@ -10,7 +11,7 @@ function parseProducedIn(mProducedIn: string): string[] {
     trimmed = trimmed.slice(1, -1);
   }
   const parts = trimmed.split(",");
-  return parts.map(part => {
+  return parts.map((part) => {
     const cleaned = part.trim().replace(/^"|"$/g, "");
 
     const segments = cleaned.split(".");
@@ -67,6 +68,6 @@ export async function makeRecipe() {
       }
     }
   }
-
+  await writeFile(join(getJSONDirectory(), "parsed-typesafe-recipes.json"), JSON.stringify(finalRecipes, null, 2));
   return finalRecipes;
 }
