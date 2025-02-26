@@ -9,6 +9,12 @@ export const extractItemClassObjects = (item: string) => {
         console.error("No matches found for item", item)
         return null
     }
+    const first = matches[0][1].split("/").pop()?.split(".").pop()
+    const firstAmount = parseInt(matches[0][2])
+    if (!first || !firstAmount) {
+        console.error("No matches found for item", item)
+        return null
+    }
     for (const match of matches) {
         const name = match[1].split("/").pop()?.split(".").pop()
         if (!name) {
@@ -19,7 +25,8 @@ export const extractItemClassObjects = (item: string) => {
     }
     return {
         all: result,
-        first: matches[0][1].split("/").pop()?.split(".").pop()
+        first,
+        firstAmount
     }
 }
 function replaceExceptions(name: string): string {
@@ -39,5 +46,5 @@ export const itemToRecipe = (item: string) => {
     } else if (item.startsWith("BP_")) {
         item = item.slice(3, -2)
     }
-    return `Recipe_${item}_C`
+    return `Recipe_${replaceExceptions(item)}_C`
 }

@@ -1,6 +1,6 @@
 import { writeFile } from "fs/promises";
 import { splitRecipes } from "./split-recipes";
-import { RecipeToIngredients } from "@/types";
+import { Recipe } from "@/types";
 import { productToRecipesAndRecipeToProductsCreation } from "./product-to-recipe-conversion";
 import { extractItemClassObjects, itemToRecipe } from "./util";
 
@@ -20,15 +20,15 @@ function parseProducedIn(mProducedIn: string): string[] {
 
 
 export async function GET(req: Request) {
-  const finalRecipes = await recipesToIngredients();
+  const finalRecipes = await makeRecipe();
   await writeFile("recipes-to-ingredients.json", JSON.stringify(finalRecipes, null, 2));
   return Response.json(finalRecipes);
 }
 
-export async function recipesToIngredients() {
+export async function makeRecipe() {
   const { allRecipes } = await splitRecipes();
   const { recipeToProducts } = await productToRecipesAndRecipeToProductsCreation();
-  const finalRecipes: RecipeToIngredients = {};
+  const finalRecipes: Recipe = {};
   for (const recipe of Object.values(allRecipes)) {
     if (!recipe.ClassName.endsWith("_C")) console.log("Not a recipe: ", recipe.ClassName);
     const className = recipe.ClassName;
@@ -37,27 +37,27 @@ export async function recipesToIngredients() {
       console.error("Ingredients not found for recipe: ", recipe.ClassName);
       continue;
     }
+    const extractedProduct = extractItemClassObjects(recipe.mProduct);
+    if (!extractedProduct) {
+      console.error("Product not found for recipe: ", recipe.ClassName);
+      continue;
+    }
     const ingredients = Object.entries(extractedIngredients.all).map(([ingredient, amount]) => {
-      const recipified = itemToRecipe(ingredient);
-      return { item: recipeToProducts[recipified] ? recipeToProducts[recipified].mainProduct : ingredient, amount };
+      if (!recipeToProducts[ingredient]) {
+        console.error("Ingredient not found in recipeToProducts: ", ingredient);
+        return { item: ingredient, amount };
+      }
+      return { item: recipeToProducts[ingredient].mainProduct, amount };
     })
     const producedIn = recipe.mProducedIn ? parseProducedIn(recipe.mProducedIn)[0] : "";
     finalRecipes[className] = {
       displayName: recipe.mDisplayName,
       ingredients,
-      producedIn
+      producedIn,
+      amount: extractedProduct.firstAmount
     };
   }
 
-  // add missing recipes
-  finalRecipes["Recipe_LiquidTurboFuel_C"] = {
-    displayName: "Turbofuel",
-    ingredients: [
-      { item: "Recipe_FuelLiquid_C", amount: 6000 },
-      { item: "Recipe_Alternate_EnrichedCoal_C", amount: 4 } // exception: CompactedCoal -> Alternate_EnrichedCoal
-    ],
-    producedIn: "Build_OilRefinery_C"
-  }
 
   const missingRecipes = new Set<string>();
 

@@ -27,15 +27,16 @@ export type RecipeToProducts = {
     byproducts: string[];
   };
 }
-export type RecipeToIngredients = {
+export type Recipe = {
   [str: string]: {
     displayName: string;
     ingredients: { item: string; amount: number }[];
+    amount: number;
     producedIn: string;
   };
 }
 
-export function assertReciptToIngredients(obj: any) {
+export function assertRecipe(obj: any): asserts obj is Recipe {
   if (typeof obj !== "object") {
     throwError("RecipeToIngredients", "obj", "object", obj);
   }
@@ -44,21 +45,16 @@ export function assertReciptToIngredients(obj: any) {
       throwError("RecipeToIngredients", key, "object", obj[key]);
     }
     if (typeof obj[key].displayName !== "string") {
-      throwError("RecipeToIngredients", `${key}.displayName`, "string", obj[key].displayName);
+      throwError("RecipeToIngredients", "displayName", "string", obj[key].displayName);
     }
     if (!Array.isArray(obj[key].ingredients)) {
-      throwError("RecipeToIngredients", `${key}.ingredients`, "array", obj[key].ingredients);
-    }
-    for (const ingredient of obj[key].ingredients) {
-      if (typeof ingredient.item !== "string") {
-        throwError("RecipeToIngredients", `${key}.ingredients.item`, "string", ingredient.item);
-      }
-      if (typeof ingredient.amount !== "number") {
-        throwError("RecipeToIngredients", `${key}.ingredients.amount`, "number", ingredient.amount);
-      }
+      throwError("RecipeToIngredients", "ingredients", "array", obj[key].ingredients);
     }
     if (typeof obj[key].producedIn !== "string") {
-      throwError("RecipeToIngredients", `${key}.producedIn`, "string", obj[key].producedIn);
+      throwError("RecipeToIngredients", "producedIn", "string", obj[key].producedIn);
+    }
+    if (typeof obj[key].amount !== "number") {
+      throwError("RecipeToIngredients", "amount", "number", obj[key].amount);
     }
   }
 }

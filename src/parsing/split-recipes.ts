@@ -1,4 +1,4 @@
-import { convertStringFieldsOJsonToNumber, assertRecipeJsonObject } from "@/types";
+import { convertStringFieldsOJsonToNumber, assertRecipeJsonObject, RecipeJsonObject } from "@/types";
 import { access, readFile, writeFile } from "fs/promises";
 
 export async function splitRecipes() {
@@ -12,9 +12,9 @@ export async function splitRecipes() {
         throw e
     }
     const json = await readFile("Docs-utf8.json", "utf-8");
-    const recipes: { [str: string]: any } = {};
-    const altRecipes: { [str: string]: any } = {};
-    const allRecipes: { [str: string]: any } = {};
+    const recipes: { [key: string]: RecipeJsonObject } = {};
+    const altRecipes: typeof recipes = {};
+    const allRecipes: typeof recipes = {};
     for (const obj of JSON.parse(json)) {
         if (obj.NativeClass === "/Script/CoreUObject.Class'/Script/FactoryGame.FGRecipe'") {
             for (const recipe of obj.Classes) {
