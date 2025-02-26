@@ -1,4 +1,9 @@
-import { ItemDescriptorsRaw, assertItemDescriptorsRaw, convertStringFieldsOJsonToNumber } from "@/types";
+import {
+  ItemDescriptorsRaw,
+  assertItemDescriptorsRaw,
+  convertItemDescriptorsRawToItemDescriptorsMap,
+  convertStringFieldsOJsonToNumber
+} from "@/types";
 import { access, readFile, writeFile } from "fs/promises";
 import { getJSONDirectory } from "./util";
 import { join } from "path";
@@ -32,6 +37,15 @@ export async function getItemAndResourceDescriptors() {
       }
     }
   }
+  // note: item-descriptors does not contain every item, will need to do more research
+  await writeFile(
+    join(getJSONDirectory(), "item-descriptors.json"),
+    JSON.stringify(convertItemDescriptorsRawToItemDescriptorsMap(rawProducts), null, 2)
+  );
+  await writeFile(
+    join(getJSONDirectory(), "resource-descriptors.json"),
+    JSON.stringify(convertItemDescriptorsRawToItemDescriptorsMap(rawResources), null, 2)
+  );
   await writeFile(join(getJSONDirectory(), "raw-item-descriptors.json"), JSON.stringify(rawProducts, null, 2));
   await writeFile(join(getJSONDirectory(), "raw-resource-descriptors.json"), JSON.stringify(rawResources, null, 2));
   return {

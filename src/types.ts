@@ -14,11 +14,25 @@ export type RecipeJsonObject = {
 
 // mainRecipe is the first recipe in the list, altRecipes are the rest
 // key: product name -> value: main recipe and alternative recipes
-export type ProductToRecipe = {
+export type ProductToRecipes = {
   [str: string]: {
     mainRecipe: string;
     altRecipes: string[];
   };
+};
+
+export type ItemDescriptor = {
+  className: string;
+  displayName: string;
+  description: string;
+  abbreviatedDisplayName: string;
+  form: string;
+  gasType: string;
+  fluidColor: string;
+  gasColor: string;
+  resourceSinkPoints: number;
+  energyValue: number;
+  radioactiveDecay: number;
 };
 // key: product name -> value: recipe names
 export type ProductToRecipeRaw = {
@@ -70,98 +84,21 @@ export type ItemDescriptorsRaw = {
   mResourceSinkPoints: number;
 };
 
+export function assertItemDescriptor(obj: any): asserts obj is ItemDescriptor {
+  if (typeof obj !== "object") {
+    throwError("ItemDescriptor", "obj", "object", obj);
+  }
+  if (typeof obj.className !== "string") {
+    throwError("ItemDescriptor", "className", "string", obj.className);
+  }
+  if (typeof obj.displayName !== "string") {
+    throwError("ItemDescriptor", "displayName", "string", obj.displayName);
+  }
+}
+
 export function assertItemDescriptorsRaw(obj: any): asserts obj is ItemDescriptorsRaw {
   if (typeof obj !== "object") {
     throwError("ItemDescriptorsRaw", "obj", "object", obj);
-  }
-  if (typeof obj.ClassName !== "string") {
-    throwError("ItemDescriptorsRaw", "ClassName", "string", obj.ClassName);
-  }
-  if (typeof obj.mDisplayName !== "string") {
-    throwError("ItemDescriptorsRaw", "mDisplayName", "string", obj.mDisplayName);
-  }
-  if (typeof obj.mDescription !== "string") {
-    throwError("ItemDescriptorsRaw", "mDescription", "string", obj.mDescription);
-  }
-  if (typeof obj.mAbbreviatedDisplayName !== "string") {
-    throwError("ItemDescriptorsRaw", "mAbbreviatedDisplayName", "string", obj.mAbbreviatedDisplayName);
-  }
-  if (typeof obj.mStackSize !== "string") {
-    throwError("ItemDescriptorsRaw", "mStackSize", "string", obj.mStackSize);
-  }
-  if (typeof obj.mCanBeDiscarded !== "string") {
-    throwError("ItemDescriptorsRaw", "mCanBeDiscarded", "string", obj.mCanBeDiscarded);
-  }
-  if (typeof obj.mRememberPickUp !== "string") {
-    throwError("ItemDescriptorsRaw", "mRememberPickUp", "string", obj.mRememberPickUp);
-  }
-  if (typeof obj.mEnergyValue !== "number") {
-    throwError("ItemDescriptorsRaw", "mEnergyValue", "number", obj.mEnergyValue);
-  }
-  if (typeof obj.mRadioactiveDecay !== "number") {
-    throwError("ItemDescriptorsRaw", "mRadioactiveDecay", "number", obj.mRadioactiveDecay);
-  }
-  if (typeof obj.mForm !== "string") {
-    throwError("ItemDescriptorsRaw", "mForm", "string", obj.mForm);
-  }
-  if (typeof obj.mGasType !== "string") {
-    throwError("ItemDescriptorsRaw", "mGasType", "string", obj.mGasType);
-  }
-  if (typeof obj.mSmallIcon !== "string") {
-    throwError("ItemDescriptorsRaw", "mSmallIcon", "string", obj.mSmallIcon);
-  }
-  if (typeof obj.mPersistentBigIcon !== "string") {
-    throwError("ItemDescriptorsRaw", "mPersistentBigIcon", "string", obj.mPersistentBigIcon);
-  }
-  if (typeof obj.mCrosshairMaterial !== "string") {
-    throwError("ItemDescriptorsRaw", "mCrosshairMaterial", "string", obj.mCrosshairMaterial);
-  }
-  if (typeof obj.mDescriptorStatBars !== "string") {
-    throwError("ItemDescriptorsRaw", "mDescriptorStatBars", "string", obj.mDescriptorStatBars);
-  }
-  if (typeof obj.mIsAlienItem !== "string") {
-    throwError("ItemDescriptorsRaw", "mIsAlienItem", "string", obj.mIsAlienItem);
-  }
-  if (typeof obj.mSubCategories !== "string") {
-    throwError("ItemDescriptorsRaw", "mSubCategories", "string", obj.mSubCategories);
-  }
-  if (typeof obj.mMenuPriority !== "number") {
-    throwError("ItemDescriptorsRaw", "mMenuPriority", "number", obj.mMenuPriority);
-  }
-  if (typeof obj.mFluidColor !== "string") {
-    throwError("ItemDescriptorsRaw", "mFluidColor", "string", obj.mFluidColor);
-  }
-  if (typeof obj.mGasColor !== "string") {
-    throwError("ItemDescriptorsRaw", "mGasColor", "string", obj.mGasColor);
-  }
-  if (typeof obj.mCompatibleItemDescriptors !== "string") {
-    throwError("ItemDescriptorsRaw", "mCompatibleItemDescriptors", "string", obj.mCompatibleItemDescriptors);
-  }
-  if (typeof obj.mClassToScanFor !== "string") {
-    throwError("ItemDescriptorsRaw", "mClassToScanFor", "string", obj.mClassToScanFor);
-  }
-  if (typeof obj.mScannableType !== "string") {
-    throwError("ItemDescriptorsRaw", "mScannableType", "string", obj.mScannableType);
-  }
-  if (typeof obj.mShouldOverrideScannerDisplayText !== "string") {
-    throwError(
-      "ItemDescriptorsRaw",
-      "mShouldOverrideScannerDisplayText",
-      "string",
-      obj.mShouldOverrideScannerDisplayText
-    );
-  }
-  if (typeof obj.mScannerDisplayText !== "string") {
-    throwError("ItemDescriptorsRaw", "mScannerDisplayText", "string", obj.mScannerDisplayText);
-  }
-  if (typeof obj.mScannerLightColor !== "string") {
-    throwError("ItemDescriptorsRaw", "mScannerLightColor", "string", obj.mScannerLightColor);
-  }
-  if (typeof obj.mNeedsPickUpMarker !== "string") {
-    throwError("ItemDescriptorsRaw", "mNeedsPickUpMarker", "string", obj.mNeedsPickUpMarker);
-  }
-  if (typeof obj.mResourceSinkPoints !== "number") {
-    throwError("ItemDescriptorsRaw", "mResourceSinkPoints", "number", obj.mResourceSinkPoints);
   }
 }
 
@@ -187,8 +124,27 @@ export function assertRecipe(obj: any): asserts obj is Recipe {
     }
   }
 }
-export function convertProductToRecipeRawToProductToRecipe(raw: ProductToRecipeRaw): ProductToRecipe {
-  const result: ProductToRecipe = {};
+export function convertItemDescriptorsRawToItemDescriptorsMap(raw: { [str: string]: ItemDescriptorsRaw }) {
+  const result: { [str: string]: ItemDescriptor } = {};
+  for (const [key, value] of Object.entries(raw)) {
+    result[key] = {
+      className: value.ClassName,
+      displayName: value.mDisplayName,
+      description: value.mDescription,
+      abbreviatedDisplayName: value.mAbbreviatedDisplayName,
+      form: value.mForm,
+      gasType: value.mGasType,
+      fluidColor: value.mFluidColor,
+      gasColor: value.mGasColor,
+      resourceSinkPoints: value.mResourceSinkPoints,
+      energyValue: value.mEnergyValue,
+      radioactiveDecay: value.mRadioactiveDecay
+    };
+  }
+  return result;
+}
+export function convertProductToRecipeRawToItemsMapRecipeParts(raw: ProductToRecipeRaw) {
+  const result: ProductToRecipes = {};
   for (const [product, recipes] of Object.entries(raw)) {
     const mainRecipe = recipes[0];
     const altRecipes = recipes.slice(1);
