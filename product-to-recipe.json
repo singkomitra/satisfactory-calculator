@@ -1,621 +1,355 @@
 {
   "Desc_Wall_Concrete_8x1_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_8x4_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_8x4_ConveyorHole_01_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_8x4_ConveyorHole_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_8x4_ConveyorHole_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_8x4_ConveyorHole_02_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_8x4_ConveyorHole_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_8x4_ConveyorHole_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_8x4_ConveyorHole_03_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_8x4_ConveyorHole_03_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_8x4_ConveyorHole_03_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_8x4_Corner_01_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_8x4_Corner_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_8x4_Corner_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_8x4_Corner_2_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_8x4_Corner_2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_8x4_Corner_2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_8x4_Window_01_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_8x4_Window_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_8x4_Window_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_8x4_Window_02_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_8x4_Window_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_8x4_Window_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_8x4_Window_03_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_8x4_Window_03_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_8x4_Window_03_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_8x4_Window_04_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_8x4_Window_04_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_8x4_Window_04_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_8x8_Corner_01_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_8x8_Corner_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_8x8_Corner_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_8x8_Corner_2_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_8x8_Corner_2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_8x8_Corner_2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_Angular_8x4_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_Angular_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_Angular_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_Angular_8x8_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_Angular_8x8_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_Angular_8x8_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_CDoor_8x4_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_CDoor_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_CDoor_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_8x1_FlipTris_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_FlipTris_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_FlipTris_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_8x2_FlipTris_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_FlipTris_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_FlipTris_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_8x4_FlipTris_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_FlipTris_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_FlipTris_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_8x8_FlipTris_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_FlipTris_8x8_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_FlipTris_8x8_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_Gate_8x4_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_Gate_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_Gate_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_SDoor_8x4_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_SDoor_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_SDoor_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_8x1_Tris_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_Tris_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_Tris_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_8x2_Tris_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_Tris_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_Tris_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_8x4_Tris_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_Tris_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_Tris_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Concrete_8x8_Tris_C'": {
     "mainRecipe": "Recipe_Wall_Concrete_Tris_8x8_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Concrete_Tris_8x8_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_8x4_01_C'": {
     "mainRecipe": "Recipe_Wall_8x4_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_8x4_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Conveyor_8x4_01_C'": {
     "mainRecipe": "Recipe_Wall_Conveyor_8x4_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Conveyor_8x4_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Conveyor_8x4_02_C'": {
     "mainRecipe": "Recipe_Wall_Conveyor_8x4_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Conveyor_8x4_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Conveyor_8x4_03_C'": {
     "mainRecipe": "Recipe_Wall_Conveyor_8x4_03_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Conveyor_8x4_03_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Door_8x4_01_C'": {
     "mainRecipe": "Recipe_Wall_Door_8x4_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Door_8x4_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Door_8x4_03_C'": {
     "mainRecipe": "Recipe_Wall_Door_8x4_03_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Door_8x4_03_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Gate_8x4_01_C'": {
     "mainRecipe": "Recipe_Wall_Gate_8x4_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Gate_8x4_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Orange_8x1_C'": {
     "mainRecipe": "Recipe_Wall_Orange_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Orange_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Orange_8x4_Corner_01_C'": {
     "mainRecipe": "Recipe_Wall_Orange_8x4_Corner_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Orange_8x4_Corner_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Orange_8x4_Corner_02_C'": {
     "mainRecipe": "Recipe_Wall_Orange_8x4_Corner_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Orange_8x4_Corner_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Orange_8x8_Corner_01_C'": {
     "mainRecipe": "Recipe_Wall_Orange_8x8_Corner_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Orange_8x8_Corner_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Orange_8x8_Corner_02_C'": {
     "mainRecipe": "Recipe_Wall_Orange_8x8_Corner_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Orange_8x8_Corner_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Orange_Angular_8x4_C'": {
     "mainRecipe": "Recipe_Wall_Orange_Angular_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Orange_Angular_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Orange_Angular_8x8_C'": {
     "mainRecipe": "Recipe_Wall_Orange_Angular_8x8_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Orange_Angular_8x8_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Orange_8x1_FlipTris_C'": {
     "mainRecipe": "Recipe_Wall_Orange_FlipTris_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Orange_FlipTris_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Orange_8x2_FlipTris_C'": {
     "mainRecipe": "Recipe_Wall_Orange_FlipTris_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Orange_FlipTris_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Orange_8x4_FlipTris_C'": {
     "mainRecipe": "Recipe_Wall_Orange_FlipTris_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Orange_FlipTris_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Orange_8x8_FlipTris_C'": {
     "mainRecipe": "Recipe_Wall_Orange_FlipTris_8x8_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Orange_FlipTris_8x8_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Orange_8x1_Tris_C'": {
     "mainRecipe": "Recipe_Wall_Orange_Tris_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Orange_Tris_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Orange_8x2_Tris_C'": {
     "mainRecipe": "Recipe_Wall_Orange_Tris_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Orange_Tris_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Orange_8x4_Tris_C'": {
     "mainRecipe": "Recipe_Wall_Orange_Tris_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Orange_Tris_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Orange_8x8_Tris_C'": {
     "mainRecipe": "Recipe_Wall_Orange_Tris_8x8_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Orange_Tris_8x8_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Window_8x4_01_C'": {
     "mainRecipe": "Recipe_Wall_Window_8x4_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Window_8x4_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Window_8x4_02_C'": {
     "mainRecipe": "Recipe_Wall_Window_8x4_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Window_8x4_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Window_8x4_03_C'": {
     "mainRecipe": "Recipe_Wall_Window_8x4_03_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Window_8x4_03_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Window_8x4_04_C'": {
     "mainRecipe": "Recipe_Wall_Window_8x4_04_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Window_8x4_04_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SteelWall_8x4_Gate_01_C'": {
     "mainRecipe": "Recipe_SteelWall_8x4_Gate_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SteelWall_8x4_Gate_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SteelWall_8x4_Window_01_C'": {
     "mainRecipe": "Recipe_SteelWall_8x4_Window_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SteelWall_8x4_Window_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SteelWall_8x4_Window_02_C'": {
     "mainRecipe": "Recipe_SteelWall_8x4_Window_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SteelWall_8x4_Window_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SteelWall_8x4_Window_03_C'": {
     "mainRecipe": "Recipe_SteelWall_8x4_Window_03_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SteelWall_8x4_Window_03_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SteelWall_8x4_Window_04_C'": {
     "mainRecipe": "Recipe_SteelWall_8x4_Window_04_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SteelWall_8x4_Window_04_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Steel_8x4_Corner_01_C'": {
     "mainRecipe": "Recipe_Wall_Steel_8x4_Corner_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Steel_8x4_Corner_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Steel_8x4_Corner_2_C'": {
     "mainRecipe": "Recipe_Wall_Steel_8x4_Corner_2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Steel_8x4_Corner_2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Steel_8x8_Corner_01_C'": {
     "mainRecipe": "Recipe_Wall_Steel_8x8_Corner_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Steel_8x8_Corner_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Steel_8x8_Corner_2_C'": {
     "mainRecipe": "Recipe_Wall_Steel_8x8_Corner_2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Steel_8x8_Corner_2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SteelWall_8x1_C'": {
     "mainRecipe": "Recipe_SteelWall_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SteelWall_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SteelWall_FlipTris_8x1_C'": {
     "mainRecipe": "Recipe_SteelWall_FlipTris_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SteelWall_FlipTris_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SteelWall_FlipTris_8x2_C'": {
     "mainRecipe": "Recipe_SteelWall_FlipTris_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SteelWall_FlipTris_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SteelWall_FlipTris_8x4_C'": {
     "mainRecipe": "Recipe_SteelWall_FlipTris_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SteelWall_FlipTris_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SteelWall_FlipTris_8x8_C'": {
     "mainRecipe": "Recipe_SteelWall_FlipTris_8x8_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SteelWall_FlipTris_8x8_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SteelWall_Tris_8x1_C'": {
     "mainRecipe": "Recipe_SteelWall_Tris_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SteelWall_Tris_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SteelWall_Tris_8x2_C'": {
     "mainRecipe": "Recipe_SteelWall_Tris_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SteelWall_Tris_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SteelWall_Tris_8x4_C'": {
     "mainRecipe": "Recipe_SteelWall_Tris_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SteelWall_Tris_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SteelWall_Tris_8x8_C'": {
     "mainRecipe": "Recipe_SteelWall_Tris_8x8_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SteelWall_Tris_8x8_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_8x4_02_C'": {
     "mainRecipe": "Recipe_Wall_8x4_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_8x4_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Conveyor_8x4_01_Steel_C'": {
     "mainRecipe": "Recipe_Wall_Conveyor_8x4_01_Steel_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Conveyor_8x4_01_Steel_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Conveyor_8x4_02_Steel_C'": {
     "mainRecipe": "Recipe_Wall_Conveyor_8x4_02_Steel_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Conveyor_8x4_02_Steel_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Conveyor_8x4_03_Steel_C'": {
     "mainRecipe": "Recipe_Wall_Conveyor_8x4_03_Steel_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Conveyor_8x4_03_Steel_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Door_8x4_01_Steel_C'": {
     "mainRecipe": "Recipe_Wall_Door_8x4_01_Steel_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Door_8x4_01_Steel_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Door_8x4_03_Steel_C'": {
     "mainRecipe": "Recipe_Wall_Door_8x4_03_Steel_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Door_8x4_03_Steel_C"
-    ]
+    "altRecipes": []
   },
   "Desc_WallSet_Steel_Angular_8x4_C'": {
     "mainRecipe": "Recipe_WallSet_Steel_Angular_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_WallSet_Steel_Angular_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_WallSet_Steel_Angular_8x8_C'": {
     "mainRecipe": "Recipe_WallSet_Steel_Angular_8x8_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_WallSet_Steel_Angular_8x8_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ConveyorCeilingAttachment_C'": {
     "mainRecipe": "Recipe_ConveyorCeilingAttachment_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConveyorCeilingAttachment_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ConveyorPole_C'": {
     "mainRecipe": "Recipe_ConveyorPole_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConveyorPole_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ConveyorPoleWall_C'": {
     "mainRecipe": "Recipe_ConveyorPoleWall_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConveyorPoleWall_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ConveyorBeltMk1_C'": {
     "mainRecipe": "Recipe_ConveyorBeltMk1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConveyorBeltMk1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PowerLine_C'": {
     "mainRecipe": "Recipe_PowerLine_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PowerLine_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PowerPoleMk1_C'": {
     "mainRecipe": "Recipe_PowerPoleMk1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PowerPoleMk1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PowerPoleWall_C'": {
     "mainRecipe": "Recipe_PowerPoleWall_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PowerPoleWall_C"
-    ]
+    "altRecipes": []
   },
   "Desc_TradingPost_C'": {
     "mainRecipe": "Recipe_TradingPost_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_TradingPost_C"
-    ]
+    "altRecipes": []
   },
   "Desc_WorkBench_C'": {
     "mainRecipe": "Recipe_WorkBench_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_WorkBench_C"
-    ]
+    "altRecipes": []
   },
   "Desc_IronPlate_C'": {
     "mainRecipe": "Recipe_IronPlate_C",
     "altRecipes": [
-      "Recipe_Alternate_CoatedIronPlate_C",
-      "Recipe_Alternate_SteelCastedPlate_C"
-    ],
-    "allRecipes": [
-      "Recipe_IronPlate_C",
       "Recipe_Alternate_CoatedIronPlate_C",
       "Recipe_Alternate_SteelCastedPlate_C"
     ]
@@ -625,19 +359,11 @@
     "altRecipes": [
       "Recipe_Alternate_SteelRod_C",
       "Recipe_Alternate_AluminumRod_C"
-    ],
-    "allRecipes": [
-      "Recipe_IronRod_C",
-      "Recipe_Alternate_SteelRod_C",
-      "Recipe_Alternate_AluminumRod_C"
     ]
   },
   "BP_EquipmentDescriptorShockShank_C'": {
     "mainRecipe": "Recipe_XenoZapper_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_XenoZapper_C"
-    ]
+    "altRecipes": []
   },
   "Desc_IronIngot_C'": {
     "mainRecipe": "Recipe_IngotIron_C",
@@ -646,114 +372,63 @@
       "Recipe_Alternate_IronIngot_Leached_C",
       "Recipe_Alternate_IronIngot_Basic_C",
       "Recipe_Alternate_IngotIron_C"
-    ],
-    "allRecipes": [
-      "Recipe_IngotIron_C",
-      "Recipe_Alternate_PureIronIngot_C",
-      "Recipe_Alternate_IronIngot_Leached_C",
-      "Recipe_Alternate_IronIngot_Basic_C",
-      "Recipe_Alternate_IngotIron_C"
     ]
   },
   "Desc_Fence_01_C'": {
     "mainRecipe": "Recipe_Fence_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Fence_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PillarTop_C'": {
     "mainRecipe": "Recipe_PillarTop_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PillarTop_C"
-    ]
+    "altRecipes": []
   },
   "Desc_JumpPad_C'": {
     "mainRecipe": "Recipe_JumpPad_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_JumpPad_C"
-    ]
+    "altRecipes": []
   },
   "Desc_JumpPadTilted_C'": {
     "mainRecipe": "Recipe_JumpPadTilted_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_JumpPadTilted_C"
-    ]
+    "altRecipes": []
   },
   "Desc_WalkwayCross_C'": {
     "mainRecipe": "Recipe_Walkway_Cross_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Walkway_Cross_C"
-    ]
+    "altRecipes": []
   },
   "Desc_WalkwayRamp_C'": {
     "mainRecipe": "Recipe_Walkway_Ramp_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Walkway_Ramp_C"
-    ]
+    "altRecipes": []
   },
   "Desc_WalkwayStraight_C'": {
     "mainRecipe": "Recipe_Walkway_Straight_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Walkway_Straight_C"
-    ]
+    "altRecipes": []
   },
   "Desc_WalkwayT_C'": {
     "mainRecipe": "Recipe_Walkway_T_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Walkway_T_C"
-    ]
+    "altRecipes": []
   },
   "Desc_WalkwayTurn_C'": {
     "mainRecipe": "Recipe_Walkway_Turn_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Walkway_Turn_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SteelWall_8x4_C'": {
     "mainRecipe": "Recipe_SteelWall_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SteelWall_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Conveyor_8x4_04_C'": {
     "mainRecipe": "Recipe_Wall_Conveyor_8x4_04_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Conveyor_8x4_04_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Conveyor_8x4_04_Steel_C'": {
     "mainRecipe": "Recipe_Wall_Conveyor_8x4_04_Steel_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Conveyor_8x4_04_Steel_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Window_8x4_03_Steel_C'": {
     "mainRecipe": "Recipe_Wall_Window_8x4_03_Steel_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Window_8x4_03_Steel_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RocketFuel_C'": {
     "mainRecipe": "Recipe_Alternate_RocketFuel_Nitro_C",
     "altRecipes": [
-      "Recipe_RocketFuel_C",
-      "Recipe_UnpackageRocketFuel_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_RocketFuel_Nitro_C",
       "Recipe_RocketFuel_C",
       "Recipe_UnpackageRocketFuel_C"
     ]
@@ -765,102 +440,55 @@
       "Recipe_Alternate_IonizedFuel_Dark_C",
       "Recipe_IonizedFuel_C",
       "Recipe_Alternate_EnrichedCoal_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_RocketFuel_Nitro_C",
-      "Recipe_RocketFuel_C",
-      "Recipe_Alternate_IonizedFuel_Dark_C",
-      "Recipe_IonizedFuel_C",
-      "Recipe_Alternate_EnrichedCoal_C"
     ]
   },
   "Desc_GeneratorCoal_C'": {
     "mainRecipe": "Recipe_GeneratorCoal_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_GeneratorCoal_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PipelineSupport_C'": {
     "mainRecipe": "Recipe_PipeSupport_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PipeSupport_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PipelineSupportWall_C'": {
     "mainRecipe": "Recipe_PipeSupportWall_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PipeSupportWall_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Pipeline_C'": {
     "mainRecipe": "Recipe_Pipeline_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Pipeline_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PipelineJunction_Cross_C'": {
     "mainRecipe": "Recipe_PipelineJunction_Cross_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PipelineJunction_Cross_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PipelinePump_C'": {
     "mainRecipe": "Recipe_PipelinePump_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PipelinePump_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PipeStorageTank_C'": {
     "mainRecipe": "Recipe_PipeStorageTank_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PipeStorageTank_C"
-    ]
+    "altRecipes": []
   },
   "Desc_WaterPump_C'": {
     "mainRecipe": "Recipe_WaterPump_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_WaterPump_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ResourceSink_C'": {
     "mainRecipe": "Recipe_ResourceSink_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ResourceSink_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ResourceSinkShop_C'": {
     "mainRecipe": "Recipe_ResourceSinkShop_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ResourceSinkShop_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PackagedRocketFuel_C'": {
     "mainRecipe": "Recipe_PackagedRocketFuel_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PackagedRocketFuel_C"
-    ]
+    "altRecipes": []
   },
   "Desc_GasTank_C'": {
     "mainRecipe": "Recipe_UnpackageRocketFuel_C",
     "altRecipes": [
-      "Recipe_UnpackageIonizedFuel_C",
-      "Recipe_UnpackageNitricAcid_C",
-      "Recipe_GasTank_C",
-      "Recipe_UnpackageNitrogen_C"
-    ],
-    "allRecipes": [
-      "Recipe_UnpackageRocketFuel_C",
       "Recipe_UnpackageIonizedFuel_C",
       "Recipe_UnpackageNitricAcid_C",
       "Recipe_GasTank_C",
@@ -872,19 +500,11 @@
     "altRecipes": [
       "Recipe_IonizedFuel_C",
       "Recipe_UnpackageIonizedFuel_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_IonizedFuel_Dark_C",
-      "Recipe_IonizedFuel_C",
-      "Recipe_UnpackageIonizedFuel_C"
     ]
   },
   "Desc_QuantumEncoder_C'": {
     "mainRecipe": "Recipe_QuantumEncoder_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuantumEncoder_C"
-    ]
+    "altRecipes": []
   },
   "Desc_DarkEnergy_C'": {
     "mainRecipe": "Recipe_DarkEnergy_C",
@@ -895,63 +515,34 @@
       "Recipe_FicsoniumFuelRod_C",
       "Recipe_AlienPowerFuel_C",
       "Recipe_SyntheticPowerShard_C"
-    ],
-    "allRecipes": [
-      "Recipe_DarkEnergy_C",
-      "Recipe_SuperpositionOscillator_C",
-      "Recipe_TemporalProcessor_C",
-      "Recipe_SpaceElevatorPart_12_C",
-      "Recipe_FicsoniumFuelRod_C",
-      "Recipe_AlienPowerFuel_C",
-      "Recipe_SyntheticPowerShard_C"
     ]
   },
   "Desc_QuantumEnergy_C'": {
     "mainRecipe": "Recipe_QuantumEnergy_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuantumEnergy_C"
-    ]
+    "altRecipes": []
   },
   "Desc_DarkMatter_C'": {
     "mainRecipe": "Recipe_DarkMatter_C",
     "altRecipes": [
       "Recipe_Alternate_DarkMatter_Trap_C",
       "Recipe_Alternate_DarkMatter_Crystallization_C"
-    ],
-    "allRecipes": [
-      "Recipe_DarkMatter_C",
-      "Recipe_Alternate_DarkMatter_Trap_C",
-      "Recipe_Alternate_DarkMatter_Crystallization_C"
     ]
   },
   "Desc_QuantumOscillator_C'": {
     "mainRecipe": "Recipe_SuperpositionOscillator_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SuperpositionOscillator_C"
-    ]
+    "altRecipes": []
   },
   "Desc_TemporalProcessor_C'": {
     "mainRecipe": "Recipe_TemporalProcessor_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_TemporalProcessor_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SpaceElevatorPart_12_C'": {
     "mainRecipe": "Recipe_SpaceElevatorPart_12_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SpaceElevatorPart_12_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PackagedIonizedFuel_C'": {
     "mainRecipe": "Recipe_PackagedIonizedFuel_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PackagedIonizedFuel_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Diamond_C'": {
     "mainRecipe": "Recipe_Alternate_Diamond_Turbo_C",
@@ -961,87 +552,48 @@
       "Recipe_Alternate_Diamond_Petroleum_C",
       "Recipe_Alternate_Diamond_OilBased_C",
       "Recipe_Alternate_Diamond_Cloudy_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_Diamond_Turbo_C",
-      "Recipe_Diamond_C",
-      "Recipe_Alternate_Diamond_Pink_C",
-      "Recipe_Alternate_Diamond_Petroleum_C",
-      "Recipe_Alternate_Diamond_OilBased_C",
-      "Recipe_Alternate_Diamond_Cloudy_C"
     ]
   },
   "Desc_SAMFluctuator_C'": {
     "mainRecipe": "Recipe_SAMFluctuator_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SAMFluctuator_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Converter_C'": {
     "mainRecipe": "Recipe_Converter_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Converter_C"
-    ]
+    "altRecipes": []
   },
   "Desc_FicsiteMesh_C'": {
     "mainRecipe": "Recipe_FicsiteMesh_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_FicsiteMesh_C"
-    ]
+    "altRecipes": []
   },
   "Desc_FicsiteIngot_C'": {
     "mainRecipe": "Recipe_FicsiteIngot_Iron_C",
     "altRecipes": [
       "Recipe_FicsiteIngot_AL_C",
       "Recipe_FicsiteIngot_CAT_C"
-    ],
-    "allRecipes": [
-      "Recipe_FicsiteIngot_Iron_C",
-      "Recipe_FicsiteIngot_AL_C",
-      "Recipe_FicsiteIngot_CAT_C"
     ]
   },
   "Desc_TimeCrystal_C'": {
     "mainRecipe": "Recipe_TimeCrystal_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_TimeCrystal_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SAMIngot_C'": {
     "mainRecipe": "Recipe_IngotSAM_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_IngotSAM_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SpaceElevatorPart_10_C'": {
     "mainRecipe": "Recipe_SpaceElevatorPart_10_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SpaceElevatorPart_10_C"
-    ]
+    "altRecipes": []
   },
   "Desc_OreBauxite_C'": {
     "mainRecipe": "Recipe_Bauxite_Caterium_C",
     "altRecipes": [
-      "Recipe_Bauxite_Copper_C"
-    ],
-    "allRecipes": [
-      "Recipe_Bauxite_Caterium_C",
       "Recipe_Bauxite_Copper_C"
     ]
   },
   "Desc_OreGold_C'": {
     "mainRecipe": "Recipe_Caterium_Copper_C",
     "altRecipes": [
-      "Recipe_Caterium_Quartz_C"
-    ],
-    "allRecipes": [
-      "Recipe_Caterium_Copper_C",
       "Recipe_Caterium_Quartz_C"
     ]
   },
@@ -1051,46 +603,25 @@
       "Recipe_Coal_Limestone_C",
       "Recipe_Alternate_Coal_1_C",
       "Recipe_Alternate_Coal_2_C"
-    ],
-    "allRecipes": [
-      "Recipe_Coal_Iron_C",
-      "Recipe_Coal_Limestone_C",
-      "Recipe_Alternate_Coal_1_C",
-      "Recipe_Alternate_Coal_2_C"
     ]
   },
   "Desc_OreCopper_C'": {
     "mainRecipe": "Recipe_Copper_Quartz_C",
     "altRecipes": [
       "Recipe_Copper_Sulfur_C"
-    ],
-    "allRecipes": [
-      "Recipe_Copper_Quartz_C",
-      "Recipe_Copper_Sulfur_C"
     ]
   },
   "Desc_OreIron_C'": {
     "mainRecipe": "Recipe_Iron_Limestone_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Iron_Limestone_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Stone_C'": {
     "mainRecipe": "Recipe_Limestone_Sulfur_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Limestone_Sulfur_C"
-    ]
+    "altRecipes": []
   },
   "Desc_NitrogenGas_C'": {
     "mainRecipe": "Recipe_Nitrogen_Bauxite_C",
     "altRecipes": [
-      "Recipe_Nitrogen_Caterium_C",
-      "Recipe_UnpackageNitrogen_C"
-    ],
-    "allRecipes": [
-      "Recipe_Nitrogen_Bauxite_C",
       "Recipe_Nitrogen_Caterium_C",
       "Recipe_UnpackageNitrogen_C"
     ]
@@ -1099,28 +630,17 @@
     "mainRecipe": "Recipe_Quartz_Bauxite_C",
     "altRecipes": [
       "Recipe_Quartz_Coal_C"
-    ],
-    "allRecipes": [
-      "Recipe_Quartz_Bauxite_C",
-      "Recipe_Quartz_Coal_C"
     ]
   },
   "Desc_Sulfur_C'": {
     "mainRecipe": "Recipe_Sulfur_Coal_C",
     "altRecipes": [
       "Recipe_Sulfur_Iron_C"
-    ],
-    "allRecipes": [
-      "Recipe_Sulfur_Coal_C",
-      "Recipe_Sulfur_Iron_C"
     ]
   },
   "Desc_OreUranium_C'": {
     "mainRecipe": "Recipe_Uranium_Bauxite_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Uranium_Bauxite_C"
-    ]
+    "altRecipes": []
   },
   "Desc_LiquidTurboFuel_C'": {
     "mainRecipe": "Recipe_Alternate_Turbofuel_C",
@@ -1128,37 +648,15 @@
       "Recipe_UnpackageTurboFuel_C",
       "Recipe_Alternate_TurboHeavyFuel_C",
       "Recipe_Alternate_TurboBlendFuel_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_Turbofuel_C",
-      "Recipe_UnpackageTurboFuel_C",
-      "Recipe_Alternate_TurboHeavyFuel_C",
-      "Recipe_Alternate_TurboBlendFuel_C"
     ]
   },
   "Desc_TurboFuel_C'": {
     "mainRecipe": "Recipe_PackagedTurboFuel_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PackagedTurboFuel_C"
-    ]
+    "altRecipes": []
   },
   "Desc_FluidCanister_C'": {
     "mainRecipe": "Recipe_UnpackageTurboFuel_C",
     "altRecipes": [
-      "Recipe_Alternate_SteelCanister_C",
-      "Recipe_FluidCanister_C",
-      "Recipe_UnpackageBioFuel_C",
-      "Recipe_UnpackageFuel_C",
-      "Recipe_UnpackageOil_C",
-      "Recipe_UnpackageOilResidue_C",
-      "Recipe_UnpackageWater_C",
-      "Recipe_UnpackageAlumina_C",
-      "Recipe_Alternate_CoatedIronCanister_C",
-      "Recipe_UnpackageSulfuricAcid_C"
-    ],
-    "allRecipes": [
-      "Recipe_UnpackageTurboFuel_C",
       "Recipe_Alternate_SteelCanister_C",
       "Recipe_FluidCanister_C",
       "Recipe_UnpackageBioFuel_C",
@@ -1177,44 +675,23 @@
       "Recipe_Alternate_ElectrodeCircuitBoard_C",
       "Recipe_Alternate_CircuitBoard_2_C",
       "Recipe_Alternate_CircuitBoard_1_C"
-    ],
-    "allRecipes": [
-      "Recipe_CircuitBoard_C",
-      "Recipe_Alternate_ElectrodeCircuitBoard_C",
-      "Recipe_Alternate_CircuitBoard_2_C",
-      "Recipe_Alternate_CircuitBoard_1_C"
     ]
   },
   "Desc_OilPump_C'": {
     "mainRecipe": "Recipe_OilPump_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_OilPump_C"
-    ]
+    "altRecipes": []
   },
   "Desc_OilRefinery_C'": {
     "mainRecipe": "Recipe_OilRefinery_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_OilRefinery_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Valve_C'": {
     "mainRecipe": "Recipe_Valve_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Valve_C"
-    ]
+    "altRecipes": []
   },
   "Desc_LiquidFuel_C'": {
     "mainRecipe": "Recipe_LiquidFuel_C",
     "altRecipes": [
-      "Recipe_ResidualFuel_C",
-      "Recipe_UnpackageFuel_C",
-      "Recipe_Alternate_DilutedFuel_C"
-    ],
-    "allRecipes": [
-      "Recipe_LiquidFuel_C",
       "Recipe_ResidualFuel_C",
       "Recipe_UnpackageFuel_C",
       "Recipe_Alternate_DilutedFuel_C"
@@ -1225,28 +702,15 @@
     "altRecipes": [
       "Recipe_Alternate_PolymerResin_C",
       "Recipe_Alternate_HeavyOilResidue_C"
-    ],
-    "allRecipes": [
-      "Recipe_LiquidFuel_C",
-      "Recipe_Alternate_PolymerResin_C",
-      "Recipe_Alternate_HeavyOilResidue_C"
     ]
   },
   "Desc_PetroleumCoke_C'": {
     "mainRecipe": "Recipe_PetroleumCoke_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PetroleumCoke_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Plastic_C'": {
     "mainRecipe": "Recipe_Plastic_C",
     "altRecipes": [
-      "Recipe_ResidualPlastic_C",
-      "Recipe_Alternate_Plastic_1_C"
-    ],
-    "allRecipes": [
-      "Recipe_Plastic_C",
       "Recipe_ResidualPlastic_C",
       "Recipe_Alternate_Plastic_1_C"
     ]
@@ -1258,23 +722,11 @@
       "Recipe_UnpackageOilResidue_C",
       "Recipe_Alternate_PolymerResin_C",
       "Recipe_Alternate_HeavyOilResidue_C"
-    ],
-    "allRecipes": [
-      "Recipe_Plastic_C",
-      "Recipe_Rubber_C",
-      "Recipe_UnpackageOilResidue_C",
-      "Recipe_Alternate_PolymerResin_C",
-      "Recipe_Alternate_HeavyOilResidue_C"
     ]
   },
   "Desc_Rubber_C'": {
     "mainRecipe": "Recipe_Rubber_C",
     "altRecipes": [
-      "Recipe_ResidualRubber_C",
-      "Recipe_Alternate_RecycledRubber_C"
-    ],
-    "allRecipes": [
-      "Recipe_Rubber_C",
       "Recipe_ResidualRubber_C",
       "Recipe_Alternate_RecycledRubber_C"
     ]
@@ -1285,29 +737,15 @@
       "Recipe_Alternate_RubberConcrete_C",
       "Recipe_Alternate_Concrete_C",
       "Recipe_Concrete_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_WetConcrete_C",
-      "Recipe_Alternate_RubberConcrete_C",
-      "Recipe_Alternate_Concrete_C",
-      "Recipe_Concrete_C"
     ]
   },
   "Desc_FoundryMk1_C'": {
     "mainRecipe": "Recipe_SmelterMk1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SmelterMk1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SteelPlate_C'": {
     "mainRecipe": "Recipe_SteelBeam_C",
     "altRecipes": [
-      "Recipe_Alternate_SteelBeam_Molded_C",
-      "Recipe_Alternate_SteelBeam_Aluminum_C"
-    ],
-    "allRecipes": [
-      "Recipe_SteelBeam_C",
       "Recipe_Alternate_SteelBeam_Molded_C",
       "Recipe_Alternate_SteelBeam_Aluminum_C"
     ]
@@ -1315,11 +753,6 @@
   "Desc_SteelPipe_C'": {
     "mainRecipe": "Recipe_SteelPipe_C",
     "altRecipes": [
-      "Recipe_Alternate_SteelPipe_Molded_C",
-      "Recipe_Alternate_SteelPipe_Iron_C"
-    ],
-    "allRecipes": [
-      "Recipe_SteelPipe_C",
       "Recipe_Alternate_SteelPipe_Molded_C",
       "Recipe_Alternate_SteelPipe_Iron_C"
     ]
@@ -1330,38 +763,21 @@
       "Recipe_Alternate_CokeSteelIngot_C",
       "Recipe_Alternate_IngotSteel_2_C",
       "Recipe_Alternate_IngotSteel_1_C"
-    ],
-    "allRecipes": [
-      "Recipe_IngotSteel_C",
-      "Recipe_Alternate_CokeSteelIngot_C",
-      "Recipe_Alternate_IngotSteel_2_C",
-      "Recipe_Alternate_IngotSteel_1_C"
     ]
   },
   "Desc_SpaceElevatorPart_2_C'": {
     "mainRecipe": "Recipe_SpaceElevatorPart_2_C",
     "altRecipes": [
       "Recipe_Alternate_FlexibleFramework_C"
-    ],
-    "allRecipes": [
-      "Recipe_SpaceElevatorPart_2_C",
-      "Recipe_Alternate_FlexibleFramework_C"
     ]
   },
   "Desc_Packager_C'": {
     "mainRecipe": "Recipe_Packager_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Packager_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Fuel_C'": {
     "mainRecipe": "Recipe_Fuel_C",
     "altRecipes": [
-      "Recipe_Alternate_DilutedPackagedFuel_C"
-    ],
-    "allRecipes": [
-      "Recipe_Fuel_C",
       "Recipe_Alternate_DilutedPackagedFuel_C"
     ]
   },
@@ -1369,60 +785,31 @@
     "mainRecipe": "Recipe_LiquidBiofuel_C",
     "altRecipes": [
       "Recipe_UnpackageBioFuel_C"
-    ],
-    "allRecipes": [
-      "Recipe_LiquidBiofuel_C",
-      "Recipe_UnpackageBioFuel_C"
     ]
   },
   "Desc_PackagedBiofuel_C'": {
     "mainRecipe": "Recipe_PackagedBiofuel_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PackagedBiofuel_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PackagedOil_C'": {
     "mainRecipe": "Recipe_PackagedCrudeOil_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PackagedCrudeOil_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PackagedOilResidue_C'": {
     "mainRecipe": "Recipe_PackagedOilResidue_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PackagedOilResidue_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PackagedWater_C'": {
     "mainRecipe": "Recipe_PackagedWater_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PackagedWater_C"
-    ]
+    "altRecipes": []
   },
   "Desc_LiquidOil_C'": {
     "mainRecipe": "Recipe_UnpackageOil_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_UnpackageOil_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Water_C'": {
     "mainRecipe": "Recipe_UnpackageWater_C",
     "altRecipes": [
-      "Recipe_AluminumScrap_C",
-      "Recipe_Alternate_ElectroAluminumScrap_C",
-      "Recipe_NonFissileUranium_C",
-      "Recipe_Battery_C",
-      "Recipe_Alternate_InstantScrap_C",
-      "Recipe_Alternate_FertileUranium_C",
-      "Recipe_Alternate_Silica_Distilled_C"
-    ],
-    "allRecipes": [
-      "Recipe_UnpackageWater_C",
       "Recipe_AluminumScrap_C",
       "Recipe_Alternate_ElectroAluminumScrap_C",
       "Recipe_NonFissileUranium_C",
@@ -1436,21 +823,11 @@
     "mainRecipe": "Recipe_Alternate_SteamedCopperSheet_C",
     "altRecipes": [
       "Recipe_CopperSheet_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_SteamedCopperSheet_C",
-      "Recipe_CopperSheet_C"
     ]
   },
   "Desc_QuartzCrystal_C'": {
     "mainRecipe": "Recipe_Alternate_PureQuartzCrystal_C",
     "altRecipes": [
-      "Recipe_QuartzCrystal_C",
-      "Recipe_Alternate_Quartz_Purified_C",
-      "Recipe_Alternate_Quartz_Fused_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_PureQuartzCrystal_C",
       "Recipe_QuartzCrystal_C",
       "Recipe_Alternate_Quartz_Purified_C",
       "Recipe_Alternate_Quartz_Fused_C"
@@ -1463,24 +840,11 @@
       "Recipe_Alternate_CopperIngot_Tempered_C",
       "Recipe_Alternate_CopperIngot_Leached_C",
       "Recipe_IngotCopper_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_PureCopperIngot_C",
-      "Recipe_Alternate_CopperAlloyIngot_C",
-      "Recipe_Alternate_CopperIngot_Tempered_C",
-      "Recipe_Alternate_CopperIngot_Leached_C",
-      "Recipe_IngotCopper_C"
     ]
   },
   "Desc_GoldIngot_C'": {
     "mainRecipe": "Recipe_Alternate_PureCateriumIngot_C",
     "altRecipes": [
-      "Recipe_Alternate_CateriumIngot_Tempered_C",
-      "Recipe_Alternate_CateriumIngot_Leached_C",
-      "Recipe_IngotCaterium_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_PureCateriumIngot_C",
       "Recipe_Alternate_CateriumIngot_Tempered_C",
       "Recipe_Alternate_CateriumIngot_Leached_C",
       "Recipe_IngotCaterium_C"
@@ -1490,37 +854,21 @@
     "mainRecipe": "Recipe_PureAluminumIngot_C",
     "altRecipes": [
       "Recipe_IngotAluminum_C"
-    ],
-    "allRecipes": [
-      "Recipe_PureAluminumIngot_C",
-      "Recipe_IngotAluminum_C"
     ]
   },
   "Desc_AluminumCasing_C'": {
     "mainRecipe": "Recipe_AluminumCasing_C",
     "altRecipes": [
       "Recipe_Alternate_AlcladCasing_C"
-    ],
-    "allRecipes": [
-      "Recipe_AluminumCasing_C",
-      "Recipe_Alternate_AlcladCasing_C"
     ]
   },
   "Desc_AluminumPlate_C'": {
     "mainRecipe": "Recipe_AluminumSheet_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_AluminumSheet_C"
-    ]
+    "altRecipes": []
   },
   "Desc_AluminaSolution_C'": {
     "mainRecipe": "Recipe_AluminaSolution_C",
     "altRecipes": [
-      "Recipe_UnpackageAlumina_C",
-      "Recipe_Alternate_SloppyAlumina_C"
-    ],
-    "allRecipes": [
-      "Recipe_AluminaSolution_C",
       "Recipe_UnpackageAlumina_C",
       "Recipe_Alternate_SloppyAlumina_C"
     ]
@@ -1531,12 +879,6 @@
       "Recipe_Silica_C",
       "Recipe_Alternate_Silica_Distilled_C",
       "Recipe_Alternate_Silica_C"
-    ],
-    "allRecipes": [
-      "Recipe_AluminaSolution_C",
-      "Recipe_Silica_C",
-      "Recipe_Alternate_Silica_Distilled_C",
-      "Recipe_Alternate_Silica_C"
     ]
   },
   "Desc_AluminumScrap_C'": {
@@ -1544,27 +886,15 @@
     "altRecipes": [
       "Recipe_Alternate_ElectroAluminumScrap_C",
       "Recipe_Alternate_InstantScrap_C"
-    ],
-    "allRecipes": [
-      "Recipe_AluminumScrap_C",
-      "Recipe_Alternate_ElectroAluminumScrap_C",
-      "Recipe_Alternate_InstantScrap_C"
     ]
   },
   "Desc_PackagedAlumina_C'": {
     "mainRecipe": "Recipe_PackagedAlumina_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PackagedAlumina_C"
-    ]
+    "altRecipes": []
   },
   "Desc_CrystalOscillator_C'": {
     "mainRecipe": "Recipe_CrystalOscillator_C",
     "altRecipes": [
-      "Recipe_Alternate_CrystalOscillator_C"
-    ],
-    "allRecipes": [
-      "Recipe_CrystalOscillator_C",
       "Recipe_Alternate_CrystalOscillator_C"
     ]
   },
@@ -1572,29 +902,17 @@
     "mainRecipe": "Recipe_Alternate_PlasticSmartPlating_C",
     "altRecipes": [
       "Recipe_SpaceElevatorPart_1_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_PlasticSmartPlating_C",
-      "Recipe_SpaceElevatorPart_1_C"
     ]
   },
   "Desc_SpaceElevatorPart_3_C'": {
     "mainRecipe": "Recipe_Alternate_HighSpeedWiring_C",
     "altRecipes": [
       "Recipe_SpaceElevatorPart_3_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_HighSpeedWiring_C",
-      "Recipe_SpaceElevatorPart_3_C"
     ]
   },
   "Desc_SteelPlateReinforced_C'": {
     "mainRecipe": "Recipe_EncasedIndustrialBeam_C",
     "altRecipes": [
-      "Recipe_Alternate_EncasedIndustrialBeam_C"
-    ],
-    "allRecipes": [
-      "Recipe_EncasedIndustrialBeam_C",
       "Recipe_Alternate_EncasedIndustrialBeam_C"
     ]
   },
@@ -1603,37 +921,21 @@
     "altRecipes": [
       "Recipe_Alternate_ElectricMotor_C",
       "Recipe_Alternate_Motor_1_C"
-    ],
-    "allRecipes": [
-      "Recipe_Motor_C",
-      "Recipe_Alternate_ElectricMotor_C",
-      "Recipe_Alternate_Motor_1_C"
     ]
   },
   "Desc_Stator_C'": {
     "mainRecipe": "Recipe_Stator_C",
     "altRecipes": [
       "Recipe_Alternate_Stator_C"
-    ],
-    "allRecipes": [
-      "Recipe_Stator_C",
-      "Recipe_Alternate_Stator_C"
     ]
   },
   "Desc_MinerMk2_C'": {
     "mainRecipe": "Recipe_MinerMk2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_MinerMk2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_CircuitBoardHighSpeed_C'": {
     "mainRecipe": "Recipe_AILimiter_C",
     "altRecipes": [
-      "Recipe_Alternate_AILimiter_Plastic_C"
-    ],
-    "allRecipes": [
-      "Recipe_AILimiter_C",
       "Recipe_Alternate_AILimiter_Plastic_C"
     ]
   },
@@ -1642,55 +944,30 @@
     "altRecipes": [
       "Recipe_ModularFrameHeavy_C",
       "Recipe_Alternate_ModularFrameHeavy_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_HeavyFlexibleFrame_C",
-      "Recipe_ModularFrameHeavy_C",
-      "Recipe_Alternate_ModularFrameHeavy_C"
     ]
   },
   "Desc_ManufacturerMk1_C'": {
     "mainRecipe": "Recipe_ManufacturerMk1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ManufacturerMk1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Computer_C'": {
     "mainRecipe": "Recipe_Computer_C",
     "altRecipes": [
       "Recipe_Alternate_Computer_2_C",
       "Recipe_Alternate_Computer_1_C"
-    ],
-    "allRecipes": [
-      "Recipe_Computer_C",
-      "Recipe_Alternate_Computer_2_C",
-      "Recipe_Alternate_Computer_1_C"
     ]
   },
   "Desc_SpaceElevatorPart_4_C'": {
     "mainRecipe": "Recipe_SpaceElevatorPart_4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SpaceElevatorPart_4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SpaceElevatorPart_5_C'": {
     "mainRecipe": "Recipe_SpaceElevatorPart_5_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SpaceElevatorPart_5_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wire_C'": {
     "mainRecipe": "Recipe_Alternate_FusedWire_C",
     "altRecipes": [
-      "Recipe_Alternate_Wire_2_C",
-      "Recipe_Alternate_Wire_1_C",
-      "Recipe_Wire_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_FusedWire_C",
       "Recipe_Alternate_Wire_2_C",
       "Recipe_Alternate_Wire_1_C",
       "Recipe_Wire_C"
@@ -1701,11 +978,6 @@
     "altRecipes": [
       "Recipe_Rotor_C",
       "Recipe_Alternate_Rotor_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_CopperRotor_C",
-      "Recipe_Rotor_C",
-      "Recipe_Alternate_Rotor_C"
     ]
   },
   "Desc_ModularFrame_C'": {
@@ -1713,29 +985,15 @@
     "altRecipes": [
       "Recipe_Alternate_BoltedFrame_C",
       "Recipe_Alternate_ModularFrame_C"
-    ],
-    "allRecipes": [
-      "Recipe_ModularFrame_C",
-      "Recipe_Alternate_BoltedFrame_C",
-      "Recipe_Alternate_ModularFrame_C"
     ]
   },
   "Desc_AssemblerMk1_C'": {
     "mainRecipe": "Recipe_AssemblerMk1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_AssemblerMk1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Cable_C'": {
     "mainRecipe": "Recipe_Alternate_CoatedCable_C",
     "altRecipes": [
-      "Recipe_Alternate_Cable_2_C",
-      "Recipe_Alternate_Cable_1_C",
-      "Recipe_Cable_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_CoatedCable_C",
       "Recipe_Alternate_Cable_2_C",
       "Recipe_Alternate_Cable_1_C",
       "Recipe_Cable_C"
@@ -1747,22 +1005,11 @@
       "Recipe_Alternate_ReinforcedIronPlate_2_C",
       "Recipe_Alternate_ReinforcedIronPlate_1_C",
       "Recipe_IronPlateReinforced_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_AdheredIronPlate_C",
-      "Recipe_Alternate_ReinforcedIronPlate_2_C",
-      "Recipe_Alternate_ReinforcedIronPlate_1_C",
-      "Recipe_IronPlateReinforced_C"
     ]
   },
   "Desc_MotorLightweight_C'": {
     "mainRecipe": "Recipe_Alternate_TurboPressureMotor_C",
     "altRecipes": [
-      "Recipe_Alternate_TurboMotor_1_C",
-      "Recipe_MotorTurbo_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_TurboPressureMotor_C",
       "Recipe_Alternate_TurboMotor_1_C",
       "Recipe_MotorTurbo_C"
     ]
@@ -1771,26 +1018,15 @@
     "mainRecipe": "Recipe_PlutoniumCell_C",
     "altRecipes": [
       "Recipe_Alternate_InstantPlutoniumCell_C"
-    ],
-    "allRecipes": [
-      "Recipe_PlutoniumCell_C",
-      "Recipe_Alternate_InstantPlutoniumCell_C"
     ]
   },
   "Desc_PressureConversionCube_C'": {
     "mainRecipe": "Recipe_PressureConversionCube_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PressureConversionCube_C"
-    ]
+    "altRecipes": []
   },
   "Desc_NitricAcid_C'": {
     "mainRecipe": "Recipe_NitricAcid_C",
     "altRecipes": [
-      "Recipe_UnpackageNitricAcid_C"
-    ],
-    "allRecipes": [
-      "Recipe_NitricAcid_C",
       "Recipe_UnpackageNitricAcid_C"
     ]
   },
@@ -1798,64 +1034,37 @@
     "mainRecipe": "Recipe_NonFissileUranium_C",
     "altRecipes": [
       "Recipe_Alternate_FertileUranium_C"
-    ],
-    "allRecipes": [
-      "Recipe_NonFissileUranium_C",
-      "Recipe_Alternate_FertileUranium_C"
     ]
   },
   "Desc_HadronCollider_C'": {
     "mainRecipe": "Recipe_HadronCollider_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_HadronCollider_C"
-    ]
+    "altRecipes": []
   },
   "Desc_CopperDust_C'": {
     "mainRecipe": "Recipe_CopperDust_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_CopperDust_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PlutoniumPellet_C'": {
     "mainRecipe": "Recipe_Plutonium_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Plutonium_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PlutoniumFuelRod_C'": {
     "mainRecipe": "Recipe_PlutoniumFuelRod_C",
     "altRecipes": [
       "Recipe_Alternate_PlutoniumFuelUnit_C"
-    ],
-    "allRecipes": [
-      "Recipe_PlutoniumFuelRod_C",
-      "Recipe_Alternate_PlutoniumFuelUnit_C"
     ]
   },
   "Desc_PackagedNitricAcid_C'": {
     "mainRecipe": "Recipe_PackagedNitricAcid_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PackagedNitricAcid_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SpaceElevatorPart_9_C'": {
     "mainRecipe": "Recipe_SpaceElevatorPart_9_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SpaceElevatorPart_9_C"
-    ]
+    "altRecipes": []
   },
   "Desc_UraniumCell_C'": {
     "mainRecipe": "Recipe_UraniumCell_C",
     "altRecipes": [
-      "Recipe_Alternate_UraniumCell_1_C"
-    ],
-    "allRecipes": [
-      "Recipe_UraniumCell_C",
       "Recipe_Alternate_UraniumCell_1_C"
     ]
   },
@@ -1864,48 +1073,27 @@
     "altRecipes": [
       "Recipe_SulfuricAcid_C",
       "Recipe_UnpackageSulfuricAcid_C"
-    ],
-    "allRecipes": [
-      "Recipe_UraniumCell_C",
-      "Recipe_SulfuricAcid_C",
-      "Recipe_UnpackageSulfuricAcid_C"
     ]
   },
   "Desc_CoolingSystem_C'": {
     "mainRecipe": "Recipe_CoolingSystem_C",
     "altRecipes": [
       "Recipe_Alternate_CoolingDevice_C"
-    ],
-    "allRecipes": [
-      "Recipe_CoolingSystem_C",
-      "Recipe_Alternate_CoolingDevice_C"
     ]
   },
   "Desc_Blender_C'": {
     "mainRecipe": "Recipe_Blender_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Blender_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Battery_C'": {
     "mainRecipe": "Recipe_Battery_C",
     "altRecipes": [
-      "Recipe_Alternate_ClassicBattery_C"
-    ],
-    "allRecipes": [
-      "Recipe_Battery_C",
       "Recipe_Alternate_ClassicBattery_C"
     ]
   },
   "Desc_ComputerSuper_C'": {
     "mainRecipe": "Recipe_ComputerSuper_C",
     "altRecipes": [
-      "Recipe_Alternate_SuperStateComputer_C",
-      "Recipe_Alternate_OCSupercomputer_C"
-    ],
-    "allRecipes": [
-      "Recipe_ComputerSuper_C",
       "Recipe_Alternate_SuperStateComputer_C",
       "Recipe_Alternate_OCSupercomputer_C"
     ]
@@ -1915,34 +1103,19 @@
     "altRecipes": [
       "Recipe_Alternate_RadioControlSystem_C",
       "Recipe_Alternate_RadioControlUnit_1_C"
-    ],
-    "allRecipes": [
-      "Recipe_RadioControlUnit_C",
-      "Recipe_Alternate_RadioControlSystem_C",
-      "Recipe_Alternate_RadioControlUnit_1_C"
     ]
   },
   "Desc_PackagedSulfuricAcid_C'": {
     "mainRecipe": "Recipe_PackagedSulfuricAcid_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PackagedSulfuricAcid_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SpaceElevatorPart_7_C'": {
     "mainRecipe": "Recipe_SpaceElevatorPart_7_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SpaceElevatorPart_7_C"
-    ]
+    "altRecipes": []
   },
   "Desc_HighSpeedConnector_C'": {
     "mainRecipe": "Recipe_HighSpeedConnector_C",
     "altRecipes": [
-      "Recipe_Alternate_HighSpeedConnector_C"
-    ],
-    "allRecipes": [
-      "Recipe_HighSpeedConnector_C",
       "Recipe_Alternate_HighSpeedConnector_C"
     ]
   },
@@ -1950,43 +1123,25 @@
     "mainRecipe": "Recipe_ElectromagneticControlRod_C",
     "altRecipes": [
       "Recipe_Alternate_ElectromagneticControlRod_1_C"
-    ],
-    "allRecipes": [
-      "Recipe_ElectromagneticControlRod_C",
-      "Recipe_Alternate_ElectromagneticControlRod_1_C"
     ]
   },
   "Desc_GeneratorNuclear_C'": {
     "mainRecipe": "Recipe_GeneratorNuclear_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_GeneratorNuclear_C"
-    ]
+    "altRecipes": []
   },
   "Desc_NuclearFuelRod_C'": {
     "mainRecipe": "Recipe_NuclearFuelRod_C",
     "altRecipes": [
       "Recipe_Alternate_NuclearFuelRod_1_C"
-    ],
-    "allRecipes": [
-      "Recipe_NuclearFuelRod_C",
-      "Recipe_Alternate_NuclearFuelRod_1_C"
     ]
   },
   "Desc_SpaceElevatorPart_6_C'": {
     "mainRecipe": "Recipe_SpaceElevatorPart_6_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SpaceElevatorPart_6_C"
-    ]
+    "altRecipes": []
   },
   "Desc_AluminumPlateReinforced_C'": {
     "mainRecipe": "Recipe_HeatSink_C",
     "altRecipes": [
-      "Recipe_Alternate_HeatSink_1_C"
-    ],
-    "allRecipes": [
-      "Recipe_HeatSink_C",
       "Recipe_Alternate_HeatSink_1_C"
     ]
   },
@@ -1994,100 +1149,57 @@
     "mainRecipe": "Recipe_FusedModularFrame_C",
     "altRecipes": [
       "Recipe_Alternate_HeatFusedFrame_C"
-    ],
-    "allRecipes": [
-      "Recipe_FusedModularFrame_C",
-      "Recipe_Alternate_HeatFusedFrame_C"
     ]
   },
   "Desc_FrackingExtractor_C'": {
     "mainRecipe": "Recipe_FrackingExtractor_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_FrackingExtractor_C"
-    ]
+    "altRecipes": []
   },
   "Desc_FrackingSmasher_C'": {
     "mainRecipe": "Recipe_FrackingSmasher_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_FrackingSmasher_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PackagedNitrogenGas_C'": {
     "mainRecipe": "Recipe_PackagedNitrogen_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PackagedNitrogen_C"
-    ]
+    "altRecipes": []
   },
   "BP_ItemDescriptorPortableMiner_C'": {
     "mainRecipe": "Recipe_Alternate_AutomatedMiner_C",
     "altRecipes": [
       "Recipe_PortableMiner_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_AutomatedMiner_C",
-      "Recipe_PortableMiner_C"
     ]
   },
   "Desc_DissolvedSilica_C'": {
     "mainRecipe": "Recipe_Alternate_Quartz_Purified_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Alternate_Quartz_Purified_C"
-    ]
+    "altRecipes": []
   },
   "Desc_DroneStation_C'": {
     "mainRecipe": "Recipe_DroneStation_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_DroneStation_C"
-    ]
+    "altRecipes": []
   },
   "Desc_DroneTransport_C'": {
     "mainRecipe": "Recipe_DroneTransport_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_DroneTransport_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ConveyorBeltMk5_C'": {
     "mainRecipe": "Recipe_ConveyorBeltMk5_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConveyorBeltMk5_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ConveyorLiftMk5_C'": {
     "mainRecipe": "Recipe_ConveyorLiftMk5_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConveyorLiftMk5_C"
-    ]
+    "altRecipes": []
   },
   "Desc_MinerMk3_C'": {
     "mainRecipe": "Recipe_MinerMk3_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_MinerMk3_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SpaceElevatorPart_8_C'": {
     "mainRecipe": "Recipe_SpaceElevatorPart_8_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SpaceElevatorPart_8_C"
-    ]
+    "altRecipes": []
   },
   "Desc_IronScrew_C'": {
     "mainRecipe": "Recipe_Alternate_Screw_2_C",
     "altRecipes": [
-      "Recipe_Alternate_Screw_C",
-      "Recipe_Screw_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_Screw_2_C",
       "Recipe_Alternate_Screw_C",
       "Recipe_Screw_C"
     ]
@@ -2096,409 +1208,233 @@
     "mainRecipe": "Recipe_Alternate_Quickwire_C",
     "altRecipes": [
       "Recipe_Quickwire_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_Quickwire_C",
-      "Recipe_Quickwire_C"
     ]
   },
   "Desc_Gunpowder_C'": {
     "mainRecipe": "Recipe_Alternate_Gunpowder_1_C",
     "altRecipes": [
       "Recipe_Gunpowder_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_Gunpowder_1_C",
-      "Recipe_Gunpowder_C"
     ]
   },
   "Desc_ConveyorBeltMk6_C'": {
     "mainRecipe": "Recipe_ConveyorBeltMk6_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConveyorBeltMk6_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ConveyorLiftMk6_C'": {
     "mainRecipe": "Recipe_ConveyorLiftMk6_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConveyorLiftMk6_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ficsonium_C'": {
     "mainRecipe": "Recipe_Ficsonium_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ficsonium_C"
-    ]
+    "altRecipes": []
   },
   "Desc_FicsoniumFuelRod_C'": {
     "mainRecipe": "Recipe_FicsoniumFuelRod_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_FicsoniumFuelRod_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Portal_C'": {
     "mainRecipe": "Recipe_Portal_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Portal_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PortalSatellite_C'": {
     "mainRecipe": "Recipe_PortalSatellite_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PortalSatellite_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SingularityCell_C'": {
     "mainRecipe": "Recipe_SingularityCell_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SingularityCell_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SpaceElevatorPart_11_C'": {
     "mainRecipe": "Recipe_SpaceElevatorPart_11_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SpaceElevatorPart_11_C"
-    ]
+    "altRecipes": []
   },
   "Desc_BlueprintDesigner_MK3_C'": {
     "mainRecipe": "Recipe_BlueprintDesigner_Mk3_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_BlueprintDesigner_Mk3_C"
-    ]
+    "altRecipes": []
   },
   "BP_EquipmentDescriptorHoverPack_C'": {
     "mainRecipe": "Recipe_Hoverpack_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Hoverpack_C"
-    ]
+    "altRecipes": []
   },
   "Desc_HazmatFilter_C'": {
     "mainRecipe": "Recipe_FilterHazmat_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_FilterHazmat_C"
-    ]
+    "altRecipes": []
   },
   "BP_EquipmentDescriptorHazmatSuit_C'": {
     "mainRecipe": "Recipe_HazmatSuit_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_HazmatSuit_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RailroadBlockSignal_C'": {
     "mainRecipe": "Recipe_RailroadBlockSignal_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RailroadBlockSignal_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RailroadPathSignal_C'": {
     "mainRecipe": "Recipe_RailroadPathSignal_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RailroadPathSignal_C"
-    ]
+    "altRecipes": []
   },
   "Desc_BlueprintDesigner_MK2_C'": {
     "mainRecipe": "Recipe_BlueprintDesigner_Mk2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_BlueprintDesigner_Mk2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PipelineMK2_C'": {
     "mainRecipe": "Recipe_PipelineMK2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PipelineMK2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PipelinePumpMk2_C'": {
     "mainRecipe": "Recipe_PipelinePumpMK2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PipelinePumpMK2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_TrainDockingStation_C'": {
     "mainRecipe": "Recipe_TrainDockingStation_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_TrainDockingStation_C"
-    ]
+    "altRecipes": []
   },
   "Desc_TrainDockingStationLiquid_C'": {
     "mainRecipe": "Recipe_TrainDockingStationLiquid_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_TrainDockingStationLiquid_C"
-    ]
+    "altRecipes": []
   },
   "Desc_TrainPlatformEmpty_C'": {
     "mainRecipe": "Recipe_TrainPlatformEmpty_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_TrainPlatformEmpty_C"
-    ]
+    "altRecipes": []
   },
   "Desc_TrainPlatformEmpty_02_C'": {
     "mainRecipe": "Recipe_TrainPlatformEmpty_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_TrainPlatformEmpty_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_TrainStation_C'": {
     "mainRecipe": "Recipe_TrainStation_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_TrainStation_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RailroadTrack_C'": {
     "mainRecipe": "Recipe_RailroadTrack_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RailroadTrack_C"
-    ]
+    "altRecipes": []
   },
   "Desc_FreightWagon_C'": {
     "mainRecipe": "Recipe_FreightWagon_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_FreightWagon_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Locomotive_C'": {
     "mainRecipe": "Recipe_Locomotive_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Locomotive_C"
-    ]
+    "altRecipes": []
   },
   "BP_EquipmentDescriptorJetPack_C'": {
     "mainRecipe": "Recipe_JetPack_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_JetPack_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ConveyorBeltMk4_C'": {
     "mainRecipe": "Recipe_ConveyorBeltMk4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConveyorBeltMk4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ConveyorLiftMk4_C'": {
     "mainRecipe": "Recipe_ConveyorLiftMk4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConveyorLiftMk4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Truck_C'": {
     "mainRecipe": "Recipe_Truck_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Truck_C"
-    ]
+    "altRecipes": []
   },
   "Desc_GeneratorFuel_C'": {
     "mainRecipe": "Recipe_GeneratorFuel_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_GeneratorFuel_C"
-    ]
+    "altRecipes": []
   },
   "Desc_IndustrialTank_C'": {
     "mainRecipe": "Recipe_IndustrialTank_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_IndustrialTank_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ConveyorBeltMk3_C'": {
     "mainRecipe": "Recipe_ConveyorBeltMk3_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConveyorBeltMk3_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ConveyorLiftMk3_C'": {
     "mainRecipe": "Recipe_ConveyorLiftMk3_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConveyorLiftMk3_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PipeSupportStackable_C'": {
     "mainRecipe": "Recipe_PipeSupportStackable_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PipeSupportStackable_C"
-    ]
+    "altRecipes": []
   },
   "Desc_StorageContainerMk2_C'": {
     "mainRecipe": "Recipe_StorageContainerMk2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_StorageContainerMk2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_BlueprintDesigner_C'": {
     "mainRecipe": "Recipe_BlueprintDesigner_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_BlueprintDesigner_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PipeHyperStart_C'": {
     "mainRecipe": "Recipe_PipeHyperStart_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PipeHyperStart_C"
-    ]
+    "altRecipes": []
   },
   "Desc_HyperPoleStackable_C'": {
     "mainRecipe": "Recipe_HyperPoleStackable_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_HyperPoleStackable_C"
-    ]
+    "altRecipes": []
   },
   "Desc_HyperTubeWallSupport_C'": {
     "mainRecipe": "Recipe_HyperTubeWallSupport_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_HyperTubeWallSupport_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PipeHyperSupport_C'": {
     "mainRecipe": "Recipe_PipeHyperSupport_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PipeHyperSupport_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PipeHyper_C'": {
     "mainRecipe": "Recipe_PipeHyper_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PipeHyper_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PowerStorageMk1_C'": {
     "mainRecipe": "Recipe_PowerStorageMk1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PowerStorageMk1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PowerTower_C'": {
     "mainRecipe": "Recipe_PowerTower_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PowerTower_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PowerTowerPlatform_C'": {
     "mainRecipe": "Recipe_PowerTowerPlatform_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PowerTowerPlatform_C"
-    ]
+    "altRecipes": []
   },
   "BP_EquipmentDescriptorStunSpear_C'": {
     "mainRecipe": "Recipe_XenoBasher_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_XenoBasher_C"
-    ]
+    "altRecipes": []
   },
   "Desc_TruckStation_C'": {
     "mainRecipe": "Recipe_TruckStation_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_TruckStation_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Tractor_C'": {
     "mainRecipe": "Recipe_Tractor_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Tractor_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ConveyorBeltMk2_C'": {
     "mainRecipe": "Recipe_ConveyorBeltMk2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConveyorBeltMk2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ConveyorLiftMk2_C'": {
     "mainRecipe": "Recipe_ConveyorLiftMk2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConveyorLiftMk2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ConveyorPoleStackable_C'": {
     "mainRecipe": "Recipe_ConveyorPoleStackable_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConveyorPoleStackable_C"
-    ]
+    "altRecipes": []
   },
   "Desc_JumpPadAdjustable_C'": {
     "mainRecipe": "Recipe_JumpPadAdjustable_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_JumpPadAdjustable_C"
-    ]
+    "altRecipes": []
   },
   "Desc_LandingPad_C'": {
     "mainRecipe": "Recipe_UJellyLandingPad_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_UJellyLandingPad_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Biofuel_C'": {
     "mainRecipe": "Recipe_Biofuel_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Biofuel_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Chainsaw_C'": {
     "mainRecipe": "Recipe_Chainsaw_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Chainsaw_C"
-    ]
+    "altRecipes": []
   },
   "Desc_AlienProtein_C'": {
     "mainRecipe": "Recipe_Protein_Hog_C",
     "altRecipes": [
-      "Recipe_Protein_Spitter_C",
-      "Recipe_Protein_Stinger_C",
-      "Recipe_Protein_Crab_C"
-    ],
-    "allRecipes": [
-      "Recipe_Protein_Hog_C",
       "Recipe_Protein_Spitter_C",
       "Recipe_Protein_Stinger_C",
       "Recipe_Protein_Crab_C"
@@ -2510,12 +1446,6 @@
       "Recipe_Biomass_AlienProtein_C",
       "Recipe_Biomass_Leaves_C",
       "Recipe_Biomass_Wood_C"
-    ],
-    "allRecipes": [
-      "Recipe_Biomass_Mycelia_C",
-      "Recipe_Biomass_AlienProtein_C",
-      "Recipe_Biomass_Leaves_C",
-      "Recipe_Biomass_Wood_C"
     ]
   },
   "Desc_CrystalShard_C'": {
@@ -2524,1546 +1454,883 @@
       "Recipe_SyntheticPowerShard_C",
       "Recipe_PowerCrystalShard_3_C",
       "Recipe_PowerCrystalShard_2_C"
-    ],
-    "allRecipes": [
-      "Recipe_PowerCrystalShard_1_C",
-      "Recipe_SyntheticPowerShard_C",
-      "Recipe_PowerCrystalShard_3_C",
-      "Recipe_PowerCrystalShard_2_C"
     ]
   },
   "Desc_AlienPowerFuel_C'": {
     "mainRecipe": "Recipe_AlienPowerFuel_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_AlienPowerFuel_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Mam_C'": {
     "mainRecipe": "Recipe_Mam_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Mam_C"
-    ]
+    "altRecipes": []
   },
   "Desc_StoragePlayer_C'": {
     "mainRecipe": "Recipe_StoragePlayer_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_StoragePlayer_C"
-    ]
+    "altRecipes": []
   },
   "BP_EquipmentDescriptorObjectScanner_C'": {
     "mainRecipe": "Recipe_ObjectScanner_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ObjectScanner_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ConveyorAttachmentMerger_C'": {
     "mainRecipe": "Recipe_ConveyorAttachmentMerger_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConveyorAttachmentMerger_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ConveyorAttachmentSplitter_C'": {
     "mainRecipe": "Recipe_ConveyorAttachmentSplitter_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConveyorAttachmentSplitter_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ConveyorLiftMk1_C'": {
     "mainRecipe": "Recipe_ConveyorLiftMk1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConveyorLiftMk1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddle_Ficsit_4x1_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddle_Ficsit_4x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddle_Ficsit_4x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddle_Ficsit_4x2_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddle_Ficsit_4x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddle_Ficsit_4x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddle_Ficsit_4x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddle_Ficsit_4x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddle_Ficsit_4x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleInCorner_Ficsit_8x1_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleInCorner_Ficsit_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleInCorner_Ficsit_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleInCorner_Ficsit_8x2_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleInCorner_Ficsit_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleInCorner_Ficsit_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleInCorner_Ficsit_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleInCorner_Ficsit_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleInCorner_Ficsit_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleOutCorner_Ficsit_4x1_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleOutCorner_Ficsit_4x2_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleOutCorner_Ficsit_4x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleOutCorner_Ficsit_4x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Stair_FicsitSet_8x1_01_C'": {
     "mainRecipe": "Recipe_Stair_FicsitSet_8x1_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Stair_FicsitSet_8x1_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Stair_FicsitSet_8x2_01_C'": {
     "mainRecipe": "Recipe_Stair_FicsitSet_8x2_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Stair_FicsitSet_8x2_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Stair_FicsitSet_8x4_01_C'": {
     "mainRecipe": "Recipe_Stair_FicsitSet_8x4_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Stair_FicsitSet_8x4_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Foundation_8x1_01_C'": {
     "mainRecipe": "Recipe_Foundation_8x1_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Foundation_8x1_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Foundation_8x2_01_C'": {
     "mainRecipe": "Recipe_Foundation_8x2_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Foundation_8x2_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Foundation_8x4_01_C'": {
     "mainRecipe": "Recipe_Foundation_8x4_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Foundation_8x4_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipe_C'": {
     "mainRecipe": "Recipe_QuarterPipe_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipe_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipe_02_C'": {
     "mainRecipe": "Recipe_QuarterPipe_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipe_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeCorner_01_C'": {
     "mainRecipe": "Recipe_QuarterPipeCorner_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeCorner_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeCorner_02_C'": {
     "mainRecipe": "Recipe_QuarterPipeCorner_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeCorner_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeCorner_03_C'": {
     "mainRecipe": "Recipe_QuarterPipeCorner_03_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeCorner_03_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeCorner_04_C'": {
     "mainRecipe": "Recipe_QuarterPipeCorner_04_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeCorner_04_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_8x1_01_C'": {
     "mainRecipe": "Recipe_Ramp_8x1_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_8x1_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_8x2_01_C'": {
     "mainRecipe": "Recipe_Ramp_8x2_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_8x2_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_8x4_01_C'": {
     "mainRecipe": "Recipe_Ramp_8x4_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_8x4_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_8x4_Inverted_01_C'": {
     "mainRecipe": "Recipe_Ramp_8x4_Inverted_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_8x4_Inverted_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_8x8x8_C'": {
     "mainRecipe": "Recipe_Ramp_8x8x8_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_8x8x8_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_Diagonal_8x1_01_C'": {
     "mainRecipe": "Recipe_Ramp_Diagonal_8x1_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_Diagonal_8x1_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_Diagonal_8x1_02_C'": {
     "mainRecipe": "Recipe_Ramp_Diagonal_8x1_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_Diagonal_8x1_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_Diagonal_8x2_01_C'": {
     "mainRecipe": "Recipe_Ramp_Diagonal_8x2_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_Diagonal_8x2_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_Diagonal_8x2_02_C'": {
     "mainRecipe": "Recipe_Ramp_Diagonal_8x2_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_Diagonal_8x2_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_Diagonal_8x4_01_C'": {
     "mainRecipe": "Recipe_Ramp_Diagonal_8x4_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_Diagonal_8x4_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_Diagonal_8x4_02_C'": {
     "mainRecipe": "Recipe_Ramp_Diagonal_8x4_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_Diagonal_8x4_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampDouble_C'": {
     "mainRecipe": "Recipe_RampDouble_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampDouble_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampDouble_8x1_C'": {
     "mainRecipe": "Recipe_RampDouble_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampDouble_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampInverted_8x1_C'": {
     "mainRecipe": "Recipe_RampInverted_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampInverted_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampInverted_8x1_Corner_01_C'": {
     "mainRecipe": "Recipe_RampInverted_8x1_Corner_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampInverted_8x1_Corner_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampInverted_8x1_Corner_02_C'": {
     "mainRecipe": "Recipe_RampInverted_8x1_Corner_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampInverted_8x1_Corner_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampInverted_8x2_01_C'": {
     "mainRecipe": "Recipe_RampInverted_8x2_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampInverted_8x2_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampInverted_8x2_Corner_01_C'": {
     "mainRecipe": "Recipe_RampInverted_8x2_Corner_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampInverted_8x2_Corner_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampInverted_8x2_Corner_02_C'": {
     "mainRecipe": "Recipe_RampInverted_8x2_Corner_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampInverted_8x2_Corner_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampInverted_8x4_Corner_01_C'": {
     "mainRecipe": "Recipe_RampInverted_8x4_Corner_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampInverted_8x4_Corner_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampInverted_8x4_Corner_02_C'": {
     "mainRecipe": "Recipe_RampInverted_8x4_Corner_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampInverted_8x4_Corner_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_LookoutTower_C'": {
     "mainRecipe": "Recipe_LookoutTower_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_LookoutTower_C"
-    ]
+    "altRecipes": []
   },
   "Desc_DownQuarterPipe_Concrete_8x4_C'": {
     "mainRecipe": "Recipe_DownQuarterPipe_Concrete_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_DownQuarterPipe_Concrete_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_DownQuarterPipeInCorner_Concrete_8x4_C'": {
     "mainRecipe": "Recipe_DownQuarterPipe_ConcreteInCorner_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_DownQuarterPipe_ConcreteInCorner_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_DownQuarterPipeOutCorner_Concrete_8x4_C'": {
     "mainRecipe": "Recipe_DownQuarterPipe_ConcreteOutCorner_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_DownQuarterPipe_ConcreteOutCorner_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Foundation_Concrete_8x1_C'": {
     "mainRecipe": "Recipe_Foundation_Concrete_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Foundation_Concrete_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Foundation_Concrete_8x2_C'": {
     "mainRecipe": "Recipe_Foundation_Concrete_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Foundation_Concrete_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Foundation_Concrete_8x4_C'": {
     "mainRecipe": "Recipe_Foundation_Concrete_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Foundation_Concrete_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_Concrete_8x1_C'": {
     "mainRecipe": "Recipe_InvertedRamp_Concrete_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_Concrete_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_Concrete_8x2_C'": {
     "mainRecipe": "Recipe_InvertedRamp_Concrete_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_Concrete_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_Concrete_8x4_C'": {
     "mainRecipe": "Recipe_InvertedRamp_Concrete_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_Concrete_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_DCorner_Concrete_8x1_C'": {
     "mainRecipe": "Recipe_InvertedRamp_DCorner_Concrete_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_DCorner_Concrete_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_DCorner_Concrete_8x2_C'": {
     "mainRecipe": "Recipe_InvertedRamp_DCorner_Concrete_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_DCorner_Concrete_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_DCorner_Concrete_8x4_C'": {
     "mainRecipe": "Recipe_InvertedRamp_DCorner_Concrete_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_DCorner_Concrete_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_UCorner_Concrete_8x1_C'": {
     "mainRecipe": "Recipe_InvertedRamp_UCorner_Concrete_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_UCorner_Concrete_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_UCorner_Concrete_8x2_C'": {
     "mainRecipe": "Recipe_InvertedRamp_UCorner_Concrete_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_UCorner_Concrete_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_UCorner_Concrete_8x4_C'": {
     "mainRecipe": "Recipe_InvertedRamp_UCorner_Concrete_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_UCorner_Concrete_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipe_Concrete_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipe_Concrete_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipe_Concrete_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeInCorner_Concrete_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeInCorner_Concrete_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeInCorner_Concrete_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddle_Concrete_8x1_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddle_Concrete_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddle_Concrete_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddle_Concrete_8x2_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddle_Concrete_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddle_Concrete_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddle_Concrete_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddle_Concrete_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddle_Concrete_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleInCorner_Concrete_8x1_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleInCorner_Concrete_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleInCorner_Concrete_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleInCorner_Concrete_8x2_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleInCorner_Concrete_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleInCorner_Concrete_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleInCorner_Concrete_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleInCorner_Concrete_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleInCorner_Concrete_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleOutCorner_Concrete_4x1_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleOutCorner_Concrete_4x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleOutCorner_Concrete_4x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleOutCorner_Concrete_4x2_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleOutCorner_Concrete_4x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleOutCorner_Concrete_4x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleOutCorner_Concrete_4x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleOutCorner_Concrete_4x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleOutCorner_Concrete_4x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeOutCorner_Concrete_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeOutCorner_Concrete_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeOutCorner_Concrete_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_Concrete_8x1_C'": {
     "mainRecipe": "Recipe_Ramp_Concrete_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_Concrete_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_Concrete_8x2_C'": {
     "mainRecipe": "Recipe_Ramp_Concrete_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_Concrete_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_Concrete_8x4_C'": {
     "mainRecipe": "Recipe_Ramp_Concrete_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_Concrete_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_DownCorner_Concrete_8x1_C'": {
     "mainRecipe": "Recipe_Ramp_DownCorner_Concrete_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_DownCorner_Concrete_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_DownCorner_Concrete_8x2_C'": {
     "mainRecipe": "Recipe_Ramp_DownCorner_Concrete_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_DownCorner_Concrete_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_DownCorner_Concrete_8x4_C'": {
     "mainRecipe": "Recipe_Ramp_DownCorner_Concrete_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_DownCorner_Concrete_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_UpCorner_Concrete_8x1_C'": {
     "mainRecipe": "Recipe_Ramp_UpCorner_Concrete_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_UpCorner_Concrete_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_UpCorner_Concrete_8x2_C'": {
     "mainRecipe": "Recipe_Ramp_UpCorner_Concrete_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_UpCorner_Concrete_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_UpCorner_Concrete_8x4_C'": {
     "mainRecipe": "Recipe_Ramp_UpCorner_Concrete_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_UpCorner_Concrete_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampDouble_Concrete_8x1_C'": {
     "mainRecipe": "Recipe_RampDouble_Concrete_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampDouble_Concrete_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampDouble_Concrete_8x2_C'": {
     "mainRecipe": "Recipe_RampDouble_Concrete_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampDouble_Concrete_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampDouble_Concrete_8x4_C'": {
     "mainRecipe": "Recipe_RampDouble_Concrete_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampDouble_Concrete_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Stair_Concrete_8x1_C'": {
     "mainRecipe": "Recipe_Stair_Concrete_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Stair_Concrete_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Stair_Concrete_8x2_C'": {
     "mainRecipe": "Recipe_Stair_Concrete_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Stair_Concrete_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Stair_Concrete_8x4_C'": {
     "mainRecipe": "Recipe_Stair_Concrete_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Stair_Concrete_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_DownQuarterPipe_Grip_8x4_C'": {
     "mainRecipe": "Recipe_DownQuarterPipe_Grip_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_DownQuarterPipe_Grip_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_DownQuarterPipeInCorner_Grip_8x4_C'": {
     "mainRecipe": "Recipe_DownQuarterPipe_GripInCorner_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_DownQuarterPipe_GripInCorner_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_DownQuarterPipeOutCorner_Grip_8x4_C'": {
     "mainRecipe": "Recipe_DownQuarterPipe_GripOutCorner_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_DownQuarterPipe_GripOutCorner_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Foundation_Metal_8x1_C'": {
     "mainRecipe": "Recipe_Foundation_Metal_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Foundation_Metal_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Foundation_Metal_8x2_C'": {
     "mainRecipe": "Recipe_Foundation_Metal_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Foundation_Metal_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Foundation_Metal_8x4_C'": {
     "mainRecipe": "Recipe_Foundation_Metal_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Foundation_Metal_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_DCorner_Metal_8x1_C'": {
     "mainRecipe": "Recipe_InvertedRamp_DCorner_Metal_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_DCorner_Metal_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_DCorner_Metal_8x2_C'": {
     "mainRecipe": "Recipe_InvertedRamp_DCorner_Metal_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_DCorner_Metal_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_DCorner_Metal_8x4_C'": {
     "mainRecipe": "Recipe_InvertedRamp_DCorner_Metal_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_DCorner_Metal_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_Metal_8x1_C'": {
     "mainRecipe": "Recipe_InvertedRamp_Metal_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_Metal_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_Metal_8x2_C'": {
     "mainRecipe": "Recipe_InvertedRamp_Metal_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_Metal_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_Metal_8x4_C'": {
     "mainRecipe": "Recipe_InvertedRamp_Metal_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_Metal_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_UCorner_Metal_8x1_C'": {
     "mainRecipe": "Recipe_InvertedRamp_UCorner_Metal_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_UCorner_Metal_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_UCorner_Metal_8x2_C'": {
     "mainRecipe": "Recipe_InvertedRamp_UCorner_Metal_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_UCorner_Metal_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_UCorner_Metal_8x4_C'": {
     "mainRecipe": "Recipe_InvertedRamp_UCorner_Metal_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_UCorner_Metal_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipe_Grip_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipe_Grip_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipe_Grip_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeInCorner_Grip_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeInCorner_Grip_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeInCorner_Grip_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddle_Grip_8x1_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddle_Grip_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddle_Grip_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddle_Grip_8x2_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddle_Grip_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddle_Grip_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddle_Grip_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddle_Grip_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddle_Grip_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleInCorner_Grip_8x1_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleInCorner_Grip_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleInCorner_Grip_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleInCorner_Grip_8x2_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleInCorner_Grip_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleInCorner_Grip_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleInCorner_Grip_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleInCorner_Grip_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleInCorner_Grip_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleOutCorner_Grip_4x1_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleOutCorner_Grip_4x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleOutCorner_Grip_4x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleOutCorner_Grip_4x2_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleOutCorner_Grip_4x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleOutCorner_Grip_4x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleOutCorner_Grip_4x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleOutCorner_Grip_4x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleOutCorner_Grip_4x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeOutCorner_Grip_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeOutCorner_Grip_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeOutCorner_Grip_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_DownCorner_Metal_8x1_C'": {
     "mainRecipe": "Recipe_Ramp_DownCorner_Metal_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_DownCorner_Metal_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_DownCorner_Metal_8x2_C'": {
     "mainRecipe": "Recipe_Ramp_DownCorner_Metal_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_DownCorner_Metal_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_DownCorner_Metal_8x4_C'": {
     "mainRecipe": "Recipe_Ramp_DownCorner_Metal_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_DownCorner_Metal_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_Metal_8x1_C'": {
     "mainRecipe": "Recipe_Ramp_Metal_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_Metal_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_Metal_8x2_C'": {
     "mainRecipe": "Recipe_Ramp_Metal_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_Metal_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_Metal_8x4_C'": {
     "mainRecipe": "Recipe_Ramp_Metal_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_Metal_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_UpCorner_Metal_8x1_C'": {
     "mainRecipe": "Recipe_Ramp_UpCorner_Metal_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_UpCorner_Metal_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_UpCorner_Metal_8x2_C'": {
     "mainRecipe": "Recipe_Ramp_UpCorner_Metal_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_UpCorner_Metal_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_UpCorner_Metal_8x4_C'": {
     "mainRecipe": "Recipe_Ramp_UpCorner_Metal_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_UpCorner_Metal_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampDouble_Metal_8x1_C'": {
     "mainRecipe": "Recipe_RampDouble_Metal_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampDouble_Metal_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampDouble_Metal_8x2_C'": {
     "mainRecipe": "Recipe_RampDouble_Metal_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampDouble_Metal_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampDouble_Metal_8x4_C'": {
     "mainRecipe": "Recipe_RampDouble_Metal_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampDouble_Metal_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Stair_GripMetal_8x1_C'": {
     "mainRecipe": "Recipe_Stair_GripMetal_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Stair_GripMetal_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Stair_GripMetal_8x2_C'": {
     "mainRecipe": "Recipe_Stair_GripMetal_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Stair_GripMetal_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Stair_GripMetal_8x4_C'": {
     "mainRecipe": "Recipe_Stair_GripMetal_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Stair_GripMetal_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_DownQuarterPipe_ConcretePolished_8x4_C'": {
     "mainRecipe": "Recipe_DownQuarterPipe_ConcretePolished_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_DownQuarterPipe_ConcretePolished_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_DownQuarterPipeInCorner_ConcretePolished_8x4_C'": {
     "mainRecipe": "Recipe_DownQuarterPipe_ConcretePolishedInCorner_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_DownQuarterPipe_ConcretePolishedInCorner_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_DownQuarterPipeOutCorner_ConcretePolished_8x4_C'": {
     "mainRecipe": "Recipe_DownQuarterPipe_ConcretePolishedOutCorner_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_DownQuarterPipe_ConcretePolishedOutCorner_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Foundation_ConcretePolished_8x1_C'": {
     "mainRecipe": "Recipe_Foundation_ConcretePolished_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Foundation_ConcretePolished_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Foundation_ConcretePolished_8x2_C'": {
     "mainRecipe": "Recipe_Foundation_ConcretePolished_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Foundation_ConcretePolished_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Foundation_ConcretePolished_8x4_C'": {
     "mainRecipe": "Recipe_Foundation_ConcretePolished_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Foundation_ConcretePolished_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_DCorner_Polished_8x1_C'": {
     "mainRecipe": "Recipe_InvertedRamp_DCorner_Polished_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_DCorner_Polished_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_DCorner_Polished_8x2_C'": {
     "mainRecipe": "Recipe_InvertedRamp_DCorner_Polished_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_DCorner_Polished_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_DCorner_Polished_8x4_C'": {
     "mainRecipe": "Recipe_InvertedRamp_DCorner_Polished_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_DCorner_Polished_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_Polished_8x1_C'": {
     "mainRecipe": "Recipe_InvertedRamp_Polished_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_Polished_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_Polished_8x2_C'": {
     "mainRecipe": "Recipe_InvertedRamp_Polished_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_Polished_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_Polished_8x4_C'": {
     "mainRecipe": "Recipe_InvertedRamp_Polished_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_Polished_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_UCorner_Polished_8x1_C'": {
     "mainRecipe": "Recipe_InvertedRamp_UCorner_Polished_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_UCorner_Polished_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_UCorner_Polished_8x2_C'": {
     "mainRecipe": "Recipe_InvertedRamp_UCorner_Polished_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_UCorner_Polished_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_UCorner_Polished_8x4_C'": {
     "mainRecipe": "Recipe_InvertedRamp_UCorner_Polished_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_UCorner_Polished_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipe_ConcretePolished_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipe_ConcretePolished_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipe_ConcretePolished_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeInCorner_ConcretePolished_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeInCorner_ConcretePolished_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeInCorner_ConcretePolished_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddle_PolishedConcrete_8x1_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddle_PolishedConcrete_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddle_PolishedConcrete_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddle_PolishedConcrete_8x2_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddle_PolishedConcrete_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddle_PolishedConcrete_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddle_PolishedConcrete_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddle_PolishedConcrete_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddle_PolishedConcrete_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleInCorner_PolishedConcrete_8x1_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleInCorner_PolishedConcrete_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleInCorner_PolishedConcrete_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleInCorner_PolishedConcrete_8x2_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleInCorner_PolishedConcrete_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleInCorner_PolishedConcrete_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleInCorner_PolishedConcrete_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleInCorner_PolishedConcrete_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleInCorner_PolishedConcrete_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleOutCorner_PolishedConcrete_4x1_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleOutCorner_PolishedConcrete_4x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleOutCorner_PolishedConcrete_4x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleOutCorner_PolishedConcrete_4x2_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleOutCorner_PolishedConcrete_4x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleOutCorner_PolishedConcrete_4x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleOutCorner_PolishedConcrete_4x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleOutCorner_PolishedConcrete_4x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleOutCorner_PolishedConcrete_4x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeOutCorner_ConcretePolished_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeOutCorner_ConcretePolished_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeOutCorner_ConcretePolished_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_DownCorner_Polished_8x1_C'": {
     "mainRecipe": "Recipe_Ramp_DownCorner_Polished_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_DownCorner_Polished_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_DownCorner_Polished_8x2_C'": {
     "mainRecipe": "Recipe_Ramp_DownCorner_Polished_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_DownCorner_Polished_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_DownCorner_Polished_8x4_C'": {
     "mainRecipe": "Recipe_Ramp_DownCorner_Polished_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_DownCorner_Polished_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_Polished_8x1_C'": {
     "mainRecipe": "Recipe_Ramp_Polished_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_Polished_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_Polished_8x2_C'": {
     "mainRecipe": "Recipe_Ramp_Polished_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_Polished_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_Polished_8x4_C'": {
     "mainRecipe": "Recipe_Ramp_Polished_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_Polished_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_UpCorner_Polished_8x1_C'": {
     "mainRecipe": "Recipe_Ramp_UpCorner_Polished_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_UpCorner_Polished_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_UpCorner_Polished_8x2_C'": {
     "mainRecipe": "Recipe_Ramp_UpCorner_Polished_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_UpCorner_Polished_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_UpCorner_Polished_8x4_C'": {
     "mainRecipe": "Recipe_Ramp_UpCorner_Polished_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_UpCorner_Polished_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampDouble_Polished_8x1_C'": {
     "mainRecipe": "Recipe_RampDouble_Polished_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampDouble_Polished_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampDouble_Polished_8x2_C'": {
     "mainRecipe": "Recipe_RampDouble_Polished_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampDouble_Polished_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampDouble_Polished_8x4_C'": {
     "mainRecipe": "Recipe_RampDouble_Polished_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampDouble_Polished_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Stair_PolishedConcrete_8x1_C'": {
     "mainRecipe": "Recipe_Stair_PolishedConcrete_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Stair_PolishedConcrete_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Stair_PolishedConcrete_8x2_C'": {
     "mainRecipe": "Recipe_Stair_PolishedConcrete_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Stair_PolishedConcrete_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Stair_PolishedConcrete_8x4_C'": {
     "mainRecipe": "Recipe_Stair_PolishedConcrete_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Stair_PolishedConcrete_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_DownQuarterPipe_Asphalt_8x4_C'": {
     "mainRecipe": "Recipe_DownQuarterPipe_Asphalt_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_DownQuarterPipe_Asphalt_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_DownQuarterPipeInCorner_Asphalt_8x4_C'": {
     "mainRecipe": "Recipe_DownQuarterPipe_AsphaltInCorner_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_DownQuarterPipe_AsphaltInCorner_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_DownQuarterPipeOutCorner_Asphalt_8x4_C'": {
     "mainRecipe": "Recipe_DownQuarterPipe_AsphaltOutCorner_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_DownQuarterPipe_AsphaltOutCorner_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Foundation_Asphalt_8x1_C'": {
     "mainRecipe": "Recipe_Foundation_Asphalt_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Foundation_Asphalt_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Foundation_Asphalt_8x2_C'": {
     "mainRecipe": "Recipe_Foundation_Asphalt_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Foundation_Asphalt_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Foundation_Asphalt_8x4_C'": {
     "mainRecipe": "Recipe_Foundation_Asphalt_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Foundation_Asphalt_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_Asphalt_8x1_C'": {
     "mainRecipe": "Recipe_InvertedRamp_Asphalt_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_Asphalt_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_Asphalt_8x2_C'": {
     "mainRecipe": "Recipe_InvertedRamp_Asphalt_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_Asphalt_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_Asphalt_8x4_C'": {
     "mainRecipe": "Recipe_InvertedRamp_Asphalt_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_Asphalt_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_DCorner_Asphalt_8x1_C'": {
     "mainRecipe": "Recipe_InvertedRamp_DCorner_Asphalt_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_DCorner_Asphalt_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_DCorner_Asphalt_8x2_C'": {
     "mainRecipe": "Recipe_InvertedRamp_DCorner_Asphalt_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_DCorner_Asphalt_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_DCorner_Asphalt_8x4_C'": {
     "mainRecipe": "Recipe_InvertedRamp_DCorner_Asphalt_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_DCorner_Asphalt_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_UCorner_Asphalt_8x1_C'": {
     "mainRecipe": "Recipe_InvertedRamp_UCorner_Asphalt_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_UCorner_Asphalt_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_UCorner_Asphalt_8x2_C'": {
     "mainRecipe": "Recipe_InvertedRamp_UCorner_Asphalt_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_UCorner_Asphalt_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_InvertedRamp_UCorner_Asphalt_8x4_C'": {
     "mainRecipe": "Recipe_InvertedRamp_UCorner_Asphalt_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_InvertedRamp_UCorner_Asphalt_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipe_Asphalt_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipe_Asphalt_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipe_Asphalt_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeInCorner_Asphalt_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeInCorner_Asphalt_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeInCorner_Asphalt_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddle_Asphalt_8x1_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddle_Asphalt_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddle_Asphalt_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddle_Asphalt_8x2_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddle_Asphalt_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddle_Asphalt_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddle_Asphalt_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddle_Asphalt_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddle_Asphalt_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleInCorner_Asphalt_8x1_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleInCorner_Asphalt_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleInCorner_Asphalt_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleInCorner_Asphalt_8x2_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleInCorner_Asphalt_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleInCorner_Asphalt_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleInCorner_Asphalt_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleInCorner_Asphalt_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleInCorner_Asphalt_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleOutCorner_Asphalt_4x1_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleOutCorner_Asphalt_4x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleOutCorner_Asphalt_4x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleOutCorner_Asphalt_4x2_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleOutCorner_Asphalt_4x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleOutCorner_Asphalt_4x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeMiddleOutCorner_Asphalt_4x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeMiddleOutCorner_Asphalt_4x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeMiddleOutCorner_Asphalt_4x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_QuarterPipeOutCorner_Asphalt_8x4_C'": {
     "mainRecipe": "Recipe_QuarterPipeOutCorner_Asphalt_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_QuarterPipeOutCorner_Asphalt_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_Asphalt_8x1_C'": {
     "mainRecipe": "Recipe_Ramp_Asphalt_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_Asphalt_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_Asphalt_8x2_C'": {
     "mainRecipe": "Recipe_Ramp_Asphalt_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_Asphalt_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_Asphalt_8x4_C'": {
     "mainRecipe": "Recipe_Ramp_Asphalt_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_Asphalt_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_DownCorner_Asphalt_8x1_C'": {
     "mainRecipe": "Recipe_Ramp_DownCorner_Asphalt_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_DownCorner_Asphalt_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_DownCorner_Asphalt_8x2_C'": {
     "mainRecipe": "Recipe_Ramp_DownCorner_Asphalt_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_DownCorner_Asphalt_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_DownCorner_Asphalt_8x4_C'": {
     "mainRecipe": "Recipe_Ramp_DownCorner_Asphalt_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_DownCorner_Asphalt_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_UpCorner_Asphalt_8x1_C'": {
     "mainRecipe": "Recipe_Ramp_UpCorner_Asphalt_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_UpCorner_Asphalt_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_UpCorner_Asphalt_8x2_C'": {
     "mainRecipe": "Recipe_Ramp_UpCorner_Asphalt_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_UpCorner_Asphalt_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_UpCorner_Asphalt_8x4_C'": {
     "mainRecipe": "Recipe_Ramp_UpCorner_Asphalt_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_UpCorner_Asphalt_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampDouble_Asphalt_8x1_C'": {
     "mainRecipe": "Recipe_RampDouble_Asphalt_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampDouble_Asphalt_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampDouble_Asphalt_8x2_C'": {
     "mainRecipe": "Recipe_RampDouble_Asphalt_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampDouble_Asphalt_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RampDouble_Asphalt_8x4_C'": {
     "mainRecipe": "Recipe_RampDouble_Asphalt_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RampDouble_Asphalt_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Stair_Asphalt_8x1_C'": {
     "mainRecipe": "Recipe_Stair_Asphalt_8x1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Stair_Asphalt_8x1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Stair_Asphalt_8x2_C'": {
     "mainRecipe": "Recipe_Stair_Asphalt_8x2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Stair_Asphalt_8x2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Stair_Asphalt_8x4_C'": {
     "mainRecipe": "Recipe_Stair_Asphalt_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Stair_Asphalt_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_AlienDNACapsule_C'": {
     "mainRecipe": "Recipe_AlienDNACapsule_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_AlienDNACapsule_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Medkit_C'": {
     "mainRecipe": "Recipe_MedicinalInhalerAlienOrgans_C",
@@ -4071,1236 +2338,706 @@
       "Recipe_TherapeuticInhaler_C",
       "Recipe_MedicinalInhaler_C",
       "Recipe_NutritionalInhaler_C"
-    ],
-    "allRecipes": [
-      "Recipe_MedicinalInhalerAlienOrgans_C",
-      "Recipe_TherapeuticInhaler_C",
-      "Recipe_MedicinalInhaler_C",
-      "Recipe_NutritionalInhaler_C"
     ]
   },
   "Desc_SpikedRebar_C'": {
     "mainRecipe": "Recipe_SpikedRebar_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SpikedRebar_C"
-    ]
+    "altRecipes": []
   },
   "Desc_RebarGunProjectile_C'": {
     "mainRecipe": "Recipe_RebarGun_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RebarGun_C"
-    ]
+    "altRecipes": []
   },
   "Desc_AlienPowerBuilding_C'": {
     "mainRecipe": "Recipe_AlienPowerBuilding_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_AlienPowerBuilding_C"
-    ]
+    "altRecipes": []
   },
   "Desc_CentralStorage_C'": {
     "mainRecipe": "Recipe_CentralStorage_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_CentralStorage_C"
-    ]
+    "altRecipes": []
   },
   "Desc_GeneratorGeoThermal_C'": {
     "mainRecipe": "Recipe_GeneratorGeoThermal_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_GeneratorGeoThermal_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ConveyorAttachmentSplitterProgrammable_C'": {
     "mainRecipe": "Recipe_ConveyorAttachmentSplitterProgrammable_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConveyorAttachmentSplitterProgrammable_C"
-    ]
+    "altRecipes": []
   },
   "Desc_CartridgeSmartProjectile_C'": {
     "mainRecipe": "Recipe_CartridgeSmart_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_CartridgeSmart_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PowerPoleMk3_C'": {
     "mainRecipe": "Recipe_PowerPoleMk3_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PowerPoleMk3_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PriorityPowerSwitch_C'": {
     "mainRecipe": "Recipe_PriorityPowerSwitch_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PriorityPowerSwitch_C"
-    ]
+    "altRecipes": []
   },
   "BP_EquipmentDescriptorJumpingStilts_C'": {
     "mainRecipe": "Recipe_BladeRunners_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_BladeRunners_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PowerPoleMk2_C'": {
     "mainRecipe": "Recipe_PowerPoleMk2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PowerPoleMk2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PowerSwitch_C'": {
     "mainRecipe": "Recipe_PowerSwitch_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PowerSwitch_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ConveyorAttachmentSplitterSmart_C'": {
     "mainRecipe": "Recipe_ConveyorAttachmentSplitterSmart_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConveyorAttachmentSplitterSmart_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Rebar_Stunshot_C'": {
     "mainRecipe": "Recipe_Rebar_Stunshot_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Rebar_Stunshot_C"
-    ]
+    "altRecipes": []
   },
   "BP_EqDescZipLine_C'": {
     "mainRecipe": "Recipe_ZipLine_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ZipLine_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Filter_C'": {
     "mainRecipe": "Recipe_FilterGasMask_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_FilterGasMask_C"
-    ]
+    "altRecipes": []
   },
   "BP_EquipmentDescriptorGasmask_C'": {
     "mainRecipe": "Recipe_Gasmask_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Gasmask_C"
-    ]
+    "altRecipes": []
   },
   "Desc_NobeliskGas_C'": {
     "mainRecipe": "Recipe_NobeliskGas_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_NobeliskGas_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Parachute_C'": {
     "mainRecipe": "Recipe_Parachute_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Parachute_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Fabric_C'": {
     "mainRecipe": "Recipe_Alternate_PolyesterFabric_C",
     "altRecipes": [
       "Recipe_Fabric_C"
-    ],
-    "allRecipes": [
-      "Recipe_Alternate_PolyesterFabric_C",
-      "Recipe_Fabric_C"
     ]
   },
   "Desc_RadarTower_C'": {
     "mainRecipe": "Recipe_RadarTower_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_RadarTower_C"
-    ]
+    "altRecipes": []
   },
   "Desc_NobeliskShockwave_C'": {
     "mainRecipe": "Recipe_NobeliskShockwave_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_NobeliskShockwave_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Explorer_C'": {
     "mainRecipe": "Recipe_Explorer_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Explorer_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Rebar_Spreadshot_C'": {
     "mainRecipe": "Recipe_Rebar_Spreadshot_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Rebar_Spreadshot_C"
-    ]
+    "altRecipes": []
   },
   "Desc_CartridgeChaos_C'": {
     "mainRecipe": "Recipe_CartridgeChaos_Packaged_C",
     "altRecipes": [
       "Recipe_CartridgeChaos_C"
-    ],
-    "allRecipes": [
-      "Recipe_CartridgeChaos_Packaged_C",
-      "Recipe_CartridgeChaos_C"
     ]
   },
   "Desc_NobeliskNuke_C'": {
     "mainRecipe": "Recipe_NobeliskNuke_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_NobeliskNuke_C"
-    ]
+    "altRecipes": []
   },
   "Desc_CartridgeStandard_C'": {
     "mainRecipe": "Recipe_Cartridge_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Cartridge_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Rebar_Explosive_C'": {
     "mainRecipe": "Recipe_Rebar_Explosive_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Rebar_Explosive_C"
-    ]
+    "altRecipes": []
   },
   "BP_EquipmentDescriptorRifle_C'": {
     "mainRecipe": "Recipe_SpaceRifleMk1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SpaceRifleMk1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_NobeliskCluster_C'": {
     "mainRecipe": "Recipe_NobeliskCluster_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_NobeliskCluster_C"
-    ]
+    "altRecipes": []
   },
   "Desc_NobeliskExplosive_C'": {
     "mainRecipe": "Recipe_Nobelisk_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Nobelisk_C"
-    ]
+    "altRecipes": []
   },
   "BP_EquipmentDescriptorNobeliskDetonator_C'": {
     "mainRecipe": "Recipe_NobeliskDetonator_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_NobeliskDetonator_C"
-    ]
+    "altRecipes": []
   },
   "Desc_GunpowderMK2_C'": {
     "mainRecipe": "Recipe_GunpowderMK2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_GunpowderMK2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_XmasWreath_C'": {
     "mainRecipe": "Recipe_XmasWreath_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_XmasWreath_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SnowballProjectile_C'": {
     "mainRecipe": "Recipe_Snowball_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Snowball_C"
-    ]
+    "altRecipes": []
   },
   "Desc_WreathDecor_C'": {
     "mainRecipe": "Recipe_WreathDecor_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_WreathDecor_C"
-    ]
+    "altRecipes": []
   },
   "Desc_XmasStar_C'": {
     "mainRecipe": "Recipe_XmasStar_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_XmasStar_C"
-    ]
+    "altRecipes": []
   },
   "Desc_XmasBall3_C'": {
     "mainRecipe": "Recipe_XmasBall3_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_XmasBall3_C"
-    ]
+    "altRecipes": []
   },
   "Desc_XmasBall4_C'": {
     "mainRecipe": "Recipe_XmasBall4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_XmasBall4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SnowCannon_C'": {
     "mainRecipe": "Recipe_SnowCannon_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SnowCannon_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SnowDispenser_C'": {
     "mainRecipe": "Recipe_SnowDispenser_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SnowDispenser_C"
-    ]
+    "altRecipes": []
   },
   "Desc_xmassLights_C'": {
     "mainRecipe": "Recipe_xmassLights_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_xmassLights_C"
-    ]
+    "altRecipes": []
   },
   "Desc_XmasBallCluster_C'": {
     "mainRecipe": "Recipe_XmasBallCluster_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_XmasBallCluster_C"
-    ]
+    "altRecipes": []
   },
   "Desc_XmasBall1_C'": {
     "mainRecipe": "Recipe_XmasBall1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_XmasBall1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_XmasBall2_C'": {
     "mainRecipe": "Recipe_XmasBall2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_XmasBall2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_TreeGiftProducer_C'": {
     "mainRecipe": "Recipe_TreeGiftProducer_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_TreeGiftProducer_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Snowman_C'": {
     "mainRecipe": "Recipe_Snowman_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Snowman_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Snow_C'": {
     "mainRecipe": "Recipe_Snow_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Snow_C"
-    ]
+    "altRecipes": []
   },
   "Desc_XMassTree_C'": {
     "mainRecipe": "Recipe_XMassTree_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_XMassTree_C"
-    ]
+    "altRecipes": []
   },
   "Desc_XmasBranch_C'": {
     "mainRecipe": "Recipe_XmasBranch_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_XmasBranch_C"
-    ]
+    "altRecipes": []
   },
   "Desc_CandyCaneDecor_C'": {
     "mainRecipe": "Recipe_CandyCaneDecor_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_CandyCaneDecor_C"
-    ]
+    "altRecipes": []
   },
   "Desc_XmasBow_C'": {
     "mainRecipe": "Recipe_XmasBow_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_XmasBow_C"
-    ]
+    "altRecipes": []
   },
   "Desc_CandyCane_C'": {
     "mainRecipe": "Recipe_CandyCane_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_CandyCane_C"
-    ]
+    "altRecipes": []
   },
   "BP_EquipmentDescriptorCandyCane_C'": {
     "mainRecipe": "Recipe_CandyCaneBasher_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_CandyCaneBasher_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Flat_Frame_01_C'": {
     "mainRecipe": "Recipe_Flat_Frame_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Flat_Frame_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Foundation_Frame_01_C'": {
     "mainRecipe": "Recipe_Foundation_Frame_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Foundation_Frame_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_FoundationGlass_01_C'": {
     "mainRecipe": "Recipe_FoundationGlass_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_FoundationGlass_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_Frame_01_C'": {
     "mainRecipe": "Recipe_Ramp_Frame_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_Frame_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ramp_Frame_Inverted_01_C'": {
     "mainRecipe": "Recipe_Ramp_Frame_Inverted_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ramp_Frame_Inverted_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Frame_01_C'": {
     "mainRecipe": "Recipe_Wall_Frame_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Frame_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Railing_01_C'": {
     "mainRecipe": "Recipe_Railing_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Railing_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Pillar_Small_Metal_C'": {
     "mainRecipe": "Recipe_Pillar_Small_Metal_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Pillar_Small_Metal_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PillarBase_Small_C'": {
     "mainRecipe": "Recipe_PillarBase_Small_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PillarBase_Small_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PillarBase_C'": {
     "mainRecipe": "Recipe_PillarBase_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PillarBase_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PillarMiddle_C'": {
     "mainRecipe": "Recipe_PillarMiddle_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PillarMiddle_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Ladder_C'": {
     "mainRecipe": "Recipe_Ladder_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Ladder_C"
-    ]
+    "altRecipes": []
   },
   "Desc_GolfCart_C'": {
     "mainRecipe": "Recipe_FactoryCart_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_FactoryCart_C"
-    ]
+    "altRecipes": []
   },
   "Desc_CyberWagon_C'": {
     "mainRecipe": "Recipe_CyberWagon_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_CyberWagon_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Gate_Automated_8x4_C'": {
     "mainRecipe": "Recipe_Gate_Automated_8x4_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Gate_Automated_8x4_C"
-    ]
+    "altRecipes": []
   },
   "Desc_HyperTubeWallHole_C'": {
     "mainRecipe": "Recipe_HyperTubeWallHole_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_HyperTubeWallHole_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PipelineSupportWallHole_C'": {
     "mainRecipe": "Recipe_PipeSupportWallHole_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PipeSupportWallHole_C"
-    ]
+    "altRecipes": []
   },
   "Desc_FoundationPassthrough_Pipe_C'": {
     "mainRecipe": "Recipe_FoundationPassthrough_Pipe_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_FoundationPassthrough_Pipe_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PowerPoleWallDouble_C'": {
     "mainRecipe": "Recipe_PowerPoleWallDouble_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PowerPoleWallDouble_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PowerPoleWallDoubleMk2_C'": {
     "mainRecipe": "Recipe_PowerPoleWallDoubleMk2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PowerPoleWallDoubleMk2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PowerPoleWallMk2_C'": {
     "mainRecipe": "Recipe_PowerPoleWallMk2_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PowerPoleWallMk2_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PowerPoleWallDoubleMk3_C'": {
     "mainRecipe": "Recipe_PowerPoleWallDoubleMk3_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PowerPoleWallDoubleMk3_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PowerPoleWallMk3_C'": {
     "mainRecipe": "Recipe_PowerPoleWallMk3_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PowerPoleWallMk3_C"
-    ]
+    "altRecipes": []
   },
   "Desc_StreetLight_C'": {
     "mainRecipe": "Recipe_StreetLight_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_StreetLight_C"
-    ]
+    "altRecipes": []
   },
   "Desc_CeilingLight_C'": {
     "mainRecipe": "Recipe_CeilingLight_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_CeilingLight_C"
-    ]
+    "altRecipes": []
   },
   "Desc_FloodlightPole_C'": {
     "mainRecipe": "Recipe_FloodlightPole_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_FloodlightPole_C"
-    ]
+    "altRecipes": []
   },
   "Desc_FloodlightWall_C'": {
     "mainRecipe": "Recipe_FloodlightWall_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_FloodlightWall_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Orange_01_C'": {
     "mainRecipe": "Recipe_Roof_Orange_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Orange_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Orange_02_C'": {
     "mainRecipe": "Recipe_Roof_Orange_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Orange_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Orange_03_C'": {
     "mainRecipe": "Recipe_Roof_Orange_03_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Orange_03_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Orange_04_C'": {
     "mainRecipe": "Recipe_Roof_Orange_04_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Orange_04_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Orange_InCorner_01_C'": {
     "mainRecipe": "Recipe_Roof_Orange_InCorner_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Orange_InCorner_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Orange_InCorner_02_C'": {
     "mainRecipe": "Recipe_Roof_Orange_InCorner_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Orange_InCorner_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Orange_InCorner_03_C'": {
     "mainRecipe": "Recipe_Roof_Orange_InCorner_03_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Orange_InCorner_03_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Orange_OutCorner_01_C'": {
     "mainRecipe": "Recipe_Roof_Orange_OutCorner_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Orange_OutCorner_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Orange_OutCorner_02_C'": {
     "mainRecipe": "Recipe_Roof_Orange_OutCorner_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Orange_OutCorner_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Orange_OutCorner_03_C'": {
     "mainRecipe": "Recipe_Roof_Orange_OutCorner_03_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Orange_OutCorner_03_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Window_01_C'": {
     "mainRecipe": "Recipe_Roof_Window_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Window_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Window_02_C'": {
     "mainRecipe": "Recipe_Roof_Window_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Window_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Window_03_C'": {
     "mainRecipe": "Recipe_Roof_Window_03_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Window_03_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Window_04_C'": {
     "mainRecipe": "Recipe_Roof_Window_04_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Window_04_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Window_InCorner_01_C'": {
     "mainRecipe": "Recipe_Roof_Window_InCorner_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Window_InCorner_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Window_InCorner_02_C'": {
     "mainRecipe": "Recipe_Roof_Window_InCorner_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Window_InCorner_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Window_InCorner_03_C'": {
     "mainRecipe": "Recipe_Roof_Window_InCorner_03_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Window_InCorner_03_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Window_OutCorner_01_C'": {
     "mainRecipe": "Recipe_Roof_Window_OutCorner_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Window_OutCorner_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Window_OutCorner_02_C'": {
     "mainRecipe": "Recipe_Roof_Window_OutCorner_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Window_OutCorner_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Window_OutCorner_03_C'": {
     "mainRecipe": "Recipe_Roof_Window_OutCorner_03_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Window_OutCorner_03_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_A_01_C'": {
     "mainRecipe": "Recipe_Roof_A_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_A_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_A_02_C'": {
     "mainRecipe": "Recipe_Roof_A_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_A_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_A_03_C'": {
     "mainRecipe": "Recipe_Roof_A_03_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_A_03_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_A_04_C'": {
     "mainRecipe": "Recipe_Roof_A_04_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_A_04_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Metal_InCorner_01_C'": {
     "mainRecipe": "Recipe_Roof_Metal_InCorner_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Metal_InCorner_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Metal_InCorner_02_C'": {
     "mainRecipe": "Recipe_Roof_Metal_InCorner_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Metal_InCorner_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Metal_InCorner_03_C'": {
     "mainRecipe": "Recipe_Roof_Metal_InCorner_03_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Metal_InCorner_03_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Metal_OutCorner_01_C'": {
     "mainRecipe": "Recipe_Roof_Metal_OutCorner_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Metal_OutCorner_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Metal_OutCorner_02_C'": {
     "mainRecipe": "Recipe_Roof_Metal_OutCorner_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Metal_OutCorner_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Metal_OutCorner_03_C'": {
     "mainRecipe": "Recipe_Roof_Metal_OutCorner_03_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Metal_OutCorner_03_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Tar_01_C'": {
     "mainRecipe": "Recipe_Roof_Tar_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Tar_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Tar_02_C'": {
     "mainRecipe": "Recipe_Roof_Tar_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Tar_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Tar_03_C'": {
     "mainRecipe": "Recipe_Roof_Tar_03_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Tar_03_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Tar_04_C'": {
     "mainRecipe": "Recipe_Roof_Tar_04_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Tar_04_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Tar_InCorner_01_C'": {
     "mainRecipe": "Recipe_Roof_Tar_InCorner_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Tar_InCorner_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Tar_InCorner_02_C'": {
     "mainRecipe": "Recipe_Roof_Tar_InCorner_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Tar_InCorner_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Tar_InCorner_03_C'": {
     "mainRecipe": "Recipe_Roof_Tar_InCorner_03_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Tar_InCorner_03_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Tar_OutCorner_01_C'": {
     "mainRecipe": "Recipe_Roof_Tar_OutCorner_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Tar_OutCorner_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Tar_OutCorner_02_C'": {
     "mainRecipe": "Recipe_Roof_Tar_OutCorner_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Tar_OutCorner_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Roof_Tar_OutCorner_03_C'": {
     "mainRecipe": "Recipe_Roof_Tar_OutCorner_03_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Roof_Tar_OutCorner_03_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PipelineMK2_NoIndicator_C'": {
     "mainRecipe": "Recipe_PipelineMK2_NoIndicator_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PipelineMK2_NoIndicator_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Pipeline_NoIndicator_C'": {
     "mainRecipe": "Recipe_Pipeline_NoIndicator_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Pipeline_NoIndicator_C"
-    ]
+    "altRecipes": []
   },
   "Desc_StorageMedkit_C'": {
     "mainRecipe": "Recipe_StorageMedkit_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_StorageMedkit_C"
-    ]
+    "altRecipes": []
   },
   "Desc_LightsControlPanel_C'": {
     "mainRecipe": "Recipe_LightsControlPanel_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_LightsControlPanel_C"
-    ]
+    "altRecipes": []
   },
   "Desc_StandaloneWidgetSign_Small_C'": {
     "mainRecipe": "Recipe_StandaloneWidgetSign_Small_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_StandaloneWidgetSign_Small_C"
-    ]
+    "altRecipes": []
   },
   "Desc_StandaloneWidgetSign_SmallVeryWide_C'": {
     "mainRecipe": "Recipe_StandaloneWidgetSign_SmallVeryWide_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_StandaloneWidgetSign_SmallVeryWide_C"
-    ]
+    "altRecipes": []
   },
   "Desc_StandaloneWidgetSign_SmallWide_C'": {
     "mainRecipe": "Recipe_StandaloneWidgetSign_SmallWide_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_StandaloneWidgetSign_SmallWide_C"
-    ]
+    "altRecipes": []
   },
   "Desc_StandaloneWidgetSign_Square_Tiny_C'": {
     "mainRecipe": "Recipe_StandaloneWidgetSign_Square_Tiny_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_StandaloneWidgetSign_Square_Tiny_C"
-    ]
+    "altRecipes": []
   },
   "Desc_FoundationPassthrough_Hypertube_C'": {
     "mainRecipe": "Recipe_FoundationPassthrough_Hypertube_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_FoundationPassthrough_Hypertube_C"
-    ]
+    "altRecipes": []
   },
   "Desc_StorageHazard_C'": {
     "mainRecipe": "Recipe_StorageHazard_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_StorageHazard_C"
-    ]
+    "altRecipes": []
   },
   "Desc_GolfCartGold_C'": {
     "mainRecipe": "Recipe_GoldenCart_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_GoldenCart_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Window_8x4_05_C'": {
     "mainRecipe": "Recipe_Wall_Window_8x4_05_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Window_8x4_05_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Window_8x4_06_C'": {
     "mainRecipe": "Recipe_Wall_Window_8x4_06_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Window_8x4_06_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Window_8x4_07_C'": {
     "mainRecipe": "Recipe_Wall_Window_8x4_07_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Window_8x4_07_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Window_Thin_8x4_01_C'": {
     "mainRecipe": "Recipe_Wall_Window_Thin_8x4_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Window_Thin_8x4_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Wall_Window_Thin_8x4_02_C'": {
     "mainRecipe": "Recipe_Wall_Window_Thin_8x4_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Wall_Window_Thin_8x4_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Pillar_Small_Frame_C'": {
     "mainRecipe": "Recipe_Pillar_Small_Frame_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Pillar_Small_Frame_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PillarMiddle_Frame_C'": {
     "mainRecipe": "Recipe_PillarMiddle_Frame_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PillarMiddle_Frame_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ChainLinkFence_C'": {
     "mainRecipe": "Recipe_ChainLinkFence_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ChainLinkFence_C"
-    ]
+    "altRecipes": []
   },
   "Desc_TarpFence_C'": {
     "mainRecipe": "Recipe_TarpFence_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_TarpFence_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Barrier_Low_01_C'": {
     "mainRecipe": "Recipe_Barrier_Low_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Barrier_Low_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Barrier_Tall_01_C'": {
     "mainRecipe": "Recipe_Barrier_Tall_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Barrier_Tall_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Concrete_Barrier_01_C'": {
     "mainRecipe": "Recipe_Concrete_Barrier_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Concrete_Barrier_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_StandaloneWidgetSign_Medium_C'": {
     "mainRecipe": "Recipe_StandaloneWidgetSign_Medium_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_StandaloneWidgetSign_Medium_C"
-    ]
+    "altRecipes": []
   },
   "Desc_StandaloneWidgetSign_Portrait_C'": {
     "mainRecipe": "Recipe_StandaloneWidgetSign_Portrait_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_StandaloneWidgetSign_Portrait_C"
-    ]
+    "altRecipes": []
   },
   "Desc_StandaloneWidgetSign_Square_C'": {
     "mainRecipe": "Recipe_StandaloneWidgetSign_Square_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_StandaloneWidgetSign_Square_C"
-    ]
+    "altRecipes": []
   },
   "Desc_StandaloneWidgetSign_Square_Small_C'": {
     "mainRecipe": "Recipe_StandaloneWidgetSign_Square_Small_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_StandaloneWidgetSign_Square_Small_C"
-    ]
+    "altRecipes": []
   },
   "Desc_FoundationPassthrough_Lift_C'": {
     "mainRecipe": "Recipe_FoundationPassthrough_Lift_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_FoundationPassthrough_Lift_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Pillar_Small_Concrete_C'": {
     "mainRecipe": "Recipe_Pillar_Small_Concrete_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Pillar_Small_Concrete_C"
-    ]
+    "altRecipes": []
   },
   "Desc_PillarMiddle_Concrete_C'": {
     "mainRecipe": "Recipe_PillarMiddle_Concrete_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_PillarMiddle_Concrete_C"
-    ]
+    "altRecipes": []
   },
   "Desc_CatwalkCross_C'": {
     "mainRecipe": "Recipe_Catwalk_Cross_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Catwalk_Cross_C"
-    ]
+    "altRecipes": []
   },
   "Desc_CatwalkRamp_C'": {
     "mainRecipe": "Recipe_Catwalk_Ramp_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Catwalk_Ramp_C"
-    ]
+    "altRecipes": []
   },
   "Desc_CatwalkStairs_C'": {
     "mainRecipe": "Recipe_Catwalk_Stairs_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Catwalk_Stairs_C"
-    ]
+    "altRecipes": []
   },
   "Desc_CatwalkStraight_C'": {
     "mainRecipe": "Recipe_Catwalk_Straight_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Catwalk_Straight_C"
-    ]
+    "altRecipes": []
   },
   "Desc_CatwalkT_C'": {
     "mainRecipe": "Recipe_Catwalk_T_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Catwalk_T_C"
-    ]
+    "altRecipes": []
   },
   "Desc_CatwalkTurn_C'": {
     "mainRecipe": "Recipe_Catwalk_Turn_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Catwalk_Turn_C"
-    ]
+    "altRecipes": []
   },
   "Desc_StandaloneWidgetSign_Huge_C'": {
     "mainRecipe": "Recipe_StandaloneWidgetSign_Huge_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_StandaloneWidgetSign_Huge_C"
-    ]
+    "altRecipes": []
   },
   "Desc_StandaloneWidgetSign_Large_C'": {
     "mainRecipe": "Recipe_StandaloneWidgetSign_Large_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_StandaloneWidgetSign_Large_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Beam_C'": {
     "mainRecipe": "Recipe_Beam_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Beam_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Beam_Connector_C'": {
     "mainRecipe": "Recipe_Beam_Connector_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Beam_Connector_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Beam_Connector_Double_C'": {
     "mainRecipe": "Recipe_Beam_Connector_Double_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Beam_Connector_Double_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Beam_Painted_C'": {
     "mainRecipe": "Recipe_Beam_Painted_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Beam_Painted_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Beam_Support_C'": {
     "mainRecipe": "Recipe_Beam_Support_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Beam_Support_C"
-    ]
+    "altRecipes": []
   },
   "Desc_GeneratorBiomass_Automated_C'": {
     "mainRecipe": "Recipe_GeneratorBiomass_Automated_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_GeneratorBiomass_Automated_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SpaceElevator_C'": {
     "mainRecipe": "Recipe_SpaceElevator_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SpaceElevator_C"
-    ]
+    "altRecipes": []
   },
   "Desc_MinerMk1_C'": {
     "mainRecipe": "Recipe_MinerMk1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_MinerMk1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_StorageContainerMk1_C'": {
     "mainRecipe": "Recipe_StorageContainerMk1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_StorageContainerMk1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_ConstructorMk1_C'": {
     "mainRecipe": "Recipe_ConstructorMk1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_ConstructorMk1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_SmelterMk1_C'": {
     "mainRecipe": "Recipe_SmelterBasicMk1_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_SmelterBasicMk1_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Workshop_C'": {
     "mainRecipe": "Recipe_Workshop_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Workshop_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Fireworks_Projectile_01_C'": {
     "mainRecipe": "Recipe_Fireworks_01_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Fireworks_01_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Fireworks_Projectile_02_C'": {
     "mainRecipe": "Recipe_Fireworks_02_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Fireworks_02_C"
-    ]
+    "altRecipes": []
   },
   "Desc_Fireworks_Projectile_03_C'": {
     "mainRecipe": "Recipe_Fireworks_03_C",
-    "altRecipes": [],
-    "allRecipes": [
-      "Recipe_Fireworks_03_C"
-    ]
+    "altRecipes": []
   }
 }

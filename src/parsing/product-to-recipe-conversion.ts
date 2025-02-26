@@ -2,7 +2,7 @@ import { ProductToRecipeRaw, RecipeJsonObject, RecipeToProducts, convertProductT
 import { splitRecipes } from "./split-recipes";
 import { extractItemClassForProduct } from "./util";
 
-export async function productToRecipeAndRecipeToProductCreation() {
+export async function productToRecipesAndRecipeToProductsCreation() {
     const { allRecipes } = await splitRecipes();
     const productToRecipeRaw: ProductToRecipeRaw = {};
     const recipeToProducts: RecipeToProducts = {};
@@ -34,5 +34,5 @@ export async function productToRecipeAndRecipeToProductCreation() {
             }
         }
     }
-    return { productToRecipe: convertProductToRecipeRawToProductToRecipe(productToRecipeRaw), recipeToProducts };
+    return { productToRecipes: convertProductToRecipeRawToProductToRecipe(productToRecipeRaw), recipeToProducts };
 }
