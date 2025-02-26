@@ -13,7 +13,27 @@ export type RecipeJsonObject = {
 };
 
 export type ProductToRecipe = {
+  [str: string]: {
+    mainRecipe: string;
+    altRecipes: string[];
+    allRecipes: string[];
+  }
+}
+export type ProductToRecipeRaw = {
   [str: string]: string[];
+}
+export type RecipeToProduct = {
+  [str: string]: string;
+}
+
+export function convertProductToRecipeRawToProductToRecipe(raw: ProductToRecipeRaw): ProductToRecipe {
+  const result: ProductToRecipe = {};
+  for (const [product, recipes] of Object.entries(raw)) {
+    const mainRecipe = recipes[0];
+    const altRecipes = recipes.slice(1);
+    result[product] = { mainRecipe, altRecipes, allRecipes: recipes };
+  }
+  return result;
 }
 
 export function assertRecipeJsonObject(obj: any) {

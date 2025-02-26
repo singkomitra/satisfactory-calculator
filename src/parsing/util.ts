@@ -17,5 +17,8 @@ export const extractItemClassForProduct = (item: string) => {
         const amount = parseInt(match[2])
         result[name] = amount
     }
-    return result
+    return {
+        products: result,
+        mainProduct: matches[0][1].split("/").pop()?.split(".").pop()
+    }
 }

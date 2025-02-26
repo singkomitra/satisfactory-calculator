@@ -1,5 +1,5 @@
 import { extractItemClassForProduct } from "@/parsing/util";
-import { ProductToRecipe, assertRecipeJsonObject, convertStringFieldsOJsonToNumber } from "@/types";
+import { ProductToRecipe, ProductToRecipeRaw, assertRecipeJsonObject, convertProductToRecipeRawToProductToRecipe, convertStringFieldsOJsonToNumber } from "@/types";
 import { readFile, writeFile } from "fs/promises";
 
 export async function GET(req: Request) {
@@ -7,7 +7,8 @@ export async function GET(req: Request) {
   let final = "";
   const recipes: { [str: string]: any } = {};
   const altRecipes: { [str: string]: any } = {};
-  const productToRecipe: ProductToRecipe = {};
+  const productToRecipeRaw: ProductToRecipeRaw = {};
+  const recipeToProduct: { [str: string]: string } = {};
 
   for (const obj of JSON.parse(json)) {
     if (obj.NativeClass === "/Script/CoreUObject.Class'/Script/FactoryGame.FGRecipe'") {
@@ -22,19 +23,31 @@ export async function GET(req: Request) {
           recipes[recipe.ClassName] = recipe;
         }
 
-        const products = extractItemClassForProduct(recipe.mProduct);
-        if (products) {
-          for (const [product] of Object.entries(products)) {
-            if (!productToRecipe[product]) {
-              productToRecipe[product] = [];
+        const extraction = extractItemClassForProduct(recipe.mProduct);
+        if (extraction) {
+          const { products, mainProduct } = extraction;
+          for (const product of Object.keys(products)) {
+            if (!productToRecipeRaw[product]) {
+              productToRecipeRaw[product] = []
             }
-            productToRecipe[product].push(recipe.ClassName);
+            productToRecipeRaw[product].push(recipe.ClassName);
           }
+          if (!mainProduct) {
+            console.error("Main product not found for recipe: ", recipe.ClassName);
+            continue;
+          }
+          if (recipeToProduct[recipe.ClassName]) {
+            console.error("Duplicate recipe found: ", recipe.ClassName);
+            continue;
+          }
+          recipeToProduct[recipe.ClassName] = mainProduct;
         }
       }
     }
   }
-  await writeFile("product-to-recipe.json", JSON.stringify(productToRecipe, null, 2), "utf-8");
+
+  await writeFile("recipe-to-product.json", JSON.stringify(recipeToProduct, null, 2), "utf-8");
+  await writeFile("product-to-recipe.json", JSON.stringify(convertProductToRecipeRawToProductToRecipe(productToRecipeRaw), null, 2), "utf-8");
   await writeFile("recipes.json", JSON.stringify(recipes, null, 2), "utf-8");
   await writeFile("alt-recipes.json", JSON.stringify(altRecipes, null, 2), "utf-8");
   return Response.json(final);
