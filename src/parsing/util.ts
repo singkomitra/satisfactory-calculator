@@ -22,6 +22,17 @@ export const extractItemClassObjects = (item: string) => {
         first: matches[0][1].split("/").pop()?.split(".").pop()
     }
 }
+function replaceExceptions(name: string): string {
+    const exceptions: { [key: string]: string } = {
+        "Cement": "Concrete",
+        "IronIngot": "IngotIron",
+        "IronScrew": "Screw",
+        "CompactedCoal": "Alternate_EnrichedCoal",
+        "TurboFuel": "PackagedTurboFuel",
+        "MotorLightweight": "MotorTurbo"
+    }
+    return exceptions[name] || name;
+}
 export const itemToRecipe = (item: string) => {
     if (item.startsWith("Desc_")) {
         item = item.slice(5, -2)

@@ -1,6 +1,4 @@
-import { extractItemClassForProduct } from "@/parsing/util";
-import { ProductToRecipe, assertRecipeJsonObject, convertStringFieldsOJsonToNumber } from "@/types";
-import { readFile, writeFile } from "fs/promises";
+import { writeFile } from "fs/promises";
 import { splitRecipes } from "./split-recipes";
 import { RecipeToIngredients } from "@/types";
 import { productToRecipesAndRecipeToProductsCreation } from "./product-to-recipe-conversion";
@@ -20,17 +18,6 @@ function parseProducedIn(mProducedIn: string): string[] {
   });
 }
 
-function replaceExceptions(name: string): string {
-  const exceptions: { [key: string]: string } = {
-    "Cement": "Concrete",
-    "IronIngot": "IngotIron",
-    "IronScrew": "Screw",
-    "CompactedCoal": "Alternate_EnrichedCoal",
-    "TurboFuel": "PackagedTurboFuel",
-    "MotorLightweight": "MotorTurbo"
-  }
-  return exceptions[name] || name;
-}
 
 export async function GET(req: Request) {
   const finalRecipes = await recipesToIngredients();
@@ -39,7 +26,7 @@ export async function GET(req: Request) {
 }
 
 export async function recipesToIngredients() {
-  const { allRecipes, altRecipes } = await splitRecipes();
+  const { allRecipes } = await splitRecipes();
   const { recipeToProducts } = await productToRecipesAndRecipeToProductsCreation();
   const finalRecipes: RecipeToIngredients = {};
   for (const recipe of Object.values(allRecipes)) {
@@ -83,12 +70,6 @@ export async function recipesToIngredients() {
     }
   }
 
-  // console.log("Missing recipes:");
-  // for (const missing of missingRecipes) {
-  //   console.log(missing);
-  // }
 
-  await writeFile("recipes-to-ingredients.json", JSON.stringify(finalRecipes, null, 2));
-  return Response.json(finalRecipes);
   return finalRecipes;
 }
