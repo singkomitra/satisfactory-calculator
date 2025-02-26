@@ -13,7 +13,6 @@ import { getItemAndResourceDescriptors } from "./get-resource-and-item-descripto
 
 export async function productToRecipesAndRecipeToProductsCreation() {
   const { allRecipes } = await splitRecipes();
-  const { rawProducts, rawResources } = await getItemAndResourceDescriptors();
   const productToRecipeRaw: ProductToRecipeRaw = {};
   const recipeToProducts: RecipeToProducts = {};
   for (const recipe of Object.values(allRecipes)) {
