@@ -10,7 +10,7 @@ export const extractItemClassForProduct = (item: string) => {
         return null
     }
     for (const match of matches) {
-        const name = match[0].split("/").pop()?.split(".").pop()
+        const name = match[1].split("/").pop()?.split(".").pop()
         if (!name) {
             continue;
         }

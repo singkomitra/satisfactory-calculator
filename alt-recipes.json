@@ -5,13 +5,13 @@
     "mDisplayName": "Alternate: Nitro Rocket Fuel",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Fuel/Desc_LiquidFuel.Desc_LiquidFuel_C'\",Amount=4000),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/NitrogenGas/Desc_NitrogenGas.Desc_NitrogenGas_C'\",Amount=3000),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Sulfur/Desc_Sulfur.Desc_Sulfur_C'\",Amount=4),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C'\",Amount=2))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/RocketFuel/Desc_RocketFuel.Desc_RocketFuel_C'\",Amount=6000),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CompactedCoal/Desc_CompactedCoal.Desc_CompactedCoal_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "3.000000",
-    "mManufactoringDuration": "2.400000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 3,
+    "mManufactoringDuration": 2.4,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/Blender/Build_Blender.Build_Blender_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_IonizedFuel_Dark_C": {
     "ClassName": "Recipe_Alternate_IonizedFuel_Dark_C",
@@ -19,13 +19,13 @@
     "mDisplayName": "Alternate: Dark-Ion Fuel",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/RocketFuel/Desc_PackagedRocketFuel.Desc_PackagedRocketFuel_C'\",Amount=12),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/DarkMatter/Desc_DarkMatter.Desc_DarkMatter_C'\",Amount=4))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IonizedFuel/Desc_IonizedFuel.Desc_IonizedFuel_C'\",Amount=10000),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CompactedCoal/Desc_CompactedCoal.Desc_CompactedCoal_C'\",Amount=2))",
-    "mManufacturingMenuPriority": "1.000000",
-    "mManufactoringDuration": "3.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 1,
+    "mManufactoringDuration": 3,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/Converter/Build_Converter.Build_Converter_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "100.000000",
-    "mVariablePowerConsumptionFactor": "300.000000"
+    "mVariablePowerConsumptionConstant": 100,
+    "mVariablePowerConsumptionFactor": 300
   },
   "Recipe_Alternate_Diamond_Turbo_C": {
     "ClassName": "Recipe_Alternate_Diamond_Turbo_C",
@@ -33,13 +33,13 @@
     "mDisplayName": "Alternate: Turbo Diamonds",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C'\",Amount=30),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Turbofuel/Desc_TurboFuel.Desc_TurboFuel_C'\",Amount=2))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Diamond/Desc_Diamond.Desc_Diamond_C'\",Amount=3))",
-    "mManufacturingMenuPriority": "4.000000",
-    "mManufactoringDuration": "3.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 4,
+    "mManufactoringDuration": 3,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/HadronCollider/Build_HadronCollider.Build_HadronCollider_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "250.000000",
-    "mVariablePowerConsumptionFactor": "500.000000"
+    "mVariablePowerConsumptionConstant": 250,
+    "mVariablePowerConsumptionFactor": 500
   },
   "Recipe_Alternate_Turbofuel_C": {
     "ClassName": "Recipe_Alternate_Turbofuel_C",
@@ -47,13 +47,13 @@
     "mDisplayName": "Turbofuel",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Fuel/Desc_LiquidFuel.Desc_LiquidFuel_C'\",Amount=6000),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CompactedCoal/Desc_CompactedCoal.Desc_CompactedCoal_C'\",Amount=4))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Turbofuel/Desc_LiquidTurboFuel.Desc_LiquidTurboFuel_C'\",Amount=5000))",
-    "mManufacturingMenuPriority": "4.000000",
-    "mManufactoringDuration": "16.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 4,
+    "mManufactoringDuration": 16,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Coal_1_C": {
     "ClassName": "Recipe_Alternate_Coal_1_C",
@@ -61,13 +61,13 @@
     "mDisplayName": "Alternate: Charcoal",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Wood.Desc_Wood_C'\",Amount=1))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C'\",Amount=10))",
-    "mManufacturingMenuPriority": "7.000000",
-    "mManufactoringDuration": "4.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 7,
+    "mManufactoringDuration": 4,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Coal_2_C": {
     "ClassName": "Recipe_Alternate_Coal_2_C",
@@ -75,13 +75,13 @@
     "mDisplayName": "Alternate: Biocoal",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_GenericBiomass.Desc_GenericBiomass_C'\",Amount=5))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C'\",Amount=6))",
-    "mManufacturingMenuPriority": "6.000000",
-    "mManufactoringDuration": "8.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 6,
+    "mManufactoringDuration": 8,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_EnrichedCoal_C": {
     "ClassName": "Recipe_Alternate_EnrichedCoal_C",
@@ -89,13 +89,13 @@
     "mDisplayName": "Alternate: Compacted Coal",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C'\",Amount=5),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Sulfur/Desc_Sulfur.Desc_Sulfur_C'\",Amount=5))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CompactedCoal/Desc_CompactedCoal.Desc_CompactedCoal_C'\",Amount=5))",
-    "mManufacturingMenuPriority": "2.000000",
-    "mManufactoringDuration": "12.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 2,
+    "mManufactoringDuration": 12,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Diamond_Pink_C": {
     "ClassName": "Recipe_Alternate_Diamond_Pink_C",
@@ -103,13 +103,13 @@
     "mDisplayName": "Alternate: Pink Diamonds",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C'\",Amount=8),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/QuartzCrystal/Desc_QuartzCrystal.Desc_QuartzCrystal_C'\",Amount=3))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Diamond/Desc_Diamond.Desc_Diamond_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "0.000000",
-    "mManufactoringDuration": "4.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 0,
+    "mManufactoringDuration": 4,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/Converter/Build_Converter.Build_Converter_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "100.000000",
-    "mVariablePowerConsumptionFactor": "300.000000"
+    "mVariablePowerConsumptionConstant": 100,
+    "mVariablePowerConsumptionFactor": 300
   },
   "Recipe_Alternate_Diamond_Petroleum_C": {
     "ClassName": "Recipe_Alternate_Diamond_Petroleum_C",
@@ -117,13 +117,13 @@
     "mDisplayName": "Alternate: Petroleum Diamonds",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/PetroleumCoke/Desc_PetroleumCoke.Desc_PetroleumCoke_C'\",Amount=24))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Diamond/Desc_Diamond.Desc_Diamond_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "3.000000",
-    "mManufactoringDuration": "2.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 3,
+    "mManufactoringDuration": 2,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/HadronCollider/Build_HadronCollider.Build_HadronCollider_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "250.000000",
-    "mVariablePowerConsumptionFactor": "500.000000"
+    "mVariablePowerConsumptionConstant": 250,
+    "mVariablePowerConsumptionFactor": 500
   },
   "Recipe_Alternate_Diamond_OilBased_C": {
     "ClassName": "Recipe_Alternate_Diamond_OilBased_C",
@@ -131,13 +131,13 @@
     "mDisplayName": "Alternate: Oil-Based Diamonds",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C'\",Amount=10000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Diamond/Desc_Diamond.Desc_Diamond_C'\",Amount=2))",
-    "mManufacturingMenuPriority": "2.000000",
-    "mManufactoringDuration": "3.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 2,
+    "mManufactoringDuration": 3,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/HadronCollider/Build_HadronCollider.Build_HadronCollider_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "250.000000",
-    "mVariablePowerConsumptionFactor": "500.000000"
+    "mVariablePowerConsumptionConstant": 250,
+    "mVariablePowerConsumptionFactor": 500
   },
   "Recipe_Alternate_Diamond_Cloudy_C": {
     "ClassName": "Recipe_Alternate_Diamond_Cloudy_C",
@@ -145,13 +145,13 @@
     "mDisplayName": "Alternate: Cloudy Diamonds",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C'\",Amount=12),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C'\",Amount=24))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Diamond/Desc_Diamond.Desc_Diamond_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "1.000000",
-    "mManufactoringDuration": "3.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 1,
+    "mManufactoringDuration": 3,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/HadronCollider/Build_HadronCollider.Build_HadronCollider_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "250.000000",
-    "mVariablePowerConsumptionFactor": "500.000000"
+    "mVariablePowerConsumptionConstant": 250,
+    "mVariablePowerConsumptionFactor": 500
   },
   "Recipe_Alternate_DarkMatter_Trap_C": {
     "ClassName": "Recipe_Alternate_DarkMatter_Trap_C",
@@ -159,13 +159,13 @@
     "mDisplayName": "Alternate: Dark Matter Trap",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/TimeCrystal/Desc_TimeCrystal.Desc_TimeCrystal_C'\",Amount=1),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/DarkEnergy/Desc_DarkEnergy.Desc_DarkEnergy_C'\",Amount=5000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/DarkMatter/Desc_DarkMatter.Desc_DarkMatter_C'\",Amount=2))",
-    "mManufacturingMenuPriority": "999.000000",
-    "mManufactoringDuration": "2.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 999,
+    "mManufactoringDuration": 2,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/HadronCollider/Build_HadronCollider.Build_HadronCollider_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "500.000000",
-    "mVariablePowerConsumptionFactor": "1000.000000"
+    "mVariablePowerConsumptionConstant": 500,
+    "mVariablePowerConsumptionFactor": 1000
   },
   "Recipe_Alternate_DarkMatter_Crystallization_C": {
     "ClassName": "Recipe_Alternate_DarkMatter_Crystallization_C",
@@ -173,13 +173,13 @@
     "mDisplayName": "Alternate: Dark Matter Crystallization",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/DarkEnergy/Desc_DarkEnergy.Desc_DarkEnergy_C'\",Amount=10000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/DarkMatter/Desc_DarkMatter.Desc_DarkMatter_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "999.000000",
-    "mManufactoringDuration": "3.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 999,
+    "mManufactoringDuration": 3,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/HadronCollider/Build_HadronCollider.Build_HadronCollider_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "500.000000",
-    "mVariablePowerConsumptionFactor": "1000.000000"
+    "mVariablePowerConsumptionConstant": 500,
+    "mVariablePowerConsumptionFactor": 1000
   },
   "Recipe_Alternate_WetConcrete_C": {
     "ClassName": "Recipe_Alternate_WetConcrete_C",
@@ -187,13 +187,13 @@
     "mDisplayName": "Alternate: Wet Concrete",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C'\",Amount=6),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C'\",Amount=5000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C'\",Amount=4))",
-    "mManufacturingMenuPriority": "0.000000",
-    "mManufactoringDuration": "3.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 0,
+    "mManufactoringDuration": 3,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_TurboHeavyFuel_C": {
     "ClassName": "Recipe_Alternate_TurboHeavyFuel_C",
@@ -201,13 +201,13 @@
     "mDisplayName": "Alternate: Turbo Heavy Fuel",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HeavyOilResidue/Desc_HeavyOilResidue.Desc_HeavyOilResidue_C'\",Amount=5000),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CompactedCoal/Desc_CompactedCoal.Desc_CompactedCoal_C'\",Amount=4))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Turbofuel/Desc_LiquidTurboFuel.Desc_LiquidTurboFuel_C'\",Amount=4000))",
-    "mManufacturingMenuPriority": "5.000000",
-    "mManufactoringDuration": "8.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 5,
+    "mManufactoringDuration": 8,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_SteelRod_C": {
     "ClassName": "Recipe_Alternate_SteelRod_C",
@@ -215,13 +215,13 @@
     "mDisplayName": "Alternate: Steel Rod",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C'\",Amount=1))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C'\",Amount=4))",
-    "mManufacturingMenuPriority": "2.000000",
-    "mManufactoringDuration": "5.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 2,
+    "mManufactoringDuration": 5,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_SteelCanister_C": {
     "ClassName": "Recipe_Alternate_SteelCanister_C",
@@ -229,13 +229,13 @@
     "mDisplayName": "Alternate: Steel Canister",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C'\",Amount=4))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/FluidCanister/Desc_FluidCanister.Desc_FluidCanister_C'\",Amount=4))",
-    "mManufacturingMenuPriority": "1.000000",
-    "mManufactoringDuration": "6.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 1,
+    "mManufactoringDuration": 6,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_SteamedCopperSheet_C": {
     "ClassName": "Recipe_Alternate_SteamedCopperSheet_C",
@@ -243,13 +243,13 @@
     "mDisplayName": "Alternate: Steamed Copper Sheet",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CopperIngot/Desc_CopperIngot.Desc_CopperIngot_C'\",Amount=3),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C'\",Amount=3000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C'\",Amount=3))",
-    "mManufacturingMenuPriority": "1.000000",
-    "mManufactoringDuration": "8.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 1,
+    "mManufactoringDuration": 8,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_RubberConcrete_C": {
     "ClassName": "Recipe_Alternate_RubberConcrete_C",
@@ -257,13 +257,13 @@
     "mDisplayName": "Alternate: Rubber Concrete",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C'\",Amount=10),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C'\",Amount=2))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C'\",Amount=9))",
-    "mManufacturingMenuPriority": "1.000000",
-    "mManufactoringDuration": "6.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 1,
+    "mManufactoringDuration": 6,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_RecycledRubber_C": {
     "ClassName": "Recipe_Alternate_RecycledRubber_C",
@@ -271,13 +271,13 @@
     "mDisplayName": "Alternate: Recycled Rubber",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C'\",Amount=6),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Fuel/Desc_LiquidFuel.Desc_LiquidFuel_C'\",Amount=6000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C'\",Amount=12))",
-    "mManufacturingMenuPriority": "6.000000",
-    "mManufactoringDuration": "12.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 6,
+    "mManufactoringDuration": 12,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_PureQuartzCrystal_C": {
     "ClassName": "Recipe_Alternate_PureQuartzCrystal_C",
@@ -285,13 +285,13 @@
     "mDisplayName": "Alternate: Pure Quartz Crystal",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/RawQuartz/Desc_RawQuartz.Desc_RawQuartz_C'\",Amount=9),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C'\",Amount=5000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/QuartzCrystal/Desc_QuartzCrystal.Desc_QuartzCrystal_C'\",Amount=7))",
-    "mManufacturingMenuPriority": "1.000000",
-    "mManufactoringDuration": "8.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 1,
+    "mManufactoringDuration": 8,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_PureIronIngot_C": {
     "ClassName": "Recipe_Alternate_PureIronIngot_C",
@@ -299,13 +299,13 @@
     "mDisplayName": "Alternate: Pure Iron Ingot",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/OreIron/Desc_OreIron.Desc_OreIron_C'\",Amount=7),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C'\",Amount=4000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C'\",Amount=13))",
-    "mManufacturingMenuPriority": "0.000000",
-    "mManufactoringDuration": "12.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 0,
+    "mManufactoringDuration": 12,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_PureCopperIngot_C": {
     "ClassName": "Recipe_Alternate_PureCopperIngot_C",
@@ -313,13 +313,13 @@
     "mDisplayName": "Alternate: Pure Copper Ingot",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/OreCopper/Desc_OreCopper.Desc_OreCopper_C'\",Amount=6),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C'\",Amount=4000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CopperIngot/Desc_CopperIngot.Desc_CopperIngot_C'\",Amount=15))",
-    "mManufacturingMenuPriority": "2.000000",
-    "mManufactoringDuration": "24.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 2,
+    "mManufactoringDuration": 24,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_PureCateriumIngot_C": {
     "ClassName": "Recipe_Alternate_PureCateriumIngot_C",
@@ -327,13 +327,13 @@
     "mDisplayName": "Alternate: Pure Caterium Ingot",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/OreGold/Desc_OreGold.Desc_OreGold_C'\",Amount=2),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C'\",Amount=2000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/GoldIngot/Desc_GoldIngot.Desc_GoldIngot_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "4.000000",
-    "mManufactoringDuration": "5.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 4,
+    "mManufactoringDuration": 5,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_PolymerResin_C": {
     "ClassName": "Recipe_Alternate_PolymerResin_C",
@@ -341,13 +341,13 @@
     "mDisplayName": "Alternate: Polymer Resin",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C'\",Amount=6000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/PolymerResin/Desc_PolymerResin.Desc_PolymerResin_C'\",Amount=13),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HeavyOilResidue/Desc_HeavyOilResidue.Desc_HeavyOilResidue_C'\",Amount=2000))",
-    "mManufacturingMenuPriority": "3.000000",
-    "mManufactoringDuration": "6.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 3,
+    "mManufactoringDuration": 6,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_PlasticSmartPlating_C": {
     "ClassName": "Recipe_Alternate_PlasticSmartPlating_C",
@@ -355,13 +355,13 @@
     "mDisplayName": "Alternate: Plastic Smart Plating",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C'\",Amount=1),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C'\",Amount=1),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C'\",Amount=3))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_1.Desc_SpaceElevatorPart_1_C'\",Amount=2))",
-    "mManufacturingMenuPriority": "0.000000",
-    "mManufactoringDuration": "24.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 0,
+    "mManufactoringDuration": 24,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_HighSpeedWiring_C": {
     "ClassName": "Recipe_Alternate_HighSpeedWiring_C",
@@ -369,13 +369,13 @@
     "mDisplayName": "Alternate: Automated Speed Wiring",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Stator/Desc_Stator.Desc_Stator_C'\",Amount=2),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C'\",Amount=40),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C'\",Amount=1))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_3.Desc_SpaceElevatorPart_3_C'\",Amount=4))",
-    "mManufacturingMenuPriority": "2.000000",
-    "mManufactoringDuration": "32.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 2,
+    "mManufactoringDuration": 32,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_HeavyOilResidue_C": {
     "ClassName": "Recipe_Alternate_HeavyOilResidue_C",
@@ -383,13 +383,13 @@
     "mDisplayName": "Alternate: Heavy Oil Residue",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C'\",Amount=3000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HeavyOilResidue/Desc_HeavyOilResidue.Desc_HeavyOilResidue_C'\",Amount=4000),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/PolymerResin/Desc_PolymerResin.Desc_PolymerResin_C'\",Amount=2))",
-    "mManufacturingMenuPriority": "7.000000",
-    "mManufactoringDuration": "6.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 7,
+    "mManufactoringDuration": 6,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_HeavyFlexibleFrame_C": {
     "ClassName": "Recipe_Alternate_HeavyFlexibleFrame_C",
@@ -397,13 +397,13 @@
     "mDisplayName": "Alternate: Heavy Flexible Frame",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C'\",Amount=5),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelPlateReinforced/Desc_SteelPlateReinforced.Desc_SteelPlateReinforced_C'\",Amount=3),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C'\",Amount=20),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C'\",Amount=104))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "18.000000",
-    "mManufactoringDuration": "16.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 18,
+    "mManufactoringDuration": 16,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_FusedWire_C": {
     "ClassName": "Recipe_Alternate_FusedWire_C",
@@ -411,13 +411,13 @@
     "mDisplayName": "Alternate: Fused Wire",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CopperIngot/Desc_CopperIngot.Desc_CopperIngot_C'\",Amount=4),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/GoldIngot/Desc_GoldIngot.Desc_GoldIngot_C'\",Amount=1))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C'\",Amount=30))",
-    "mManufacturingMenuPriority": "0.000000",
-    "mManufactoringDuration": "20.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 0,
+    "mManufactoringDuration": 20,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_FlexibleFramework_C": {
     "ClassName": "Recipe_Alternate_FlexibleFramework_C",
@@ -425,13 +425,13 @@
     "mDisplayName": "Alternate: Flexible Framework",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C'\",Amount=1),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C'\",Amount=6),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C'\",Amount=8))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SpaceElevatorParts/Desc_SpaceElevatorPart_2.Desc_SpaceElevatorPart_2_C'\",Amount=2))",
-    "mManufacturingMenuPriority": "1.000000",
-    "mManufactoringDuration": "16.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 1,
+    "mManufactoringDuration": 16,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_ElectrodeCircuitBoard_C": {
     "ClassName": "Recipe_Alternate_ElectrodeCircuitBoard_C",
@@ -439,13 +439,13 @@
     "mDisplayName": "Alternate: Electrode Circuit Board",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C'\",Amount=4),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/PetroleumCoke/Desc_PetroleumCoke.Desc_PetroleumCoke_C'\",Amount=8))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "5.000000",
-    "mManufactoringDuration": "12.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 5,
+    "mManufactoringDuration": 12,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_ElectroAluminumScrap_C": {
     "ClassName": "Recipe_Alternate_ElectroAluminumScrap_C",
@@ -453,13 +453,13 @@
     "mDisplayName": "Alternate: Electrode Aluminum Scrap",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Alumina/Desc_AluminaSolution.Desc_AluminaSolution_C'\",Amount=12000),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/PetroleumCoke/Desc_PetroleumCoke.Desc_PetroleumCoke_C'\",Amount=4))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/AluminumScrap/Desc_AluminumScrap.Desc_AluminumScrap_C'\",Amount=20),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C'\",Amount=7000))",
-    "mManufacturingMenuPriority": "3.000000",
-    "mManufactoringDuration": "4.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 3,
+    "mManufactoringDuration": 4,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_DilutedPackagedFuel_C": {
     "ClassName": "Recipe_Alternate_DilutedPackagedFuel_C",
@@ -467,13 +467,13 @@
     "mDisplayName": "Alternate: Diluted Packaged Fuel",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HeavyOilResidue/Desc_HeavyOilResidue.Desc_HeavyOilResidue_C'\",Amount=1000),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Water/Desc_PackagedWater.Desc_PackagedWater_C'\",Amount=2))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Fuel/Desc_Fuel.Desc_Fuel_C'\",Amount=2))",
-    "mManufacturingMenuPriority": "2.000000",
-    "mManufactoringDuration": "2.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 2,
+    "mManufactoringDuration": 2,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_CopperRotor_C": {
     "ClassName": "Recipe_Alternate_CopperRotor_C",
@@ -481,13 +481,13 @@
     "mDisplayName": "Alternate: Copper Rotor",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C'\",Amount=6),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C'\",Amount=52))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C'\",Amount=3))",
-    "mManufacturingMenuPriority": "1.000000",
-    "mManufactoringDuration": "16.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 1,
+    "mManufactoringDuration": 16,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_CopperAlloyIngot_C": {
     "ClassName": "Recipe_Alternate_CopperAlloyIngot_C",
@@ -495,13 +495,13 @@
     "mDisplayName": "Alternate: Copper Alloy Ingot",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/OreCopper/Desc_OreCopper.Desc_OreCopper_C'\",Amount=5),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/OreIron/Desc_OreIron.Desc_OreIron_C'\",Amount=5))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CopperIngot/Desc_CopperIngot.Desc_CopperIngot_C'\",Amount=10))",
-    "mManufacturingMenuPriority": "2.000000",
-    "mManufactoringDuration": "6.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 2,
+    "mManufactoringDuration": 6,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_CokeSteelIngot_C": {
     "ClassName": "Recipe_Alternate_CokeSteelIngot_C",
@@ -509,13 +509,13 @@
     "mDisplayName": "Alternate: Coke Steel Ingot",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/OreIron/Desc_OreIron.Desc_OreIron_C'\",Amount=15),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/PetroleumCoke/Desc_PetroleumCoke.Desc_PetroleumCoke_C'\",Amount=15))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C'\",Amount=20))",
-    "mManufacturingMenuPriority": "6.000000",
-    "mManufactoringDuration": "12.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 6,
+    "mManufactoringDuration": 12,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_CoatedIronPlate_C": {
     "ClassName": "Recipe_Alternate_CoatedIronPlate_C",
@@ -523,13 +523,13 @@
     "mDisplayName": "Alternate: Coated Iron Plate",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C'\",Amount=5),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C'\",Amount=1))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C'\",Amount=10))",
-    "mManufacturingMenuPriority": "0.000000",
-    "mManufactoringDuration": "8.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 0,
+    "mManufactoringDuration": 8,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_CoatedIronCanister_C": {
     "ClassName": "Recipe_Alternate_CoatedIronCanister_C",
@@ -537,13 +537,13 @@
     "mDisplayName": "Alternate: Coated Iron Canister",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C'\",Amount=2),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C'\",Amount=1))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/FluidCanister/Desc_FluidCanister.Desc_FluidCanister_C'\",Amount=4))",
-    "mManufacturingMenuPriority": "0.000000",
-    "mManufactoringDuration": "4.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 0,
+    "mManufactoringDuration": 4,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_CoatedCable_C": {
     "ClassName": "Recipe_Alternate_CoatedCable_C",
@@ -551,13 +551,13 @@
     "mDisplayName": "Alternate: Coated Cable",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C'\",Amount=5),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HeavyOilResidue/Desc_HeavyOilResidue.Desc_HeavyOilResidue_C'\",Amount=2000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C'\",Amount=9))",
-    "mManufacturingMenuPriority": "0.000000",
-    "mManufactoringDuration": "8.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 0,
+    "mManufactoringDuration": 8,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_BoltedFrame_C": {
     "ClassName": "Recipe_Alternate_BoltedFrame_C",
@@ -565,13 +565,13 @@
     "mDisplayName": "Alternate: Bolted Frame",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C'\",Amount=3),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C'\",Amount=56))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C'\",Amount=2))",
-    "mManufacturingMenuPriority": "11.000000",
-    "mManufactoringDuration": "24.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 11,
+    "mManufactoringDuration": 24,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_AdheredIronPlate_C": {
     "ClassName": "Recipe_Alternate_AdheredIronPlate_C",
@@ -579,13 +579,13 @@
     "mDisplayName": "Alternate: Adhered Iron Plate",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C'\",Amount=3),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C'\",Amount=1))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "9.000000",
-    "mManufactoringDuration": "16.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 9,
+    "mManufactoringDuration": 16,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_TurboPressureMotor_C": {
     "ClassName": "Recipe_Alternate_TurboPressureMotor_C",
@@ -593,13 +593,13 @@
     "mDisplayName": "Alternate: Turbo Pressure Motor",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C'\",Amount=4),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/PressureConversionCube/Desc_PressureConversionCube.Desc_PressureConversionCube_C'\",Amount=1),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/PackagedNitrogen/Desc_PackagedNitrogenGas.Desc_PackagedNitrogenGas_C'\",Amount=24),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Stator/Desc_Stator.Desc_Stator_C'\",Amount=8))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C'\",Amount=2))",
-    "mManufacturingMenuPriority": "10.000000",
-    "mManufactoringDuration": "32.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 10,
+    "mManufactoringDuration": 32,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_TurboBlendFuel_C": {
     "ClassName": "Recipe_Alternate_TurboBlendFuel_C",
@@ -607,13 +607,13 @@
     "mDisplayName": "Alternate: Turbo Blend Fuel",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Fuel/Desc_LiquidFuel.Desc_LiquidFuel_C'\",Amount=2000),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HeavyOilResidue/Desc_HeavyOilResidue.Desc_HeavyOilResidue_C'\",Amount=4000),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Sulfur/Desc_Sulfur.Desc_Sulfur_C'\",Amount=3),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/PetroleumCoke/Desc_PetroleumCoke.Desc_PetroleumCoke_C'\",Amount=3))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Turbofuel/Desc_LiquidTurboFuel.Desc_LiquidTurboFuel_C'\",Amount=6000))",
-    "mManufacturingMenuPriority": "1.000000",
-    "mManufactoringDuration": "8.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 1,
+    "mManufactoringDuration": 8,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/Blender/Build_Blender.Build_Blender_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_SuperStateComputer_C": {
     "ClassName": "Recipe_Alternate_SuperStateComputer_C",
@@ -621,13 +621,13 @@
     "mDisplayName": "Alternate: Super-State Computer",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C'\",Amount=3),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/ElectromagneticControlRod/Desc_ElectromagneticControlRod.Desc_ElectromagneticControlRod_C'\",Amount=1),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Battery/Desc_Battery.Desc_Battery_C'\",Amount=10),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C'\",Amount=25))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "3.000000",
-    "mManufactoringDuration": "25.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 3,
+    "mManufactoringDuration": 25,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_SloppyAlumina_C": {
     "ClassName": "Recipe_Alternate_SloppyAlumina_C",
@@ -635,13 +635,13 @@
     "mDisplayName": "Alternate: Sloppy Alumina",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/OreBauxite/Desc_OreBauxite.Desc_OreBauxite_C'\",Amount=10),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C'\",Amount=10000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Alumina/Desc_AluminaSolution.Desc_AluminaSolution_C'\",Amount=12000))",
-    "mManufacturingMenuPriority": "1.000000",
-    "mManufactoringDuration": "3.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 1,
+    "mManufactoringDuration": 3,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_RadioControlSystem_C": {
     "ClassName": "Recipe_Alternate_RadioControlSystem_C",
@@ -649,13 +649,13 @@
     "mDisplayName": "Alternate: Radio Control System",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CrystalOscillator/Desc_CrystalOscillator.Desc_CrystalOscillator_C'\",Amount=1),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C'\",Amount=10),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C'\",Amount=60),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C'\",Amount=30))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/ModularFrameLightweight/Desc_ModularFrameLightweight.Desc_ModularFrameLightweight_C'\",Amount=3))",
-    "mManufacturingMenuPriority": "8.000000",
-    "mManufactoringDuration": "40.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 8,
+    "mManufactoringDuration": 40,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_PlutoniumFuelUnit_C": {
     "ClassName": "Recipe_Alternate_PlutoniumFuelUnit_C",
@@ -663,13 +663,13 @@
     "mDisplayName": "Alternate: Plutonium Fuel Unit",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/PlutoniumCell/Desc_PlutoniumCell.Desc_PlutoniumCell_C'\",Amount=20),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/PressureConversionCube/Desc_PressureConversionCube.Desc_PressureConversionCube_C'\",Amount=1))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/PlutoniumFuelRods/Desc_PlutoniumFuelRod.Desc_PlutoniumFuelRod_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "4.000000",
-    "mManufactoringDuration": "120.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 4,
+    "mManufactoringDuration": 120,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_OCSupercomputer_C": {
     "ClassName": "Recipe_Alternate_OCSupercomputer_C",
@@ -677,13 +677,13 @@
     "mDisplayName": "Alternate: OC Supercomputer",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/ModularFrameLightweight/Desc_ModularFrameLightweight.Desc_ModularFrameLightweight_C'\",Amount=2),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C'\",Amount=2))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/ComputerSuper/Desc_ComputerSuper.Desc_ComputerSuper_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "12.000000",
-    "mManufactoringDuration": "20.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 12,
+    "mManufactoringDuration": 20,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_InstantScrap_C": {
     "ClassName": "Recipe_Alternate_InstantScrap_C",
@@ -691,13 +691,13 @@
     "mDisplayName": "Alternate: Instant Scrap",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/OreBauxite/Desc_OreBauxite.Desc_OreBauxite_C'\",Amount=15),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C'\",Amount=10),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SulfuricAcid/Desc_SulfuricAcid.Desc_SulfuricAcid_C'\",Amount=5000),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C'\",Amount=6000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/AluminumScrap/Desc_AluminumScrap.Desc_AluminumScrap_C'\",Amount=30),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C'\",Amount=5000))",
-    "mManufacturingMenuPriority": "1.000000",
-    "mManufactoringDuration": "6.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 1,
+    "mManufactoringDuration": 6,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/Blender/Build_Blender.Build_Blender_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_InstantPlutoniumCell_C": {
     "ClassName": "Recipe_Alternate_InstantPlutoniumCell_C",
@@ -705,13 +705,13 @@
     "mDisplayName": "Alternate: Instant Plutonium Cell",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Non-FissibleUranium/Desc_NonFissibleUranium.Desc_NonFissibleUranium_C'\",Amount=150),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C'\",Amount=20))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/PlutoniumCell/Desc_PlutoniumCell.Desc_PlutoniumCell_C'\",Amount=20))",
-    "mManufacturingMenuPriority": "1.000000",
-    "mManufactoringDuration": "120.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 1,
+    "mManufactoringDuration": 120,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/HadronCollider/Build_HadronCollider.Build_HadronCollider_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "250.000000",
-    "mVariablePowerConsumptionFactor": "500.000000"
+    "mVariablePowerConsumptionConstant": 250,
+    "mVariablePowerConsumptionFactor": 500
   },
   "Recipe_Alternate_HeatFusedFrame_C": {
     "ClassName": "Recipe_Alternate_HeatFusedFrame_C",
@@ -719,13 +719,13 @@
     "mDisplayName": "Alternate: Heat-Fused Frame",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C'\",Amount=1),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/AluminumIngot/Desc_AluminumIngot.Desc_AluminumIngot_C'\",Amount=50),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/NitricAcid/Desc_NitricAcid.Desc_NitricAcid_C'\",Amount=8000),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Fuel/Desc_LiquidFuel.Desc_LiquidFuel_C'\",Amount=10000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/ModularFrameFused/Desc_ModularFrameFused.Desc_ModularFrameFused_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "4.000000",
-    "mManufactoringDuration": "20.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 4,
+    "mManufactoringDuration": 20,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/Blender/Build_Blender.Build_Blender_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_FertileUranium_C": {
     "ClassName": "Recipe_Alternate_FertileUranium_C",
@@ -733,13 +733,13 @@
     "mDisplayName": "Alternate: Fertile Uranium",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/OreUranium/Desc_OreUranium.Desc_OreUranium_C'\",Amount=5),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/NuclearWaste/Desc_NuclearWaste.Desc_NuclearWaste_C'\",Amount=5),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/NitricAcid/Desc_NitricAcid.Desc_NitricAcid_C'\",Amount=3000),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SulfuricAcid/Desc_SulfuricAcid.Desc_SulfuricAcid_C'\",Amount=5000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Non-FissibleUranium/Desc_NonFissibleUranium.Desc_NonFissibleUranium_C'\",Amount=20),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C'\",Amount=8000))",
-    "mManufacturingMenuPriority": "3.000000",
-    "mManufactoringDuration": "12.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 3,
+    "mManufactoringDuration": 12,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/Blender/Build_Blender.Build_Blender_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_ElectricMotor_C": {
     "ClassName": "Recipe_Alternate_ElectricMotor_C",
@@ -747,13 +747,13 @@
     "mDisplayName": "Alternate: Electric Motor",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/ElectromagneticControlRod/Desc_ElectromagneticControlRod.Desc_ElectromagneticControlRod_C'\",Amount=1),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C'\",Amount=2))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C'\",Amount=2))",
-    "mManufacturingMenuPriority": "6.000000",
-    "mManufactoringDuration": "16.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 6,
+    "mManufactoringDuration": 16,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_DilutedFuel_C": {
     "ClassName": "Recipe_Alternate_DilutedFuel_C",
@@ -761,13 +761,13 @@
     "mDisplayName": "Alternate: Diluted Fuel",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HeavyOilResidue/Desc_HeavyOilResidue.Desc_HeavyOilResidue_C'\",Amount=5000),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C'\",Amount=10000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Fuel/Desc_LiquidFuel.Desc_LiquidFuel_C'\",Amount=10000))",
-    "mManufacturingMenuPriority": "0.000000",
-    "mManufactoringDuration": "6.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 0,
+    "mManufactoringDuration": 6,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/Blender/Build_Blender.Build_Blender_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_CoolingDevice_C": {
     "ClassName": "Recipe_Alternate_CoolingDevice_C",
@@ -775,13 +775,13 @@
     "mDisplayName": "Alternate: Cooling Device",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/AluminumPlateReinforced/Desc_AluminumPlateReinforced.Desc_AluminumPlateReinforced_C'\",Amount=4),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C'\",Amount=1),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/NitrogenGas/Desc_NitrogenGas.Desc_NitrogenGas_C'\",Amount=24000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CoolingSystem/Desc_CoolingSystem.Desc_CoolingSystem_C'\",Amount=2))",
-    "mManufacturingMenuPriority": "2.000000",
-    "mManufactoringDuration": "24.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 2,
+    "mManufactoringDuration": 24,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/Blender/Build_Blender.Build_Blender_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_ClassicBattery_C": {
     "ClassName": "Recipe_Alternate_ClassicBattery_C",
@@ -789,13 +789,13 @@
     "mDisplayName": "Alternate: Classic Battery",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Sulfur/Desc_Sulfur.Desc_Sulfur_C'\",Amount=6),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/AluminumPlate/Desc_AluminumPlate.Desc_AluminumPlate_C'\",Amount=7),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C'\",Amount=8),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C'\",Amount=12))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Battery/Desc_Battery.Desc_Battery_C'\",Amount=4))",
-    "mManufacturingMenuPriority": "11.000000",
-    "mManufactoringDuration": "8.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 11,
+    "mManufactoringDuration": 8,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_AutomatedMiner_C": {
     "ClassName": "Recipe_Alternate_AutomatedMiner_C",
@@ -803,13 +803,13 @@
     "mDisplayName": "Alternate: Automated Miner",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C'\",Amount=4),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C'\",Amount=4))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Equipment/PortableMiner/BP_ItemDescriptorPortableMiner.BP_ItemDescriptorPortableMiner_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "0.000000",
-    "mManufactoringDuration": "60.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 0,
+    "mManufactoringDuration": 60,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_AlcladCasing_C": {
     "ClassName": "Recipe_Alternate_AlcladCasing_C",
@@ -817,13 +817,13 @@
     "mDisplayName": "Alternate: Alclad Casing",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/AluminumIngot/Desc_AluminumIngot.Desc_AluminumIngot_C'\",Amount=20),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CopperIngot/Desc_CopperIngot.Desc_CopperIngot_C'\",Amount=10))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C'\",Amount=15))",
-    "mManufacturingMenuPriority": "18.000000",
-    "mManufactoringDuration": "8.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 18,
+    "mManufactoringDuration": 8,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_SteelPipe_Molded_C": {
     "ClassName": "Recipe_Alternate_SteelPipe_Molded_C",
@@ -831,13 +831,13 @@
     "mDisplayName": "Alternate: Molded Steel Pipe",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C'\",Amount=5),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C'\",Amount=3))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C'\",Amount=5))",
-    "mManufacturingMenuPriority": "3.000000",
-    "mManufactoringDuration": "6.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 3,
+    "mManufactoringDuration": 6,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_SteelPipe_Iron_C": {
     "ClassName": "Recipe_Alternate_SteelPipe_Iron_C",
@@ -845,13 +845,13 @@
     "mDisplayName": "Alternate: Iron Pipe",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C'\",Amount=20))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C'\",Amount=5))",
-    "mManufacturingMenuPriority": "15.000000",
-    "mManufactoringDuration": "12.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 15,
+    "mManufactoringDuration": 12,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_SteelCastedPlate_C": {
     "ClassName": "Recipe_Alternate_SteelCastedPlate_C",
@@ -859,13 +859,13 @@
     "mDisplayName": "Alternate: Steel Cast Plate",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C'\",Amount=1),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C'\",Amount=1))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C'\",Amount=3))",
-    "mManufacturingMenuPriority": "1.000000",
-    "mManufactoringDuration": "4.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 1,
+    "mManufactoringDuration": 4,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_SteelBeam_Molded_C": {
     "ClassName": "Recipe_Alternate_SteelBeam_Molded_C",
@@ -873,13 +873,13 @@
     "mDisplayName": "Alternate: Molded Beam",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C'\",Amount=24),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C'\",Amount=16))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C'\",Amount=9))",
-    "mManufacturingMenuPriority": "2.000000",
-    "mManufactoringDuration": "12.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 2,
+    "mManufactoringDuration": 12,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_SteelBeam_Aluminum_C": {
     "ClassName": "Recipe_Alternate_SteelBeam_Aluminum_C",
@@ -887,13 +887,13 @@
     "mDisplayName": "Alternate: Aluminum Beam",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/AluminumIngot/Desc_AluminumIngot.Desc_AluminumIngot_C'\",Amount=3))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C'\",Amount=3))",
-    "mManufacturingMenuPriority": "13.000000",
-    "mManufactoringDuration": "8.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 13,
+    "mManufactoringDuration": 8,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_AluminumRod_C": {
     "ClassName": "Recipe_Alternate_AluminumRod_C",
@@ -901,13 +901,13 @@
     "mDisplayName": "Alternate: Aluminum Rod",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/AluminumIngot/Desc_AluminumIngot.Desc_AluminumIngot_C'\",Amount=1))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C'\",Amount=7))",
-    "mManufacturingMenuPriority": "3.000000",
-    "mManufactoringDuration": "8.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 3,
+    "mManufactoringDuration": 8,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_AILimiter_Plastic_C": {
     "ClassName": "Recipe_Alternate_AILimiter_Plastic_C",
@@ -915,13 +915,13 @@
     "mDisplayName": "Alternate: Plastic AI Limiter",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C'\",Amount=30),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C'\",Amount=7))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C'\",Amount=2))",
-    "mManufacturingMenuPriority": "10.000000",
-    "mManufactoringDuration": "15.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 10,
+    "mManufactoringDuration": 15,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Silica_Distilled_C": {
     "ClassName": "Recipe_Alternate_Silica_Distilled_C",
@@ -929,13 +929,13 @@
     "mDisplayName": "Alternate: Distilled Silica",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/DissolvedSilica/Desc_DissolvedSilica.Desc_DissolvedSilica_C'\",Amount=12000),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C'\",Amount=5),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C'\",Amount=10000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Silica/Desc_Silica.Desc_Silica_C'\",Amount=27),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C'\",Amount=8000))",
-    "mManufacturingMenuPriority": "0.000000",
-    "mManufactoringDuration": "6.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 0,
+    "mManufactoringDuration": 6,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/Blender/Build_Blender.Build_Blender_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Quartz_Purified_C": {
     "ClassName": "Recipe_Alternate_Quartz_Purified_C",
@@ -943,13 +943,13 @@
     "mDisplayName": "Alternate: Quartz Purification",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/RawQuartz/Desc_RawQuartz.Desc_RawQuartz_C'\",Amount=24),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/NitricAcid/Desc_NitricAcid.Desc_NitricAcid_C'\",Amount=2000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/QuartzCrystal/Desc_QuartzCrystal.Desc_QuartzCrystal_C'\",Amount=15),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/DissolvedSilica/Desc_DissolvedSilica.Desc_DissolvedSilica_C'\",Amount=12000))",
-    "mManufacturingMenuPriority": "999.000000",
-    "mManufactoringDuration": "12.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 999,
+    "mManufactoringDuration": 12,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Quartz_Fused_C": {
     "ClassName": "Recipe_Alternate_Quartz_Fused_C",
@@ -957,13 +957,13 @@
     "mDisplayName": "Alternate: Fused Quartz Crystal",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/RawQuartz/Desc_RawQuartz.Desc_RawQuartz_C'\",Amount=25),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C'\",Amount=12))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/QuartzCrystal/Desc_QuartzCrystal.Desc_QuartzCrystal_C'\",Amount=18))",
-    "mManufacturingMenuPriority": "999.000000",
-    "mManufactoringDuration": "20.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 999,
+    "mManufactoringDuration": 20,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_IronIngot_Leached_C": {
     "ClassName": "Recipe_Alternate_IronIngot_Leached_C",
@@ -971,13 +971,13 @@
     "mDisplayName": "Alternate: Leached Iron ingot",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/OreIron/Desc_OreIron.Desc_OreIron_C'\",Amount=5),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SulfuricAcid/Desc_SulfuricAcid.Desc_SulfuricAcid_C'\",Amount=1000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C'\",Amount=10))",
-    "mManufacturingMenuPriority": "1.000000",
-    "mManufactoringDuration": "6.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 1,
+    "mManufactoringDuration": 6,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_IronIngot_Basic_C": {
     "ClassName": "Recipe_Alternate_IronIngot_Basic_C",
@@ -985,13 +985,13 @@
     "mDisplayName": "Alternate: Basic Iron Ingot",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/OreIron/Desc_OreIron.Desc_OreIron_C'\",Amount=5),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C'\",Amount=8))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C'\",Amount=10))",
-    "mManufacturingMenuPriority": "1.000000",
-    "mManufactoringDuration": "12.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 1,
+    "mManufactoringDuration": 12,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_CopperIngot_Tempered_C": {
     "ClassName": "Recipe_Alternate_CopperIngot_Tempered_C",
@@ -999,13 +999,13 @@
     "mDisplayName": "Alternate: Tempered Copper Ingot",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/OreCopper/Desc_OreCopper.Desc_OreCopper_C'\",Amount=5),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/PetroleumCoke/Desc_PetroleumCoke.Desc_PetroleumCoke_C'\",Amount=8))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CopperIngot/Desc_CopperIngot.Desc_CopperIngot_C'\",Amount=12))",
-    "mManufacturingMenuPriority": "3.000000",
-    "mManufactoringDuration": "12.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 3,
+    "mManufactoringDuration": 12,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_CopperIngot_Leached_C": {
     "ClassName": "Recipe_Alternate_CopperIngot_Leached_C",
@@ -1013,13 +1013,13 @@
     "mDisplayName": "Alternate: Leached Copper Ingot",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/OreCopper/Desc_OreCopper.Desc_OreCopper_C'\",Amount=9),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SulfuricAcid/Desc_SulfuricAcid.Desc_SulfuricAcid_C'\",Amount=5000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CopperIngot/Desc_CopperIngot.Desc_CopperIngot_C'\",Amount=22))",
-    "mManufacturingMenuPriority": "3.000000",
-    "mManufactoringDuration": "12.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 3,
+    "mManufactoringDuration": 12,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_CateriumIngot_Tempered_C": {
     "ClassName": "Recipe_Alternate_CateriumIngot_Tempered_C",
@@ -1027,13 +1027,13 @@
     "mDisplayName": "Alternate: Tempered Caterium Ingot",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/OreGold/Desc_OreGold.Desc_OreGold_C'\",Amount=6),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/PetroleumCoke/Desc_PetroleumCoke.Desc_PetroleumCoke_C'\",Amount=2))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/GoldIngot/Desc_GoldIngot.Desc_GoldIngot_C'\",Amount=3))",
-    "mManufacturingMenuPriority": "8.000000",
-    "mManufactoringDuration": "8.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 8,
+    "mManufactoringDuration": 8,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_CateriumIngot_Leached_C": {
     "ClassName": "Recipe_Alternate_CateriumIngot_Leached_C",
@@ -1041,13 +1041,13 @@
     "mDisplayName": "Alternate: Leached Caterium Ingot",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/OreGold/Desc_OreGold.Desc_OreGold_C'\",Amount=9),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SulfuricAcid/Desc_SulfuricAcid.Desc_SulfuricAcid_C'\",Amount=5000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/GoldIngot/Desc_GoldIngot.Desc_GoldIngot_C'\",Amount=6))",
-    "mManufacturingMenuPriority": "5.000000",
-    "mManufactoringDuration": "10.000000",
-    "mManualManufacturingMultiplier": "99.000000",
+    "mManufacturingMenuPriority": 5,
+    "mManufactoringDuration": 10,
+    "mManualManufacturingMultiplier": 99,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Wire_2_C": {
     "ClassName": "Recipe_Alternate_Wire_2_C",
@@ -1055,13 +1055,13 @@
     "mDisplayName": "Alternate: Caterium Wire",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/GoldIngot/Desc_GoldIngot.Desc_GoldIngot_C'\",Amount=1))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C'\",Amount=8))",
-    "mManufacturingMenuPriority": "2.000000",
-    "mManufactoringDuration": "4.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 2,
+    "mManufactoringDuration": 4,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Wire_1_C": {
     "ClassName": "Recipe_Alternate_Wire_1_C",
@@ -1069,13 +1069,13 @@
     "mDisplayName": "Alternate: Iron Wire",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C'\",Amount=5))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C'\",Amount=9))",
-    "mManufacturingMenuPriority": "1.000000",
-    "mManufactoringDuration": "24.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 1,
+    "mManufactoringDuration": 24,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_UraniumCell_1_C": {
     "ClassName": "Recipe_Alternate_UraniumCell_1_C",
@@ -1083,13 +1083,13 @@
     "mDisplayName": "Alternate: Infused Uranium Cell",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/OreUranium/Desc_OreUranium.Desc_OreUranium_C'\",Amount=5),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Silica/Desc_Silica.Desc_Silica_C'\",Amount=3),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Sulfur/Desc_Sulfur.Desc_Sulfur_C'\",Amount=5),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C'\",Amount=15))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/UraniumCell/Desc_UraniumCell.Desc_UraniumCell_C'\",Amount=4))",
-    "mManufacturingMenuPriority": "0.000000",
-    "mManufactoringDuration": "12.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 0,
+    "mManufactoringDuration": 12,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_TurboMotor_1_C": {
     "ClassName": "Recipe_Alternate_TurboMotor_1_C",
@@ -1097,13 +1097,13 @@
     "mDisplayName": "Alternate: Turbo Electric Motor",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C'\",Amount=7),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/ModularFrameLightweight/Desc_ModularFrameLightweight.Desc_ModularFrameLightweight_C'\",Amount=9),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/ElectromagneticControlRod/Desc_ElectromagneticControlRod.Desc_ElectromagneticControlRod_C'\",Amount=5),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C'\",Amount=7))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/MotorLightweight/Desc_MotorLightweight.Desc_MotorLightweight_C'\",Amount=3))",
-    "mManufacturingMenuPriority": "9.000000",
-    "mManufactoringDuration": "64.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 9,
+    "mManufactoringDuration": 64,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Stator_C": {
     "ClassName": "Recipe_Alternate_Stator_C",
@@ -1111,13 +1111,13 @@
     "mDisplayName": "Alternate: Quickwire Stator",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C'\",Amount=4),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C'\",Amount=15))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Stator/Desc_Stator.Desc_Stator_C'\",Amount=2))",
-    "mManufacturingMenuPriority": "4.000000",
-    "mManufactoringDuration": "15.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 4,
+    "mManufactoringDuration": 15,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Silica_C": {
     "ClassName": "Recipe_Alternate_Silica_C",
@@ -1125,13 +1125,13 @@
     "mDisplayName": "Alternate: Cheap Silica",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/RawQuartz/Desc_RawQuartz.Desc_RawQuartz_C'\",Amount=3),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C'\",Amount=5))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Silica/Desc_Silica.Desc_Silica_C'\",Amount=7))",
-    "mManufacturingMenuPriority": "3.000000",
-    "mManufactoringDuration": "8.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 3,
+    "mManufactoringDuration": 8,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Screw_2_C": {
     "ClassName": "Recipe_Alternate_Screw_2_C",
@@ -1139,13 +1139,13 @@
     "mDisplayName": "Alternate: Steel Screw",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelPlate/Desc_SteelPlate.Desc_SteelPlate_C'\",Amount=1))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C'\",Amount=52))",
-    "mManufacturingMenuPriority": "6.000000",
-    "mManufactoringDuration": "12.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 6,
+    "mManufactoringDuration": 12,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Screw_C": {
     "ClassName": "Recipe_Alternate_Screw_C",
@@ -1153,13 +1153,13 @@
     "mDisplayName": "Alternate: Cast Screw",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C'\",Amount=5))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C'\",Amount=20))",
-    "mManufacturingMenuPriority": "5.000000",
-    "mManufactoringDuration": "24.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 5,
+    "mManufactoringDuration": 24,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Rotor_C": {
     "ClassName": "Recipe_Alternate_Rotor_C",
@@ -1167,13 +1167,13 @@
     "mDisplayName": "Alternate: Steel Rotor",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C'\",Amount=2),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C'\",Amount=6))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "2.000000",
-    "mManufactoringDuration": "12.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 2,
+    "mManufactoringDuration": 12,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_EncasedIndustrialBeam_C": {
     "ClassName": "Recipe_Alternate_EncasedIndustrialBeam_C",
@@ -1181,13 +1181,13 @@
     "mDisplayName": "Alternate: Encased Industrial Pipe",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C'\",Amount=6),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C'\",Amount=5))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelPlateReinforced/Desc_SteelPlateReinforced.Desc_SteelPlateReinforced_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "16.000000",
-    "mManufactoringDuration": "15.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 16,
+    "mManufactoringDuration": 15,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_ReinforcedIronPlate_2_C": {
     "ClassName": "Recipe_Alternate_ReinforcedIronPlate_2_C",
@@ -1195,13 +1195,13 @@
     "mDisplayName": "Alternate: Stitched Iron Plate",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C'\",Amount=10),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C'\",Amount=20))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C'\",Amount=3))",
-    "mManufacturingMenuPriority": "8.000000",
-    "mManufactoringDuration": "32.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 8,
+    "mManufactoringDuration": 32,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_ReinforcedIronPlate_1_C": {
     "ClassName": "Recipe_Alternate_ReinforcedIronPlate_1_C",
@@ -1209,13 +1209,13 @@
     "mDisplayName": "Alternate: Bolted Iron Plate",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C'\",Amount=18),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronScrew/Desc_IronScrew.Desc_IronScrew_C'\",Amount=50))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C'\",Amount=3))",
-    "mManufacturingMenuPriority": "7.000000",
-    "mManufactoringDuration": "12.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 7,
+    "mManufactoringDuration": 12,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_RadioControlUnit_1_C": {
     "ClassName": "Recipe_Alternate_RadioControlUnit_1_C",
@@ -1223,13 +1223,13 @@
     "mDisplayName": "Alternate: Radio Connection Unit",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/AluminumPlateReinforced/Desc_AluminumPlateReinforced.Desc_AluminumPlateReinforced_C'\",Amount=4),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C'\",Amount=2),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/QuartzCrystal/Desc_QuartzCrystal.Desc_QuartzCrystal_C'\",Amount=12))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/ModularFrameLightweight/Desc_ModularFrameLightweight.Desc_ModularFrameLightweight_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "6.000000",
-    "mManufactoringDuration": "16.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 6,
+    "mManufactoringDuration": 16,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Quickwire_C": {
     "ClassName": "Recipe_Alternate_Quickwire_C",
@@ -1237,13 +1237,13 @@
     "mDisplayName": "Alternate: Fused Quickwire",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/GoldIngot/Desc_GoldIngot.Desc_GoldIngot_C'\",Amount=1),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CopperIngot/Desc_CopperIngot.Desc_CopperIngot_C'\",Amount=5))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C'\",Amount=12))",
-    "mManufacturingMenuPriority": "8.000000",
-    "mManufactoringDuration": "8.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 8,
+    "mManufactoringDuration": 8,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Plastic_1_C": {
     "ClassName": "Recipe_Alternate_Plastic_1_C",
@@ -1251,13 +1251,13 @@
     "mDisplayName": "Alternate: Recycled Plastic",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C'\",Amount=6),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Fuel/Desc_LiquidFuel.Desc_LiquidFuel_C'\",Amount=6000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C'\",Amount=12))",
-    "mManufacturingMenuPriority": "2.000000",
-    "mManufactoringDuration": "12.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 2,
+    "mManufactoringDuration": 12,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_NuclearFuelRod_1_C": {
     "ClassName": "Recipe_Alternate_NuclearFuelRod_1_C",
@@ -1265,13 +1265,13 @@
     "mDisplayName": "Alternate: Uranium Fuel Unit",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/UraniumCell/Desc_UraniumCell.Desc_UraniumCell_C'\",Amount=100),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/ElectromagneticControlRod/Desc_ElectromagneticControlRod.Desc_ElectromagneticControlRod_C'\",Amount=10),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CrystalOscillator/Desc_CrystalOscillator.Desc_CrystalOscillator_C'\",Amount=3),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C'\",Amount=10))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/NuclearFuelRod/Desc_NuclearFuelRod.Desc_NuclearFuelRod_C'\",Amount=3))",
-    "mManufacturingMenuPriority": "2.000000",
-    "mManufactoringDuration": "300.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 2,
+    "mManufactoringDuration": 300,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Motor_1_C": {
     "ClassName": "Recipe_Alternate_Motor_1_C",
@@ -1279,13 +1279,13 @@
     "mDisplayName": "Alternate: Rigor Motor",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C'\",Amount=3),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Stator/Desc_Stator.Desc_Stator_C'\",Amount=3),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CrystalOscillator/Desc_CrystalOscillator.Desc_CrystalOscillator_C'\",Amount=1))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Motor/Desc_Motor.Desc_Motor_C'\",Amount=6))",
-    "mManufacturingMenuPriority": "0.000000",
-    "mManufactoringDuration": "48.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 0,
+    "mManufactoringDuration": 48,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_ModularFrame_C": {
     "ClassName": "Recipe_Alternate_ModularFrame_C",
@@ -1293,13 +1293,13 @@
     "mDisplayName": "Alternate: Steeled Frame",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C'\",Amount=2),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C'\",Amount=10))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C'\",Amount=3))",
-    "mManufacturingMenuPriority": "12.000000",
-    "mManufactoringDuration": "60.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 12,
+    "mManufactoringDuration": 60,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_IngotSteel_2_C": {
     "ClassName": "Recipe_Alternate_IngotSteel_2_C",
@@ -1307,13 +1307,13 @@
     "mDisplayName": "Alternate: Compacted Steel Ingot",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/OreIron/Desc_OreIron.Desc_OreIron_C'\",Amount=2),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CompactedCoal/Desc_CompactedCoal.Desc_CompactedCoal_C'\",Amount=1))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C'\",Amount=4))",
-    "mManufacturingMenuPriority": "7.000000",
-    "mManufactoringDuration": "24.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 7,
+    "mManufactoringDuration": 24,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_IngotSteel_1_C": {
     "ClassName": "Recipe_Alternate_IngotSteel_1_C",
@@ -1321,13 +1321,13 @@
     "mDisplayName": "Alternate: Solid Steel Ingot",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C'\",Amount=2),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Coal/Desc_Coal.Desc_Coal_C'\",Amount=2))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelIngot/Desc_SteelIngot.Desc_SteelIngot_C'\",Amount=3))",
-    "mManufacturingMenuPriority": "5.000000",
-    "mManufactoringDuration": "3.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 5,
+    "mManufactoringDuration": 3,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_IngotIron_C": {
     "ClassName": "Recipe_Alternate_IngotIron_C",
@@ -1335,13 +1335,13 @@
     "mDisplayName": "Alternate: Iron Alloy Ingot",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/OreIron/Desc_OreIron.Desc_OreIron_C'\",Amount=8),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/OreCopper/Desc_OreCopper.Desc_OreCopper_C'\",Amount=2))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C'\",Amount=15))",
-    "mManufacturingMenuPriority": "0.000000",
-    "mManufactoringDuration": "12.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 0,
+    "mManufactoringDuration": 12,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/FoundryMk1/Build_FoundryMk1.Build_FoundryMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_HighSpeedConnector_C": {
     "ClassName": "Recipe_Alternate_HighSpeedConnector_C",
@@ -1349,13 +1349,13 @@
     "mDisplayName": "Alternate: Silicon High-Speed Connector",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C'\",Amount=60),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Silica/Desc_Silica.Desc_Silica_C'\",Amount=25),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C'\",Amount=2))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C'\",Amount=2))",
-    "mManufacturingMenuPriority": "11.000000",
-    "mManufactoringDuration": "40.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 11,
+    "mManufactoringDuration": 40,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_ModularFrameHeavy_C": {
     "ClassName": "Recipe_Alternate_ModularFrameHeavy_C",
@@ -1363,13 +1363,13 @@
     "mDisplayName": "Alternate: Heavy Encased Frame",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/ModularFrame/Desc_ModularFrame.Desc_ModularFrame_C'\",Amount=8),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelPlateReinforced/Desc_SteelPlateReinforced.Desc_SteelPlateReinforced_C'\",Amount=10),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/SteelPipe/Desc_SteelPipe.Desc_SteelPipe_C'\",Amount=36),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C'\",Amount=22))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/ModularFrameHeavy/Desc_ModularFrameHeavy.Desc_ModularFrameHeavy_C'\",Amount=3))",
-    "mManufacturingMenuPriority": "17.000000",
-    "mManufactoringDuration": "64.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 17,
+    "mManufactoringDuration": 64,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_HeatSink_1_C": {
     "ClassName": "Recipe_Alternate_HeatSink_1_C",
@@ -1377,13 +1377,13 @@
     "mDisplayName": "Alternate: Heat Exchanger",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/AluminumCasing/Desc_AluminumCasing.Desc_AluminumCasing_C'\",Amount=3),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C'\",Amount=3))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/AluminumPlateReinforced/Desc_AluminumPlateReinforced.Desc_AluminumPlateReinforced_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "8.000000",
-    "mManufactoringDuration": "6.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 8,
+    "mManufactoringDuration": 6,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Gunpowder_1_C": {
     "ClassName": "Recipe_Alternate_Gunpowder_1_C",
@@ -1391,13 +1391,13 @@
     "mDisplayName": "Alternate: Fine Black Powder",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Sulfur/Desc_Sulfur.Desc_Sulfur_C'\",Amount=1),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CompactedCoal/Desc_CompactedCoal.Desc_CompactedCoal_C'\",Amount=2))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/GunPowder/Desc_Gunpowder.Desc_Gunpowder_C'\",Amount=6))",
-    "mManufacturingMenuPriority": "1.000000",
-    "mManufactoringDuration": "8.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 1,
+    "mManufactoringDuration": 8,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_ElectromagneticControlRod_1_C": {
     "ClassName": "Recipe_Alternate_ElectromagneticControlRod_1_C",
@@ -1405,13 +1405,13 @@
     "mDisplayName": "Alternate: Electromagnetic Connection Rod",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Stator/Desc_Stator.Desc_Stator_C'\",Amount=2),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HighSpeedConnector/Desc_HighSpeedConnector.Desc_HighSpeedConnector_C'\",Amount=1))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/ElectromagneticControlRod/Desc_ElectromagneticControlRod.Desc_ElectromagneticControlRod_C'\",Amount=2))",
-    "mManufacturingMenuPriority": "2.000000",
-    "mManufactoringDuration": "15.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 2,
+    "mManufactoringDuration": 15,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_CrystalOscillator_C": {
     "ClassName": "Recipe_Alternate_CrystalOscillator_C",
@@ -1419,13 +1419,13 @@
     "mDisplayName": "Alternate: Insulated Crystal Oscillator",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/QuartzCrystal/Desc_QuartzCrystal.Desc_QuartzCrystal_C'\",Amount=10),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C'\",Amount=7),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CircuitBoardHighSpeed/Desc_CircuitBoardHighSpeed.Desc_CircuitBoardHighSpeed_C'\",Amount=1))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CrystalOscillator/Desc_CrystalOscillator.Desc_CrystalOscillator_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "4.000000",
-    "mManufactoringDuration": "32.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 4,
+    "mManufactoringDuration": 32,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Concrete_C": {
     "ClassName": "Recipe_Alternate_Concrete_C",
@@ -1433,13 +1433,13 @@
     "mDisplayName": "Alternate: Fine Concrete",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Silica/Desc_Silica.Desc_Silica_C'\",Amount=3),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Stone/Desc_Stone.Desc_Stone_C'\",Amount=12))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C'\",Amount=10))",
-    "mManufacturingMenuPriority": "0.000000",
-    "mManufactoringDuration": "12.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 0,
+    "mManufactoringDuration": 12,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Computer_2_C": {
     "ClassName": "Recipe_Alternate_Computer_2_C",
@@ -1447,13 +1447,13 @@
     "mDisplayName": "Alternate: Crystal Computer",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C'\",Amount=3),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CrystalOscillator/Desc_CrystalOscillator.Desc_CrystalOscillator_C'\",Amount=1))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C'\",Amount=2))",
-    "mManufacturingMenuPriority": "11.000000",
-    "mManufactoringDuration": "36.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 11,
+    "mManufactoringDuration": 36,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Computer_1_C": {
     "ClassName": "Recipe_Alternate_Computer_1_C",
@@ -1461,13 +1461,13 @@
     "mDisplayName": "Alternate: Caterium Computer",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C'\",Amount=4),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C'\",Amount=14),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C'\",Amount=6))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Computer/Desc_Computer.Desc_Computer_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "1.000000",
-    "mManufactoringDuration": "16.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 1,
+    "mManufactoringDuration": 16,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/ManufacturerMk1/Build_ManufacturerMk1.Build_ManufacturerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_CircuitBoard_2_C": {
     "ClassName": "Recipe_Alternate_CircuitBoard_2_C",
@@ -1475,13 +1475,13 @@
     "mDisplayName": "Alternate: Caterium Circuit Board",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Plastic/Desc_Plastic.Desc_Plastic_C'\",Amount=10),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C'\",Amount=30))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C'\",Amount=7))",
-    "mManufacturingMenuPriority": "6.000000",
-    "mManufactoringDuration": "48.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 6,
+    "mManufactoringDuration": 48,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_CircuitBoard_1_C": {
     "ClassName": "Recipe_Alternate_CircuitBoard_1_C",
@@ -1489,13 +1489,13 @@
     "mDisplayName": "Alternate: Silicon Circuit Board",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CopperSheet/Desc_CopperSheet.Desc_CopperSheet_C'\",Amount=11),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Silica/Desc_Silica.Desc_Silica_C'\",Amount=11))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/CircuitBoard/Desc_CircuitBoard.Desc_CircuitBoard_C'\",Amount=5))",
-    "mManufacturingMenuPriority": "7.000000",
-    "mManufactoringDuration": "24.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 7,
+    "mManufactoringDuration": 24,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Cable_2_C": {
     "ClassName": "Recipe_Alternate_Cable_2_C",
@@ -1503,13 +1503,13 @@
     "mDisplayName": "Alternate: Quickwire Cable",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/HighSpeedWire/Desc_HighSpeedWire.Desc_HighSpeedWire_C'\",Amount=3),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C'\",Amount=2))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C'\",Amount=11))",
-    "mManufacturingMenuPriority": "2.000000",
-    "mManufactoringDuration": "24.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 2,
+    "mManufactoringDuration": 24,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_Cable_1_C": {
     "ClassName": "Recipe_Alternate_Cable_1_C",
@@ -1517,13 +1517,13 @@
     "mDisplayName": "Alternate: Insulated Cable",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C'\",Amount=9),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Rubber/Desc_Rubber.Desc_Rubber_C'\",Amount=6))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C'\",Amount=20))",
-    "mManufacturingMenuPriority": "1.000000",
-    "mManufactoringDuration": "12.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 1,
+    "mManufactoringDuration": 12,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   },
   "Recipe_Alternate_PolyesterFabric_C": {
     "ClassName": "Recipe_Alternate_PolyesterFabric_C",
@@ -1531,12 +1531,12 @@
     "mDisplayName": "Alternate: Polyester Fabric",
     "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/PolymerResin/Desc_PolymerResin.Desc_PolymerResin_C'\",Amount=1),(ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/RawResources/Water/Desc_Water.Desc_Water_C'\",Amount=1000))",
     "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/GenericBiomass/Desc_Fabric.Desc_Fabric_C'\",Amount=1))",
-    "mManufacturingMenuPriority": "2.000000",
-    "mManufactoringDuration": "2.000000",
-    "mManualManufacturingMultiplier": "1.000000",
+    "mManufacturingMenuPriority": 2,
+    "mManufactoringDuration": 2,
+    "mManualManufacturingMultiplier": 1,
     "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C\")",
     "mRelevantEvents": "",
-    "mVariablePowerConsumptionConstant": "0.000000",
-    "mVariablePowerConsumptionFactor": "1.000000"
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
   }
 }

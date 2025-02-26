@@ -12,6 +12,10 @@ export type RecipeJsonObject = {
   mVariablePowerConsumptionFactor: number;
 };
 
+export type ProductToRecipe = {
+  [str: string]: string[];
+}
+
 export function assertRecipeJsonObject(obj: any) {
   if (typeof obj !== "object") {
     throwError("RecipeJsonObject", "obj", "object", obj);
@@ -53,6 +57,15 @@ export function assertRecipeJsonObject(obj: any) {
   }
   if (typeof obj.mVariablePowerConsumptionFactor !== "number") {
     throwError("RecipeJsonObject", "mVariablePowerConsumptionFactor", "number", obj.mVariablePowerConsumptionFactor);
+  }
+}
+export function convertStringFieldsOJsonToNumber(obj: any) {
+  for (const key in obj) {
+    if (typeof obj[key] === "string") {
+      if (!isNaN(parseFloat(obj[key]))) {
+        obj[key] = parseFloat(obj[key]);
+      }
+    }
   }
 }
 
