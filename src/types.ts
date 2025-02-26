@@ -27,7 +27,41 @@ export type RecipeToProducts = {
     byproducts: string[];
   };
 }
+export type RecipeToIngredients = {
+  [str: string]: {
+    displayName: string;
+    ingredients: { item: string; amount: number }[];
+    producedIn: string;
+  };
+}
 
+export function assertReciptToIngredients(obj: any) {
+  if (typeof obj !== "object") {
+    throwError("RecipeToIngredients", "obj", "object", obj);
+  }
+  for (const key in obj) {
+    if (typeof obj[key] !== "object") {
+      throwError("RecipeToIngredients", key, "object", obj[key]);
+    }
+    if (typeof obj[key].displayName !== "string") {
+      throwError("RecipeToIngredients", `${key}.displayName`, "string", obj[key].displayName);
+    }
+    if (!Array.isArray(obj[key].ingredients)) {
+      throwError("RecipeToIngredients", `${key}.ingredients`, "array", obj[key].ingredients);
+    }
+    for (const ingredient of obj[key].ingredients) {
+      if (typeof ingredient.item !== "string") {
+        throwError("RecipeToIngredients", `${key}.ingredients.item`, "string", ingredient.item);
+      }
+      if (typeof ingredient.amount !== "number") {
+        throwError("RecipeToIngredients", `${key}.ingredients.amount`, "number", ingredient.amount);
+      }
+    }
+    if (typeof obj[key].producedIn !== "string") {
+      throwError("RecipeToIngredients", `${key}.producedIn`, "string", obj[key].producedIn);
+    }
+  }
+}
 export function convertProductToRecipeRawToProductToRecipe(raw: ProductToRecipeRaw): ProductToRecipe {
   const result: ProductToRecipe = {};
   for (const [product, recipes] of Object.entries(raw)) {
