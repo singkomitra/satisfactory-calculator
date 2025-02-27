@@ -54,14 +54,17 @@ export type RecipeMap = {
 };
 export type ProductsMap = {
   [product: string]: {
+    displayName: string;
     mainRecipe: {
       recipeName: string;
+      displayName: string;
       ingredients: { item: string; amount: number; isRawResource: boolean }[];
       producedIn: string;
       amount: number;
     };
     altRecipes: {
       recipeName: string;
+      displayName: string;
       ingredients: { item: string; amount: number; isRawResource: boolean }[];
       producedIn: string;
       amount: number;
