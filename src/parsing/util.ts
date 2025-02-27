@@ -11,14 +11,14 @@ export const extractItemClassObjects = (item: string) => {
     console.error("No matches found for item", item);
     return null;
   }
-  const first = matches[0][1].split("/").pop()?.split(".").pop();
+  const first = matches[0][1].split("/").pop()?.split(".").pop()?.replace(/'$/, "");
   const firstAmount = parseInt(matches[0][2]);
   if (!first || !firstAmount) {
     console.error("No matches found for item", item);
     return null;
   }
   for (const match of matches) {
-    const name = match[1].split("/").pop()?.split(".").pop();
+    const name = match[1].split("/").pop()?.split(".").pop()?.replace(/'$/, "");
     if (!name) {
       continue;
     }

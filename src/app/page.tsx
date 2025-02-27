@@ -9,9 +9,8 @@ import { Box, Button, Input } from "@chakra-ui/react";
 export default observer(function Home() {
   const { state, actions } = useContext(context);
   return (
-    <Box className={styles.main} bg="background" display="flex" flexDirection="column">
+    <Box className={styles.main} bg="background">
       <Button onClick={() => actions.toggleTheme()}></Button>
-      <Input placeholder="..." size="xs" />
     </Box>
   );
 });
