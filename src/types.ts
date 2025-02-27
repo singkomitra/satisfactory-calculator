@@ -12,15 +12,6 @@ export type RecipeJsonObject = {
   mVariablePowerConsumptionFactor: number;
 };
 
-// mainRecipe is the first recipe in the list, altRecipes are the rest
-// key: product name -> value: main recipe and alternative recipes
-export type ProductToRecipes = {
-  [str: string]: {
-    mainRecipe: string;
-    altRecipes: string[];
-  };
-};
-
 export type ItemDescriptor = {
   className: string;
   displayName: string;
@@ -38,6 +29,14 @@ export type ItemDescriptor = {
 export type ProductToRecipeRaw = {
   [str: string]: string[];
 };
+// mainRecipe is the first recipe in the list, altRecipes are the rest
+// key: product name -> value: main recipe and alternative recipes
+export type ProductToRecipes = {
+  [str: string]: {
+    mainRecipe: string;
+    altRecipes: string[];
+  };
+};
 // key: recipe name -> value: main product and byproducts
 export type RecipeToProducts = {
   [str: string]: {
@@ -45,12 +44,28 @@ export type RecipeToProducts = {
     byproducts: string[];
   };
 };
-export type Recipe = {
+export type RecipeMap = {
   [str: string]: {
     displayName: string;
     ingredients: { item: string; amount: number }[];
     amount: number;
     producedIn: string;
+  };
+};
+export type ProductsMap = {
+  [product: string]: {
+    mainRecipe: {
+      recipeName: string;
+      ingredients: { item: string; amount: number; isRawResource: boolean }[];
+      producedIn: string;
+      amount: number;
+    };
+    altRecipes: {
+      recipeName: string;
+      ingredients: { item: string; amount: number; isRawResource: boolean }[];
+      producedIn: string;
+      amount: number;
+    }[];
   };
 };
 export type ItemDescriptorsRaw = {
@@ -102,7 +117,7 @@ export function assertItemDescriptorsRaw(obj: any): asserts obj is ItemDescripto
   }
 }
 
-export function assertRecipe(obj: any): asserts obj is Recipe {
+export function assertRecipeMap(obj: any): asserts obj is RecipeMap {
   if (typeof obj !== "object") {
     throwError("RecipeToIngredients", "obj", "object", obj);
   }

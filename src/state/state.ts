@@ -1,8 +1,8 @@
-import { Recipe } from "../types";
+import { RecipeMap } from "../types";
 import { observable } from "mobx";
 
 export type State = {
-  data: Recipe | null;
+  data: RecipeMap | null;
   theme: "light" | "dark";
 };
 

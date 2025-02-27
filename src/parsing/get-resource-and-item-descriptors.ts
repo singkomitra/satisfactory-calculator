@@ -38,18 +38,14 @@ export async function getItemAndResourceDescriptors() {
     }
   }
   // note: item-descriptors does not contain every item, will need to do more research
-  await writeFile(
-    join(getJSONDirectory(), "item-descriptors.json"),
-    JSON.stringify(convertItemDescriptorsRawToItemDescriptorsMap(rawProducts), null, 2)
-  );
-  await writeFile(
-    join(getJSONDirectory(), "resource-descriptors.json"),
-    JSON.stringify(convertItemDescriptorsRawToItemDescriptorsMap(rawResources), null, 2)
-  );
+  const itemDescriptors = convertItemDescriptorsRawToItemDescriptorsMap(rawProducts);
+  const resourceDescriptors = convertItemDescriptorsRawToItemDescriptorsMap(rawResources);
+  await writeFile(join(getJSONDirectory(), "item-descriptors.json"), JSON.stringify(itemDescriptors, null, 2));
+  await writeFile(join(getJSONDirectory(), "resource-descriptors.json"), JSON.stringify(resourceDescriptors, null, 2));
   await writeFile(join(getJSONDirectory(), "raw-item-descriptors.json"), JSON.stringify(rawProducts, null, 2));
   await writeFile(join(getJSONDirectory(), "raw-resource-descriptors.json"), JSON.stringify(rawResources, null, 2));
   return {
-    rawProducts,
-    rawResources
+    itemDescriptors,
+    resourceDescriptors
   };
 }

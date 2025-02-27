@@ -1,6 +1,6 @@
 import { writeFile } from "fs/promises";
 import { splitRecipes } from "./split-recipes";
-import { Recipe } from "@/types";
+import { RecipeMap } from "@/types";
 import { productToRecipesAndRecipeToProductsCreation } from "./product-to-recipe-conversion";
 import { extractItemClassObjects, getJSONDirectory } from "./util";
 import { join } from "path";
@@ -28,9 +28,8 @@ export async function GET(req: Request) {
 export async function makeRecipe() {
   const { allRecipes } = await splitRecipes();
   const { recipeToProducts } = await productToRecipesAndRecipeToProductsCreation();
-  const finalRecipes: Recipe = {};
+  const finalRecipes: RecipeMap = {};
   for (const recipe of Object.values(allRecipes)) {
-    if (!recipe.ClassName.endsWith("_C")) console.log("Not a recipe: ", recipe.ClassName);
     const className = recipe.ClassName;
     const extractedIngredients = extractItemClassObjects(recipe.mIngredients);
     if (!extractedIngredients) {

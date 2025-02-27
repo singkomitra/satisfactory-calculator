@@ -9,7 +9,6 @@ import { splitRecipes } from "./split-recipes";
 import { extractItemClassObjects, getJSONDirectory } from "./util";
 import { writeFile } from "fs/promises";
 import { join } from "path";
-import { getItemAndResourceDescriptors } from "./get-resource-and-item-descriptors";
 
 export async function productToRecipesAndRecipeToProductsCreation() {
   const { allRecipes } = await splitRecipes();
