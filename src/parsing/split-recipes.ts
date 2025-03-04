@@ -23,7 +23,7 @@ export async function splitRecipes() {
       for (const recipe of obj.Classes) {
         convertStringFieldsOJsonToNumber(recipe);
         assertRecipeJsonObject(recipe);
-        if (recipe.ClassName.startsWith("Recipe_Alternate")) {
+        if (recipe.ClassName.startsWith("Recipe_Alternate") || recipe.mDisplayName.startsWith("Alternate:")) {
           altRecipes[recipe.ClassName] = recipe;
         } else {
           recipes[recipe.ClassName] = recipe;

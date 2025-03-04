@@ -426,22 +426,6 @@
     "mainRecipe": "Recipe_Wall_Window_8x4_03_Steel_C",
     "altRecipes": []
   },
-  "Desc_RocketFuel_C": {
-    "mainRecipe": "Recipe_Alternate_RocketFuel_Nitro_C",
-    "altRecipes": [
-      "Recipe_RocketFuel_C",
-      "Recipe_UnpackageRocketFuel_C"
-    ]
-  },
-  "Desc_CompactedCoal_C": {
-    "mainRecipe": "Recipe_Alternate_RocketFuel_Nitro_C",
-    "altRecipes": [
-      "Recipe_RocketFuel_C",
-      "Recipe_Alternate_IonizedFuel_Dark_C",
-      "Recipe_IonizedFuel_C",
-      "Recipe_Alternate_EnrichedCoal_C"
-    ]
-  },
   "Desc_GeneratorCoal_C": {
     "mainRecipe": "Recipe_GeneratorCoal_C",
     "altRecipes": []
@@ -482,24 +466,33 @@
     "mainRecipe": "Recipe_ResourceSinkShop_C",
     "altRecipes": []
   },
+  "Desc_RocketFuel_C": {
+    "mainRecipe": "Recipe_RocketFuel_C",
+    "altRecipes": [
+      "Recipe_UnpackageRocketFuel_C",
+      "Recipe_Alternate_RocketFuel_Nitro_C"
+    ]
+  },
+  "Desc_CompactedCoal_C": {
+    "mainRecipe": "Recipe_Alternate_EnrichedCoal_C",
+    "altRecipes": [
+      "Recipe_RocketFuel_C",
+      "Recipe_IonizedFuel_C",
+      "Recipe_Alternate_RocketFuel_Nitro_C",
+      "Recipe_Alternate_IonizedFuel_Dark_C"
+    ]
+  },
   "Desc_PackagedRocketFuel_C": {
     "mainRecipe": "Recipe_PackagedRocketFuel_C",
     "altRecipes": []
   },
   "Desc_GasTank_C": {
-    "mainRecipe": "Recipe_UnpackageRocketFuel_C",
+    "mainRecipe": "Recipe_GasTank_C",
     "altRecipes": [
+      "Recipe_UnpackageRocketFuel_C",
       "Recipe_UnpackageIonizedFuel_C",
       "Recipe_UnpackageNitricAcid_C",
-      "Recipe_GasTank_C",
       "Recipe_UnpackageNitrogen_C"
-    ]
-  },
-  "Desc_IonizedFuel_C": {
-    "mainRecipe": "Recipe_Alternate_IonizedFuel_Dark_C",
-    "altRecipes": [
-      "Recipe_IonizedFuel_C",
-      "Recipe_UnpackageIonizedFuel_C"
     ]
   },
   "Desc_QuantumEncoder_C": {
@@ -540,19 +533,16 @@
     "mainRecipe": "Recipe_SpaceElevatorPart_12_C",
     "altRecipes": []
   },
+  "Desc_IonizedFuel_C": {
+    "mainRecipe": "Recipe_IonizedFuel_C",
+    "altRecipes": [
+      "Recipe_UnpackageIonizedFuel_C",
+      "Recipe_Alternate_IonizedFuel_Dark_C"
+    ]
+  },
   "Desc_PackagedIonizedFuel_C": {
     "mainRecipe": "Recipe_PackagedIonizedFuel_C",
     "altRecipes": []
-  },
-  "Desc_Diamond_C": {
-    "mainRecipe": "Recipe_Alternate_Diamond_Turbo_C",
-    "altRecipes": [
-      "Recipe_Diamond_C",
-      "Recipe_Alternate_Diamond_Pink_C",
-      "Recipe_Alternate_Diamond_Petroleum_C",
-      "Recipe_Alternate_Diamond_OilBased_C",
-      "Recipe_Alternate_Diamond_Cloudy_C"
-    ]
   },
   "Desc_SAMFluctuator_C": {
     "mainRecipe": "Recipe_SAMFluctuator_C",
@@ -576,6 +566,16 @@
   "Desc_TimeCrystal_C": {
     "mainRecipe": "Recipe_TimeCrystal_C",
     "altRecipes": []
+  },
+  "Desc_Diamond_C": {
+    "mainRecipe": "Recipe_Diamond_C",
+    "altRecipes": [
+      "Recipe_Alternate_Diamond_Turbo_C",
+      "Recipe_Alternate_Diamond_Pink_C",
+      "Recipe_Alternate_Diamond_Petroleum_C",
+      "Recipe_Alternate_Diamond_OilBased_C",
+      "Recipe_Alternate_Diamond_Cloudy_C"
+    ]
   },
   "Desc_SAMIngot_C": {
     "mainRecipe": "Recipe_IngotSAM_C",
@@ -642,31 +642,31 @@
     "mainRecipe": "Recipe_Uranium_Bauxite_C",
     "altRecipes": []
   },
-  "Desc_LiquidTurboFuel_C": {
-    "mainRecipe": "Recipe_Alternate_Turbofuel_C",
-    "altRecipes": [
-      "Recipe_UnpackageTurboFuel_C",
-      "Recipe_Alternate_TurboHeavyFuel_C",
-      "Recipe_Alternate_TurboBlendFuel_C"
-    ]
-  },
   "Desc_TurboFuel_C": {
     "mainRecipe": "Recipe_PackagedTurboFuel_C",
     "altRecipes": []
   },
-  "Desc_FluidCanister_C": {
+  "Desc_LiquidTurboFuel_C": {
     "mainRecipe": "Recipe_UnpackageTurboFuel_C",
     "altRecipes": [
-      "Recipe_Alternate_SteelCanister_C",
-      "Recipe_FluidCanister_C",
+      "Recipe_Alternate_Turbofuel_C",
+      "Recipe_Alternate_TurboHeavyFuel_C",
+      "Recipe_Alternate_TurboBlendFuel_C"
+    ]
+  },
+  "Desc_FluidCanister_C": {
+    "mainRecipe": "Recipe_FluidCanister_C",
+    "altRecipes": [
+      "Recipe_UnpackageTurboFuel_C",
       "Recipe_UnpackageBioFuel_C",
       "Recipe_UnpackageFuel_C",
       "Recipe_UnpackageOil_C",
       "Recipe_UnpackageOilResidue_C",
       "Recipe_UnpackageWater_C",
       "Recipe_UnpackageAlumina_C",
-      "Recipe_Alternate_CoatedIronCanister_C",
-      "Recipe_UnpackageSulfuricAcid_C"
+      "Recipe_UnpackageSulfuricAcid_C",
+      "Recipe_Alternate_SteelCanister_C",
+      "Recipe_Alternate_CoatedIronCanister_C"
     ]
   },
   "Desc_CircuitBoard_C": {
@@ -698,9 +698,9 @@
     ]
   },
   "Desc_PolymerResin_C": {
-    "mainRecipe": "Recipe_LiquidFuel_C",
+    "mainRecipe": "Recipe_Alternate_PolymerResin_C",
     "altRecipes": [
-      "Recipe_Alternate_PolymerResin_C",
+      "Recipe_LiquidFuel_C",
       "Recipe_Alternate_HeavyOilResidue_C"
     ]
   },
@@ -716,12 +716,12 @@
     ]
   },
   "Desc_HeavyOilResidue_C": {
-    "mainRecipe": "Recipe_Plastic_C",
+    "mainRecipe": "Recipe_Alternate_HeavyOilResidue_C",
     "altRecipes": [
+      "Recipe_Plastic_C",
       "Recipe_Rubber_C",
-      "Recipe_UnpackageOilResidue_C",
       "Recipe_Alternate_PolymerResin_C",
-      "Recipe_Alternate_HeavyOilResidue_C"
+      "Recipe_UnpackageOilResidue_C"
     ]
   },
   "Desc_Rubber_C": {
@@ -729,14 +729,6 @@
     "altRecipes": [
       "Recipe_ResidualRubber_C",
       "Recipe_Alternate_RecycledRubber_C"
-    ]
-  },
-  "Desc_Cement_C": {
-    "mainRecipe": "Recipe_Alternate_WetConcrete_C",
-    "altRecipes": [
-      "Recipe_Alternate_RubberConcrete_C",
-      "Recipe_Alternate_Concrete_C",
-      "Recipe_Concrete_C"
     ]
   },
   "Desc_FoundryMk1_C": {
@@ -811,49 +803,20 @@
     "mainRecipe": "Recipe_UnpackageWater_C",
     "altRecipes": [
       "Recipe_AluminumScrap_C",
-      "Recipe_Alternate_ElectroAluminumScrap_C",
       "Recipe_NonFissileUranium_C",
       "Recipe_Battery_C",
+      "Recipe_Alternate_ElectroAluminumScrap_C",
       "Recipe_Alternate_InstantScrap_C",
       "Recipe_Alternate_FertileUranium_C",
       "Recipe_Alternate_Silica_Distilled_C"
     ]
   },
-  "Desc_CopperSheet_C": {
-    "mainRecipe": "Recipe_Alternate_SteamedCopperSheet_C",
-    "altRecipes": [
-      "Recipe_CopperSheet_C"
-    ]
-  },
   "Desc_QuartzCrystal_C": {
-    "mainRecipe": "Recipe_Alternate_PureQuartzCrystal_C",
+    "mainRecipe": "Recipe_QuartzCrystal_C",
     "altRecipes": [
-      "Recipe_QuartzCrystal_C",
+      "Recipe_Alternate_PureQuartzCrystal_C",
       "Recipe_Alternate_Quartz_Purified_C",
       "Recipe_Alternate_Quartz_Fused_C"
-    ]
-  },
-  "Desc_CopperIngot_C": {
-    "mainRecipe": "Recipe_Alternate_PureCopperIngot_C",
-    "altRecipes": [
-      "Recipe_Alternate_CopperAlloyIngot_C",
-      "Recipe_Alternate_CopperIngot_Tempered_C",
-      "Recipe_Alternate_CopperIngot_Leached_C",
-      "Recipe_IngotCopper_C"
-    ]
-  },
-  "Desc_GoldIngot_C": {
-    "mainRecipe": "Recipe_Alternate_PureCateriumIngot_C",
-    "altRecipes": [
-      "Recipe_Alternate_CateriumIngot_Tempered_C",
-      "Recipe_Alternate_CateriumIngot_Leached_C",
-      "Recipe_IngotCaterium_C"
-    ]
-  },
-  "Desc_AluminumIngot_C": {
-    "mainRecipe": "Recipe_PureAluminumIngot_C",
-    "altRecipes": [
-      "Recipe_IngotAluminum_C"
     ]
   },
   "Desc_AluminumCasing_C": {
@@ -874,9 +837,9 @@
     ]
   },
   "Desc_Silica_C": {
-    "mainRecipe": "Recipe_AluminaSolution_C",
+    "mainRecipe": "Recipe_Silica_C",
     "altRecipes": [
-      "Recipe_Silica_C",
+      "Recipe_AluminaSolution_C",
       "Recipe_Alternate_Silica_Distilled_C",
       "Recipe_Alternate_Silica_C"
     ]
@@ -892,22 +855,16 @@
     "mainRecipe": "Recipe_PackagedAlumina_C",
     "altRecipes": []
   },
+  "Desc_AluminumIngot_C": {
+    "mainRecipe": "Recipe_IngotAluminum_C",
+    "altRecipes": [
+      "Recipe_PureAluminumIngot_C"
+    ]
+  },
   "Desc_CrystalOscillator_C": {
     "mainRecipe": "Recipe_CrystalOscillator_C",
     "altRecipes": [
       "Recipe_Alternate_CrystalOscillator_C"
-    ]
-  },
-  "Desc_SpaceElevatorPart_1_C": {
-    "mainRecipe": "Recipe_Alternate_PlasticSmartPlating_C",
-    "altRecipes": [
-      "Recipe_SpaceElevatorPart_1_C"
-    ]
-  },
-  "Desc_SpaceElevatorPart_3_C": {
-    "mainRecipe": "Recipe_Alternate_HighSpeedWiring_C",
-    "altRecipes": [
-      "Recipe_SpaceElevatorPart_3_C"
     ]
   },
   "Desc_SteelPlateReinforced_C": {
@@ -933,17 +890,16 @@
     "mainRecipe": "Recipe_MinerMk2_C",
     "altRecipes": []
   },
+  "Desc_SpaceElevatorPart_3_C": {
+    "mainRecipe": "Recipe_SpaceElevatorPart_3_C",
+    "altRecipes": [
+      "Recipe_Alternate_HighSpeedWiring_C"
+    ]
+  },
   "Desc_CircuitBoardHighSpeed_C": {
     "mainRecipe": "Recipe_AILimiter_C",
     "altRecipes": [
       "Recipe_Alternate_AILimiter_Plastic_C"
-    ]
-  },
-  "Desc_ModularFrameHeavy_C": {
-    "mainRecipe": "Recipe_Alternate_HeavyFlexibleFrame_C",
-    "altRecipes": [
-      "Recipe_ModularFrameHeavy_C",
-      "Recipe_Alternate_ModularFrameHeavy_C"
     ]
   },
   "Desc_ManufacturerMk1_C": {
@@ -957,6 +913,13 @@
       "Recipe_Alternate_Computer_1_C"
     ]
   },
+  "Desc_ModularFrameHeavy_C": {
+    "mainRecipe": "Recipe_ModularFrameHeavy_C",
+    "altRecipes": [
+      "Recipe_Alternate_HeavyFlexibleFrame_C",
+      "Recipe_Alternate_ModularFrameHeavy_C"
+    ]
+  },
   "Desc_SpaceElevatorPart_4_C": {
     "mainRecipe": "Recipe_SpaceElevatorPart_4_C",
     "altRecipes": []
@@ -965,21 +928,6 @@
     "mainRecipe": "Recipe_SpaceElevatorPart_5_C",
     "altRecipes": []
   },
-  "Desc_Wire_C": {
-    "mainRecipe": "Recipe_Alternate_FusedWire_C",
-    "altRecipes": [
-      "Recipe_Alternate_Wire_2_C",
-      "Recipe_Alternate_Wire_1_C",
-      "Recipe_Wire_C"
-    ]
-  },
-  "Desc_Rotor_C": {
-    "mainRecipe": "Recipe_Alternate_CopperRotor_C",
-    "altRecipes": [
-      "Recipe_Rotor_C",
-      "Recipe_Alternate_Rotor_C"
-    ]
-  },
   "Desc_ModularFrame_C": {
     "mainRecipe": "Recipe_ModularFrame_C",
     "altRecipes": [
@@ -987,31 +935,27 @@
       "Recipe_Alternate_ModularFrame_C"
     ]
   },
+  "Desc_Rotor_C": {
+    "mainRecipe": "Recipe_Rotor_C",
+    "altRecipes": [
+      "Recipe_Alternate_CopperRotor_C",
+      "Recipe_Alternate_Rotor_C"
+    ]
+  },
   "Desc_AssemblerMk1_C": {
     "mainRecipe": "Recipe_AssemblerMk1_C",
     "altRecipes": []
   },
-  "Desc_Cable_C": {
-    "mainRecipe": "Recipe_Alternate_CoatedCable_C",
+  "Desc_CopperSheet_C": {
+    "mainRecipe": "Recipe_CopperSheet_C",
     "altRecipes": [
-      "Recipe_Alternate_Cable_2_C",
-      "Recipe_Alternate_Cable_1_C",
-      "Recipe_Cable_C"
+      "Recipe_Alternate_SteamedCopperSheet_C"
     ]
   },
-  "Desc_IronPlateReinforced_C": {
-    "mainRecipe": "Recipe_Alternate_AdheredIronPlate_C",
+  "Desc_SpaceElevatorPart_1_C": {
+    "mainRecipe": "Recipe_SpaceElevatorPart_1_C",
     "altRecipes": [
-      "Recipe_Alternate_ReinforcedIronPlate_2_C",
-      "Recipe_Alternate_ReinforcedIronPlate_1_C",
-      "Recipe_IronPlateReinforced_C"
-    ]
-  },
-  "Desc_MotorLightweight_C": {
-    "mainRecipe": "Recipe_Alternate_TurboPressureMotor_C",
-    "altRecipes": [
-      "Recipe_Alternate_TurboMotor_1_C",
-      "Recipe_MotorTurbo_C"
+      "Recipe_Alternate_PlasticSmartPlating_C"
     ]
   },
   "Desc_PlutoniumCell_C": {
@@ -1069,9 +1013,9 @@
     ]
   },
   "Desc_SulfuricAcid_C": {
-    "mainRecipe": "Recipe_UraniumCell_C",
+    "mainRecipe": "Recipe_SulfuricAcid_C",
     "altRecipes": [
-      "Recipe_SulfuricAcid_C",
+      "Recipe_UraniumCell_C",
       "Recipe_UnpackageSulfuricAcid_C"
     ]
   },
@@ -1163,16 +1107,6 @@
     "mainRecipe": "Recipe_PackagedNitrogen_C",
     "altRecipes": []
   },
-  "BP_ItemDescriptorPortableMiner_C": {
-    "mainRecipe": "Recipe_Alternate_AutomatedMiner_C",
-    "altRecipes": [
-      "Recipe_PortableMiner_C"
-    ]
-  },
-  "Desc_DissolvedSilica_C": {
-    "mainRecipe": "Recipe_Alternate_Quartz_Purified_C",
-    "altRecipes": []
-  },
   "Desc_DroneStation_C": {
     "mainRecipe": "Recipe_DroneStation_C",
     "altRecipes": []
@@ -1180,6 +1114,14 @@
   "Desc_DroneTransport_C": {
     "mainRecipe": "Recipe_DroneTransport_C",
     "altRecipes": []
+  },
+  "Desc_GoldIngot_C": {
+    "mainRecipe": "Recipe_IngotCaterium_C",
+    "altRecipes": [
+      "Recipe_Alternate_PureCateriumIngot_C",
+      "Recipe_Alternate_CateriumIngot_Tempered_C",
+      "Recipe_Alternate_CateriumIngot_Leached_C"
+    ]
   },
   "Desc_ConveyorBeltMk5_C": {
     "mainRecipe": "Recipe_ConveyorBeltMk5_C",
@@ -1193,28 +1135,16 @@
     "mainRecipe": "Recipe_MinerMk3_C",
     "altRecipes": []
   },
+  "Desc_MotorLightweight_C": {
+    "mainRecipe": "Recipe_MotorTurbo_C",
+    "altRecipes": [
+      "Recipe_Alternate_TurboPressureMotor_C",
+      "Recipe_Alternate_TurboMotor_1_C"
+    ]
+  },
   "Desc_SpaceElevatorPart_8_C": {
     "mainRecipe": "Recipe_SpaceElevatorPart_8_C",
     "altRecipes": []
-  },
-  "Desc_IronScrew_C": {
-    "mainRecipe": "Recipe_Alternate_Screw_2_C",
-    "altRecipes": [
-      "Recipe_Alternate_Screw_C",
-      "Recipe_Screw_C"
-    ]
-  },
-  "Desc_HighSpeedWire_C": {
-    "mainRecipe": "Recipe_Alternate_Quickwire_C",
-    "altRecipes": [
-      "Recipe_Quickwire_C"
-    ]
-  },
-  "Desc_Gunpowder_C": {
-    "mainRecipe": "Recipe_Alternate_Gunpowder_1_C",
-    "altRecipes": [
-      "Recipe_Gunpowder_C"
-    ]
   },
   "Desc_ConveyorBeltMk6_C": {
     "mainRecipe": "Recipe_ConveyorBeltMk6_C",
@@ -1340,6 +1270,12 @@
     "mainRecipe": "Recipe_IndustrialTank_C",
     "altRecipes": []
   },
+  "Desc_HighSpeedWire_C": {
+    "mainRecipe": "Recipe_Quickwire_C",
+    "altRecipes": [
+      "Recipe_Alternate_Quickwire_C"
+    ]
+  },
   "Desc_ConveyorBeltMk3_C": {
     "mainRecipe": "Recipe_ConveyorBeltMk3_C",
     "altRecipes": []
@@ -1454,6 +1390,12 @@
       "Recipe_SyntheticPowerShard_C",
       "Recipe_PowerCrystalShard_3_C",
       "Recipe_PowerCrystalShard_2_C"
+    ]
+  },
+  "Desc_Gunpowder_C": {
+    "mainRecipe": "Recipe_Gunpowder_C",
+    "altRecipes": [
+      "Recipe_Alternate_Gunpowder_1_C"
     ]
   },
   "Desc_AlienPowerFuel_C": {
@@ -2417,9 +2359,9 @@
     "altRecipes": []
   },
   "Desc_Fabric_C": {
-    "mainRecipe": "Recipe_Alternate_PolyesterFabric_C",
+    "mainRecipe": "Recipe_Fabric_C",
     "altRecipes": [
-      "Recipe_Fabric_C"
+      "Recipe_Alternate_PolyesterFabric_C"
     ]
   },
   "Desc_RadarTower_C": {
@@ -3016,17 +2958,71 @@
     "mainRecipe": "Recipe_StorageContainerMk1_C",
     "altRecipes": []
   },
+  "Desc_IronPlateReinforced_C": {
+    "mainRecipe": "Recipe_IronPlateReinforced_C",
+    "altRecipes": [
+      "Recipe_Alternate_AdheredIronPlate_C",
+      "Recipe_Alternate_ReinforcedIronPlate_2_C",
+      "Recipe_Alternate_ReinforcedIronPlate_1_C"
+    ]
+  },
   "Desc_ConstructorMk1_C": {
     "mainRecipe": "Recipe_ConstructorMk1_C",
     "altRecipes": []
+  },
+  "Desc_Cement_C": {
+    "mainRecipe": "Recipe_Concrete_C",
+    "altRecipes": [
+      "Recipe_Alternate_WetConcrete_C",
+      "Recipe_Alternate_RubberConcrete_C",
+      "Recipe_Alternate_Concrete_C"
+    ]
+  },
+  "Desc_IronScrew_C": {
+    "mainRecipe": "Recipe_Screw_C",
+    "altRecipes": [
+      "Recipe_Alternate_Screw_2_C",
+      "Recipe_Alternate_Screw_C"
+    ]
   },
   "Desc_SmelterMk1_C": {
     "mainRecipe": "Recipe_SmelterBasicMk1_C",
     "altRecipes": []
   },
+  "Desc_Cable_C": {
+    "mainRecipe": "Recipe_Cable_C",
+    "altRecipes": [
+      "Recipe_Alternate_CoatedCable_C",
+      "Recipe_Alternate_Cable_2_C",
+      "Recipe_Alternate_Cable_1_C"
+    ]
+  },
+  "Desc_Wire_C": {
+    "mainRecipe": "Recipe_Wire_C",
+    "altRecipes": [
+      "Recipe_Alternate_FusedWire_C",
+      "Recipe_Alternate_Wire_2_C",
+      "Recipe_Alternate_Wire_1_C"
+    ]
+  },
+  "Desc_CopperIngot_C": {
+    "mainRecipe": "Recipe_IngotCopper_C",
+    "altRecipes": [
+      "Recipe_Alternate_PureCopperIngot_C",
+      "Recipe_Alternate_CopperAlloyIngot_C",
+      "Recipe_Alternate_CopperIngot_Tempered_C",
+      "Recipe_Alternate_CopperIngot_Leached_C"
+    ]
+  },
   "Desc_Workshop_C": {
     "mainRecipe": "Recipe_Workshop_C",
     "altRecipes": []
+  },
+  "BP_ItemDescriptorPortableMiner_C": {
+    "mainRecipe": "Recipe_PortableMiner_C",
+    "altRecipes": [
+      "Recipe_Alternate_AutomatedMiner_C"
+    ]
   },
   "Desc_Fireworks_Projectile_01_C": {
     "mainRecipe": "Recipe_Fireworks_01_C",
@@ -3038,6 +3034,10 @@
   },
   "Desc_Fireworks_Projectile_03_C": {
     "mainRecipe": "Recipe_Fireworks_03_C",
+    "altRecipes": []
+  },
+  "Desc_DissolvedSilica_C": {
+    "mainRecipe": "Recipe_Alternate_Quartz_Purified_C",
     "altRecipes": []
   }
 }

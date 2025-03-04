@@ -43,7 +43,7 @@ export async function makeRecipe() {
     }
     const ingredients = Object.entries(extractedIngredients.all).map(([ingredient, amount]) => {
       if (!recipeToProducts[ingredient]) {
-        console.error("Ingredient not found in recipeToProducts: ", ingredient);
+        // console.error("Ingredient not found in recipeToProducts: ", ingredient);
         return { item: ingredient, amount };
       }
       return { item: recipeToProducts[ingredient].mainProduct, amount };

@@ -23,7 +23,7 @@ export async function createProductsMap() {
     const className = itemDescriptor.className;
     // check if there are recipes for this item
     if (!productToRecipes[className]) {
-      console.error("No recipe found for item: ", className);
+      // console.error("No recipe found for item: ", className);
       continue;
     }
     const recipeNames = productToRecipes[className];
@@ -31,7 +31,7 @@ export async function createProductsMap() {
     const mainRecipeName = recipeNames.mainRecipe;
     // check if the main recipe exists in recipes map
     if (!recipes[mainRecipeName]) {
-      console.error("Recipe not found in recipes: ", mainRecipeName);
+      // console.error("Recipe not found in recipes: ", mainRecipeName);
       continue;
     }
     // get the main recipe for this item

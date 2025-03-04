@@ -335,6 +335,20 @@
     "mVariablePowerConsumptionConstant": 0,
     "mVariablePowerConsumptionFactor": 1
   },
+  "Recipe_PureAluminumIngot_C": {
+    "ClassName": "Recipe_PureAluminumIngot_C",
+    "FullName": "BlueprintGeneratedClass /Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_PureAluminumIngot.Recipe_PureAluminumIngot_C",
+    "mDisplayName": "Alternate: Pure Aluminum Ingot",
+    "mIngredients": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/AluminumScrap/Desc_AluminumScrap.Desc_AluminumScrap_C'\",Amount=2))",
+    "mProduct": "((ItemClass=\"/Script/Engine.BlueprintGeneratedClass'/Game/FactoryGame/Resource/Parts/AluminumIngot/Desc_AluminumIngot.Desc_AluminumIngot_C'\",Amount=1))",
+    "mManufacturingMenuPriority": 6,
+    "mManufactoringDuration": 2,
+    "mManualManufacturingMultiplier": 1,
+    "mProducedIn": "(\"/Game/FactoryGame/Buildable/Factory/SmelterMk1/Build_SmelterMk1.Build_SmelterMk1_C\")",
+    "mRelevantEvents": "",
+    "mVariablePowerConsumptionConstant": 0,
+    "mVariablePowerConsumptionFactor": 1
+  },
   "Recipe_Alternate_PolymerResin_C": {
     "ClassName": "Recipe_Alternate_PolymerResin_C",
     "FullName": "BlueprintGeneratedClass /Game/FactoryGame/Recipes/AlternateRecipes/New_Update3/Recipe_Alternate_PolymerResin.Recipe_Alternate_PolymerResin_C",
