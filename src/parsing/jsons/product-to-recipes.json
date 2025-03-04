@@ -647,9 +647,9 @@
     "altRecipes": []
   },
   "Desc_LiquidTurboFuel_C": {
-    "mainRecipe": "Recipe_UnpackageTurboFuel_C",
+    "mainRecipe": "Recipe_Alternate_TurboFuel_C",
     "altRecipes": [
-      "Recipe_Alternate_Turbofuel_C",
+      "Recipe_UnpackageTurboFuel_C",
       "Recipe_Alternate_TurboHeavyFuel_C",
       "Recipe_Alternate_TurboBlendFuel_C"
     ]

@@ -12,7 +12,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 4,
+      "ppm": 15
     },
     "altRecipes": [
       {
@@ -31,7 +33,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 4
+        "amount": 4,
+        "manufacturingDuration": 3,
+        "ppm": 80
       },
       {
         "recipeName": "Recipe_Alternate_RubberConcrete_C",
@@ -49,7 +53,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 9
+        "amount": 9,
+        "manufacturingDuration": 6,
+        "ppm": 90
       },
       {
         "recipeName": "Recipe_Alternate_Concrete_C",
@@ -67,7 +73,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 10
+        "amount": 10,
+        "manufacturingDuration": 12,
+        "ppm": 50
       }
     ]
   },
@@ -84,7 +92,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 5
+      "amount": 5,
+      "manufacturingDuration": 8,
+      "ppm": 37.5
     },
     "altRecipes": [
       {
@@ -103,7 +113,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 12000
+        "amount": 12000,
+        "manufacturingDuration": 6,
+        "ppm": 120000
       },
       {
         "recipeName": "Recipe_Alternate_Silica_Distilled_C",
@@ -126,7 +138,9 @@
           }
         ],
         "producedIn": "Build_Blender_C",
-        "amount": 27
+        "amount": 27,
+        "manufacturingDuration": 6,
+        "ppm": 270
       },
       {
         "recipeName": "Recipe_Alternate_Silica_C",
@@ -144,7 +158,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 7
+        "amount": 7,
+        "manufacturingDuration": 8,
+        "ppm": 52.5
       }
     ]
   },
@@ -161,7 +177,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 6,
+      "ppm": 20
     },
     "altRecipes": [
       {
@@ -180,7 +198,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 10
+        "amount": 10,
+        "manufacturingDuration": 8,
+        "ppm": 75
       },
       {
         "recipeName": "Recipe_Alternate_SteelCastedPlate_C",
@@ -198,7 +218,9 @@
           }
         ],
         "producedIn": "Build_FoundryMk1_C",
-        "amount": 3
+        "amount": 3,
+        "manufacturingDuration": 4,
+        "ppm": 45
       }
     ]
   },
@@ -215,7 +237,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 4,
+      "ppm": 15
     },
     "altRecipes": [
       {
@@ -234,7 +258,9 @@
           }
         ],
         "producedIn": "Build_FoundryMk1_C",
-        "amount": 9
+        "amount": 9,
+        "manufacturingDuration": 12,
+        "ppm": 45
       },
       {
         "recipeName": "Recipe_Alternate_SteelBeam_Aluminum_C",
@@ -247,7 +273,9 @@
           }
         ],
         "producedIn": "Build_ConstructorMk1_C",
-        "amount": 3
+        "amount": 3,
+        "manufacturingDuration": 8,
+        "ppm": 22.5
       }
     ]
   },
@@ -269,7 +297,9 @@
         }
       ],
       "producedIn": "Build_FoundryMk1_C",
-      "amount": 4
+      "amount": 4,
+      "manufacturingDuration": 4,
+      "ppm": 60
     },
     "altRecipes": [
       {
@@ -283,7 +313,9 @@
           }
         ],
         "producedIn": "Build_SmelterMk1_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 2,
+        "ppm": 30
       }
     ]
   },
@@ -310,7 +342,9 @@
         }
       ],
       "producedIn": "Build_Blender_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 3,
+      "ppm": 20
     },
     "altRecipes": [
       {
@@ -339,7 +373,9 @@
           }
         ],
         "producedIn": "Build_ManufacturerMk1_C",
-        "amount": 4
+        "amount": 4,
+        "manufacturingDuration": 8,
+        "ppm": 30
       }
     ]
   },
@@ -361,7 +397,9 @@
         }
       ],
       "producedIn": "Build_Packager_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 3,
+      "ppm": 40
     },
     "altRecipes": [
       {
@@ -380,7 +418,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 2
+        "amount": 2,
+        "manufacturingDuration": 2,
+        "ppm": 60
       }
     ]
   },
@@ -402,7 +442,9 @@
         }
       ],
       "producedIn": "Build_Packager_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 3,
+      "ppm": 40
     },
     "altRecipes": []
   },
@@ -424,7 +466,9 @@
         }
       ],
       "producedIn": "Build_Packager_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 1,
+      "ppm": 60
     },
     "altRecipes": []
   },
@@ -446,7 +490,9 @@
         }
       ],
       "producedIn": "Build_Packager_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 6,
+      "ppm": 20
     },
     "altRecipes": []
   },
@@ -473,7 +519,9 @@
         }
       ],
       "producedIn": "Build_ManufacturerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 16,
+      "ppm": 3.75
     },
     "altRecipes": []
   },
@@ -490,7 +538,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 4,
+      "ppm": 15
     },
     "altRecipes": [
       {
@@ -504,7 +554,9 @@
           }
         ],
         "producedIn": "Build_ConstructorMk1_C",
-        "amount": 4
+        "amount": 4,
+        "manufacturingDuration": 5,
+        "ppm": 48
       },
       {
         "recipeName": "Recipe_Alternate_AluminumRod_C",
@@ -517,7 +569,9 @@
           }
         ],
         "producedIn": "Build_ConstructorMk1_C",
-        "amount": 7
+        "amount": 7,
+        "manufacturingDuration": 8,
+        "ppm": 52.5
       }
     ]
   },
@@ -534,7 +588,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 4,
+      "ppm": 30
     },
     "altRecipes": [
       {
@@ -553,7 +609,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 30
+        "amount": 30,
+        "manufacturingDuration": 20,
+        "ppm": 90
       },
       {
         "recipeName": "Recipe_Alternate_Wire_2_C",
@@ -566,7 +624,9 @@
           }
         ],
         "producedIn": "Build_ConstructorMk1_C",
-        "amount": 8
+        "amount": 8,
+        "manufacturingDuration": 4,
+        "ppm": 120
       },
       {
         "recipeName": "Recipe_Alternate_Wire_1_C",
@@ -579,7 +639,9 @@
           }
         ],
         "producedIn": "Build_ConstructorMk1_C",
-        "amount": 9
+        "amount": 9,
+        "manufacturingDuration": 24,
+        "ppm": 22.5
       }
     ]
   },
@@ -596,7 +658,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 2,
+      "ppm": 30
     },
     "altRecipes": [
       {
@@ -615,7 +679,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 9
+        "amount": 9,
+        "manufacturingDuration": 8,
+        "ppm": 67.5
       },
       {
         "recipeName": "Recipe_Alternate_Cable_2_C",
@@ -633,7 +699,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 11
+        "amount": 11,
+        "manufacturingDuration": 24,
+        "ppm": 27.5
       },
       {
         "recipeName": "Recipe_Alternate_Cable_1_C",
@@ -651,7 +719,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 20
+        "amount": 20,
+        "manufacturingDuration": 12,
+        "ppm": 100
       }
     ]
   },
@@ -668,7 +738,9 @@
         }
       ],
       "producedIn": "Build_SmelterMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 2,
+      "ppm": 30
     },
     "altRecipes": [
       {
@@ -687,7 +759,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 13
+        "amount": 13,
+        "manufacturingDuration": 12,
+        "ppm": 65
       },
       {
         "recipeName": "Recipe_Alternate_IronIngot_Leached_C",
@@ -705,7 +779,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 10
+        "amount": 10,
+        "manufacturingDuration": 6,
+        "ppm": 100
       },
       {
         "recipeName": "Recipe_Alternate_IronIngot_Basic_C",
@@ -723,7 +799,9 @@
           }
         ],
         "producedIn": "Build_FoundryMk1_C",
-        "amount": 10
+        "amount": 10,
+        "manufacturingDuration": 12,
+        "ppm": 50
       },
       {
         "recipeName": "Recipe_Alternate_IngotIron_C",
@@ -741,7 +819,9 @@
           }
         ],
         "producedIn": "Build_FoundryMk1_C",
-        "amount": 15
+        "amount": 15,
+        "manufacturingDuration": 12,
+        "ppm": 75
       }
     ]
   },
@@ -763,7 +843,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 12,
+      "ppm": 5
     },
     "altRecipes": [
       {
@@ -782,7 +864,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 16,
+        "ppm": 3.75
       },
       {
         "recipeName": "Recipe_Alternate_ReinforcedIronPlate_2_C",
@@ -800,7 +884,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 3
+        "amount": 3,
+        "manufacturingDuration": 32,
+        "ppm": 5.625
       },
       {
         "recipeName": "Recipe_Alternate_ReinforcedIronPlate_1_C",
@@ -818,7 +904,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 3
+        "amount": 3,
+        "manufacturingDuration": 12,
+        "ppm": 15
       }
     ]
   },
@@ -840,7 +928,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 15,
+      "ppm": 4
     },
     "altRecipes": [
       {
@@ -859,7 +949,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 3
+        "amount": 3,
+        "manufacturingDuration": 16,
+        "ppm": 11.25
       },
       {
         "recipeName": "Recipe_Alternate_Rotor_C",
@@ -877,7 +969,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 12,
+        "ppm": 5
       }
     ]
   },
@@ -899,7 +993,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 5
+      "amount": 5,
+      "manufacturingDuration": 12,
+      "ppm": 25
     },
     "altRecipes": [
       {
@@ -918,7 +1014,9 @@
           }
         ],
         "producedIn": "Build_Blender_C",
-        "amount": 10000
+        "amount": 10000,
+        "manufacturingDuration": 6,
+        "ppm": 100000
       },
       {
         "recipeName": "Recipe_IonizedFuel_C",
@@ -936,7 +1034,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 16000
+        "amount": 16000,
+        "manufacturingDuration": 24,
+        "ppm": 40000
       },
       {
         "recipeName": "Recipe_Alternate_RocketFuel_Nitro_C",
@@ -964,7 +1064,9 @@
           }
         ],
         "producedIn": "Build_Blender_C",
-        "amount": 6000
+        "amount": 6000,
+        "manufacturingDuration": 2.4,
+        "ppm": 150000
       },
       {
         "recipeName": "Recipe_Alternate_IonizedFuel_Dark_C",
@@ -982,7 +1084,9 @@
           }
         ],
         "producedIn": "Build_Converter_C",
-        "amount": 10000
+        "amount": 10000,
+        "manufacturingDuration": 3,
+        "ppm": 200000
       }
     ]
   },
@@ -999,7 +1103,9 @@
         }
       ],
       "producedIn": "Build_OilRefinery_C",
-      "amount": 4000
+      "amount": 4000,
+      "manufacturingDuration": 6,
+      "ppm": 40000
     },
     "altRecipes": [
       {
@@ -1013,7 +1119,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 4000
+        "amount": 4000,
+        "manufacturingDuration": 6,
+        "ppm": 40000
       },
       {
         "recipeName": "Recipe_UnpackageFuel_C",
@@ -1026,7 +1134,9 @@
           }
         ],
         "producedIn": "Build_Packager_C",
-        "amount": 2000
+        "amount": 2000,
+        "manufacturingDuration": 2,
+        "ppm": 60000
       },
       {
         "recipeName": "Recipe_Alternate_DilutedFuel_C",
@@ -1044,7 +1154,9 @@
           }
         ],
         "producedIn": "Build_Blender_C",
-        "amount": 10000
+        "amount": 10000,
+        "manufacturingDuration": 6,
+        "ppm": 100000
       }
     ]
   },
@@ -1066,7 +1178,9 @@
         }
       ],
       "producedIn": "Build_Blender_C",
-      "amount": 10000
+      "amount": 10000,
+      "manufacturingDuration": 6,
+      "ppm": 100000
     },
     "altRecipes": [
       {
@@ -1080,7 +1194,9 @@
           }
         ],
         "producedIn": "Build_Packager_C",
-        "amount": 2000
+        "amount": 2000,
+        "manufacturingDuration": 1,
+        "ppm": 120000
       },
       {
         "recipeName": "Recipe_Alternate_RocketFuel_Nitro_C",
@@ -1108,7 +1224,9 @@
           }
         ],
         "producedIn": "Build_Blender_C",
-        "amount": 6000
+        "amount": 6000,
+        "manufacturingDuration": 2.4,
+        "ppm": 150000
       }
     ]
   },
@@ -1125,7 +1243,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 6,
+      "ppm": 10
     },
     "altRecipes": [
       {
@@ -1144,7 +1264,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 3
+        "amount": 3,
+        "manufacturingDuration": 8,
+        "ppm": 22.5
       }
     ]
   },
@@ -1166,7 +1288,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 60,
+      "ppm": 2
     },
     "altRecipes": [
       {
@@ -1185,7 +1309,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 2
+        "amount": 2,
+        "manufacturingDuration": 24,
+        "ppm": 5
       },
       {
         "recipeName": "Recipe_Alternate_ModularFrame_C",
@@ -1203,7 +1329,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 3
+        "amount": 3,
+        "manufacturingDuration": 60,
+        "ppm": 3
       }
     ]
   },
@@ -1220,7 +1348,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 4
+      "amount": 4,
+      "manufacturingDuration": 6,
+      "ppm": 40
     },
     "altRecipes": [
       {
@@ -1234,7 +1364,9 @@
           }
         ],
         "producedIn": "Build_ConstructorMk1_C",
-        "amount": 52
+        "amount": 52,
+        "manufacturingDuration": 12,
+        "ppm": 260
       },
       {
         "recipeName": "Recipe_Alternate_Screw_C",
@@ -1247,7 +1379,9 @@
           }
         ],
         "producedIn": "Build_ConstructorMk1_C",
-        "amount": 20
+        "amount": 20,
+        "manufacturingDuration": 24,
+        "ppm": 50
       }
     ]
   },
@@ -1274,7 +1408,9 @@
         }
       ],
       "producedIn": "Build_Blender_C",
-      "amount": 3000
+      "amount": 3000,
+      "manufacturingDuration": 6,
+      "ppm": 30000
     },
     "altRecipes": [
       {
@@ -1288,89 +1424,9 @@
           }
         ],
         "producedIn": "Build_Packager_C",
-        "amount": 1000
-      }
-    ]
-  },
-  "Desc_LiquidTurboFuel_C": {
-    "displayName": "Turbofuel",
-    "mainRecipe": {
-      "recipeName": "Recipe_UnpackageTurboFuel_C",
-      "displayName": "Unpackage Turbofuel",
-      "ingredients": [
-        {
-          "item": "Desc_TurboFuel_C",
-          "amount": 2,
-          "isRawResource": false
-        }
-      ],
-      "producedIn": "Build_Packager_C",
-      "amount": 2000
-    },
-    "altRecipes": [
-      {
-        "recipeName": "Recipe_Alternate_Turbofuel_C",
-        "displayName": "Turbofuel",
-        "ingredients": [
-          {
-            "item": "Desc_LiquidFuel_C",
-            "amount": 6000,
-            "isRawResource": false
-          },
-          {
-            "item": "Desc_CompactedCoal_C",
-            "amount": 4,
-            "isRawResource": false
-          }
-        ],
-        "producedIn": "Build_OilRefinery_C",
-        "amount": 5000
-      },
-      {
-        "recipeName": "Recipe_Alternate_TurboHeavyFuel_C",
-        "displayName": "Alternate: Turbo Heavy Fuel",
-        "ingredients": [
-          {
-            "item": "Desc_HeavyOilResidue_C",
-            "amount": 5000,
-            "isRawResource": false
-          },
-          {
-            "item": "Desc_CompactedCoal_C",
-            "amount": 4,
-            "isRawResource": false
-          }
-        ],
-        "producedIn": "Build_OilRefinery_C",
-        "amount": 4000
-      },
-      {
-        "recipeName": "Recipe_Alternate_TurboBlendFuel_C",
-        "displayName": "Alternate: Turbo Blend Fuel",
-        "ingredients": [
-          {
-            "item": "Desc_LiquidFuel_C",
-            "amount": 2000,
-            "isRawResource": false
-          },
-          {
-            "item": "Desc_HeavyOilResidue_C",
-            "amount": 4000,
-            "isRawResource": false
-          },
-          {
-            "item": "Desc_Sulfur_C",
-            "amount": 3,
-            "isRawResource": true
-          },
-          {
-            "item": "Desc_PetroleumCoke_C",
-            "amount": 3,
-            "isRawResource": false
-          }
-        ],
-        "producedIn": "Build_Blender_C",
-        "amount": 6000
+        "amount": 1000,
+        "manufacturingDuration": 3,
+        "ppm": 20000
       }
     ]
   },
@@ -1387,7 +1443,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 1,
+      "ppm": 60
     },
     "altRecipes": [
       {
@@ -1401,7 +1459,9 @@
           }
         ],
         "producedIn": "Build_Packager_C",
-        "amount": 2000
+        "amount": 2000,
+        "manufacturingDuration": 1,
+        "ppm": 120000
       },
       {
         "recipeName": "Recipe_UnpackageIonizedFuel_C",
@@ -1414,7 +1474,9 @@
           }
         ],
         "producedIn": "Build_Packager_C",
-        "amount": 4000
+        "amount": 4000,
+        "manufacturingDuration": 3,
+        "ppm": 80000
       },
       {
         "recipeName": "Recipe_UnpackageNitricAcid_C",
@@ -1427,7 +1489,9 @@
           }
         ],
         "producedIn": "Build_Packager_C",
-        "amount": 1000
+        "amount": 1000,
+        "manufacturingDuration": 3,
+        "ppm": 20000
       },
       {
         "recipeName": "Recipe_UnpackageNitrogen_C",
@@ -1440,7 +1504,9 @@
           }
         ],
         "producedIn": "Build_Packager_C",
-        "amount": 4000
+        "amount": 4000,
+        "manufacturingDuration": 1,
+        "ppm": 240000
       }
     ]
   },
@@ -1467,7 +1533,9 @@
         }
       ],
       "producedIn": "Build_ManufacturerMk1_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 120,
+      "ppm": 1
     },
     "altRecipes": [
       {
@@ -1491,7 +1559,9 @@
           }
         ],
         "producedIn": "Build_ManufacturerMk1_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 32,
+        "ppm": 1.875
       }
     ]
   },
@@ -1513,7 +1583,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 12,
+      "ppm": 5
     },
     "altRecipes": [
       {
@@ -1532,7 +1604,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 2
+        "amount": 2,
+        "manufacturingDuration": 16,
+        "ppm": 7.5
       },
       {
         "recipeName": "Recipe_Alternate_Motor_1_C",
@@ -1555,7 +1629,9 @@
           }
         ],
         "producedIn": "Build_ManufacturerMk1_C",
-        "amount": 6
+        "amount": 6,
+        "manufacturingDuration": 48,
+        "ppm": 7.5
       }
     ]
   },
@@ -1577,7 +1653,9 @@
         }
       ],
       "producedIn": "Build_HadronCollider_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 2,
+      "ppm": 30
     },
     "altRecipes": [
       {
@@ -1596,7 +1674,9 @@
           }
         ],
         "producedIn": "Build_HadronCollider_C",
-        "amount": 2
+        "amount": 2,
+        "manufacturingDuration": 2,
+        "ppm": 60
       },
       {
         "recipeName": "Recipe_Alternate_DarkMatter_Crystallization_C",
@@ -1609,7 +1689,9 @@
           }
         ],
         "producedIn": "Build_HadronCollider_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 3,
+        "ppm": 20
       }
     ]
   },
@@ -1631,7 +1713,9 @@
         }
       ],
       "producedIn": "Build_OilRefinery_C",
-      "amount": 16000
+      "amount": 16000,
+      "manufacturingDuration": 24,
+      "ppm": 40000
     },
     "altRecipes": [
       {
@@ -1645,7 +1729,9 @@
           }
         ],
         "producedIn": "Build_Packager_C",
-        "amount": 4000
+        "amount": 4000,
+        "manufacturingDuration": 3,
+        "ppm": 80000
       },
       {
         "recipeName": "Recipe_Alternate_IonizedFuel_Dark_C",
@@ -1663,7 +1749,9 @@
           }
         ],
         "producedIn": "Build_Converter_C",
-        "amount": 10000
+        "amount": 10000,
+        "manufacturingDuration": 3,
+        "ppm": 200000
       }
     ]
   },
@@ -1695,7 +1783,9 @@
         }
       ],
       "producedIn": "Build_ManufacturerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 32,
+      "ppm": 1.875
     },
     "altRecipes": [
       {
@@ -1724,7 +1814,9 @@
           }
         ],
         "producedIn": "Build_ManufacturerMk1_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 25,
+        "ppm": 2.4
       },
       {
         "recipeName": "Recipe_Alternate_OCSupercomputer_C",
@@ -1742,7 +1834,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 20,
+        "ppm": 3
       }
     ]
   },
@@ -1774,7 +1868,9 @@
         }
       ],
       "producedIn": "Build_Blender_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 10,
+      "ppm": 6
     },
     "altRecipes": [
       {
@@ -1798,7 +1894,9 @@
           }
         ],
         "producedIn": "Build_Blender_C",
-        "amount": 2
+        "amount": 2,
+        "manufacturingDuration": 24,
+        "ppm": 5
       }
     ]
   },
@@ -1815,7 +1913,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 3
+      "amount": 3,
+      "manufacturingDuration": 6,
+      "ppm": 30
     },
     "altRecipes": []
   },
@@ -1847,7 +1947,9 @@
         }
       ],
       "producedIn": "Build_ManufacturerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 32,
+      "ppm": 1.875
     },
     "altRecipes": [
       {
@@ -1876,7 +1978,9 @@
           }
         ],
         "producedIn": "Build_ManufacturerMk1_C",
-        "amount": 2
+        "amount": 2,
+        "manufacturingDuration": 32,
+        "ppm": 3.75
       },
       {
         "recipeName": "Recipe_Alternate_TurboMotor_1_C",
@@ -1904,7 +2008,9 @@
           }
         ],
         "producedIn": "Build_ManufacturerMk1_C",
-        "amount": 3
+        "amount": 3,
+        "manufacturingDuration": 64,
+        "ppm": 2.8125
       }
     ]
   },
@@ -1921,7 +2027,9 @@
         }
       ],
       "producedIn": "Build_Converter_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 10,
+      "ppm": 6
     },
     "altRecipes": []
   },
@@ -1938,7 +2046,9 @@
         }
       ],
       "producedIn": "Build_Converter_C",
-      "amount": 10000
+      "amount": 10000,
+      "manufacturingDuration": 6,
+      "ppm": 100000
     },
     "altRecipes": [
       {
@@ -1967,7 +2077,9 @@
           }
         ],
         "producedIn": "Build_QuantumEncoder_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 12,
+        "ppm": 5
       },
       {
         "recipeName": "Recipe_TemporalProcessor_C",
@@ -1995,7 +2107,9 @@
           }
         ],
         "producedIn": "Build_QuantumEncoder_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 20,
+        "ppm": 3
       },
       {
         "recipeName": "Recipe_SpaceElevatorPart_12_C",
@@ -2023,7 +2137,9 @@
           }
         ],
         "producedIn": "Build_QuantumEncoder_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 15,
+        "ppm": 4
       },
       {
         "recipeName": "Recipe_FicsoniumFuelRod_C",
@@ -2051,7 +2167,9 @@
           }
         ],
         "producedIn": "Build_QuantumEncoder_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 24,
+        "ppm": 2.5
       },
       {
         "recipeName": "Recipe_AlienPowerFuel_C",
@@ -2079,7 +2197,9 @@
           }
         ],
         "producedIn": "Build_QuantumEncoder_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 24,
+        "ppm": 2.5
       },
       {
         "recipeName": "Recipe_SyntheticPowerShard_C",
@@ -2107,7 +2227,9 @@
           }
         ],
         "producedIn": "Build_QuantumEncoder_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 12,
+        "ppm": 5
       }
     ]
   },
@@ -2124,7 +2246,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 2,
+      "ppm": 30
     },
     "altRecipes": []
   },
@@ -2141,7 +2265,9 @@
         }
       ],
       "producedIn": "Build_HadronCollider_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 2,
+      "ppm": 30
     },
     "altRecipes": [
       {
@@ -2160,7 +2286,9 @@
           }
         ],
         "producedIn": "Build_HadronCollider_C",
-        "amount": 3
+        "amount": 3,
+        "manufacturingDuration": 3,
+        "ppm": 60
       },
       {
         "recipeName": "Recipe_Alternate_Diamond_Pink_C",
@@ -2178,7 +2306,9 @@
           }
         ],
         "producedIn": "Build_Converter_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 4,
+        "ppm": 15
       },
       {
         "recipeName": "Recipe_Alternate_Diamond_Petroleum_C",
@@ -2191,7 +2321,9 @@
           }
         ],
         "producedIn": "Build_HadronCollider_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 2,
+        "ppm": 30
       },
       {
         "recipeName": "Recipe_Alternate_Diamond_OilBased_C",
@@ -2204,7 +2336,9 @@
           }
         ],
         "producedIn": "Build_HadronCollider_C",
-        "amount": 2
+        "amount": 2,
+        "manufacturingDuration": 3,
+        "ppm": 40
       },
       {
         "recipeName": "Recipe_Alternate_Diamond_Cloudy_C",
@@ -2222,7 +2356,9 @@
           }
         ],
         "producedIn": "Build_HadronCollider_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 3,
+        "ppm": 20
       }
     ]
   },
@@ -2244,7 +2380,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 3
+      "amount": 3,
+      "manufacturingDuration": 6,
+      "ppm": 30
     },
     "altRecipes": []
   },
@@ -2276,7 +2414,9 @@
         }
       ],
       "producedIn": "Build_QuantumEncoder_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 12,
+      "ppm": 5
     },
     "altRecipes": []
   },
@@ -2308,7 +2448,9 @@
         }
       ],
       "producedIn": "Build_QuantumEncoder_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 20,
+      "ppm": 3
     },
     "altRecipes": []
   },
@@ -2340,7 +2482,9 @@
         }
       ],
       "producedIn": "Build_QuantumEncoder_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 15,
+      "ppm": 4
     },
     "altRecipes": []
   },
@@ -2362,7 +2506,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 120,
+      "ppm": 1
     },
     "altRecipes": []
   },
@@ -2389,7 +2535,9 @@
         }
       ],
       "producedIn": "Build_ManufacturerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 6,
+      "ppm": 10
     },
     "altRecipes": []
   },
@@ -2406,7 +2554,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 6,
+      "ppm": 20
     },
     "altRecipes": [
       {
@@ -2425,7 +2575,9 @@
           }
         ],
         "producedIn": "Build_FoundryMk1_C",
-        "amount": 5
+        "amount": 5,
+        "manufacturingDuration": 6,
+        "ppm": 50
       },
       {
         "recipeName": "Recipe_Alternate_SteelPipe_Iron_C",
@@ -2438,7 +2590,9 @@
           }
         ],
         "producedIn": "Build_ConstructorMk1_C",
-        "amount": 5
+        "amount": 5,
+        "manufacturingDuration": 12,
+        "ppm": 25
       }
     ]
   },
@@ -2465,7 +2619,9 @@
         }
       ],
       "producedIn": "Build_Blender_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 40,
+      "ppm": 1.5
     },
     "altRecipes": [
       {
@@ -2494,7 +2650,9 @@
           }
         ],
         "producedIn": "Build_Blender_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 20,
+        "ppm": 3
       }
     ]
   },
@@ -2521,7 +2679,9 @@
         }
       ],
       "producedIn": "Build_ManufacturerMk1_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 48,
+      "ppm": 2.5
     },
     "altRecipes": [
       {
@@ -2550,7 +2710,9 @@
           }
         ],
         "producedIn": "Build_ManufacturerMk1_C",
-        "amount": 3
+        "amount": 3,
+        "manufacturingDuration": 40,
+        "ppm": 4.5
       },
       {
         "recipeName": "Recipe_Alternate_RadioControlUnit_1_C",
@@ -2573,7 +2735,9 @@
           }
         ],
         "producedIn": "Build_ManufacturerMk1_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 16,
+        "ppm": 3.75
       }
     ]
   },
@@ -2595,7 +2759,9 @@
         }
       ],
       "producedIn": "Build_Converter_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 6,
+      "ppm": 10
     },
     "altRecipes": [
       {
@@ -2614,7 +2780,9 @@
           }
         ],
         "producedIn": "Build_Converter_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 2,
+        "ppm": 30
       },
       {
         "recipeName": "Recipe_FicsiteIngot_CAT_C",
@@ -2632,7 +2800,9 @@
           }
         ],
         "producedIn": "Build_Converter_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 4,
+        "ppm": 15
       }
     ]
   },
@@ -2659,7 +2829,9 @@
         }
       ],
       "producedIn": "Build_Blender_C",
-      "amount": 4
+      "amount": 4,
+      "manufacturingDuration": 120,
+      "ppm": 2
     },
     "altRecipes": []
   },
@@ -2681,7 +2853,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 80,
+      "ppm": 0.75
     },
     "altRecipes": []
   },
@@ -2698,7 +2872,9 @@
         }
       ],
       "producedIn": "Build_SmelterMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 4,
+      "ppm": 15
     },
     "altRecipes": [
       {
@@ -2717,7 +2893,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 5,
+        "ppm": 12
       },
       {
         "recipeName": "Recipe_Alternate_CateriumIngot_Tempered_C",
@@ -2735,7 +2913,9 @@
           }
         ],
         "producedIn": "Build_FoundryMk1_C",
-        "amount": 3
+        "amount": 3,
+        "manufacturingDuration": 8,
+        "ppm": 22.5
       },
       {
         "recipeName": "Recipe_Alternate_CateriumIngot_Leached_C",
@@ -2753,7 +2933,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 6
+        "amount": 6,
+        "manufacturingDuration": 10,
+        "ppm": 36
       }
     ]
   },
@@ -2770,7 +2952,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 4
+      "amount": 4,
+      "manufacturingDuration": 4,
+      "ppm": 60
     },
     "altRecipes": [
       {
@@ -2784,7 +2968,9 @@
           }
         ],
         "producedIn": "Build_Packager_C",
-        "amount": 2000
+        "amount": 2000,
+        "manufacturingDuration": 6,
+        "ppm": 20000
       },
       {
         "recipeName": "Recipe_UnpackageBioFuel_C",
@@ -2797,7 +2983,9 @@
           }
         ],
         "producedIn": "Build_Packager_C",
-        "amount": 2000
+        "amount": 2000,
+        "manufacturingDuration": 2,
+        "ppm": 60000
       },
       {
         "recipeName": "Recipe_UnpackageFuel_C",
@@ -2810,7 +2998,9 @@
           }
         ],
         "producedIn": "Build_Packager_C",
-        "amount": 2000
+        "amount": 2000,
+        "manufacturingDuration": 2,
+        "ppm": 60000
       },
       {
         "recipeName": "Recipe_UnpackageOil_C",
@@ -2823,7 +3013,9 @@
           }
         ],
         "producedIn": "Build_Packager_C",
-        "amount": 2000
+        "amount": 2000,
+        "manufacturingDuration": 2,
+        "ppm": 60000
       },
       {
         "recipeName": "Recipe_UnpackageOilResidue_C",
@@ -2836,7 +3028,9 @@
           }
         ],
         "producedIn": "Build_Packager_C",
-        "amount": 2000
+        "amount": 2000,
+        "manufacturingDuration": 6,
+        "ppm": 20000
       },
       {
         "recipeName": "Recipe_UnpackageWater_C",
@@ -2849,7 +3043,9 @@
           }
         ],
         "producedIn": "Build_Packager_C",
-        "amount": 2000
+        "amount": 2000,
+        "manufacturingDuration": 1,
+        "ppm": 120000
       },
       {
         "recipeName": "Recipe_UnpackageAlumina_C",
@@ -2862,7 +3058,9 @@
           }
         ],
         "producedIn": "Build_Packager_C",
-        "amount": 2000
+        "amount": 2000,
+        "manufacturingDuration": 1,
+        "ppm": 120000
       },
       {
         "recipeName": "Recipe_UnpackageSulfuricAcid_C",
@@ -2875,7 +3073,9 @@
           }
         ],
         "producedIn": "Build_Packager_C",
-        "amount": 1000
+        "amount": 1000,
+        "manufacturingDuration": 1,
+        "ppm": 60000
       },
       {
         "recipeName": "Recipe_Alternate_SteelCanister_C",
@@ -2888,7 +3088,9 @@
           }
         ],
         "producedIn": "Build_ConstructorMk1_C",
-        "amount": 4
+        "amount": 4,
+        "manufacturingDuration": 6,
+        "ppm": 40
       },
       {
         "recipeName": "Recipe_Alternate_CoatedIronCanister_C",
@@ -2906,7 +3108,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 4
+        "amount": 4,
+        "manufacturingDuration": 4,
+        "ppm": 60
       }
     ]
   },
@@ -2928,7 +3132,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 8,
+      "ppm": 7.5
     },
     "altRecipes": [
       {
@@ -2947,7 +3153,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 12,
+        "ppm": 5
       },
       {
         "recipeName": "Recipe_Alternate_CircuitBoard_2_C",
@@ -2965,7 +3173,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 7
+        "amount": 7,
+        "manufacturingDuration": 48,
+        "ppm": 8.75
       },
       {
         "recipeName": "Recipe_Alternate_CircuitBoard_1_C",
@@ -2983,7 +3193,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 5
+        "amount": 5,
+        "manufacturingDuration": 24,
+        "ppm": 12.5
       }
     ]
   },
@@ -3000,7 +3212,9 @@
         }
       ],
       "producedIn": "Build_OilRefinery_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 6,
+      "ppm": 20
     },
     "altRecipes": [
       {
@@ -3019,7 +3233,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 2
+        "amount": 2,
+        "manufacturingDuration": 6,
+        "ppm": 20
       },
       {
         "recipeName": "Recipe_Alternate_Plastic_1_C",
@@ -3037,7 +3253,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 12
+        "amount": 12,
+        "manufacturingDuration": 12,
+        "ppm": 60
       }
     ]
   },
@@ -3059,7 +3277,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 10,
+      "ppm": 6
     },
     "altRecipes": [
       {
@@ -3078,7 +3298,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 15,
+        "ppm": 4
       }
     ]
   },
@@ -3095,7 +3317,9 @@
         }
       ],
       "producedIn": "Build_OilRefinery_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 6,
+      "ppm": 20
     },
     "altRecipes": [
       {
@@ -3114,7 +3338,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 2
+        "amount": 2,
+        "manufacturingDuration": 6,
+        "ppm": 20
       },
       {
         "recipeName": "Recipe_Alternate_RecycledRubber_C",
@@ -3132,7 +3358,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 12
+        "amount": 12,
+        "manufacturingDuration": 12,
+        "ppm": 60
       }
     ]
   },
@@ -3149,7 +3377,9 @@
         }
       ],
       "producedIn": "Build_OilRefinery_C",
-      "amount": 13
+      "amount": 13,
+      "manufacturingDuration": 6,
+      "ppm": 130
     },
     "altRecipes": [
       {
@@ -3163,7 +3393,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 4000
+        "amount": 4000,
+        "manufacturingDuration": 6,
+        "ppm": 40000
       },
       {
         "recipeName": "Recipe_Alternate_HeavyOilResidue_C",
@@ -3176,7 +3408,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 4000
+        "amount": 4000,
+        "manufacturingDuration": 6,
+        "ppm": 40000
       }
     ]
   },
@@ -3193,7 +3427,9 @@
         }
       ],
       "producedIn": "Build_OilRefinery_C",
-      "amount": 4000
+      "amount": 4000,
+      "manufacturingDuration": 6,
+      "ppm": 40000
     },
     "altRecipes": [
       {
@@ -3207,7 +3443,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 2
+        "amount": 2,
+        "manufacturingDuration": 6,
+        "ppm": 20
       },
       {
         "recipeName": "Recipe_Rubber_C",
@@ -3220,7 +3458,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 2
+        "amount": 2,
+        "manufacturingDuration": 6,
+        "ppm": 20
       },
       {
         "recipeName": "Recipe_Alternate_PolymerResin_C",
@@ -3233,7 +3473,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 13
+        "amount": 13,
+        "manufacturingDuration": 6,
+        "ppm": 130
       },
       {
         "recipeName": "Recipe_UnpackageOilResidue_C",
@@ -3246,7 +3488,9 @@
           }
         ],
         "producedIn": "Build_Packager_C",
-        "amount": 2000
+        "amount": 2000,
+        "manufacturingDuration": 6,
+        "ppm": 20000
       }
     ]
   },
@@ -3263,7 +3507,9 @@
         }
       ],
       "producedIn": "Build_OilRefinery_C",
-      "amount": 12
+      "amount": 12,
+      "manufacturingDuration": 6,
+      "ppm": 120
     },
     "altRecipes": []
   },
@@ -3280,7 +3526,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 3
+      "amount": 3,
+      "manufacturingDuration": 8,
+      "ppm": 22.5
     },
     "altRecipes": [
       {
@@ -3299,7 +3547,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 7
+        "amount": 7,
+        "manufacturingDuration": 8,
+        "ppm": 52.5
       },
       {
         "recipeName": "Recipe_Alternate_Quartz_Purified_C",
@@ -3317,7 +3567,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 15
+        "amount": 15,
+        "manufacturingDuration": 12,
+        "ppm": 75
       },
       {
         "recipeName": "Recipe_Alternate_Quartz_Fused_C",
@@ -3335,7 +3587,9 @@
           }
         ],
         "producedIn": "Build_FoundryMk1_C",
-        "amount": 18
+        "amount": 18,
+        "manufacturingDuration": 20,
+        "ppm": 54
       }
     ]
   },
@@ -3357,7 +3611,9 @@
         }
       ],
       "producedIn": "Build_FoundryMk1_C",
-      "amount": 3
+      "amount": 3,
+      "manufacturingDuration": 4,
+      "ppm": 45
     },
     "altRecipes": [
       {
@@ -3376,7 +3632,9 @@
           }
         ],
         "producedIn": "Build_FoundryMk1_C",
-        "amount": 20
+        "amount": 20,
+        "manufacturingDuration": 12,
+        "ppm": 100
       },
       {
         "recipeName": "Recipe_Alternate_IngotSteel_2_C",
@@ -3394,7 +3652,9 @@
           }
         ],
         "producedIn": "Build_FoundryMk1_C",
-        "amount": 4
+        "amount": 4,
+        "manufacturingDuration": 24,
+        "ppm": 10
       },
       {
         "recipeName": "Recipe_Alternate_IngotSteel_1_C",
@@ -3412,7 +3672,9 @@
           }
         ],
         "producedIn": "Build_FoundryMk1_C",
-        "amount": 3
+        "amount": 3,
+        "manufacturingDuration": 3,
+        "ppm": 60
       }
     ]
   },
@@ -3434,7 +3696,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 24,
+      "ppm": 5
     },
     "altRecipes": [
       {
@@ -3458,7 +3722,9 @@
           }
         ],
         "producedIn": "Build_ManufacturerMk1_C",
-        "amount": 2
+        "amount": 2,
+        "manufacturingDuration": 16,
+        "ppm": 7.5
       }
     ]
   },
@@ -3480,7 +3746,9 @@
         }
       ],
       "producedIn": "Build_Packager_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 4,
+      "ppm": 30
     },
     "altRecipes": []
   },
@@ -3502,7 +3770,9 @@
         }
       ],
       "producedIn": "Build_Packager_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 4,
+      "ppm": 30
     },
     "altRecipes": []
   },
@@ -3524,7 +3794,9 @@
         }
       ],
       "producedIn": "Build_Packager_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 2,
+      "ppm": 60
     },
     "altRecipes": []
   },
@@ -3541,7 +3813,9 @@
         }
       ],
       "producedIn": "Build_SmelterMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 2,
+      "ppm": 30
     },
     "altRecipes": [
       {
@@ -3560,7 +3834,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 15
+        "amount": 15,
+        "manufacturingDuration": 24,
+        "ppm": 37.5
       },
       {
         "recipeName": "Recipe_Alternate_CopperAlloyIngot_C",
@@ -3578,7 +3854,9 @@
           }
         ],
         "producedIn": "Build_FoundryMk1_C",
-        "amount": 10
+        "amount": 10,
+        "manufacturingDuration": 6,
+        "ppm": 100
       },
       {
         "recipeName": "Recipe_Alternate_CopperIngot_Tempered_C",
@@ -3596,7 +3874,9 @@
           }
         ],
         "producedIn": "Build_FoundryMk1_C",
-        "amount": 12
+        "amount": 12,
+        "manufacturingDuration": 12,
+        "ppm": 60
       },
       {
         "recipeName": "Recipe_Alternate_CopperIngot_Leached_C",
@@ -3614,7 +3894,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 22
+        "amount": 22,
+        "manufacturingDuration": 12,
+        "ppm": 110
       }
     ]
   },
@@ -3636,7 +3918,9 @@
         }
       ],
       "producedIn": "Build_OilRefinery_C",
-      "amount": 6
+      "amount": 6,
+      "manufacturingDuration": 1,
+      "ppm": 360
     },
     "altRecipes": [
       {
@@ -3655,7 +3939,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 20
+        "amount": 20,
+        "manufacturingDuration": 4,
+        "ppm": 300
       },
       {
         "recipeName": "Recipe_Alternate_InstantScrap_C",
@@ -3683,7 +3969,9 @@
           }
         ],
         "producedIn": "Build_Blender_C",
-        "amount": 30
+        "amount": 30,
+        "manufacturingDuration": 6,
+        "ppm": 300
       }
     ]
   },
@@ -3700,7 +3988,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 2,
+      "ppm": 60
     },
     "altRecipes": [
       {
@@ -3719,7 +4009,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 15
+        "amount": 15,
+        "manufacturingDuration": 8,
+        "ppm": 112.5
       }
     ]
   },
@@ -3741,7 +4033,9 @@
         }
       ],
       "producedIn": "Build_OilRefinery_C",
-      "amount": 12000
+      "amount": 12000,
+      "manufacturingDuration": 6,
+      "ppm": 120000
     },
     "altRecipes": [
       {
@@ -3755,7 +4049,9 @@
           }
         ],
         "producedIn": "Build_Packager_C",
-        "amount": 2000
+        "amount": 2000,
+        "manufacturingDuration": 1,
+        "ppm": 120000
       },
       {
         "recipeName": "Recipe_Alternate_SloppyAlumina_C",
@@ -3773,7 +4069,9 @@
           }
         ],
         "producedIn": "Build_OilRefinery_C",
-        "amount": 12000
+        "amount": 12000,
+        "manufacturingDuration": 3,
+        "ppm": 240000
       }
     ]
   },
@@ -3800,7 +4098,9 @@
         }
       ],
       "producedIn": "Build_ManufacturerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 24,
+      "ppm": 2.5
     },
     "altRecipes": [
       {
@@ -3819,7 +4119,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 2
+        "amount": 2,
+        "manufacturingDuration": 36,
+        "ppm": 3.3333333333333335
       },
       {
         "recipeName": "Recipe_Alternate_Computer_1_C",
@@ -3842,7 +4144,9 @@
           }
         ],
         "producedIn": "Build_ManufacturerMk1_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 16,
+        "ppm": 3.75
       }
     ]
   },
@@ -3874,7 +4178,9 @@
         }
       ],
       "producedIn": "Build_ManufacturerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 30,
+      "ppm": 2
     },
     "altRecipes": [
       {
@@ -3903,7 +4209,9 @@
           }
         ],
         "producedIn": "Build_ManufacturerMk1_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 16,
+        "ppm": 3.75
       },
       {
         "recipeName": "Recipe_Alternate_ModularFrameHeavy_C",
@@ -3931,7 +4239,9 @@
           }
         ],
         "producedIn": "Build_ManufacturerMk1_C",
-        "amount": 3
+        "amount": 3,
+        "manufacturingDuration": 64,
+        "ppm": 2.8125
       }
     ]
   },
@@ -3953,7 +4263,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 30,
+      "ppm": 2
     },
     "altRecipes": [
       {
@@ -3977,7 +4289,9 @@
           }
         ],
         "producedIn": "Build_ManufacturerMk1_C",
-        "amount": 2
+        "amount": 2,
+        "manufacturingDuration": 24,
+        "ppm": 5
       }
     ]
   },
@@ -4004,7 +4318,9 @@
         }
       ],
       "producedIn": "Build_ManufacturerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 16,
+      "ppm": 3.75
     },
     "altRecipes": [
       {
@@ -4028,7 +4344,9 @@
           }
         ],
         "producedIn": "Build_ManufacturerMk1_C",
-        "amount": 2
+        "amount": 2,
+        "manufacturingDuration": 40,
+        "ppm": 3
       }
     ]
   },
@@ -4050,7 +4368,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 24,
+      "ppm": 2.5
     },
     "altRecipes": [
       {
@@ -4074,7 +4394,9 @@
           }
         ],
         "producedIn": "Build_ManufacturerMk1_C",
-        "amount": 4
+        "amount": 4,
+        "manufacturingDuration": 32,
+        "ppm": 7.5
       }
     ]
   },
@@ -4096,7 +4418,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 12,
+      "ppm": 5
     },
     "altRecipes": [
       {
@@ -4115,7 +4439,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 2
+        "amount": 2,
+        "manufacturingDuration": 15,
+        "ppm": 8
       }
     ]
   },
@@ -4137,7 +4463,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 12,
+      "ppm": 5
     },
     "altRecipes": [
       {
@@ -4156,7 +4484,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 2
+        "amount": 2,
+        "manufacturingDuration": 15,
+        "ppm": 8
       }
     ]
   },
@@ -4173,7 +4503,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 5
+      "amount": 5,
+      "manufacturingDuration": 5,
+      "ppm": 60
     },
     "altRecipes": [
       {
@@ -4192,7 +4524,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 12
+        "amount": 12,
+        "manufacturingDuration": 8,
+        "ppm": 90
       }
     ]
   },
@@ -4219,7 +4553,9 @@
         }
       ],
       "producedIn": "Build_ManufacturerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 60,
+      "ppm": 1
     },
     "altRecipes": []
   },
@@ -4251,7 +4587,9 @@
         }
       ],
       "producedIn": "Build_ManufacturerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 60,
+      "ppm": 1
     },
     "altRecipes": []
   },
@@ -4273,7 +4611,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 60,
+      "ppm": 1
     },
     "altRecipes": []
   },
@@ -4295,7 +4635,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 12,
+      "ppm": 5
     },
     "altRecipes": [
       {
@@ -4314,7 +4656,9 @@
           }
         ],
         "producedIn": "Build_HadronCollider_C",
-        "amount": 20
+        "amount": 20,
+        "manufacturingDuration": 120,
+        "ppm": 10
       }
     ]
   },
@@ -4336,7 +4680,9 @@
         }
       ],
       "producedIn": "Build_HadronCollider_C",
-      "amount": 30
+      "amount": 30,
+      "manufacturingDuration": 60,
+      "ppm": 30
     },
     "altRecipes": []
   },
@@ -4368,7 +4714,9 @@
         }
       ],
       "producedIn": "Build_Blender_C",
-      "amount": 20
+      "amount": 20,
+      "manufacturingDuration": 24,
+      "ppm": 50
     },
     "altRecipes": [
       {
@@ -4397,7 +4745,9 @@
           }
         ],
         "producedIn": "Build_Blender_C",
-        "amount": 20
+        "amount": 20,
+        "manufacturingDuration": 12,
+        "ppm": 100
       }
     ]
   },
@@ -4419,7 +4769,9 @@
         }
       ],
       "producedIn": "Build_OilRefinery_C",
-      "amount": 5000
+      "amount": 5000,
+      "manufacturingDuration": 6,
+      "ppm": 50000
     },
     "altRecipes": [
       {
@@ -4443,7 +4795,9 @@
           }
         ],
         "producedIn": "Build_Blender_C",
-        "amount": 5
+        "amount": 5,
+        "manufacturingDuration": 12,
+        "ppm": 25
       },
       {
         "recipeName": "Recipe_UnpackageSulfuricAcid_C",
@@ -4456,7 +4810,9 @@
           }
         ],
         "producedIn": "Build_Packager_C",
-        "amount": 1000
+        "amount": 1000,
+        "manufacturingDuration": 1,
+        "ppm": 60000
       }
     ]
   },
@@ -4473,7 +4829,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 5
+      "amount": 5,
+      "manufacturingDuration": 6,
+      "ppm": 50
     },
     "altRecipes": []
   },
@@ -4495,7 +4853,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 8,
+      "ppm": 7.5
     },
     "altRecipes": [
       {
@@ -4514,7 +4874,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 6,
+        "ppm": 10
       }
     ]
   },
@@ -4536,7 +4898,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 30,
+      "ppm": 4
     },
     "altRecipes": [
       {
@@ -4555,7 +4919,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 2
+        "amount": 2,
+        "manufacturingDuration": 15,
+        "ppm": 8
       }
     ]
   },
@@ -4577,7 +4943,9 @@
         }
       ],
       "producedIn": "Build_HadronCollider_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 120,
+      "ppm": 0.5
     },
     "altRecipes": []
   },
@@ -4604,7 +4972,9 @@
         }
       ],
       "producedIn": "Build_Blender_C",
-      "amount": 5
+      "amount": 5,
+      "manufacturingDuration": 12,
+      "ppm": 25
     },
     "altRecipes": [
       {
@@ -4633,7 +5003,9 @@
           }
         ],
         "producedIn": "Build_ManufacturerMk1_C",
-        "amount": 4
+        "amount": 4,
+        "manufacturingDuration": 12,
+        "ppm": 20
       }
     ]
   },
@@ -4655,7 +5027,9 @@
         }
       ],
       "producedIn": "Build_OilRefinery_C",
-      "amount": 15
+      "amount": 15,
+      "manufacturingDuration": 12,
+      "ppm": 75
     },
     "altRecipes": []
   },
@@ -4687,7 +5061,9 @@
         }
       ],
       "producedIn": "Build_ManufacturerMk1_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 120,
+      "ppm": 1
     },
     "altRecipes": []
   },
@@ -4709,7 +5085,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 4,
+      "ppm": 30
     },
     "altRecipes": [
       {
@@ -4728,7 +5106,9 @@
           }
         ],
         "producedIn": "Build_AssemblerMk1_C",
-        "amount": 6
+        "amount": 6,
+        "manufacturingDuration": 8,
+        "ppm": 45
       }
     ]
   },
@@ -4755,7 +5135,9 @@
         }
       ],
       "producedIn": "Build_HadronCollider_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 6,
+      "ppm": 10
     },
     "altRecipes": []
   },
@@ -4787,7 +5169,9 @@
         }
       ],
       "producedIn": "Build_ManufacturerMk1_C",
-      "amount": 10
+      "amount": 10,
+      "manufacturingDuration": 60,
+      "ppm": 10
     },
     "altRecipes": []
   },
@@ -4819,7 +5203,9 @@
         }
       ],
       "producedIn": "Build_ManufacturerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 60,
+      "ppm": 1
     },
     "altRecipes": []
   },
@@ -4846,7 +5232,9 @@
         }
       ],
       "producedIn": "Build_ManufacturerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 8,
+      "ppm": 7.5
     },
     "altRecipes": []
   },
@@ -4863,7 +5251,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 3,
+      "ppm": 20
     },
     "altRecipes": [
       {
@@ -4877,7 +5267,9 @@
           }
         ],
         "producedIn": "Build_ConstructorMk1_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 3,
+        "ppm": 20
       },
       {
         "recipeName": "Recipe_Protein_Stinger_C",
@@ -4890,7 +5282,9 @@
           }
         ],
         "producedIn": "Build_ConstructorMk1_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 3,
+        "ppm": 20
       },
       {
         "recipeName": "Recipe_Protein_Crab_C",
@@ -4903,7 +5297,9 @@
           }
         ],
         "producedIn": "Build_ConstructorMk1_C",
-        "amount": 1
+        "amount": 1,
+        "manufacturingDuration": 3,
+        "ppm": 20
       }
     ]
   },
@@ -4920,7 +5316,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 6,
+      "ppm": 10
     },
     "altRecipes": []
   },
@@ -4942,7 +5340,9 @@
         }
       ],
       "producedIn": "Build_OilRefinery_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 6,
+      "ppm": 20
     },
     "altRecipes": []
   },
@@ -4964,7 +5364,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 60,
+      "ppm": 1
     },
     "altRecipes": []
   },
@@ -4986,7 +5388,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 12,
+      "ppm": 5
     },
     "altRecipes": []
   },
@@ -5003,7 +5407,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 6,
+      "ppm": 10
     },
     "altRecipes": []
   },
@@ -5025,7 +5431,9 @@
         }
       ],
       "producedIn": "Build_AssemblerMk1_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 60,
+      "ppm": 2
     },
     "altRecipes": []
   },
@@ -5042,7 +5450,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 12,
+      "ppm": 5
     },
     "altRecipes": []
   },
@@ -5059,7 +5469,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 12,
+      "ppm": 10
     },
     "altRecipes": []
   },
@@ -5076,7 +5488,9 @@
         }
       ],
       "producedIn": "Build_ConstructorMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 12,
+      "ppm": 5
     },
     "altRecipes": []
   },
@@ -5093,7 +5507,9 @@
         }
       ],
       "producedIn": "Build_SmelterMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 12,
+      "ppm": 5
     },
     "altRecipes": []
   },
@@ -5110,7 +5526,9 @@
         }
       ],
       "producedIn": "Build_SmelterMk1_C",
-      "amount": 2
+      "amount": 2,
+      "manufacturingDuration": 12,
+      "ppm": 10
     },
     "altRecipes": []
   },
@@ -5132,7 +5550,9 @@
         }
       ],
       "producedIn": "Build_FoundryMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 12,
+      "ppm": 5
     },
     "altRecipes": []
   },
@@ -5154,7 +5574,9 @@
         }
       ],
       "producedIn": "Build_FoundryMk1_C",
-      "amount": 1
+      "amount": 1,
+      "manufacturingDuration": 12,
+      "ppm": 5
     },
     "altRecipes": []
   }

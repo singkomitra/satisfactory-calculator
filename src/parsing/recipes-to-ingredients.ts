@@ -49,11 +49,16 @@ export async function makeRecipe() {
       return { item: recipeToProducts[ingredient].mainProduct, amount };
     });
     const producedIn = recipe.mProducedIn ? parseProducedIn(recipe.mProducedIn)[0] : "";
+    const amount = extractedProduct.firstAmount;
+    const manufacturingDuration = recipe.mManufactoringDuration;
+    const ppm = 60 / manufacturingDuration * amount;
     finalRecipes[className] = {
       displayName: recipe.mDisplayName,
       ingredients,
       producedIn,
-      amount: extractedProduct.firstAmount
+      amount,
+      manufacturingDuration,
+      ppm
     };
   }
 

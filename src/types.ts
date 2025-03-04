@@ -4,6 +4,7 @@ export type RecipeJsonObject = {
   mDisplayName: string;
   mIngredients: string;
   mProduct: string;
+  mManufactoringDuration: number;
   mManufacturingMenuPriority: number;
   mManualManufacturingMultiplier: number;
   mProducedIn: string;
@@ -50,6 +51,8 @@ export type RecipeMap = {
     ingredients: { item: string; amount: number }[];
     amount: number;
     producedIn: string;
+    manufacturingDuration: number;
+    ppm: number;
   };
 };
 export type ProductsMap = {
@@ -61,6 +64,8 @@ export type ProductsMap = {
       ingredients: { item: string; amount: number; isRawResource: boolean }[];
       producedIn: string;
       amount: number;
+      manufacturingDuration: number;
+      ppm: number;
     };
     altRecipes: {
       recipeName: string;
@@ -68,6 +73,8 @@ export type ProductsMap = {
       ingredients: { item: string; amount: number; isRawResource: boolean }[];
       producedIn: string;
       amount: number;
+      manufacturingDuration: number;
+      ppm: number;
     }[];
   };
 };
@@ -140,6 +147,12 @@ export function assertRecipeMap(obj: any): asserts obj is RecipeMap {
     if (typeof obj[key].amount !== "number") {
       throwError("RecipeToIngredients", "amount", "number", obj[key].amount);
     }
+    if (typeof obj[key].manufacturingDuration !== "number") {
+      throwError("RecipeToIngredients", "manufacturingDuration", "number", obj[key].manufacturingDuration);
+    }
+    if (typeof obj[key].ppm !== "number") {
+      throwError("RecipeToIngredients", "ppm", "number", obj[key].ppm);
+    }
   }
 }
 export function convertItemDescriptorsRawToItemDescriptorsMap(raw: { [str: string]: ItemDescriptorsRaw }) {
@@ -189,6 +202,9 @@ export function assertRecipeJsonObject(obj: any) {
   }
   if (typeof obj.mProduct !== "string") {
     throwError("RecipeJsonObject", "mProduct", "string", obj.mProduct);
+  }
+  if (typeof obj.mManufactoringDuration !== "number") {
+    throwError("RecipeJsonObject", "mManufactoringDuration", "number", obj.mManufactoringDuration);
   }
   if (typeof obj.mManufacturingMenuPriority !== "number") {
     throwError("RecipeJsonObject", "mManufacturingMenuPriority", "number", obj.mManufacturingMenuPriority);
