@@ -5,6 +5,7 @@ import styles from "./page.module.css";
 import { context } from "@/state";
 import { observer } from "mobx-react-lite";
 import { Box, Button, Input } from "@chakra-ui/react";
+import NavBar from "@/components/NavBar";
 
 export default observer(function Home() {
   const { state, actions } = useContext(context);

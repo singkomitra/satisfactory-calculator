@@ -11,7 +11,7 @@ const config = defineConfig({
     tokens: {
       colors: {
         navbar: {
-          default: { value: "#574b90" }
+          default: { value: "#303952" }
         },
         primary: {
           default: { value: "#f19066" }
@@ -22,7 +22,16 @@ const config = defineConfig({
         }
       }
     },
-    semanticTokens: {}
+    semanticTokens: {
+      colors: {
+        background: {
+          value: {
+            base: "{colors.background.default}",
+            _dark: "{colors.background._dark}"
+          }
+        }
+      }
+    }
   }
 });
 
