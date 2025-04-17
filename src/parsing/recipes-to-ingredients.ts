@@ -43,17 +43,22 @@ export async function makeRecipe() {
     }
     const ingredients = Object.entries(extractedIngredients.all).map(([ingredient, amount]) => {
       if (!recipeToProducts[ingredient]) {
-        console.error("Ingredient not found in recipeToProducts: ", ingredient);
+        // console.error("Ingredient not found in recipeToProducts: ", ingredient);
         return { item: ingredient, amount };
       }
       return { item: recipeToProducts[ingredient].mainProduct, amount };
     });
     const producedIn = recipe.mProducedIn ? parseProducedIn(recipe.mProducedIn)[0] : "";
+    const amount = extractedProduct.firstAmount;
+    const manufacturingDuration = recipe.mManufactoringDuration;
+    const ppm = 60 / manufacturingDuration * amount;
     finalRecipes[className] = {
       displayName: recipe.mDisplayName,
       ingredients,
       producedIn,
-      amount: extractedProduct.firstAmount
+      amount,
+      manufacturingDuration,
+      ppm
     };
   }
 

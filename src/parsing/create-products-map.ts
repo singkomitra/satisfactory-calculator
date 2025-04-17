@@ -67,7 +67,9 @@ export async function createProductsMap() {
           displayName: recipe.displayName,
           ingredients: extendedIngredients,
           producedIn: recipe.producedIn,
-          amount: recipe.amount
+          amount: recipe.amount,
+          manufacturingDuration: recipe.manufacturingDuration,
+          ppm: recipe.ppm
         };
       })
       .filter((recipe): recipe is NonNullable<typeof recipe> => recipe !== null);
@@ -79,7 +81,9 @@ export async function createProductsMap() {
         displayName: mainRecipe.displayName,
         ingredients: extendedIngredients,
         producedIn: mainRecipe.producedIn,
-        amount: mainRecipe.amount
+        amount: mainRecipe.amount,
+        manufacturingDuration: mainRecipe.manufacturingDuration,
+        ppm: mainRecipe.ppm
       },
       altRecipes
     };
