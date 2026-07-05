@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { resolveIconUrl } from "./iconManifest";
 
 type Props = {
   product: string;
@@ -8,10 +9,7 @@ type Props = {
   size?: number;
 };
 
-const stripName = (product: string) => product.replace(/^Desc_/, "").replace(/_C$/, "");
-
 const initialsColor = (name: string): string => {
-  // Simple hash → hue.
   let h = 0;
   for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) >>> 0;
   const hue = h % 360;
@@ -26,15 +24,16 @@ const initials = (name: string): string => {
 };
 
 /**
- * Renders a product icon at /icons/IconDesc_{name}.png. Icons don't exist for
- * every product (169 icons vs 361 products), so on load-error we fall back to
- * a colored initials avatar.
+ * Renders a product icon by resolving the product's class name through a
+ * static manifest of files under /public/icons. Falls back to a colored
+ * initials avatar when no candidate matches (the icon set only covers about
+ * half of Satisfactory's products).
  */
 export function ProductIcon({ product, displayName, size = 28 }: Props) {
+  const url = resolveIconUrl(product);
   const [broken, setBroken] = useState(false);
-  const url = `/icons/IconDesc_${stripName(product)}.png`;
 
-  if (broken) {
+  if (!url || broken) {
     return (
       <div
         style={{
