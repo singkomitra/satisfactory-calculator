@@ -1,7 +1,7 @@
 "use client";
 import { useContext, useEffect } from "react";
 import { context } from "../state";
-import { assertRecipeMap } from "../types";
+import { assertProductsMap } from "../types";
 
 export default function Init() {
   const { actions } = useContext(context);
@@ -9,7 +9,7 @@ export default function Init() {
     fetch("/api/data", { method: "GET" })
       .then(async (res) => await res.json())
       .then((data) => {
-        assertRecipeMap(data);
+        assertProductsMap(data);
         actions.setData(data);
       })
       .catch((err) => console.error(err));

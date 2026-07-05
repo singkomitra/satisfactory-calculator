@@ -1,10 +1,4 @@
-import {
-  ProductToRecipes,
-  ProductToRecipeRaw,
-  RecipeJsonObject,
-  RecipeToProducts,
-  convertProductToRecipeRawToItemsMapRecipeParts
-} from "@/types";
+import { ProductToRecipes, ProductToRecipeRaw, RecipeToProducts } from "@/types";
 import { splitRecipes } from "./split-recipes";
 import { extractItemClassObjects, getJSONDirectory } from "./util";
 import { writeFile } from "fs/promises";
@@ -155,7 +149,7 @@ export async function productToRecipeCreation() {
     "Recipe_UnpackageTurboFuel_C",
     "Recipe_Alternate_TurboHeavyFuel_C",
     "Recipe_Alternate_TurboBlendFuel_C"
-  ]
+  ];
 
   return productToRecipes;
 }

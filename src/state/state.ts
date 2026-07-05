@@ -1,12 +1,22 @@
-import { RecipeMap } from "../types";
+import { ProductsMap } from "../types";
 import { observable } from "mobx";
 
+export type CalculationStrategy = "main" | "greedy-min-raw";
+
 export type State = {
-  data: RecipeMap | null;
+  data: ProductsMap | null;
   theme: "light" | "dark";
+  selectedProduct: string | null;
+  targetPpm: number;
+  strategy: CalculationStrategy;
+  recipeOverrides: Record<string, string>;
 };
 
 export const state: State = observable({
   data: null,
-  theme: "light"
+  theme: "dark",
+  selectedProduct: null,
+  targetPpm: 60,
+  strategy: "main",
+  recipeOverrides: {}
 });

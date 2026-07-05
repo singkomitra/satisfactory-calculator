@@ -5,7 +5,7 @@ import { ProductsMap } from "@/types";
 
 export async function createProductsMap() {
   const recipes = await makeRecipe();
-  const { productToRecipes, recipeToProducts } = await productToRecipesAndRecipeToProductsCreation();
+  const { productToRecipes } = await productToRecipesAndRecipeToProductsCreation();
   const { resourceDescriptors, itemDescriptors } = await getItemAndResourceDescriptors();
 
   // itemDescriptors: all items (not complete yet)

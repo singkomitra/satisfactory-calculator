@@ -29,6 +29,12 @@ const config = defineConfig({
             base: "{colors.background.default}",
             _dark: "{colors.background._dark}"
           }
+        },
+        navbar: {
+          value: "{colors.navbar.default}"
+        },
+        primary: {
+          value: "{colors.primary.default}"
         }
       }
     }

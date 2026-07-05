@@ -127,6 +127,27 @@ export function assertItemDescriptorsRaw(obj: any): asserts obj is ItemDescripto
   }
 }
 
+export function assertProductsMap(obj: any): asserts obj is ProductsMap {
+  if (typeof obj !== "object" || obj === null) {
+    throwError("ProductsMap", "obj", "object", obj);
+  }
+  for (const key in obj) {
+    const entry = obj[key];
+    if (typeof entry !== "object" || entry === null) {
+      throwError("ProductsMap", key, "object", entry);
+    }
+    if (typeof entry.displayName !== "string") {
+      throwError("ProductsMap", `${key}.displayName`, "string", entry.displayName);
+    }
+    if (typeof entry.mainRecipe !== "object" || entry.mainRecipe === null) {
+      throwError("ProductsMap", `${key}.mainRecipe`, "object", entry.mainRecipe);
+    }
+    if (!Array.isArray(entry.altRecipes)) {
+      throwError("ProductsMap", `${key}.altRecipes`, "array", entry.altRecipes);
+    }
+  }
+}
+
 export function assertRecipeMap(obj: any): asserts obj is RecipeMap {
   if (typeof obj !== "object") {
     throwError("RecipeToIngredients", "obj", "object", obj);

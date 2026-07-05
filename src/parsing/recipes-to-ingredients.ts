@@ -19,7 +19,7 @@ function parseProducedIn(mProducedIn: string): string[] {
   });
 }
 
-export async function GET(req: Request) {
+export async function GET() {
   const finalRecipes = await makeRecipe();
   await writeFile("recipes-to-ingredients.json", JSON.stringify(finalRecipes, null, 2));
   return Response.json(finalRecipes);
