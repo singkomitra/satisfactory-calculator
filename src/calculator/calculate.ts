@@ -29,6 +29,10 @@ export type Strategy = "main" | "greedy-min-raw";
 export type CalculateOptions = {
   strategy?: Strategy;
   recipeOverrides?: Record<string, string>;
+  // Only used with strategy = "greedy-min-raw".
+  // null = minimize sum of ALL raw resources (unweighted).
+  // A product class name (e.g. "Desc_OreIron_C") = minimize only that resource.
+  targetResource?: string | null;
 };
 
 const DEFAULT_DISPLAY = (product: string) => product.replace(/^Desc_/, "").replace(/_C$/, "");
@@ -41,9 +45,17 @@ export function calculate(
 ): CalculationResult {
   const strategy = opts.strategy ?? "main";
   const overrides = opts.recipeOverrides ?? {};
+  const targetResource = opts.targetResource ?? null;
   const rawResources: Record<string, number> = {};
   const machines: Record<string, number> = {};
+  // Memo key includes targetResource, but since targetResource is fixed per
+  // call, the plain per-product cache is fine.
   const rawCostMemo = new Map<string, number>();
+
+  const leafCost = (product: string, quantity: number): number => {
+    if (targetResource === null) return quantity;
+    return product === targetResource ? quantity : 0;
+  };
 
   const tree = build(target, targetPpm, new Set());
   return { tree, rawResources, machines };
@@ -152,8 +164,8 @@ export function calculate(
 
   function rawCostForProduct(product: string, quantity: number, visiting: Set<string>): number {
     const entry = productsMap[product];
-    if (!entry) return quantity;
-    if (visiting.has(product)) return quantity;
+    if (!entry) return leafCost(product, quantity);
+    if (visiting.has(product)) return leafCost(product, quantity);
 
     const cached = rawCostMemo.get(product);
     if (cached !== undefined) return cached * quantity;
@@ -161,7 +173,7 @@ export function calculate(
     const candidates: RecipeChoice[] = [entry.mainRecipe, ...entry.altRecipes].filter(
       (r): r is RecipeChoice => !!r && !dependsOn(r, visiting)
     );
-    if (candidates.length === 0) return quantity;
+    if (candidates.length === 0) return leafCost(product, quantity);
 
     const next = new Set(visiting);
     next.add(product);
@@ -171,7 +183,7 @@ export function calculate(
       const c = rawCost(r, next);
       if (c < min) min = c;
     }
-    if (min === Infinity) return quantity;
+    if (min === Infinity) return leafCost(product, quantity);
     rawCostMemo.set(product, min);
     return min * quantity;
   }

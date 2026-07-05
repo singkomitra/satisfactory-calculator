@@ -9,6 +9,9 @@ export type State = {
   selectedProduct: string | null;
   targetPpm: number;
   strategy: CalculationStrategy;
+  // null = minimize sum of ALL raw resources.
+  // A product class name = minimize only that resource.
+  targetResource: string | null;
   recipeOverrides: Record<string, string>;
 };
 
@@ -18,5 +21,6 @@ export const state: State = observable({
   selectedProduct: null,
   targetPpm: 60,
   strategy: "main",
+  targetResource: null,
   recipeOverrides: {}
 });

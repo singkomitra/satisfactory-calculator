@@ -18,6 +18,10 @@ export const setStrategy = (strategy: CalculationStrategy) => {
   state.strategy = strategy;
   state.recipeOverrides = {};
 };
+export const setTargetResource = (resource: string | null) => {
+  state.targetResource = resource;
+  state.recipeOverrides = {};
+};
 export const setRecipeOverride = (product: string, recipeName: string) => {
   state.recipeOverrides = { ...state.recipeOverrides, [product]: recipeName };
 };

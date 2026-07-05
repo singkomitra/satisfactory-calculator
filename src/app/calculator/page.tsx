@@ -8,6 +8,7 @@ import ProductPicker from "@/components/ProductPicker";
 import { RecipeGraph } from "@/components/graph/RecipeGraph";
 import { calculate, CalculationResult, Strategy } from "@/calculator/calculate";
 import { buildGraph } from "@/calculator/graph";
+import { listRawResources } from "@/calculator/rawResources";
 
 const NAV_HEIGHT = "76px";
 
@@ -27,10 +28,19 @@ export default observer(function CalculatorPage() {
     if (!Number.isFinite(state.targetPpm) || state.targetPpm <= 0) return null;
     return calculate(state.data, state.selectedProduct, state.targetPpm, {
       strategy: state.strategy,
-      recipeOverrides: state.recipeOverrides
+      recipeOverrides: state.recipeOverrides,
+      targetResource: state.targetResource
     });
-  }, [state.data, state.selectedProduct, state.targetPpm, state.strategy, state.recipeOverrides]);
+  }, [
+    state.data,
+    state.selectedProduct,
+    state.targetPpm,
+    state.strategy,
+    state.targetResource,
+    state.recipeOverrides
+  ]);
 
+  const rawResourceOptions = useMemo(() => (state.data ? listRawResources(state.data) : []), [state.data]);
   const graph = useMemo(() => (result ? buildGraph(result) : null), [result]);
   const hasOverrides = Object.keys(state.recipeOverrides).length > 0;
 
@@ -41,6 +51,7 @@ export default observer(function CalculatorPage() {
         actions={actions}
         hasOverrides={hasOverrides}
         onClearOverrides={actions.clearAllOverrides}
+        rawResourceOptions={rawResourceOptions}
       />
 
       <Box position="relative" flex="1" overflow="hidden">
@@ -61,22 +72,27 @@ export default observer(function CalculatorPage() {
 type CalcState = {
   targetPpm: number;
   strategy: Strategy;
+  targetResource: string | null;
 };
 type CalcActions = {
   setTargetPpm: (n: number) => void;
   setStrategy: (s: Strategy) => void;
+  setTargetResource: (r: string | null) => void;
 };
+type RawOption = { id: string; label: string };
 
 function Toolbar({
   state,
   actions,
   hasOverrides,
-  onClearOverrides
+  onClearOverrides,
+  rawResourceOptions
 }: {
   state: CalcState;
   actions: CalcActions;
   hasOverrides: boolean;
   onClearOverrides: () => void;
+  rawResourceOptions: RawOption[];
 }) {
   return (
     <Box
@@ -133,6 +149,40 @@ function Toolbar({
             />
           </HStack>
         </Box>
+        {state.strategy === "greedy-min-raw" && (
+          <Box flex="1" minWidth="200px">
+            <Text mb={1} fontSize="xs" color="whiteAlpha.700" fontWeight="600" letterSpacing="wider" textTransform="uppercase">
+              Minimize
+            </Text>
+            <select
+              value={state.targetResource ?? ""}
+              onChange={(e) => {
+                const v = e.target.value;
+                actions.setTargetResource(v === "" ? null : v);
+              }}
+              style={{
+                width: "100%",
+                background: "rgba(255,255,255,0.06)",
+                border: "1px solid rgba(255,255,255,0.15)",
+                color: "white",
+                padding: "8px 12px",
+                borderRadius: "6px",
+                fontSize: "14px",
+                cursor: "pointer",
+                outline: "none"
+              }}
+            >
+              <option value="" style={{ background: "#1a202c" }}>
+                All raw (unweighted)
+              </option>
+              {rawResourceOptions.map((r) => (
+                <option key={r.id} value={r.id} style={{ background: "#1a202c" }}>
+                  {r.label}
+                </option>
+              ))}
+            </select>
+          </Box>
+        )}
         {hasOverrides && (
           <Box>
             <Text mb={1} fontSize="xs" color="whiteAlpha.700" fontWeight="600" letterSpacing="wider" textTransform="uppercase">
