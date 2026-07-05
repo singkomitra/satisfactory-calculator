@@ -20,6 +20,7 @@ export type GraphNode = {
   displayName: string;
   ppm: number;
   isRawResource: boolean;
+  isByproduct: boolean;
   recipeName: string | null;
   recipeDisplayName: string | null;
   producedIn: string | null;
@@ -58,12 +59,39 @@ export function buildGraph(result: CalculationResult): Graph {
       displayName: node.displayName,
       ppm: node.ppm,
       isRawResource: node.isRawResource,
+      isByproduct: false,
       recipeName: node.recipe?.recipeName ?? null,
       recipeDisplayName: node.recipe?.displayName ?? null,
       producedIn: node.recipe?.producedIn ?? null,
       machineCount: node.recipe?.machineCount ?? 0
     };
     nodes.set(node.product, created);
+    return created;
+  };
+
+  // Byproducts get their own aggregated sink nodes, keyed separately from
+  // regular product nodes so a byproduct pool never merges with a normal
+  // "this product is being consumed" node.
+  const upsertByproduct = (item: string, displayName: string, ppm: number): GraphNode => {
+    const id = `byproduct:${item}`;
+    const existing = nodes.get(id);
+    if (existing) {
+      existing.ppm += ppm;
+      return existing;
+    }
+    const created: GraphNode = {
+      id,
+      product: item,
+      displayName,
+      ppm,
+      isRawResource: false,
+      isByproduct: true,
+      recipeName: null,
+      recipeDisplayName: null,
+      producedIn: null,
+      machineCount: 0
+    };
+    nodes.set(id, created);
     return created;
   };
 
@@ -84,8 +112,38 @@ export function buildGraph(result: CalculationResult): Graph {
     });
   };
 
+  const addByproductEdge = (
+    fromProduct: string,
+    bpItem: string,
+    bpDisplayName: string,
+    ppm: number
+  ) => {
+    const toId = `byproduct:${bpItem}`;
+    const key = `${fromProduct}->${toId}`;
+    const existing = edges.get(key);
+    if (existing) {
+      existing.ppm += ppm;
+      return;
+    }
+    edges.set(key, {
+      id: key,
+      from: fromProduct,
+      to: toId,
+      item: bpItem,
+      displayName: bpDisplayName,
+      ppm
+    });
+  };
+
   const walk = (node: CalculationNode) => {
     upsert(node);
+    // Byproducts co-produced by this recipe become their own sink nodes.
+    if (node.recipe) {
+      for (const bp of node.recipe.byproducts) {
+        upsertByproduct(bp.item, bp.displayName, bp.ppm);
+        addByproductEdge(node.product, bp.item, bp.displayName, bp.ppm);
+      }
+    }
     for (const ing of node.ingredients) {
       // Flow direction: ingredient (producer) → parent product (consumer).
       addEdge(ing.product, node.product, ing);

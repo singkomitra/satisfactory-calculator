@@ -47,6 +47,7 @@ function layout(graph: Graph): { nodes: Node<ProductNodeData>[]; edges: Edge[] }
         displayName: n.displayName,
         ppm: n.ppm,
         isRawResource: n.isRawResource,
+        isByproduct: n.isByproduct,
         recipeName: n.recipeName,
         recipeDisplayName: n.recipeDisplayName,
         producedIn: n.producedIn,
@@ -114,6 +115,7 @@ function RecipeGraphInner({ graph }: { graph: Graph }) {
           const d = node.data as ProductNodeData;
           if (d.isRoot) return "#f19066";
           if (d.isRawResource) return "#f6ad55";
+          if (d.isByproduct) return "#f6d55a";
           return "#4a5568";
         }}
         maskColor="rgba(15, 20, 35, 0.7)"

@@ -14,6 +14,8 @@ export type CalculationNode = {
     machineCount: number;
     baseAmount: number;
     manufacturingDuration: number;
+    // Co-outputs of this recipe at this rate. Empty when the recipe has no byproducts.
+    byproducts: { item: string; displayName: string; ppm: number }[];
   } | null;
   ingredients: CalculationNode[];
 };
@@ -145,11 +147,14 @@ export function calculate(
     // Byproduct rate scales with how many recipe executions we need.
     // executions/min = ppm / recipe.amount * (60 / duration) but we already
     // encode that in machineCount. Byproduct rate = byproduct.amount / main.amount * ppm.
+    const recipeByproducts: { item: string; displayName: string; ppm: number }[] = [];
     for (const bp of recipe.byproducts) {
       const rate = recipe.amount === 0 ? 0 : (bp.amount / recipe.amount) * ppm;
       byproductProduced[bp.item] = (byproductProduced[bp.item] ?? 0) + rate;
       const bpEntry = productsMap[bp.item];
+      const bpDisplayName = bpEntry?.displayName ?? DEFAULT_DISPLAY(bp.item);
       if (bpEntry) displayNames[bp.item] = bpEntry.displayName;
+      recipeByproducts.push({ item: bp.item, displayName: bpDisplayName, ppm: rate });
     }
 
     const nextVisiting = new Set(visiting);
@@ -172,7 +177,8 @@ export function calculate(
         producedIn: recipe.producedIn,
         machineCount,
         baseAmount: recipe.amount,
-        manufacturingDuration: recipe.manufacturingDuration
+        manufacturingDuration: recipe.manufacturingDuration,
+        byproducts: recipeByproducts
       },
       ingredients
     };

@@ -4,6 +4,7 @@ import { memo, useContext, useState } from "react";
 import { Handle, Position, NodeProps } from "@xyflow/react";
 import { context } from "@/state";
 import { observer } from "mobx-react-lite";
+import { ProductIcon } from "./ProductIcon";
 
 const round = (n: number) => {
   if (n === 0) return "0";
@@ -19,6 +20,7 @@ export type ProductNodeData = Record<string, unknown> & {
   displayName: string;
   ppm: number;
   isRawResource: boolean;
+  isByproduct?: boolean;
   recipeName: string | null;
   recipeDisplayName: string | null;
   producedIn: string | null;
@@ -40,11 +42,17 @@ const ProductNodeInner = observer(function ProductNodeInner({ data }: NodeProps)
   const overridden = !!state.recipeOverrides[d.product];
 
   return (
-    <div className={`product-node ${d.isRawResource ? "is-raw" : ""} ${d.isRoot ? "is-root" : ""}`}>
-      {!d.isRawResource && <Handle type="target" position={Position.Left} className="node-handle" />}
+    <div
+      className={`product-node ${d.isRawResource ? "is-raw" : ""} ${d.isByproduct ? "is-byproduct" : ""} ${d.isRoot ? "is-root" : ""}`}
+    >
+      {!d.isRawResource && !d.isByproduct && <Handle type="target" position={Position.Left} className="node-handle" />}
+      {d.isByproduct && <Handle type="target" position={Position.Left} className="node-handle" />}
 
       <div className="product-node-header">
-        <div className="product-node-title">{d.displayName}</div>
+        <ProductIcon product={d.product} displayName={d.displayName} size={28} />
+        <div className="product-node-title-block">
+          <div className="product-node-title">{d.displayName}</div>
+        </div>
         <div className="product-node-rate">
           <span className="rate-value">{round(d.ppm)}</span>
           <span className="rate-unit">/min</span>
@@ -54,6 +62,10 @@ const ProductNodeInner = observer(function ProductNodeInner({ data }: NodeProps)
       {d.isRawResource ? (
         <div className="product-node-body">
           <div className="raw-badge">Raw resource</div>
+        </div>
+      ) : d.isByproduct ? (
+        <div className="product-node-body">
+          <div className="raw-badge byproduct-badge">Byproduct · unclaimed</div>
         </div>
       ) : (
         <div className="product-node-body">
@@ -117,7 +129,7 @@ const ProductNodeInner = observer(function ProductNodeInner({ data }: NodeProps)
         </div>
       )}
 
-      <Handle type="source" position={Position.Right} className="node-handle" />
+      {!d.isByproduct && <Handle type="source" position={Position.Right} className="node-handle" />}
     </div>
   );
 });

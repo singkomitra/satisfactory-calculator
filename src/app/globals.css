@@ -43,15 +43,26 @@ a {
   border-color: #d69e2e;
 }
 
+.product-node.is-byproduct {
+  background: #2a1f10;
+  border-color: #d69e2e;
+  border-style: dashed;
+}
+
 .product-node-header {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
   gap: 8px;
   padding: 10px 12px 6px;
   border-bottom: 1px solid #2d3748;
   cursor: grab;
   user-select: none;
+}
+
+.product-node-title-block {
+  flex: 1;
+  min-width: 0;
 }
 
 .product-node-header:active {
@@ -122,6 +133,10 @@ a {
   letter-spacing: 0.06em;
   color: #f6ad55;
   text-transform: uppercase;
+}
+
+.raw-badge.byproduct-badge {
+  color: #f6d55a;
 }
 
 .product-node-recipe {
