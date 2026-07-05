@@ -85,22 +85,27 @@ jobs:
   e2e:
     name: Playwright
     runs-on: ubuntu-latest
+    # Playwright doesn't support Yarn PnP resolution under Node 22+ (fails
+    # with "options passed to require() aren't supported by PnP yet: conditions").
+    # Force this job to use the classic node_modules linker via env var — Yarn
+    # 4 honors YARN_NODE_LINKER even when .yarnrc.yml declares pnp.
+    env:
+      YARN_NODE_LINKER: node-modules
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v6
         with:
           node-version: "22"
-      # Yarn 4 with `enableGlobalCache: false` (repo default) stores the
-      # cache locally under .yarn/cache and .yarn/unplugged.
-      - name: Restore Yarn cache
+      # node-modules install layout — cache the resolved node_modules by
+      # yarn.lock hash. This is separate from the pnp cache used by other jobs.
+      - name: Restore node_modules
         uses: actions/cache@v5
         with:
           path: |
+            node_modules
             .yarn/cache
-            .yarn/unplugged
-            .yarn/install-state.gz
-          key: yarn-${{ runner.os }}-${{ hashFiles('yarn.lock') }}
-          restore-keys: yarn-${{ runner.os }}-
+          key: e2e-nm-${{ runner.os }}-${{ hashFiles('yarn.lock') }}
+          restore-keys: e2e-nm-${{ runner.os }}-
       - name: Install
         run: corepack enable && yarn install --immutable
       # Playwright browsers are large (~130 MB) and unchanged between runs
