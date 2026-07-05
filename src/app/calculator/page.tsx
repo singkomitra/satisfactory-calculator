@@ -7,9 +7,11 @@ import { Box, HStack, VStack, Input, Text, Heading } from "@chakra-ui/react";
 import ProductPicker from "@/components/ProductPicker";
 import { RecipeGraph } from "@/components/graph/RecipeGraph";
 import { calculate, CalculationResult, Strategy } from "@/calculator/calculate";
+import { calculateLP, LPObjective } from "@/calculator/lp-calculate";
 import { buildGraph } from "@/calculator/graph";
 import { listRawResources } from "@/calculator/rawResources";
 import ResourcesPanel from "@/components/ResourcesPanel";
+import { CalculationEngine } from "@/state/state";
 
 const NAV_HEIGHT = "76px";
 
@@ -21,6 +23,30 @@ const round = (n: number) => {
 const buildingLabel = (raw: string) => raw.replace(/^Build_/, "").replace(/_C$/, "");
 const rawLabel = (raw: string) => raw.replace(/^Desc_/, "").replace(/_C$/, "");
 
+const selectStyle: React.CSSProperties = {
+  width: "100%",
+  background: "rgba(255,255,255,0.06)",
+  border: "1px solid rgba(255,255,255,0.15)",
+  color: "white",
+  padding: "8px 12px",
+  borderRadius: "6px",
+  fontSize: "14px",
+  cursor: "pointer",
+  outline: "none"
+};
+
+function objectiveToKey(obj: LPObjective): string {
+  if (obj.kind === "min-resource") return `min-resource:${obj.resource}`;
+  return obj.kind;
+}
+
+function keyToObjective(key: string, fallback: LPObjective): LPObjective {
+  if (key.startsWith("min-resource:")) return { kind: "min-resource", resource: key.slice("min-resource:".length) };
+  if (key === "min-buildings" || key === "min-all-raw" || key === "min-byproducts")
+    return { kind: key };
+  return fallback;
+}
+
 export default observer(function CalculatorPage() {
   const { state, actions } = useContext(context);
   const [resourcesOpen, setResourcesOpen] = useState(false);
@@ -30,6 +56,15 @@ export default observer(function CalculatorPage() {
   const result: CalculationResult | null = useMemo(() => {
     if (!state.data || !state.selectedProduct) return null;
     if (!Number.isFinite(state.targetPpm) || state.targetPpm <= 0) return null;
+    if (state.engine === "lp") {
+      return calculateLP(state.data, state.selectedProduct, state.targetPpm, {
+        recipeOverrides: state.recipeOverrides,
+        resourceConstraints: state.resourceConstraints,
+        rejectByproductRecipes: state.rejectByproductRecipes,
+        allowByproductSurplus: !state.closedByproducts,
+        objective: state.lpObjective
+      });
+    }
     return calculate(state.data, state.selectedProduct, state.targetPpm, {
       strategy: state.strategy,
       recipeOverrides: state.recipeOverrides,
@@ -41,10 +76,14 @@ export default observer(function CalculatorPage() {
     state.data,
     state.selectedProduct,
     state.targetPpm,
+    state.engine,
     state.strategy,
     state.targetResource,
     state.recipeOverrides,
     state.rejectByproductRecipes,
+    state.resourceConstraints,
+    state.closedByproducts,
+    state.lpObjective,
     excludedList
   ]);
 
@@ -145,15 +184,21 @@ function InfeasibleMessage({
 
 type CalcState = {
   targetPpm: number;
+  engine: CalculationEngine;
   strategy: Strategy;
   targetResource: string | null;
   rejectByproductRecipes: boolean;
+  closedByproducts: boolean;
+  lpObjective: LPObjective;
 };
 type CalcActions = {
   setTargetPpm: (n: number) => void;
+  setEngine: (e: CalculationEngine) => void;
   setStrategy: (s: Strategy) => void;
   setTargetResource: (r: string | null) => void;
   setRejectByproductRecipes: (v: boolean) => void;
+  setClosedByproducts: (v: boolean) => void;
+  setLPObjective: (o: LPObjective) => void;
 };
 type RawOption = { id: string; label: string };
 
@@ -210,54 +255,94 @@ function Toolbar({
             _focus={{ borderColor: "primary" }}
           />
         </Box>
-        <Box flex="1" minWidth="200px">
+        <Box>
           <Text mb={1} fontSize="xs" color="whiteAlpha.700" fontWeight="600" letterSpacing="wider" textTransform="uppercase">
-            Strategy
+            Engine
           </Text>
           <HStack gap={1}>
-            <StrategyPill
-              current={state.strategy}
-              value="main"
-              label="Main"
-              onSelect={actions.setStrategy}
+            <StrategyPill<CalculationEngine>
+              current={state.engine}
+              value="greedy"
+              label="Greedy"
+              onSelect={actions.setEngine}
             />
-            <StrategyPill
-              current={state.strategy}
-              value="greedy-min-raw"
-              label="Min raw"
-              onSelect={actions.setStrategy}
+            <StrategyPill<CalculationEngine>
+              current={state.engine}
+              value="lp"
+              label="LP"
+              onSelect={actions.setEngine}
             />
           </HStack>
         </Box>
-        {state.strategy === "greedy-min-raw" && (
-          <Box flex="1" minWidth="200px">
+        {state.engine === "greedy" && (
+          <>
+            <Box flex="1" minWidth="200px">
+              <Text mb={1} fontSize="xs" color="whiteAlpha.700" fontWeight="600" letterSpacing="wider" textTransform="uppercase">
+                Strategy
+              </Text>
+              <HStack gap={1}>
+                <StrategyPill<Strategy>
+                  current={state.strategy}
+                  value="main"
+                  label="Main"
+                  onSelect={actions.setStrategy}
+                />
+                <StrategyPill<Strategy>
+                  current={state.strategy}
+                  value="greedy-min-raw"
+                  label="Min raw"
+                  onSelect={actions.setStrategy}
+                />
+              </HStack>
+            </Box>
+            {state.strategy === "greedy-min-raw" && (
+              <Box flex="1" minWidth="200px">
+                <Text mb={1} fontSize="xs" color="whiteAlpha.700" fontWeight="600" letterSpacing="wider" textTransform="uppercase">
+                  Minimize
+                </Text>
+                <select
+                  value={state.targetResource ?? ""}
+                  onChange={(e) => {
+                    const v = e.target.value;
+                    actions.setTargetResource(v === "" ? null : v);
+                  }}
+                  style={selectStyle}
+                >
+                  <option value="" style={{ background: "#1a202c" }}>
+                    All raw (unweighted)
+                  </option>
+                  {rawResourceOptions.map((r) => (
+                    <option key={r.id} value={r.id} style={{ background: "#1a202c" }}>
+                      {r.label}
+                    </option>
+                  ))}
+                </select>
+              </Box>
+            )}
+          </>
+        )}
+        {state.engine === "lp" && (
+          <Box flex="1" minWidth="220px">
             <Text mb={1} fontSize="xs" color="whiteAlpha.700" fontWeight="600" letterSpacing="wider" textTransform="uppercase">
-              Minimize
+              Objective
             </Text>
             <select
-              value={state.targetResource ?? ""}
-              onChange={(e) => {
-                const v = e.target.value;
-                actions.setTargetResource(v === "" ? null : v);
-              }}
-              style={{
-                width: "100%",
-                background: "rgba(255,255,255,0.06)",
-                border: "1px solid rgba(255,255,255,0.15)",
-                color: "white",
-                padding: "8px 12px",
-                borderRadius: "6px",
-                fontSize: "14px",
-                cursor: "pointer",
-                outline: "none"
-              }}
+              value={objectiveToKey(state.lpObjective)}
+              onChange={(e) => actions.setLPObjective(keyToObjective(e.target.value, state.lpObjective))}
+              style={selectStyle}
             >
-              <option value="" style={{ background: "#1a202c" }}>
-                All raw (unweighted)
+              <option value="min-buildings" style={{ background: "#1a202c" }}>
+                Min buildings
+              </option>
+              <option value="min-byproducts" style={{ background: "#1a202c" }}>
+                Min byproducts
+              </option>
+              <option value="min-all-raw" style={{ background: "#1a202c" }}>
+                Min all raw (unweighted)
               </option>
               {rawResourceOptions.map((r) => (
-                <option key={r.id} value={r.id} style={{ background: "#1a202c" }}>
-                  {r.label}
+                <option key={r.id} value={`min-resource:${r.id}`} style={{ background: "#1a202c" }}>
+                  Min {r.label}
                 </option>
               ))}
             </select>
@@ -278,6 +363,13 @@ function Toolbar({
               label="Reject"
               onSelect={() => actions.setRejectByproductRecipes(true)}
             />
+            {state.engine === "lp" && (
+              <ByproductPill
+                active={state.closedByproducts}
+                label="Closed loop"
+                onSelect={() => actions.setClosedByproducts(!state.closedByproducts)}
+              />
+            )}
           </HStack>
         </Box>
         <Box>
@@ -354,16 +446,16 @@ function ByproductPill({
   );
 }
 
-function StrategyPill({
+function StrategyPill<V extends string>({
   current,
   value,
   label,
   onSelect
 }: {
-  current: Strategy;
-  value: Strategy;
+  current: V;
+  value: V;
   label: string;
-  onSelect: (v: Strategy) => void;
+  onSelect: (v: V) => void;
 }) {
   const active = current === value;
   return (

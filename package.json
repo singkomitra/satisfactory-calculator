@@ -18,6 +18,7 @@
     "@dagrejs/dagre": "^3.0.0",
     "@emotion/react": "^11.14.0",
     "@xyflow/react": "^12.11.1",
+    "javascript-lp-solver": "^1.0.3",
     "lucide-react": "^0.476.0",
     "mobx": "^6.13.6",
     "mobx-react-lite": "^4.1.0",
