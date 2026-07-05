@@ -13,7 +13,7 @@ import {
   useNodesState,
   useEdgesState
 } from "@xyflow/react";
-import dagre from "@dagrejs/dagre";
+import { graphlib, layout as dagreLayout } from "@dagrejs/dagre";
 import "@xyflow/react/dist/style.css";
 import { Graph } from "@/calculator/graph";
 import { PRODUCT_NODE_TYPE, ProductNode, ProductNodeData } from "./ProductNode";
@@ -22,7 +22,7 @@ const NODE_WIDTH = 220;
 const NODE_HEIGHT = 130;
 
 function layout(graph: Graph): { nodes: Node<ProductNodeData>[]; edges: Edge[] } {
-  const g = new dagre.graphlib.Graph();
+  const g = new graphlib.Graph();
   g.setDefaultEdgeLabel(() => ({}));
   // LR = left→right. Raw materials on the left, final product on the right.
   g.setGraph({ rankdir: "LR", ranksep: 80, nodesep: 20, marginx: 20, marginy: 20 });
@@ -34,7 +34,7 @@ function layout(graph: Graph): { nodes: Node<ProductNodeData>[]; edges: Edge[] }
     // e.from = producer, e.to = consumer. Layout goes producer → consumer.
     g.setEdge(e.from, e.to);
   }
-  dagre.layout(g);
+  dagreLayout(g);
 
   const nodes: Node<ProductNodeData>[] = graph.nodes.map((n) => {
     const pos = g.node(n.id);
