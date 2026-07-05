@@ -47,8 +47,7 @@ const ProductPicker = observer(function ProductPicker() {
           borderRadius="md"
           maxHeight="320px"
           overflowY="auto"
-          mt={1}
-        >
+          mt={1}>
           {options.length === 0 ? (
             <Text p={3} color="fg.muted">
               {state.data ? "No matches" : "Loading products…"}
@@ -66,8 +65,7 @@ const ProductPicker = observer(function ProductPicker() {
                     actions.selectProduct(opt.key);
                     setQuery("");
                     setOpen(false);
-                  }}
-                >
+                  }}>
                   <Text>{opt.name}</Text>
                 </HStack>
               ))}

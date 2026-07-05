@@ -55,7 +55,7 @@ export async function makeRecipe() {
       .filter(([item]) => item !== mainProductClass)
       .map(([item, batchAmount]) => ({ item, amount: batchAmount }));
     const manufacturingDuration = recipe.mManufactoringDuration;
-    const ppm = 60 / manufacturingDuration * amount;
+    const ppm = (60 / manufacturingDuration) * amount;
     finalRecipes[className] = {
       displayName: recipe.mDisplayName,
       ingredients,

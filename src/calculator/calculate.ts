@@ -35,7 +35,10 @@ export type CalculationResult = {
   byproducts: ByproductSummary[];
   // Set when no recipe combination could satisfy the target under the current
   // filters (excluded resources, reject-byproducts). tree will be null.
-  infeasible: null | { reason: "no-recipe-avoids-excluded" | "no-recipe-avoids-byproducts" | "no-recipe"; product: string };
+  infeasible: null | {
+    reason: "no-recipe-avoids-excluded" | "no-recipe-avoids-byproducts" | "no-recipe";
+    product: string;
+  };
 };
 
 export type Strategy = "main" | "greedy-min-raw";
@@ -92,7 +95,12 @@ export function calculate(
       machines: {},
       byproducts: [],
       infeasible: {
-        reason: excluded.size > 0 ? "no-recipe-avoids-excluded" : rejectByproducts ? "no-recipe-avoids-byproducts" : "no-recipe",
+        reason:
+          excluded.size > 0
+            ? "no-recipe-avoids-excluded"
+            : rejectByproducts
+              ? "no-recipe-avoids-byproducts"
+              : "no-recipe",
         product: target
       }
     };
@@ -194,11 +202,7 @@ export function calculate(
     return true;
   }
 
-  function chooseRecipe(
-    product: string,
-    entry: ProductsMap[string],
-    visiting: Set<string>
-  ): RecipeChoice | null {
+  function chooseRecipe(product: string, entry: ProductsMap[string], visiting: Set<string>): RecipeChoice | null {
     if (overrides[product]) {
       const found = findRecipe(entry, overrides[product]);
       if (found && recipeAllowed(found, visiting)) return found;

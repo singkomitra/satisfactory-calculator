@@ -75,10 +75,7 @@ export function calculateLP(
 
 /* -------------------------------- setup -------------------------------- */
 
-function collectAllRecipes(
-  productsMap: ProductsMap,
-  opts: LPOptions
-): Map<string, Recipe> {
+function collectAllRecipes(productsMap: ProductsMap, opts: LPOptions): Map<string, Recipe> {
   const out = new Map<string, Recipe>();
   const reject = opts.rejectByproductRecipes ?? false;
   const overrides = opts.recipeOverrides ?? {};
@@ -314,8 +311,7 @@ function synthesizeResult(
     machines[rec.producedIn] = (machines[rec.producedIn] ?? 0) + machineCount;
 
     // Main product production.
-    productProduction[rec.mainProduct] =
-      (productProduction[rec.mainProduct] ?? 0) + rec.mainRate * machineCount;
+    productProduction[rec.mainProduct] = (productProduction[rec.mainProduct] ?? 0) + rec.mainRate * machineCount;
 
     // Byproducts.
     for (const [bp, rate] of rec.byproductRates) {
@@ -343,14 +339,7 @@ function synthesizeResult(
   // Build a display tree by walking from the target: at each product, pick the
   // recipe with the largest contribution to it (arbitrary tie-break). This is
   // just for tree rendering — the real answer is the flat recipe rate table.
-  const tree = buildTreeFromLP(
-    productsMap,
-    recipeMap,
-    recipeRates,
-    target,
-    targetPpm,
-    new Set()
-  );
+  const tree = buildTreeFromLP(productsMap, recipeMap, recipeRates, target, targetPpm, new Set());
 
   // Byproduct summary.
   const byproducts = Object.entries(byproductsProduced).map(([item, v]) => {
@@ -384,9 +373,7 @@ function buildTreeFromLP(
   const entry = productsMap[product];
   const displayName = entry?.displayName ?? product.replace(/^Desc_/, "").replace(/_C$/, "");
 
-  const producers = (recipeMap.producedBy.get(product) ?? []).filter((n) =>
-    recipeRates.has(n)
-  );
+  const producers = (recipeMap.producedBy.get(product) ?? []).filter((n) => recipeRates.has(n));
 
   if (producers.length === 0 || visiting.has(product)) {
     return {
@@ -412,7 +399,7 @@ function buildTreeFromLP(
   }
 
   const rec = recipeMap.perMachine.get(bestRecipe)!;
-  const machineCount = (recipeRates.get(bestRecipe) ?? 0);
+  const machineCount = recipeRates.get(bestRecipe) ?? 0;
   const perMachineMainRate = rec.mainRate;
   const recipeByproducts = Array.from(rec.byproductRates.entries()).map(([item, rate]) => {
     const bpEntry = productsMap[item];
@@ -429,9 +416,7 @@ function buildTreeFromLP(
   const ingredients: CalculationNode[] = [];
   for (const [ing, rate] of rec.ingredientRates) {
     const ingDemand = rate * machineCount;
-    ingredients.push(
-      buildTreeFromLP(productsMap, recipeMap, recipeRates, ing, ingDemand, nextVisiting)
-    );
+    ingredients.push(buildTreeFromLP(productsMap, recipeMap, recipeRates, ing, ingDemand, nextVisiting));
   }
 
   return {

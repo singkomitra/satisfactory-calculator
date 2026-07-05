@@ -103,8 +103,6 @@ describe("calculateLP (objectives)", () => {
       objective: { kind: "min-resource", resource: P.OreIron }
     });
     expect(focused.infeasible).toBeNull();
-    expect(focused.rawResources[P.OreIron] ?? 0).toBeLessThanOrEqual(
-      def.rawResources[P.OreIron] ?? Infinity
-    );
+    expect(focused.rawResources[P.OreIron] ?? 0).toBeLessThanOrEqual(def.rawResources[P.OreIron] ?? Infinity);
   });
 });

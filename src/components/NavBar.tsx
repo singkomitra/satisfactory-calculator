@@ -38,8 +38,7 @@ const NavBar = observer(function NavBar() {
               fontWeight="500"
               color={active ? "white" : "whiteAlpha.700"}
               bg={active ? "whiteAlpha.200" : "transparent"}
-              _hover={{ bg: "whiteAlpha.100", color: "white", textDecoration: "none" }}
-            >
+              _hover={{ bg: "whiteAlpha.100", color: "white", textDecoration: "none" }}>
               {link.label}
             </ChakraLink>
           );

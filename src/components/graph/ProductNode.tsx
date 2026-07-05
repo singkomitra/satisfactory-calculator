@@ -13,7 +13,12 @@ const round = (n: number) => {
 };
 
 const buildingLabel = (raw: string | null) =>
-  raw ? raw.replace(/^Build_/, "").replace(/_C$/, "").replace(/Mk\d+$/, (m) => ` ${m}`) : "";
+  raw
+    ? raw
+        .replace(/^Build_/, "")
+        .replace(/_C$/, "")
+        .replace(/Mk\d+$/, (m) => ` ${m}`)
+    : "";
 
 export type ProductNodeData = Record<string, unknown> & {
   product: string;
@@ -36,15 +41,12 @@ const ProductNodeInner = observer(function ProductNodeInner({ data }: NodeProps)
   const [pickerOpen, setPickerOpen] = useState(false);
 
   const productEntry = state.data?.[d.product];
-  const alternatives = productEntry
-    ? [productEntry.mainRecipe, ...productEntry.altRecipes].filter(Boolean)
-    : [];
+  const alternatives = productEntry ? [productEntry.mainRecipe, ...productEntry.altRecipes].filter(Boolean) : [];
   const overridden = !!state.recipeOverrides[d.product];
 
   return (
     <div
-      className={`product-node ${d.isRawResource ? "is-raw" : ""} ${d.isByproduct ? "is-byproduct" : ""} ${d.isRoot ? "is-root" : ""}`}
-    >
+      className={`product-node ${d.isRawResource ? "is-raw" : ""} ${d.isByproduct ? "is-byproduct" : ""} ${d.isRoot ? "is-root" : ""}`}>
       {!d.isRawResource && !d.isByproduct && <Handle type="target" position={Position.Left} className="node-handle" />}
       {d.isByproduct && <Handle type="target" position={Position.Left} className="node-handle" />}
 
@@ -81,8 +83,7 @@ const ProductNodeInner = observer(function ProductNodeInner({ data }: NodeProps)
                   e.stopPropagation();
                   setPickerOpen((v) => !v);
                 }}
-                type="button"
-              >
+                type="button">
                 <span className="recipe-label">Recipe</span>
                 <span className="recipe-name">{d.recipeDisplayName}</span>
                 <span className="recipe-caret">{pickerOpen ? "▲" : "▼"}</span>
@@ -100,8 +101,7 @@ const ProductNodeInner = observer(function ProductNodeInner({ data }: NodeProps)
                           e.stopPropagation();
                           actions.setRecipeOverride(d.product, r.recipeName);
                           setPickerOpen(false);
-                        }}
-                      >
+                        }}>
                         <span className="option-name">{r.displayName}</span>
                         <span className="option-meta">
                           {round(r.ppm)}/min · {buildingLabel(r.producedIn)}
@@ -117,8 +117,7 @@ const ProductNodeInner = observer(function ProductNodeInner({ data }: NodeProps)
                         e.stopPropagation();
                         actions.clearRecipeOverride(d.product);
                         setPickerOpen(false);
-                      }}
-                    >
+                      }}>
                       Reset to default
                     </button>
                   )}

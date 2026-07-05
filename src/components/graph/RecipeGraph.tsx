@@ -107,8 +107,7 @@ function RecipeGraphInner({ graph }: { graph: Graph }) {
       defaultEdgeOptions={{ zIndex: 0 }}
       minZoom={0.2}
       maxZoom={2}
-      proOptions={{ hideAttribution: true }}
-    >
+      proOptions={{ hideAttribution: true }}>
       <Background gap={24} size={1} color="#2d3748" />
       <MiniMap
         nodeColor={(node) => {

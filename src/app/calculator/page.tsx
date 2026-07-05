@@ -42,8 +42,7 @@ function objectiveToKey(obj: LPObjective): string {
 
 function keyToObjective(key: string, fallback: LPObjective): LPObjective {
   if (key.startsWith("min-resource:")) return { kind: "min-resource", resource: key.slice("min-resource:".length) };
-  if (key === "min-buildings" || key === "min-all-raw" || key === "min-byproducts")
-    return { kind: key };
+  if (key === "min-buildings" || key === "min-all-raw" || key === "min-byproducts") return { kind: key };
   return fallback;
 }
 
@@ -152,26 +151,15 @@ function InfeasibleMessage({
   }, {});
   const excludedNames = excludedList.map((id) => labels[id] ?? id).join(", ");
   return (
-    <Box
-      position="absolute"
-      inset={0}
-      display="flex"
-      alignItems="center"
-      justifyContent="center"
-      p={8}
-    >
+    <Box position="absolute" inset={0} display="flex" alignItems="center" justifyContent="center" p={8}>
       <VStack gap={3} maxWidth="520px" textAlign="center">
         <Heading size="md" color="orange.300">
           No feasible plan
         </Heading>
         <Text color="whiteAlpha.800">
           Cannot produce <b>{rawLabel(product)}</b>{" "}
-          {reason === "no-recipe-avoids-excluded" && excludedList.length > 0 && (
-            <>without consuming {excludedNames}.</>
-          )}
-          {reason === "no-recipe-avoids-byproducts" && rejectByproducts && (
-            <>using only recipes with no byproducts.</>
-          )}
+          {reason === "no-recipe-avoids-excluded" && excludedList.length > 0 && <>without consuming {excludedNames}.</>}
+          {reason === "no-recipe-avoids-byproducts" && rejectByproducts && <>using only recipes with no byproducts.</>}
           {reason === "no-recipe" && <>— no recipe exists that satisfies the current filters.</>}
         </Text>
         <Text color="whiteAlpha.500" fontSize="sm">
@@ -227,17 +215,28 @@ function Toolbar({
       px={{ base: 6, md: 8 }}
       py={4}
       color="white"
-      flexShrink={0}
-    >
+      flexShrink={0}>
       <HStack gap={4} align="end" flexWrap="wrap">
         <Box flex="2" minWidth="240px">
-          <Text mb={1} fontSize="xs" color="whiteAlpha.700" fontWeight="600" letterSpacing="wider" textTransform="uppercase">
+          <Text
+            mb={1}
+            fontSize="xs"
+            color="whiteAlpha.700"
+            fontWeight="600"
+            letterSpacing="wider"
+            textTransform="uppercase">
             Product
           </Text>
           <ProductPicker />
         </Box>
         <Box flex="1" minWidth="130px" maxWidth="180px">
-          <Text mb={1} fontSize="xs" color="whiteAlpha.700" fontWeight="600" letterSpacing="wider" textTransform="uppercase">
+          <Text
+            mb={1}
+            fontSize="xs"
+            color="whiteAlpha.700"
+            fontWeight="600"
+            letterSpacing="wider"
+            textTransform="uppercase">
             Rate (/min)
           </Text>
           <Input
@@ -256,7 +255,13 @@ function Toolbar({
           />
         </Box>
         <Box>
-          <Text mb={1} fontSize="xs" color="whiteAlpha.700" fontWeight="600" letterSpacing="wider" textTransform="uppercase">
+          <Text
+            mb={1}
+            fontSize="xs"
+            color="whiteAlpha.700"
+            fontWeight="600"
+            letterSpacing="wider"
+            textTransform="uppercase">
             Engine
           </Text>
           <HStack gap={1}>
@@ -277,7 +282,13 @@ function Toolbar({
         {state.engine === "greedy" && (
           <>
             <Box flex="1" minWidth="200px">
-              <Text mb={1} fontSize="xs" color="whiteAlpha.700" fontWeight="600" letterSpacing="wider" textTransform="uppercase">
+              <Text
+                mb={1}
+                fontSize="xs"
+                color="whiteAlpha.700"
+                fontWeight="600"
+                letterSpacing="wider"
+                textTransform="uppercase">
                 Strategy
               </Text>
               <HStack gap={1}>
@@ -297,7 +308,13 @@ function Toolbar({
             </Box>
             {state.strategy === "greedy-min-raw" && (
               <Box flex="1" minWidth="200px">
-                <Text mb={1} fontSize="xs" color="whiteAlpha.700" fontWeight="600" letterSpacing="wider" textTransform="uppercase">
+                <Text
+                  mb={1}
+                  fontSize="xs"
+                  color="whiteAlpha.700"
+                  fontWeight="600"
+                  letterSpacing="wider"
+                  textTransform="uppercase">
                   Minimize
                 </Text>
                 <select
@@ -306,8 +323,7 @@ function Toolbar({
                     const v = e.target.value;
                     actions.setTargetResource(v === "" ? null : v);
                   }}
-                  style={selectStyle}
-                >
+                  style={selectStyle}>
                   <option value="" style={{ background: "#1a202c" }}>
                     All raw (unweighted)
                   </option>
@@ -323,14 +339,19 @@ function Toolbar({
         )}
         {state.engine === "lp" && (
           <Box flex="1" minWidth="220px">
-            <Text mb={1} fontSize="xs" color="whiteAlpha.700" fontWeight="600" letterSpacing="wider" textTransform="uppercase">
+            <Text
+              mb={1}
+              fontSize="xs"
+              color="whiteAlpha.700"
+              fontWeight="600"
+              letterSpacing="wider"
+              textTransform="uppercase">
               Objective
             </Text>
             <select
               value={objectiveToKey(state.lpObjective)}
               onChange={(e) => actions.setLPObjective(keyToObjective(e.target.value, state.lpObjective))}
-              style={selectStyle}
-            >
+              style={selectStyle}>
               <option value="min-buildings" style={{ background: "#1a202c" }}>
                 Min buildings
               </option>
@@ -349,7 +370,13 @@ function Toolbar({
           </Box>
         )}
         <Box>
-          <Text mb={1} fontSize="xs" color="whiteAlpha.700" fontWeight="600" letterSpacing="wider" textTransform="uppercase">
+          <Text
+            mb={1}
+            fontSize="xs"
+            color="whiteAlpha.700"
+            fontWeight="600"
+            letterSpacing="wider"
+            textTransform="uppercase">
             Byproducts
           </Text>
           <HStack gap={1}>
@@ -373,7 +400,13 @@ function Toolbar({
           </HStack>
         </Box>
         <Box>
-          <Text mb={1} fontSize="xs" color="whiteAlpha.700" fontWeight="600" letterSpacing="wider" textTransform="uppercase">
+          <Text
+            mb={1}
+            fontSize="xs"
+            color="whiteAlpha.700"
+            fontWeight="600"
+            letterSpacing="wider"
+            textTransform="uppercase">
             Resources
           </Text>
           <Box
@@ -389,14 +422,19 @@ function Toolbar({
             fontWeight="600"
             color="white"
             cursor="pointer"
-            _hover={{ borderColor: "primary" }}
-          >
+            _hover={{ borderColor: "primary" }}>
             {excludedCount > 0 ? `${excludedCount} excluded` : "Manage…"}
           </Box>
         </Box>
         {hasOverrides && (
           <Box>
-            <Text mb={1} fontSize="xs" color="whiteAlpha.700" fontWeight="600" letterSpacing="wider" textTransform="uppercase">
+            <Text
+              mb={1}
+              fontSize="xs"
+              color="whiteAlpha.700"
+              fontWeight="600"
+              letterSpacing="wider"
+              textTransform="uppercase">
               Overrides
             </Text>
             <Box
@@ -405,8 +443,7 @@ function Toolbar({
               fontSize="sm"
               color="primary"
               cursor="pointer"
-              _hover={{ textDecoration: "underline" }}
-            >
+              _hover={{ textDecoration: "underline" }}>
               Reset all
             </Box>
           </Box>
@@ -416,15 +453,7 @@ function Toolbar({
   );
 }
 
-function ByproductPill({
-  active,
-  label,
-  onSelect
-}: {
-  active: boolean;
-  label: string;
-  onSelect: () => void;
-}) {
+function ByproductPill({ active, label, onSelect }: { active: boolean; label: string; onSelect: () => void }) {
   return (
     <Box
       as="button"
@@ -439,8 +468,7 @@ function ByproductPill({
       fontSize="sm"
       fontWeight="600"
       cursor="pointer"
-      _hover={{ borderColor: "primary", color: "white" }}
-    >
+      _hover={{ borderColor: "primary", color: "white" }}>
       {label}
     </Box>
   );
@@ -472,8 +500,7 @@ function StrategyPill<V extends string>({
       fontSize="sm"
       fontWeight="600"
       cursor="pointer"
-      _hover={{ borderColor: "primary", color: "white" }}
-    >
+      _hover={{ borderColor: "primary", color: "white" }}>
       {label}
     </Box>
   );
@@ -481,14 +508,7 @@ function StrategyPill<V extends string>({
 
 function CanvasMessage({ title, hint }: { title: string; hint?: string }) {
   return (
-    <Box
-      position="absolute"
-      inset={0}
-      display="flex"
-      alignItems="center"
-      justifyContent="center"
-      pointerEvents="none"
-    >
+    <Box position="absolute" inset={0} display="flex" alignItems="center" justifyContent="center" pointerEvents="none">
       <VStack gap={2}>
         <Heading size="md" color="whiteAlpha.700">
           {title}
@@ -523,8 +543,7 @@ function SummaryPanel({ result }: { result: CalculationResult }) {
       minWidth="260px"
       maxWidth="320px"
       maxHeight="65vh"
-      overflowY="auto"
-    >
+      overflowY="auto">
       <VStack align="stretch" gap={0} p={3}>
         <SummarySection title="Raw resources" total={rawEntries.length ? `${rawEntries.length} items` : undefined}>
           {rawEntries.length === 0 ? (
@@ -582,15 +601,7 @@ function SummaryPanel({ result }: { result: CalculationResult }) {
   );
 }
 
-function SummarySection({
-  title,
-  total,
-  children
-}: {
-  title: string;
-  total?: string;
-  children: React.ReactNode;
-}) {
+function SummarySection({ title, total, children }: { title: string; total?: string; children: React.ReactNode }) {
   return (
     <Box borderBottomWidth="1px" borderColor="whiteAlpha.100" pb={3} mb={3} _last={{ borderBottom: 0, pb: 0, mb: 0 }}>
       <HStack justify="space-between" mb={2}>

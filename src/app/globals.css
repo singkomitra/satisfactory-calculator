@@ -1,6 +1,6 @@
 :root {
-  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono",
-    "Source Code Pro", "Fira Mono", "Courier New", monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Source Code Pro",
+    "Fira Mono", "Courier New", monospace;
 }
 
 * {
@@ -23,10 +23,15 @@ a {
   border: 1px solid #2d3748;
   border-radius: 10px;
   color: #e2e8f0;
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
   overflow: visible;
-  transition: border-color 120ms ease, box-shadow 120ms ease;
+  transition:
+    border-color 120ms ease,
+    box-shadow 120ms ease;
 }
 
 .product-node:hover {
@@ -35,7 +40,9 @@ a {
 
 .product-node.is-root {
   border-color: #f19066;
-  box-shadow: 0 0 0 1px #f19066, 0 6px 16px rgba(241, 144, 102, 0.25);
+  box-shadow:
+    0 0 0 1px #f19066,
+    0 6px 16px rgba(241, 144, 102, 0.25);
 }
 
 .product-node.is-raw {
@@ -157,7 +164,9 @@ a {
   cursor: pointer;
   font: inherit;
   font-size: 11px;
-  transition: border-color 120ms ease, background 120ms ease;
+  transition:
+    border-color 120ms ease,
+    background 120ms ease;
 }
 
 .recipe-button:hover {

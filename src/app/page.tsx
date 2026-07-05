@@ -22,11 +22,14 @@ function Hero() {
           FICSIT PLANNING TOOL
         </Text>
         <Heading as="h1" size={{ base: "2xl", md: "4xl" }} lineHeight="1.1">
-          Plan Satisfactory factories by <Text as="span" color="primary">target rate.</Text>
+          Plan Satisfactory factories by{" "}
+          <Text as="span" color="primary">
+            target rate.
+          </Text>
         </Heading>
         <Text fontSize="lg" color="fg.muted" maxWidth="640px">
-          Pick a product, enter a parts-per-minute target, and get the raw resources, machine
-          counts, and full recipe tree. Includes alternate recipes when they use fewer raw ores.
+          Pick a product, enter a parts-per-minute target, and get the raw resources, machine counts, and full recipe
+          tree. Includes alternate recipes when they use fewer raw ores.
         </Text>
         <HStack gap={3} pt={2}>
           <NextLink href="/calculator" passHref>
@@ -74,8 +77,7 @@ function FeatureRow() {
               borderColor="border.subtle"
               borderRadius="lg"
               bg="bg.panel"
-              height="100%"
-            >
+              height="100%">
               <Heading size="sm">{f.title}</Heading>
               <Text color="fg.muted" fontSize="sm">
                 {f.body}
@@ -105,13 +107,12 @@ function FlowExample() {
         borderColor="border.subtle"
         borderRadius="xl"
         bg="bg.panel"
-        gap={6}
-      >
+        gap={6}>
         <VStack align="start" gap={1}>
           <Heading size="md">How the chain looks</Heading>
           <Text color="fg.muted" fontSize="sm">
-            Every product is a node. Every arrow carries a rate in parts/min. Machines process
-            the material between them.
+            Every product is a node. Every arrow carries a rate in parts/min. Machines process the material between
+            them.
           </Text>
         </VStack>
 
@@ -130,8 +131,7 @@ function FlowExample() {
                   borderRadius="lg"
                   minWidth="150px"
                   align="start"
-                  justify="center"
-                >
+                  justify="center">
                   <Text fontWeight="600" fontSize="sm">
                     {step.label}
                   </Text>
@@ -152,8 +152,8 @@ function FlowExample() {
         </Box>
 
         <Text fontSize="xs" color="fg.muted">
-          A node-graph visualization of these relationships is planned next — the calculator
-          already emits nodes and edges internally.
+          A node-graph visualization of these relationships is planned next — the calculator already emits nodes and
+          edges internally.
         </Text>
       </Stack>
     </Container>

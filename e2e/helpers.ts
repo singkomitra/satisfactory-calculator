@@ -48,7 +48,10 @@ export async function setResourceMode(
   mode: "Unlimited" | "Excluded" | "Max ≤" | "Min ≥" | "Exact =",
   value?: number
 ) {
-  const row = page.locator('[class*="chakra-stack"]').filter({ hasText: new RegExp(`^${resourceLabel}`) }).first();
+  const row = page
+    .locator('[class*="chakra-stack"]')
+    .filter({ hasText: new RegExp(`^${resourceLabel}`) })
+    .first();
   await row.locator("select").selectOption({ label: mode });
   if (value !== undefined) {
     await row.locator('input[type="number"]').fill(String(value));

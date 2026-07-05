@@ -43,8 +43,7 @@ const ResourcesPanel = observer(function ResourcesPanel({ isOpen, onClose, rawRe
         color="white"
         display="flex"
         flexDirection="column"
-        boxShadow="-8px 0 24px rgba(0,0,0,0.35)"
-      >
+        boxShadow="-8px 0 24px rgba(0,0,0,0.35)">
         <HStack justify="space-between" px={5} py={4} borderBottom="1px solid" borderColor="whiteAlpha.100">
           <Heading size="sm">Resources</Heading>
           <Box
@@ -55,8 +54,7 @@ const ResourcesPanel = observer(function ResourcesPanel({ isOpen, onClose, rawRe
             lineHeight="1"
             _hover={{ color: "white" }}
             cursor="pointer"
-            px={2}
-          >
+            px={2}>
             ×
           </Box>
         </HStack>
@@ -86,21 +84,14 @@ const ResourcesPanel = observer(function ResourcesPanel({ isOpen, onClose, rawRe
           </VStack>
         </Box>
 
-        <HStack
-          px={5}
-          py={3}
-          borderTop="1px solid"
-          borderColor="whiteAlpha.100"
-          justify="space-between"
-        >
+        <HStack px={5} py={3} borderTop="1px solid" borderColor="whiteAlpha.100" justify="space-between">
           <Box
             as="button"
             onClick={isLP ? actions.clearResourceConstraints : actions.clearExcludedResources}
             fontSize="sm"
             color="whiteAlpha.700"
             cursor="pointer"
-            _hover={{ color: "white" }}
-          >
+            _hover={{ color: "white" }}>
             Reset all
           </Box>
           <Box
@@ -113,8 +104,7 @@ const ResourcesPanel = observer(function ResourcesPanel({ isOpen, onClose, rawRe
             py={2}
             borderRadius="md"
             cursor="pointer"
-            _hover={{ opacity: 0.9 }}
-          >
+            _hover={{ opacity: 0.9 }}>
             Done
           </Box>
         </HStack>
@@ -150,8 +140,7 @@ function ResourceRow({
       borderWidth="1px"
       borderColor={highlighted ? "primary" : "whiteAlpha.100"}
       bg={highlighted ? "rgba(241,144,102,0.08)" : "transparent"}
-      _hover={{ borderColor: highlighted ? "primary" : "whiteAlpha.200" }}
-    >
+      _hover={{ borderColor: highlighted ? "primary" : "whiteAlpha.200" }}>
       <Text fontSize="sm" flex="1" minWidth="0">
         {label}
       </Text>
@@ -185,8 +174,7 @@ function ResourceRow({
           color: "white",
           cursor: "pointer",
           outline: "none"
-        }}
-      >
+        }}>
         <option value="unlimited" style={{ background: "#1a202c" }}>
           Unlimited
         </option>
@@ -213,9 +201,7 @@ function ResourceRow({
           min={0}
           step="1"
           value={
-            constraint.mode === "max" || constraint.mode === "min" || constraint.mode === "exact"
-              ? constraint.value
-              : 0
+            constraint.mode === "max" || constraint.mode === "min" || constraint.mode === "exact" ? constraint.value : 0
           }
           onChange={(e) => {
             const v = Number(e.target.value);

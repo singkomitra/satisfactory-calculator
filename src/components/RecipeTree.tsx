@@ -10,7 +10,11 @@ type Props = {
 
 const round = (n: number) => Math.round(n * 100) / 100;
 
-const buildingLabel = (raw: string) => raw.replace(/^Build_/, "").replace(/_C$/, "").replace(/Mk\d+$/, (m) => ` ${m}`);
+const buildingLabel = (raw: string) =>
+  raw
+    .replace(/^Build_/, "")
+    .replace(/_C$/, "")
+    .replace(/Mk\d+$/, (m) => ` ${m}`);
 
 export function RecipeTree({ node, depth = 0 }: Props) {
   const indent = depth * 20;
@@ -18,9 +22,7 @@ export function RecipeTree({ node, depth = 0 }: Props) {
     <Box pl={`${indent}px`} borderLeft={depth > 0 ? "2px solid" : undefined} borderColor="gray.300" mb={2}>
       <HStack gap={3} py={1}>
         <Text fontWeight="semibold">{node.displayName}</Text>
-        <Badge colorPalette={node.isRawResource ? "orange" : "blue"}>
-          {round(node.ppm)}/min
-        </Badge>
+        <Badge colorPalette={node.isRawResource ? "orange" : "blue"}>{round(node.ppm)}/min</Badge>
         {node.recipe && (
           <>
             <Text fontSize="sm" color="fg.muted">

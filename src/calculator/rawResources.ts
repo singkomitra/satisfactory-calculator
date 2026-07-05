@@ -1,7 +1,10 @@
 import { ProductsMap } from "@/types";
 
 const humanize = (raw: string) =>
-  raw.replace(/^Desc_/, "").replace(/_C$/, "").replace(/([a-z])([A-Z])/g, "$1 $2");
+  raw
+    .replace(/^Desc_/, "")
+    .replace(/_C$/, "")
+    .replace(/([a-z])([A-Z])/g, "$1 $2");
 
 /**
  * Returns every raw resource referenced anywhere in the recipe tree of the

@@ -50,8 +50,7 @@ export function ProductIcon({ product, displayName, size = 28 }: Props) {
           fontFamily: "system-ui, -apple-system, sans-serif",
           flexShrink: 0
         }}
-        aria-label={displayName}
-      >
+        aria-label={displayName}>
         {initials(displayName)}
       </div>
     );

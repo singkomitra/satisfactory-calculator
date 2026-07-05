@@ -112,12 +112,7 @@ export function buildGraph(result: CalculationResult): Graph {
     });
   };
 
-  const addByproductEdge = (
-    fromProduct: string,
-    bpItem: string,
-    bpDisplayName: string,
-    ppm: number
-  ) => {
+  const addByproductEdge = (fromProduct: string, bpItem: string, bpDisplayName: string, ppm: number) => {
     const toId = `byproduct:${bpItem}`;
     const key = `${fromProduct}->${toId}`;
     const existing = edges.get(key);
