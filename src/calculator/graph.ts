@@ -93,11 +93,11 @@ export function buildGraph(result: CalculationResult): Graph {
     }
   };
 
-  walk(result.tree);
+  if (result.tree) walk(result.tree);
 
   return {
     nodes: Array.from(nodes.values()),
     edges: Array.from(edges.values()),
-    rootId: result.tree.product
+    rootId: result.tree?.product ?? ""
   };
 }

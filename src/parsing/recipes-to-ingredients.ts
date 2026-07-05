@@ -50,6 +50,10 @@ export async function makeRecipe() {
     });
     const producedIn = recipe.mProducedIn ? parseProducedIn(recipe.mProducedIn)[0] : "";
     const amount = extractedProduct.firstAmount;
+    const mainProductClass = extractedProduct.first;
+    const byproducts = Object.entries(extractedProduct.all)
+      .filter(([item]) => item !== mainProductClass)
+      .map(([item, batchAmount]) => ({ item, amount: batchAmount }));
     const manufacturingDuration = recipe.mManufactoringDuration;
     const ppm = 60 / manufacturingDuration * amount;
     finalRecipes[className] = {
@@ -58,7 +62,8 @@ export async function makeRecipe() {
       producedIn,
       amount,
       manufacturingDuration,
-      ppm
+      ppm,
+      byproducts
     };
   }
 

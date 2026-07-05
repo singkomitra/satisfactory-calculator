@@ -8,11 +8,15 @@ export async function createProductsMap() {
   const { productToRecipes } = await productToRecipesAndRecipeToProductsCreation();
   const { resourceDescriptors, itemDescriptors } = await getItemAndResourceDescriptors();
 
-  // itemDescriptors: all items (not complete yet)
-  // resourceDescriptors: all raw resources
-  // productToRecipes: provides mapping of item to main recipe and alt recipes
-  // recipeToProducts: provides mapping of recipe name to main product name and byproducts
-  // recipes: provides mapping of recipe name to ingredients and amount
+  // Fluid amounts in the raw game data are stored as milliliters (×1000 of the
+  // in-game display value). Normalize everything to display units up-front so
+  // machine counts and byproduct rates work out.
+  const isFluid = (item: string): boolean => {
+    const d = itemDescriptors[item] ?? resourceDescriptors[item];
+    if (!d) return false;
+    return d.form === "RF_LIQUID" || d.form === "RF_GAS";
+  };
+  const norm = (item: string, amount: number) => (isFluid(item) ? amount / 1000 : amount);
 
   const productsMap: ProductsMap = {};
 
@@ -41,10 +45,17 @@ export async function createProductsMap() {
       const isRawResource = resourceDescriptors[ingredient.item] ? true : false;
       return {
         item: ingredient.item,
-        amount: ingredient.amount,
-        isRawResource: isRawResource
+        amount: norm(ingredient.item, ingredient.amount),
+        isRawResource
       };
     });
+    const mainAmount = norm(className, mainRecipe.amount);
+    // recipe.ppm scales linearly with amount; renormalize.
+    const mainPpm = mainRecipe.manufacturingDuration === 0 ? 0 : (60 / mainRecipe.manufacturingDuration) * mainAmount;
+    const mainByproducts = (mainRecipe.byproducts ?? []).map((b) => ({
+      item: b.item,
+      amount: norm(b.item, b.amount)
+    }));
 
     // loop through all alt recipes for this item and extend ingredients
     const altRecipes = productToRecipes[className].altRecipes
@@ -58,18 +69,25 @@ export async function createProductsMap() {
           const isRawResource = resourceDescriptors[ingredient.item] ? true : false;
           return {
             item: ingredient.item,
-            amount: ingredient.amount,
-            isRawResource: isRawResource
+            amount: norm(ingredient.item, ingredient.amount),
+            isRawResource
           };
         });
+        const altAmount = norm(className, recipe.amount);
+        const altPpm = recipe.manufacturingDuration === 0 ? 0 : (60 / recipe.manufacturingDuration) * altAmount;
+        const altByproducts = (recipe.byproducts ?? []).map((b) => ({
+          item: b.item,
+          amount: norm(b.item, b.amount)
+        }));
         return {
           recipeName,
           displayName: recipe.displayName,
           ingredients: extendedIngredients,
           producedIn: recipe.producedIn,
-          amount: recipe.amount,
+          amount: altAmount,
           manufacturingDuration: recipe.manufacturingDuration,
-          ppm: recipe.ppm
+          ppm: altPpm,
+          byproducts: altByproducts
         };
       })
       .filter((recipe): recipe is NonNullable<typeof recipe> => recipe !== null);
@@ -81,9 +99,10 @@ export async function createProductsMap() {
         displayName: mainRecipe.displayName,
         ingredients: extendedIngredients,
         producedIn: mainRecipe.producedIn,
-        amount: mainRecipe.amount,
+        amount: mainAmount,
         manufacturingDuration: mainRecipe.manufacturingDuration,
-        ppm: mainRecipe.ppm
+        ppm: mainPpm,
+        byproducts: mainByproducts
       },
       altRecipes
     };

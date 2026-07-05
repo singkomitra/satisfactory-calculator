@@ -32,3 +32,18 @@ export const clearRecipeOverride = (product: string) => {
 export const clearAllOverrides = () => {
   state.recipeOverrides = {};
 };
+export const toggleExcludedResource = (resource: string) => {
+  const next = { ...state.excludedResources };
+  if (next[resource]) delete next[resource];
+  else next[resource] = true;
+  state.excludedResources = next;
+  state.recipeOverrides = {};
+};
+export const clearExcludedResources = () => {
+  state.excludedResources = {};
+  state.recipeOverrides = {};
+};
+export const setRejectByproductRecipes = (v: boolean) => {
+  state.rejectByproductRecipes = v;
+  state.recipeOverrides = {};
+};

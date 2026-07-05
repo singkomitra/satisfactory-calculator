@@ -53,6 +53,8 @@ export type RecipeMap = {
     producedIn: string;
     manufacturingDuration: number;
     ppm: number;
+    // Byproducts (co-outputs other than the main product) with per-batch amount.
+    byproducts: { item: string; amount: number }[];
   };
 };
 export type ProductsMap = {
@@ -66,6 +68,7 @@ export type ProductsMap = {
       amount: number;
       manufacturingDuration: number;
       ppm: number;
+      byproducts: { item: string; amount: number }[];
     };
     altRecipes: {
       recipeName: string;
@@ -75,6 +78,7 @@ export type ProductsMap = {
       amount: number;
       manufacturingDuration: number;
       ppm: number;
+      byproducts: { item: string; amount: number }[];
     }[];
   };
 };
