@@ -218,6 +218,13 @@ const OVERRIDES: Record<string, string> = {
 
 const stripDesc = (product: string) => product.replace(/^Desc_/, "").replace(/_C$/, "");
 
+// Inlined at build time. Empty in dev and the server build; the repo subpath
+// when deployed to GitHub Pages. Plain <img src> doesn't get Next's automatic
+// basePath handling, so we prefix here.
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
+const iconUrl = (file: string) => `${BASE_PATH}/icons/${file}`;
+
 /**
  * Resolve a product ID to the best available icon URL.
  *
@@ -226,7 +233,7 @@ const stripDesc = (product: string) => product.replace(/^Desc_/, "").replace(/_C
  * a fallback avatar.
  */
 export function resolveIconUrl(product: string): string | null {
-  if (OVERRIDES[product]) return `/icons/${OVERRIDES[product]}`;
+  if (OVERRIDES[product]) return iconUrl(OVERRIDES[product]);
   const base = stripDesc(product);
   const stripLiquid = base.replace(/^Liquid/, "");
   const candidates = [
@@ -239,7 +246,7 @@ export function resolveIconUrl(product: string): string | null {
     `${base}.png`
   ];
   for (const c of candidates) {
-    if (ICON_MANIFEST.has(c)) return `/icons/${c}`;
+    if (ICON_MANIFEST.has(c)) return iconUrl(c);
   }
   return null;
 }

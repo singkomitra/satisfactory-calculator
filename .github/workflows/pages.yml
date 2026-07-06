@@ -1,0 +1,63 @@
+name: Deploy GitHub Pages
+
+# Static-export deployment of main to
+# https://singkomitra.github.io/satisfactory-calculator/
+#
+# The site is fully static (client-side calculator + committed data JSON), so
+# there is no server to attack — GitHub's CDN absorbs traffic. Repo Pages
+# source is set to "GitHub Actions" (Settings → Pages), which this workflow
+# feeds via upload-pages-artifact / deploy-pages.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build static export
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+      - name: Restore Yarn cache
+        uses: actions/cache@v5
+        with:
+          path: |
+            .yarn/cache
+            .yarn/unplugged
+            .yarn/install-state.gz
+          key: yarn-${{ runner.os }}-${{ hashFiles('yarn.lock') }}
+          restore-keys: yarn-${{ runner.os }}-
+      - name: Install
+        run: corepack enable && yarn install --immutable
+      - name: Build (static export)
+        env:
+          NEXT_OUTPUT_MODE: export
+          NEXT_PUBLIC_BASE_PATH: /satisfactory-calculator
+        run: yarn build
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: out
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
