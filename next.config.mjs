@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Self-contained server bundle for the Docker image (copies only the files
+  // the server actually needs into .next/standalone). No effect on `next dev`.
+  output: "standalone",
   eslint: {
     ignoreDuringBuilds: true
   },

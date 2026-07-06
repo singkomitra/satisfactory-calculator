@@ -1,0 +1,21 @@
+# Build context trim — keeps docker builds fast and the image lean.
+.git
+.github
+.next
+node_modules
+.yarn/cache
+.yarn/unplugged
+.yarn/install-state.gz
+.pnp.*
+# Game asset sources — not used by the app at build or runtime
+# (served icons live in public/icons).
+Resource
+# Test artifacts
+test-results
+playwright-report
+e2e
+coverage
+# Local tooling
+.claude
+.vscode
+*.md
