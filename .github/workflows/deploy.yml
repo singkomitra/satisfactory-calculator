@@ -1,0 +1,62 @@
+name: Deploy dev environment
+
+# Deploys every push to main to a Vercel environment.
+#
+# One-time setup (either option works; A is simpler):
+#
+#   Option A — Vercel Git integration (recommended, no secrets needed):
+#     1. vercel.com → Add New Project → import singkomitra/satisfactory-calculator
+#     2. Framework preset: Next.js (auto-detected). Deploy.
+#     3. Vercel now deploys main automatically; this workflow stays dormant
+#        (the gate step below skips when VERCEL_TOKEN is absent).
+#
+#   Option B — token-based deploy from this workflow:
+#     1. vercel.com → create the project once (vercel CLI: `vercel link`)
+#     2. Repo Settings → Secrets and variables → Actions → add:
+#          VERCEL_TOKEN       (vercel.com/account/tokens)
+#          VERCEL_ORG_ID      (.vercel/project.json after `vercel link`)
+#          VERCEL_PROJECT_ID  (same file)
+#     3. Pushes to main then deploy from CI and print the URL in the job log.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Deploy to Vercel
+    runs-on: ubuntu-latest
+    steps:
+      # secrets aren't allowed in job-level `if`, so gate with a step output.
+      - name: Check deploy credentials
+        id: gate
+        run: |
+          if [ -n "${{ secrets.VERCEL_TOKEN }}" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::VERCEL_TOKEN not configured — skipping deploy (see workflow header for setup)."
+          fi
+
+      - uses: actions/checkout@v5
+        if: steps.gate.outputs.enabled == 'true'
+
+      - uses: actions/setup-node@v6
+        if: steps.gate.outputs.enabled == 'true'
+        with:
+          node-version: "22"
+
+      - name: Deploy
+        if: steps.gate.outputs.enabled == 'true'
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: |
+          npx vercel@latest deploy --yes --token="${{ secrets.VERCEL_TOKEN }}" | tee deploy-url.txt
+          echo "### Deployed" >> "$GITHUB_STEP_SUMMARY"
+          echo "$(tail -1 deploy-url.txt)" >> "$GITHUB_STEP_SUMMARY"
