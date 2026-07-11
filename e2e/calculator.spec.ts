@@ -4,6 +4,8 @@ import {
   pickProduct,
   setRate,
   switchEngine,
+  setGoal,
+  openAdvanced,
   openResources,
   closeResources,
   setResourceMode
@@ -41,9 +43,52 @@ test.describe("Calculator — greedy engine", () => {
   test("rejecting byproducts on Fuel is infeasible", async ({ page }) => {
     await gotoCalculator(page);
     await pickProduct(page, "Fuel");
+    await openAdvanced(page);
     await page.getByRole("button", { name: "Reject", exact: true }).click();
     await expect(page.getByText("No feasible plan")).toBeVisible();
     await expect(page.getByText(/no byproducts/)).toBeVisible();
+  });
+});
+
+test.describe("Calculator — customer-facing goals", () => {
+  test("solver internals are hidden until Advanced is opened", async ({ page }) => {
+    await gotoCalculator(page);
+    await pickProduct(page, "Modular Frame");
+    // No engine jargon in the default UI.
+    await expect(page.getByRole("button", { name: "Greedy", exact: true })).toHaveCount(0);
+    await expect(page.getByRole("button", { name: "LP", exact: true })).toHaveCount(0);
+    await expect(page.getByLabel("Optimize for")).toBeVisible();
+    // Advanced reveals them.
+    await openAdvanced(page);
+    await expect(page.getByRole("button", { name: "Greedy", exact: true })).toBeVisible();
+    await expect(page.getByRole("button", { name: "LP", exact: true })).toBeVisible();
+  });
+
+  test("switching goal from Standard recipes to Fewest machines changes the plan", async ({ page }) => {
+    await gotoCalculator(page);
+    await pickProduct(page, "Modular Frame");
+    await expect(page.getByText("192 total")).toBeVisible();
+    await setGoal(page, "Fewest machines");
+    await expect(page.getByText("192 total")).toHaveCount(0);
+    await expect(page.locator("text=/total$/")).toBeVisible();
+  });
+
+  test("Save a specific resource goal exposes a resource picker and applies it", async ({ page }) => {
+    await gotoCalculator(page);
+    await pickProduct(page, "Modular Frame");
+    await setGoal(page, "Save a specific resource…");
+    const resourcePicker = page.getByLabel("Resource to save");
+    await expect(resourcePicker).toBeVisible();
+    await resourcePicker.selectOption({ label: "Ore Iron" });
+    // Plan recomputes with LP min-resource(iron): iron drops well below 1440.
+    await expect(page.getByText("192 total")).toHaveCount(0);
+  });
+
+  test("touching an Advanced control flips the goal to Custom", async ({ page }) => {
+    await gotoCalculator(page);
+    await pickProduct(page, "Modular Frame");
+    await switchEngine(page, "LP");
+    await expect(page.getByLabel("Optimize for")).toHaveValue("custom");
   });
 });
 

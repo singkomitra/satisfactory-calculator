@@ -9,11 +9,28 @@ export type CalculationStrategy = "main" | "greedy-min-raw";
 // - "lp": linear-programming solver, handles Max/Min/Exact + closed byproducts.
 export type CalculationEngine = "greedy" | "lp";
 
+// Customer-facing optimization goal. Each goal maps to an engine + solver
+// configuration internally — users never see "greedy" or "LP". "custom" means
+// an Advanced control was touched directly and no preset describes the state.
+export type OptimizationGoal =
+  | "standard" // vanilla recipe chain (greedy, main recipes)
+  | "fewest-machines" // LP, min-buildings
+  | "least-raw" // LP, min-all-raw
+  | "save-resource" // LP, min-resource (goalResource picks which)
+  | "no-waste" // LP, closed byproduct loop
+  | "custom";
+
 export type State = {
   data: ProductsMap | null;
   theme: "light" | "dark";
   selectedProduct: string | null;
   targetPpm: number;
+  // Customer-facing goal; drives engine/objective via actions.setGoal.
+  goal: OptimizationGoal;
+  // Which resource "save-resource" minimizes.
+  goalResource: string | null;
+  // Show the raw solver controls (engine/strategy/objective/byproducts).
+  advancedMode: boolean;
   engine: CalculationEngine;
   strategy: CalculationStrategy;
   // null = minimize sum of ALL raw resources.
@@ -37,6 +54,9 @@ export const state: State = observable({
   theme: "dark",
   selectedProduct: null,
   targetPpm: 60,
+  goal: "standard",
+  goalResource: null,
+  advancedMode: false,
   engine: "greedy",
   strategy: "main",
   targetResource: null,

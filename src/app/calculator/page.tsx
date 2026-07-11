@@ -11,7 +11,7 @@ import { calculateLP, LPObjective } from "@/calculator/lp-calculate";
 import { buildGraph } from "@/calculator/graph";
 import { listRawResources } from "@/calculator/rawResources";
 import ResourcesPanel from "@/components/ResourcesPanel";
-import { CalculationEngine } from "@/state/state";
+import { CalculationEngine, OptimizationGoal } from "@/state/state";
 
 const NAV_HEIGHT = "76px";
 
@@ -172,6 +172,9 @@ function InfeasibleMessage({
 
 type CalcState = {
   targetPpm: number;
+  goal: OptimizationGoal;
+  goalResource: string | null;
+  advancedMode: boolean;
   engine: CalculationEngine;
   strategy: Strategy;
   targetResource: string | null;
@@ -181,6 +184,8 @@ type CalcState = {
 };
 type CalcActions = {
   setTargetPpm: (n: number) => void;
+  setGoal: (g: OptimizationGoal, resource?: string | null) => void;
+  setAdvancedMode: (v: boolean) => void;
   setEngine: (e: CalculationEngine) => void;
   setStrategy: (s: Strategy) => void;
   setTargetResource: (r: string | null) => void;
@@ -190,7 +195,16 @@ type CalcActions = {
 };
 type RawOption = { id: string; label: string };
 
-function Toolbar({
+const GOAL_LABELS: Record<OptimizationGoal, string> = {
+  standard: "Standard recipes",
+  "fewest-machines": "Fewest machines",
+  "least-raw": "Least raw resources",
+  "save-resource": "Save a specific resource…",
+  "no-waste": "No waste (recycle byproducts)",
+  custom: "Custom (advanced)"
+};
+
+const Toolbar = observer(function Toolbar({
   state,
   actions,
   hasOverrides,
@@ -254,7 +268,7 @@ function Toolbar({
             _focus={{ borderColor: "primary" }}
           />
         </Box>
-        <Box>
+        <Box flex="1.4" minWidth="230px">
           <Text
             mb={1}
             fontSize="xs"
@@ -262,83 +276,24 @@ function Toolbar({
             fontWeight="600"
             letterSpacing="wider"
             textTransform="uppercase">
-            Engine
+            Optimize for
           </Text>
-          <HStack gap={1}>
-            <StrategyPill<CalculationEngine>
-              current={state.engine}
-              value="greedy"
-              label="Greedy"
-              onSelect={actions.setEngine}
-            />
-            <StrategyPill<CalculationEngine>
-              current={state.engine}
-              value="lp"
-              label="LP"
-              onSelect={actions.setEngine}
-            />
-          </HStack>
+          <select
+            value={state.goal}
+            onChange={(e) => actions.setGoal(e.target.value as OptimizationGoal)}
+            style={selectStyle}
+            aria-label="Optimize for">
+            {(Object.keys(GOAL_LABELS) as OptimizationGoal[])
+              .filter((g) => g !== "custom" || state.goal === "custom")
+              .map((g) => (
+                <option key={g} value={g} disabled={g === "custom"} style={{ background: "#1a202c" }}>
+                  {GOAL_LABELS[g]}
+                </option>
+              ))}
+          </select>
         </Box>
-        {state.engine === "greedy" && (
-          <>
-            <Box flex="1" minWidth="200px">
-              <Text
-                mb={1}
-                fontSize="xs"
-                color="whiteAlpha.700"
-                fontWeight="600"
-                letterSpacing="wider"
-                textTransform="uppercase">
-                Strategy
-              </Text>
-              <HStack gap={1}>
-                <StrategyPill<Strategy>
-                  current={state.strategy}
-                  value="main"
-                  label="Main"
-                  onSelect={actions.setStrategy}
-                />
-                <StrategyPill<Strategy>
-                  current={state.strategy}
-                  value="greedy-min-raw"
-                  label="Min raw"
-                  onSelect={actions.setStrategy}
-                />
-              </HStack>
-            </Box>
-            {state.strategy === "greedy-min-raw" && (
-              <Box flex="1" minWidth="200px">
-                <Text
-                  mb={1}
-                  fontSize="xs"
-                  color="whiteAlpha.700"
-                  fontWeight="600"
-                  letterSpacing="wider"
-                  textTransform="uppercase">
-                  Minimize
-                </Text>
-                <select
-                  value={state.targetResource ?? ""}
-                  onChange={(e) => {
-                    const v = e.target.value;
-                    actions.setTargetResource(v === "" ? null : v);
-                  }}
-                  style={selectStyle}>
-                  <option value="" style={{ background: "#1a202c" }}>
-                    All raw (unweighted)
-                  </option>
-                  {rawResourceOptions.map((r) => (
-                    <option key={r.id} value={r.id} style={{ background: "#1a202c" }}>
-                      {r.label}
-                    </option>
-                  ))}
-                </select>
-              </Box>
-            )}
-          </>
-        )}
-        {state.engine === "lp" && (
-          <Box flex="1" minWidth="220px">
+        {state.goal === "save-resource" && (
+          <Box flex="1" minWidth="180px">
             <Text
               mb={1}
               fontSize="xs"
@@ -346,59 +301,24 @@ function Toolbar({
               fontWeight="600"
               letterSpacing="wider"
               textTransform="uppercase">
-              Objective
+              Resource to save
             </Text>
             <select
-              value={objectiveToKey(state.lpObjective)}
-              onChange={(e) => actions.setLPObjective(keyToObjective(e.target.value, state.lpObjective))}
-              style={selectStyle}>
-              <option value="min-buildings" style={{ background: "#1a202c" }}>
-                Min buildings
-              </option>
-              <option value="min-byproducts" style={{ background: "#1a202c" }}>
-                Min byproducts
-              </option>
-              <option value="min-all-raw" style={{ background: "#1a202c" }}>
-                Min all raw (unweighted)
+              value={state.goalResource ?? ""}
+              onChange={(e) => actions.setGoal("save-resource", e.target.value || null)}
+              style={selectStyle}
+              aria-label="Resource to save">
+              <option value="" disabled style={{ background: "#1a202c" }}>
+                Pick a resource…
               </option>
               {rawResourceOptions.map((r) => (
-                <option key={r.id} value={`min-resource:${r.id}`} style={{ background: "#1a202c" }}>
-                  Min {r.label}
+                <option key={r.id} value={r.id} style={{ background: "#1a202c" }}>
+                  {r.label}
                 </option>
               ))}
             </select>
           </Box>
         )}
-        <Box>
-          <Text
-            mb={1}
-            fontSize="xs"
-            color="whiteAlpha.700"
-            fontWeight="600"
-            letterSpacing="wider"
-            textTransform="uppercase">
-            Byproducts
-          </Text>
-          <HStack gap={1}>
-            <ByproductPill
-              active={!state.rejectByproductRecipes}
-              label="Allow"
-              onSelect={() => actions.setRejectByproductRecipes(false)}
-            />
-            <ByproductPill
-              active={state.rejectByproductRecipes}
-              label="Reject"
-              onSelect={() => actions.setRejectByproductRecipes(true)}
-            />
-            {state.engine === "lp" && (
-              <ByproductPill
-                active={state.closedByproducts}
-                label="Closed loop"
-                onSelect={() => actions.setClosedByproducts(!state.closedByproducts)}
-              />
-            )}
-          </HStack>
-        </Box>
         <Box>
           <Text
             mb={1}
@@ -448,10 +368,172 @@ function Toolbar({
             </Box>
           </Box>
         )}
+        <Box marginLeft="auto" alignSelf="end">
+          <Box
+            as="button"
+            onClick={() => actions.setAdvancedMode(!state.advancedMode)}
+            fontSize="xs"
+            color={state.advancedMode ? "primary" : "whiteAlpha.500"}
+            cursor="pointer"
+            py={2}
+            _hover={{ color: "primary" }}>
+            {state.advancedMode ? "▴ Hide advanced" : "▾ Advanced"}
+          </Box>
+        </Box>
       </HStack>
+
+      {state.advancedMode && (
+        <HStack gap={4} align="end" flexWrap="wrap" mt={4} pt={4} borderTop="1px solid" borderColor="whiteAlpha.100">
+          <Box>
+            <Text
+              mb={1}
+              fontSize="xs"
+              color="whiteAlpha.700"
+              fontWeight="600"
+              letterSpacing="wider"
+              textTransform="uppercase">
+              Engine
+            </Text>
+            <HStack gap={1}>
+              <StrategyPill<CalculationEngine>
+                current={state.engine}
+                value="greedy"
+                label="Greedy"
+                onSelect={actions.setEngine}
+              />
+              <StrategyPill<CalculationEngine>
+                current={state.engine}
+                value="lp"
+                label="LP"
+                onSelect={actions.setEngine}
+              />
+            </HStack>
+          </Box>
+          {state.engine === "greedy" && (
+            <>
+              <Box>
+                <Text
+                  mb={1}
+                  fontSize="xs"
+                  color="whiteAlpha.700"
+                  fontWeight="600"
+                  letterSpacing="wider"
+                  textTransform="uppercase">
+                  Strategy
+                </Text>
+                <HStack gap={1}>
+                  <StrategyPill<Strategy>
+                    current={state.strategy}
+                    value="main"
+                    label="Main"
+                    onSelect={actions.setStrategy}
+                  />
+                  <StrategyPill<Strategy>
+                    current={state.strategy}
+                    value="greedy-min-raw"
+                    label="Min raw"
+                    onSelect={actions.setStrategy}
+                  />
+                </HStack>
+              </Box>
+              {state.strategy === "greedy-min-raw" && (
+                <Box flex="1" minWidth="200px">
+                  <Text
+                    mb={1}
+                    fontSize="xs"
+                    color="whiteAlpha.700"
+                    fontWeight="600"
+                    letterSpacing="wider"
+                    textTransform="uppercase">
+                    Minimize
+                  </Text>
+                  <select
+                    value={state.targetResource ?? ""}
+                    onChange={(e) => {
+                      const v = e.target.value;
+                      actions.setTargetResource(v === "" ? null : v);
+                    }}
+                    style={selectStyle}>
+                    <option value="" style={{ background: "#1a202c" }}>
+                      All raw (unweighted)
+                    </option>
+                    {rawResourceOptions.map((r) => (
+                      <option key={r.id} value={r.id} style={{ background: "#1a202c" }}>
+                        {r.label}
+                      </option>
+                    ))}
+                  </select>
+                </Box>
+              )}
+            </>
+          )}
+          {state.engine === "lp" && (
+            <Box flex="1" minWidth="220px">
+              <Text
+                mb={1}
+                fontSize="xs"
+                color="whiteAlpha.700"
+                fontWeight="600"
+                letterSpacing="wider"
+                textTransform="uppercase">
+                Objective
+              </Text>
+              <select
+                value={objectiveToKey(state.lpObjective)}
+                onChange={(e) => actions.setLPObjective(keyToObjective(e.target.value, state.lpObjective))}
+                style={selectStyle}>
+                <option value="min-buildings" style={{ background: "#1a202c" }}>
+                  Min buildings
+                </option>
+                <option value="min-byproducts" style={{ background: "#1a202c" }}>
+                  Min byproducts
+                </option>
+                <option value="min-all-raw" style={{ background: "#1a202c" }}>
+                  Min all raw (unweighted)
+                </option>
+                {rawResourceOptions.map((r) => (
+                  <option key={r.id} value={`min-resource:${r.id}`} style={{ background: "#1a202c" }}>
+                    Min {r.label}
+                  </option>
+                ))}
+              </select>
+            </Box>
+          )}
+          <Box>
+            <Text
+              mb={1}
+              fontSize="xs"
+              color="whiteAlpha.700"
+              fontWeight="600"
+              letterSpacing="wider"
+              textTransform="uppercase">
+              Byproducts
+            </Text>
+            <HStack gap={1}>
+              <ByproductPill
+                active={!state.rejectByproductRecipes}
+                label="Allow"
+                onSelect={() => actions.setRejectByproductRecipes(false)}
+              />
+              <ByproductPill
+                active={state.rejectByproductRecipes}
+                label="Reject"
+                onSelect={() => actions.setRejectByproductRecipes(true)}
+              />
+              {state.engine === "lp" && (
+                <ByproductPill
+                  active={state.closedByproducts}
+                  label="Closed loop"
+                  onSelect={() => actions.setClosedByproducts(!state.closedByproducts)}
+                />
+              )}
+            </HStack>
+          </Box>
+        </HStack>
+      )}
     </Box>
   );
-}
+});
 
 function ByproductPill({ active, label, onSelect }: { active: boolean; label: string; onSelect: () => void }) {
   return (

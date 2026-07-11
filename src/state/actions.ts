@@ -1,5 +1,5 @@
 import { ProductsMap } from "@/types";
-import { state, CalculationStrategy, CalculationEngine } from "./state";
+import { state, CalculationStrategy, CalculationEngine, OptimizationGoal } from "./state";
 import { ResourceConstraint, LPObjective } from "@/calculator/lp-calculate";
 
 export const setData = (data: ProductsMap) => {
@@ -15,16 +15,63 @@ export const selectProduct = (product: string | null) => {
 export const setTargetPpm = (ppm: number) => {
   state.targetPpm = ppm;
 };
+/**
+ * Customer-facing goal selection. Maps a plain-language goal onto the solver
+ * configuration so users never deal with "greedy" or "LP" directly.
+ */
+export const setGoal = (goal: OptimizationGoal, resource?: string | null) => {
+  state.goal = goal;
+  state.goalResource = goal === "save-resource" ? resource ?? state.goalResource : null;
+  state.recipeOverrides = {};
+  switch (goal) {
+    case "standard":
+      state.engine = "greedy";
+      state.strategy = "main";
+      state.closedByproducts = false;
+      break;
+    case "fewest-machines":
+      state.engine = "lp";
+      state.lpObjective = { kind: "min-buildings" };
+      state.closedByproducts = false;
+      break;
+    case "least-raw":
+      state.engine = "lp";
+      state.lpObjective = { kind: "min-all-raw" };
+      state.closedByproducts = false;
+      break;
+    case "save-resource":
+      state.engine = "lp";
+      if (state.goalResource) {
+        state.lpObjective = { kind: "min-resource", resource: state.goalResource };
+      }
+      state.closedByproducts = false;
+      break;
+    case "no-waste":
+      state.engine = "lp";
+      state.lpObjective = { kind: "min-buildings" };
+      state.closedByproducts = true;
+      break;
+    case "custom":
+      // Advanced controls own the solver state; nothing to map.
+      break;
+  }
+};
+export const setAdvancedMode = (v: boolean) => {
+  state.advancedMode = v;
+};
 export const setEngine = (engine: CalculationEngine) => {
   state.engine = engine;
+  state.goal = "custom";
   state.recipeOverrides = {};
 };
 export const setStrategy = (strategy: CalculationStrategy) => {
   state.strategy = strategy;
+  state.goal = "custom";
   state.recipeOverrides = {};
 };
 export const setTargetResource = (resource: string | null) => {
   state.targetResource = resource;
+  state.goal = "custom";
   state.recipeOverrides = {};
 };
 export const setRecipeOverride = (product: string, recipeName: string) => {
@@ -70,14 +117,17 @@ export const clearResourceConstraints = () => {
 };
 export const setClosedByproducts = (v: boolean) => {
   state.closedByproducts = v;
+  state.goal = "custom";
   state.recipeOverrides = {};
 };
 export const setLPObjective = (obj: LPObjective) => {
   state.lpObjective = obj;
+  state.goal = "custom";
   state.recipeOverrides = {};
 };
 export const setRejectByproductRecipes = (v: boolean) => {
   state.rejectByproductRecipes = v;
+  state.goal = "custom";
   state.recipeOverrides = {};
 };
 

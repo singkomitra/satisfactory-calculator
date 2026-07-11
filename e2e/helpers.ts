@@ -29,8 +29,23 @@ export async function setRate(page: Page, ppm: number) {
   await rateInput.fill(String(ppm));
 }
 
+/** Expand the Advanced controls row if it isn't open. */
+export async function openAdvanced(page: Page) {
+  const toggle = page.getByRole("button", { name: /advanced/i });
+  if ((await toggle.textContent())?.includes("▾")) {
+    await toggle.click();
+  }
+}
+
+/** Engine pills live behind the Advanced toggle — customers use setGoal instead. */
 export async function switchEngine(page: Page, engine: "Greedy" | "LP") {
+  await openAdvanced(page);
   await page.getByRole("button", { name: engine, exact: true }).click();
+}
+
+/** The customer-facing path: pick a plain-language optimization goal. */
+export async function setGoal(page: Page, goalLabel: string) {
+  await page.getByLabel("Optimize for").selectOption({ label: goalLabel });
 }
 
 export async function openResources(page: Page) {
