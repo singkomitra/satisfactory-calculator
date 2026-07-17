@@ -30,7 +30,7 @@ const initials = (name: string): string => {
  * half of Satisfactory's products).
  */
 export function ProductIcon({ product, displayName, size = 28 }: Props) {
-  const url = resolveIconUrl(product);
+  const url = resolveIconUrl(product, displayName);
   const [broken, setBroken] = useState(false);
 
   if (!url || broken) {

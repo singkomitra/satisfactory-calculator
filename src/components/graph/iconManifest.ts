@@ -180,6 +180,22 @@ export const ICON_MANIFEST: ReadonlySet<string> = new Set([
  * catch most cases.
  */
 const OVERRIDES: Record<string, string> = {
+  // Icon files named after display names / with typos, where neither the
+  // class name nor the display name derives the filename.
+  Desc_SteelPlateReinforced_C: "IconDesc_EncasedSteelBeam.png", // "Encased Industrial Beam"
+  Desc_FluidCanister_C: "IconDesc_EmptyCannister.png", // file typo: Cannister
+  Desc_SpaceElevatorPart_1_C: "IconDesc_SpelevatorPart_1.png", // Smart Plating
+  Desc_SpaceElevatorPart_2_C: "IconDesc_SpelevatorPart_2.png", // Versatile Framework
+  Desc_SpaceElevatorPart_3_C: "SpelevatorPart_3.png", // Automated Wiring (no prefix)
+  Desc_SpaceElevatorPart_4_C: "IconDesc_SpelevatorPart_4.png", // Modular Engine
+  Desc_SpaceElevatorPart_5_C: "IconDesc_SpelevatorPart_5.png", // Adaptive Control Unit
+  Desc_SpaceElevatorPart_12_C: "IconDesc_AIExpension.png", // AI Expansion Server (file typo)
+  Desc_Motor_C: "IconDesc_Engine.png",
+  Desc_GasTank_C: "IconDesc_Gas.png", // Empty Fluid Tank
+  Desc_RocketFuel_C: "IconDesc_RocketFuelPipe.png",
+  Desc_PackagedOilResidue_C: "OilResidue.png",
+  Desc_Filter_C: "IconDesc_GasMaskFilter.png", // Gas Filter
+  Desc_AlienDNACapsule_C: "IconDesc_AlienDNA.png",
   Desc_RawQuartz_C: "IconDesc_QuartzResource.png",
   Desc_OreIron_C: "IconDesc_iron_new.png",
   Desc_OreCopper_C: "IconDesc_copper_new.png",
@@ -225,17 +241,32 @@ const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 const iconUrl = (file: string) => `${BASE_PATH}/icons/${file}`;
 
+// Icon filenames don't follow one casing convention (SamFluctuator vs
+// SAMFluctuator, Heatsink vs HeatSink) — and GitHub Pages is case-SENSITIVE
+// even though macOS dev machines aren't. Look up case-insensitively but
+// always return the exact on-disk filename.
+const MANIFEST_BY_LOWER = new Map<string, string>();
+for (const file of ICON_MANIFEST) MANIFEST_BY_LOWER.set(file.toLowerCase(), file);
+
+const findFile = (candidate: string): string | null => MANIFEST_BY_LOWER.get(candidate.toLowerCase()) ?? null;
+
 /**
- * Resolve a product ID to the best available icon URL.
+ * Resolve a product to the best available icon URL.
  *
- * Tries an override table first, then a chain of naming patterns against the
- * static manifest. Returns null when nothing matches so the caller can render
- * a fallback avatar.
+ * Order: override table, then naming patterns derived from the class name AND
+ * the display name (many icons are named after what the item is *called*, not
+ * its internal class — e.g. Desc_SteelPlate_C is displayed "Steel Beam" and
+ * its icon is IconDesc_SteelBeam.png). Returns null when nothing matches so
+ * the caller renders a fallback avatar.
  */
-export function resolveIconUrl(product: string): string | null {
+export function resolveIconUrl(product: string, displayName?: string): string | null {
   if (OVERRIDES[product]) return iconUrl(OVERRIDES[product]);
+
   const base = stripDesc(product);
   const stripLiquid = base.replace(/^Liquid/, "");
+  // "Steel Beam" → "SteelBeam", "Non-Fissile Uranium" → "NonFissileUranium"
+  const display = (displayName ?? "").replace(/[^a-zA-Z0-9]/g, "");
+
   const candidates = [
     `IconDesc_${base}.png`,
     `IconDesc_${base}s.png`,
@@ -243,10 +274,12 @@ export function resolveIconUrl(product: string): string | null {
     `IconDesc_${base}_Pipe.png`,
     `${base}_Pipe.png`,
     `${stripLiquid}.png`,
-    `${base}.png`
+    `${base}.png`,
+    ...(display ? [`IconDesc_${display}.png`, `IconDesc_${display}s.png`, `${display}.png`, `${display}_Pipe.png`] : [])
   ];
   for (const c of candidates) {
-    if (ICON_MANIFEST.has(c)) return iconUrl(c);
+    const file = findFile(c);
+    if (file) return iconUrl(file);
   }
   return null;
 }
